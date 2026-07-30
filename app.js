@@ -4,17 +4,29 @@
   const categories = ["보카로", "버츄얼 아티스트", "애니메이션", "J-POP"];
   const categoryLabels = ["전체", "업데이트", "아티스트별", ...categories, "즐겨찾기"];
   const favoriteCategoryLabels = ["전체", ...categories];
+  const sortValues = ["count-desc", "count-asc", "group-name"];
+  const savedBrowseState = loadBrowseState();
   const state = {
     query: "",
-    category: "전체",
-    favoriteCategory: "전체",
-    sort: "count-desc",
+    category: categoryLabels.includes(savedBrowseState.category)
+      && savedBrowseState.category !== "즐겨찾기" ? savedBrowseState.category : "전체",
+    favoriteCategory: favoriteCategoryLabels.includes(savedBrowseState.favoriteCategory)
+      ? savedBrowseState.favoriteCategory : "전체",
+    sort: sortValues.includes(savedBrowseState.sort) ? savedBrowseState.sort : "count-desc",
     view: location.hash === "#favorites" ? "favorites" : "main",
     favorites: loadSet("flylist:favorites"),
     artistFavorites: loadSet("flylist:favorite-artists"),
     favoriteExclusions: loadSet("flylist:favorite-exclusions"),
-    expandedGroups: new Set(),
-    activeIndexEntries: []
+    expandedGroups: new Set(
+      Array.isArray(savedBrowseState.expandedGroups)
+        ? savedBrowseState.expandedGroups.slice(-16)
+        : []
+    ),
+    activeIndexEntries: [],
+    scrollPositions: savedBrowseState.scrollPositions
+      && typeof savedBrowseState.scrollPositions === "object"
+      ? savedBrowseState.scrollPositions
+      : {}
   };
 
   const els = {
@@ -37,7 +49,12 @@
     favoriteSongList: document.querySelector("#favoriteSongList"),
     favoriteEmptyState: document.querySelector("#favoriteEmptyState"),
     favoriteSectionIndex: document.querySelector("#favoriteSectionIndex"),
+    exportFavorites: document.querySelector("#exportFavorites"),
+    importFavoritesButton: document.querySelector("#importFavoritesButton"),
+    importFavoritesFile: document.querySelector("#importFavoritesFile"),
     indexDrawer: document.querySelector("#indexDrawer"),
+    indexDrawerFilter: document.querySelector("#indexDrawerFilter"),
+    indexDrawerEmpty: document.querySelector("#indexDrawerEmpty"),
     indexDrawerNav: document.querySelector("#indexDrawerNav"),
     toast: document.querySelector("#toast")
   };
@@ -60,6 +77,15 @@
     "doriko": "도리코",
     "kemu": "케무",
     "wowaka": "현실도피P",
+    "じん(自然の敵P)": "진",
+    "黒うさP": "흑토끼P",
+    "かにみそP": "카니미소P",
+    "ゆうゆP": "유우유P",
+    "Junky": "정키",
+    "HarryP": "하리P",
+    "R Sound Design": "R 사운드 디자인",
+    "ryo": "료",
+    "KEI": "케이",
     "いよわ": "이요와",
     "すりぃ": "스리",
     "てにをは": "테니오하",
@@ -82,6 +108,8 @@
     "ツミキ": "츠미키",
     "可不": "카후",
     "HoneyWorks": "허니웍스",
+    "YASUHIRO(康寛)": "야스히로",
+    "灯油": "등유",
     "かぴ": "카피",
     "jon-YAKITORY": "존 야키토리",
     "手嶌葵": "테시마 아오이",
@@ -160,8 +188,30 @@
     "楽音": "사사네",
     "ずっと真夜中でいいのに。": "즛토마요"
   };
+  const searchAliasMap = {
+    "BUMP OF CHICKEN": ["범프"],
+    "DECO*27": ["데코27", "데코 니나"],
+    "wowaka": ["와우아카"],
+    "じん(自然の敵P)": ["진P", "자연의 적P"],
+    "初音ミク": ["미쿠"],
+    "鏡音リン": ["린"],
+    "鏡音レン": ["렌"],
+    "巡音ルカ": ["루카"],
+    "重音テト": ["테토"],
+    "星街すいせい": ["스이세이"],
+    "아이리 칸나": ["칸나"],
+    "Official髭男dism": ["히게단"],
+    "米津玄師": ["켄시"],
+    "ASIAN KUNG-FU GENERATION": ["아지캉"],
+    "Mrs. GREEN APPLE": ["미세스"],
+    "RADWIMPS": ["래드"],
+    "ずっと真夜中でいいのに。": ["즈토마요"]
+  };
   const normalizedAliasMap = new Map(
     Object.entries(aliasMap).map(([name, alias]) => [normalizeIdentity(name), alias])
+  );
+  const normalizedSearchAliasMap = new Map(
+    Object.entries(searchAliasMap).map(([name, aliases]) => [normalizeIdentity(name), aliases])
   );
   const searchTextCache = new WeakMap();
   let sectionSequence = 0;
@@ -169,11 +219,16 @@
   let indexObserver = null;
   let activeIndexId = "";
   let searchTimer = 0;
+  let scrollSaveTimer = 0;
+  let indexDrawerTrigger = null;
 
   init();
 
   function init() {
+    if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+    migrateGroupFavoriteIds();
     pruneFavoriteState();
+    els.sortSelect.value = state.sort;
     renderStats();
     renderTabs();
     renderFavoriteTabs();
@@ -198,7 +253,10 @@
 
     els.sortSelect.addEventListener("change", () => {
       state.sort = els.sortSelect.value;
+      setCurrentScrollPosition(0);
+      persistBrowseState();
       renderMain();
+      restoreCurrentScrollPosition();
     });
 
     els.categoryTabs.addEventListener("click", event => {
@@ -209,25 +267,32 @@
         openFavorites(true);
         return;
       }
+      saveCurrentScrollPosition();
       state.category = category;
+      persistBrowseState();
       renderTabs();
       renderMain();
-      scrollToTop();
+      restoreCurrentScrollPosition();
     });
 
     els.favoriteCategoryTabs.addEventListener("click", event => {
       const tab = event.target.closest(".favorite-tab");
       if (!tab) return;
+      saveCurrentScrollPosition();
       state.favoriteCategory = tab.dataset.category;
+      persistBrowseState();
       renderFavoriteTabs();
       renderFavorites();
-      scrollToTop();
+      restoreCurrentScrollPosition();
     });
 
     els.favoritesBack.addEventListener("click", () => {
       if (location.hash === "#favorites" && history.length > 1) {
         history.back();
       } else {
+        if (location.hash === "#favorites") {
+          history.replaceState({ view: "main" }, "", `${location.pathname}${location.search}`);
+        }
         showMainView();
       }
     });
@@ -250,8 +315,29 @@
         if (index === els.indexDrawerNav) closeIndexDrawer();
       });
     });
+    [els.sectionIndex, els.favoriteSectionIndex].forEach(index => {
+      index.addEventListener("input", event => {
+        if (!event.target.matches(".index-filter")) return;
+        filterIndexItems(index, event.target.value);
+      });
+    });
+    els.indexDrawerFilter.addEventListener("input", () => {
+      filterIndexItems(els.indexDrawerNav, els.indexDrawerFilter.value, els.indexDrawerEmpty);
+    });
+
+    els.exportFavorites.addEventListener("click", exportFavorites);
+    els.importFavoritesButton.addEventListener("click", () => els.importFavoritesFile.click());
+    els.importFavoritesFile.addEventListener("change", importFavorites);
 
     window.addEventListener("popstate", syncViewFromLocation);
+    window.addEventListener("pagehide", saveCurrentScrollPosition);
+    window.addEventListener("scroll", () => {
+      window.clearTimeout(scrollSaveTimer);
+      scrollSaveTimer = window.setTimeout(saveCurrentScrollPosition, 180);
+    }, { passive: true });
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape" && !els.indexDrawer.hidden) closeIndexDrawer();
+    });
   }
 
   function handleListClick(event) {
@@ -275,6 +361,7 @@
     if (expandButton) {
       const id = expandButton.dataset.groupId;
       state.expandedGroups.has(id) ? state.expandedGroups.delete(id) : state.expandedGroups.add(id);
+      persistBrowseState();
       state.view === "favorites" ? renderFavorites() : renderMain();
       return;
     }
@@ -481,7 +568,9 @@
       if (!byId.has(id)) byId.set(id, { info, items: [] });
       const group = byId.get(id);
       group.items.push(song);
-      if (!group.info.alias && info.alias) group.info.alias = info.alias;
+      if (!group.info.alias && shouldAppendAlias(group.info.name, info.alias)) {
+        group.info.alias = info.alias;
+      }
     });
 
     return [...byId.values()].sort((a, b) => {
@@ -589,6 +678,10 @@
     indexEntries.push({
       id: header.id,
       label: group.info.name,
+      search: [
+        formatGroupName(group.info),
+        ...getSearchAliases(group.info.name)
+      ].join(" "),
       level: "group",
       category: group.info.category
     });
@@ -723,6 +816,79 @@
     }
   }
 
+  function exportFavorites() {
+    const payload = {
+      version: 1,
+      exportedAt: new Date().toISOString(),
+      favorites: [...state.favorites].sort(collator.compare),
+      artistFavorites: [...state.artistFavorites].sort(collator.compare),
+      favoriteExclusions: [...state.favoriteExclusions].sort(collator.compare)
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], {
+      type: "application/json;charset=utf-8"
+    });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    const date = payload.exportedAt.slice(0, 10).replace(/-/g, "");
+    link.href = url;
+    link.download = `flylist-favorites-${date}.json`;
+    document.body.append(link);
+    link.click();
+    link.remove();
+    window.setTimeout(() => URL.revokeObjectURL(url), 0);
+    showToast("즐겨찾기 백업을 저장했어요.");
+  }
+
+  async function importFavorites(event) {
+    const file = event.target.files?.[0];
+    event.target.value = "";
+    if (!file) return;
+    if (file.size > 1024 * 1024) {
+      showToast("1MB 이하의 백업 파일만 불러올 수 있어요.");
+      return;
+    }
+
+    try {
+      const payload = JSON.parse(await readFileText(file));
+      const importedFavorites = getStringArray(payload?.favorites);
+      const importedArtists = getStringArray(payload?.artistFavorites);
+      const importedExclusions = getStringArray(payload?.favoriteExclusions);
+      if (!importedFavorites.length && !importedArtists.length) {
+        throw new Error("Empty favorites backup");
+      }
+
+      const previousCount = state.favorites.size + state.artistFavorites.size;
+      importedFavorites.forEach(number => state.favorites.add(number));
+      importedArtists.forEach(groupId => state.artistFavorites.add(groupId));
+      importedExclusions.forEach(number => state.favoriteExclusions.add(number));
+      pruneFavoriteState();
+      renderTabs();
+      state.view === "favorites" ? renderFavorites() : refreshFavoriteButtons(els.songList);
+      const addedCount = state.favorites.size + state.artistFavorites.size - previousCount;
+      showToast(addedCount > 0
+        ? `즐겨찾기 ${addedCount}개를 불러왔어요.`
+        : "이미 저장된 즐겨찾기예요.");
+    } catch {
+      showToast("Flylist 즐겨찾기 백업 파일을 확인해 주세요.");
+    }
+  }
+
+  function getStringArray(value) {
+    return Array.isArray(value)
+      ? value.filter(item => typeof item === "string" && item.trim())
+      : [];
+  }
+
+  function readFileText(file) {
+    if (typeof file.text === "function") return file.text();
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.addEventListener("load", () => resolve(String(reader.result || "")), { once: true });
+      reader.addEventListener("error", () => reject(reader.error), { once: true });
+      reader.readAsText(file);
+    });
+  }
+
   function loadSet(key) {
     try {
       return new Set(JSON.parse(localStorage.getItem(key) || "[]"));
@@ -739,15 +905,55 @@
     }
   }
 
+  function loadBrowseState() {
+    try {
+      const value = JSON.parse(sessionStorage.getItem("flylist:browse-state") || "{}");
+      return value && typeof value === "object" ? value : {};
+    } catch {
+      return {};
+    }
+  }
+
+  function persistBrowseState() {
+    try {
+      sessionStorage.setItem("flylist:browse-state", JSON.stringify({
+        category: state.category,
+        favoriteCategory: state.favoriteCategory,
+        sort: state.sort,
+        expandedGroups: [...state.expandedGroups].slice(-16),
+        scrollPositions: state.scrollPositions
+      }));
+    } catch {
+      // Session storage is optional; browsing must keep working without it.
+    }
+  }
+
   function pruneFavoriteState() {
     const validNumbers = new Set(songs.map(song => song.number));
     const validGroupIds = new Set(songs.flatMap(getGroupIds));
     state.favorites = new Set([...state.favorites].filter(number => validNumbers.has(number)));
     state.favoriteExclusions = new Set([...state.favoriteExclusions].filter(number => validNumbers.has(number)));
     state.artistFavorites = new Set([...state.artistFavorites].filter(groupId => validGroupIds.has(groupId)));
+    state.expandedGroups = new Set(
+      [...state.expandedGroups].filter(groupId => validGroupIds.has(groupId)).slice(-16)
+    );
     saveSet("flylist:favorites", state.favorites);
     saveSet("flylist:favorite-exclusions", state.favoriteExclusions);
     saveSet("flylist:favorite-artists", state.artistFavorites);
+    persistBrowseState();
+  }
+
+  function migrateGroupFavoriteIds() {
+    const migrations = new Map([
+      ["프로듀서:honeyworks", "프로듀서:허니웍스"]
+    ]);
+    let changed = false;
+    migrations.forEach((nextId, previousId) => {
+      if (!state.artistFavorites.delete(previousId)) return;
+      state.artistFavorites.add(nextId);
+      changed = true;
+    });
+    if (changed) saveSet("flylist:favorite-artists", state.artistFavorites);
   }
 
   function isUpdated(song) {
@@ -819,6 +1025,25 @@
     return normalizedAliasMap.get(normalizeIdentity(value)) || "";
   }
 
+  function getSearchAliases(value) {
+    const identity = normalizeIdentity(value);
+    return [...new Set([
+      getKnownAlias(value),
+      ...(normalizedSearchAliasMap.get(identity) || [])
+    ].filter(Boolean))];
+  }
+
+  function getSearchAliasCandidates(song) {
+    const values = [song.artist, song.tag, song.group, song.jpopGroup];
+    const artistParts = String(song.artist || "")
+      .split(/\s*(?:feat\.?|from|×|\+|&|,|，|\/|／|\(|\)|（|）)\s*/i)
+      .map(part => part.trim())
+      .filter(Boolean);
+    return [...new Set(
+      [...values, ...artistParts].flatMap(getSearchAliases).filter(Boolean)
+    )];
+  }
+
   function normalizeIdentity(value) {
     return String(value || "")
       .normalize("NFKC")
@@ -837,6 +1062,7 @@
       song.tagKo,
       ...getCustomTags(song),
       ...getAliasCandidates(song),
+      ...getSearchAliasCandidates(song),
       song.category,
       ...getAlsoCategories(song),
       song.group,
@@ -853,10 +1079,28 @@
       return;
     }
     container.hidden = false;
+    const tools = document.createElement("div");
+    tools.className = "section-index-tools";
     const label = document.createElement("div");
     label.className = "section-index-label";
     label.textContent = "빠른 이동";
-    container.append(label, ...entries.map(makeIndexButton));
+    tools.append(label);
+
+    if (entries.length >= 8) {
+      const filter = document.createElement("input");
+      filter.type = "search";
+      filter.className = "index-filter";
+      filter.placeholder = "아티스트·작품 검색";
+      filter.autocomplete = "off";
+      filter.setAttribute("aria-label", "빠른 이동 검색");
+      tools.append(filter);
+    }
+
+    const empty = document.createElement("p");
+    empty.className = "index-filter-empty";
+    empty.textContent = "일치하는 항목이 없습니다.";
+    empty.hidden = true;
+    container.append(tools, empty, ...entries.map(makeIndexButton));
   }
 
   function makeIndexButton(entry) {
@@ -864,6 +1108,7 @@
     button.type = "button";
     button.className = `section-index-item is-${entry.level}`;
     button.dataset.target = entry.id;
+    button.dataset.search = entry.search || entry.label;
     if (entry.category) button.dataset.accent = entry.category;
     button.setAttribute("aria-current", String(entry.id === activeIndexId));
     button.textContent = entry.label;
@@ -908,16 +1153,33 @@
     });
   }
 
-  function openIndexDrawer() {
+  function filterIndexItems(container, value, emptyElement = container.querySelector(".index-filter-empty")) {
+    const query = normalize(value);
+    let visibleCount = 0;
+    container.querySelectorAll(".section-index-item").forEach(button => {
+      const visible = !query || normalize(button.dataset.search).includes(query);
+      button.hidden = !visible;
+      if (visible) visibleCount += 1;
+    });
+    if (emptyElement) emptyElement.hidden = visibleCount > 0;
+  }
+
+  function openIndexDrawer(event) {
+    indexDrawerTrigger = event?.currentTarget instanceof HTMLElement ? event.currentTarget : null;
     els.indexDrawerNav.replaceChildren(...state.activeIndexEntries.map(makeIndexButton));
+    els.indexDrawerFilter.value = "";
+    els.indexDrawerEmpty.hidden = true;
     els.indexDrawer.hidden = false;
     document.body.classList.add("drawer-open");
-    els.indexDrawer.querySelector(".drawer-close").focus();
+    requestAnimationFrame(() => els.indexDrawerFilter.focus());
   }
 
   function closeIndexDrawer() {
+    if (els.indexDrawer.hidden) return;
     els.indexDrawer.hidden = true;
     document.body.classList.remove("drawer-open");
+    indexDrawerTrigger?.focus({ preventScroll: true });
+    indexDrawerTrigger = null;
   }
 
   function jumpToSection(id) {
@@ -933,6 +1195,7 @@
   }
 
   function openFavorites(pushHistory) {
+    if (state.view !== "favorites") saveCurrentScrollPosition();
     if (pushHistory && location.hash !== "#favorites") history.pushState({ view: "favorites" }, "", "#favorites");
     state.view = "favorites";
     renderTabs();
@@ -940,17 +1203,20 @@
     els.favoritesView.hidden = false;
     document.body.classList.add("is-favorites-view");
     renderFavorites();
-    scrollToTop();
+    persistBrowseState();
+    restoreCurrentScrollPosition();
   }
 
   function showMainView() {
+    if (state.view !== "main") saveCurrentScrollPosition();
     state.view = "main";
     renderTabs();
     els.mainApp.hidden = false;
     els.favoritesView.hidden = true;
     document.body.classList.remove("is-favorites-view");
     renderMain();
-    scrollToTop();
+    persistBrowseState();
+    restoreCurrentScrollPosition();
   }
 
   function syncViewFromLocation() {
@@ -958,8 +1224,32 @@
     else showMainView();
   }
 
-  function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: "auto" });
+  function getCurrentScrollKey() {
+    return state.view === "favorites"
+      ? `favorites:${state.favoriteCategory}`
+      : `main:${state.category}`;
+  }
+
+  function setCurrentScrollPosition(value) {
+    const top = Number(value);
+    state.scrollPositions[getCurrentScrollKey()] = Number.isFinite(top)
+      ? Math.max(0, Math.round(top))
+      : 0;
+  }
+
+  function saveCurrentScrollPosition() {
+    setCurrentScrollPosition(window.scrollY);
+    persistBrowseState();
+  }
+
+  function restoreCurrentScrollPosition() {
+    const top = Number(state.scrollPositions[getCurrentScrollKey()]) || 0;
+    requestAnimationFrame(() => {
+      const previousBehavior = document.documentElement.style.scrollBehavior;
+      document.documentElement.style.scrollBehavior = "auto";
+      window.scrollTo(0, top);
+      document.documentElement.style.scrollBehavior = previousBehavior;
+    });
   }
 
   function normalize(value) {

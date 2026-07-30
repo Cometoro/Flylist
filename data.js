@@ -83,10 +83,13 @@ window.FLYLIST_SONGS = [
     "number": "27289",
     "titleKo": "해피 신디사이저",
     "titleOriginal": "ハッピーシンセサイザ",
-    "artist": "EasyPop feat. 巡音ルカ, GUMI",
+    "artist": "巡音ルカ,GUMI",
     "tag": "EasyPop",
     "category": "보카로",
-    "group": ""
+    "group": "",
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "TJ 공식 정보 및 표기 교정"
   },
   {
     "number": "52470",
@@ -131,10 +134,13 @@ window.FLYLIST_SONGS = [
     "number": "27030",
     "titleKo": "로미오와 신데렐라",
     "titleOriginal": "ロミオとシンデレラ",
-    "artist": "doriko feat. 初音ミク",
+    "artist": "初音ミク",
     "tag": "doriko",
     "category": "보카로",
-    "group": ""
+    "group": "",
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "TJ 공식 정보 및 표기 교정"
   },
   {
     "number": "28318",
@@ -194,10 +200,13 @@ window.FLYLIST_SONGS = [
     "number": "68724",
     "titleKo": "푸르게 달려라!",
     "titleOriginal": "青く駆けろ！",
-    "artist": "まらしぃ feat. 初音ミク",
+    "artist": "marasy(Feat.初音ミク)",
     "tag": "まらしぃ",
     "category": "보카로",
-    "group": ""
+    "group": "",
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "TJ 공식 정보 및 표기 교정"
   },
   {
     "number": "28961",
@@ -393,9 +402,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "トゲナシトゲアリ",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
@@ -412,9 +418,6 @@ window.FLYLIST_SONGS = [
     "tagKo": "토게나시 토게아리",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "トゲナシトゲアリ",
     "updateType": "updated",
@@ -433,9 +436,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "トゲナシトゲアリ",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
@@ -452,9 +452,6 @@ window.FLYLIST_SONGS = [
     "tagKo": "토게나시 토게아리",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "トゲナシトゲアリ",
     "updateType": "updated",
@@ -473,9 +470,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "トゲナシトゲアリ",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
@@ -492,9 +486,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Ado",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
@@ -506,13 +497,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "逆光",
     "artist": "Ado",
     "tag": "Ado",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "ONE PIECE FILM RED",
     "jpopGroup": "ONE PIECE FILM RED",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "updated",
@@ -530,9 +518,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "KANA-BOON",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
@@ -548,9 +533,6 @@ window.FLYLIST_SONGS = [
     "group": "귀멸의 칼날",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "LiSA",
     "updateType": "updated",
@@ -568,9 +550,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Mrs. GREEN APPLE",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
@@ -586,9 +565,6 @@ window.FLYLIST_SONGS = [
     "group": "너의 이름은.",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "RADWIMPS",
     "updateType": "updated",
@@ -606,9 +582,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "RADWIMPS",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
@@ -624,9 +597,6 @@ window.FLYLIST_SONGS = [
     "group": "하이큐!!",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "SPYAIR",
     "updateType": "updated",
@@ -644,9 +614,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "SPYAIR",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
@@ -662,9 +629,6 @@ window.FLYLIST_SONGS = [
     "group": "은혼",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "SPYAIR",
     "updateType": "updated",
@@ -682,9 +646,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "TK from 凛として時雨",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
@@ -700,9 +661,6 @@ window.FLYLIST_SONGS = [
     "group": "최애의 아이",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "YOASOBI",
     "updateType": "updated",
@@ -720,9 +678,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "supercell",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
@@ -738,9 +693,6 @@ window.FLYLIST_SONGS = [
     "group": "NARUTO 시리즈",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "いきものがかり",
     "updateType": "updated",
@@ -758,9 +710,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "なとり",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
@@ -776,9 +725,6 @@ window.FLYLIST_SONGS = [
     "group": "단다단",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "アイナ・ジ・エンド",
     "updateType": "updated",
@@ -796,9 +742,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "キタニタツヤ",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
@@ -814,9 +757,6 @@ window.FLYLIST_SONGS = [
     "group": "진격의 거인",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "ヒグチアイ",
     "updateType": "updated",
@@ -834,9 +774,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "優里",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
@@ -852,9 +789,6 @@ window.FLYLIST_SONGS = [
     "group": "디지몬 어드벤처",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "和田光司",
     "updateType": "updated",
@@ -872,9 +806,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "小野正利",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
@@ -890,9 +821,6 @@ window.FLYLIST_SONGS = [
     "group": "신세기 에반게리온",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "高橋洋子",
     "updateType": "updated",
@@ -1004,13 +932,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "SOULSOUP",
     "artist": "Official髭男dism",
     "tag": "Official髭男dism",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "SPY × FAMILY",
     "jpopGroup": "SPY × FAMILY",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "updated",
@@ -1104,13 +1029,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "イエスタデイ",
     "artist": "Official髭男dism",
     "tag": "Official髭男dism",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "HELLO WORLD",
     "jpopGroup": "HELLO WORLD",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "updated",
@@ -1150,13 +1072,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "ミックスナッツ",
     "artist": "Official髭男dism",
     "tag": "Official髭男dism",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "SPY × FAMILY",
     "jpopGroup": "SPY × FAMILY",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "updated",
@@ -1223,13 +1142,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "Prayer X",
     "artist": "King Gnu",
     "tag": "King Gnu",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "BANANA FISH",
     "jpopGroup": "BANANA FISH",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "updated",
@@ -1411,10 +1327,13 @@ window.FLYLIST_SONGS = [
     "number": "28750",
     "titleKo": "쏘아올린 불꽃(타상연화)",
     "titleOriginal": "打上花火",
-    "artist": "DAOKO × 米津玄師",
+    "artist": "DAOKO X 米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師",
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "TJ 공식 정보 및 표기 교정"
   },
   {
     "number": "68173",
@@ -1423,7 +1342,7 @@ window.FLYLIST_SONGS = [
     "artist": "中田ヤスタカ feat. 米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "52977",
@@ -1432,7 +1351,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "52828",
@@ -1441,7 +1360,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "52796",
@@ -1450,7 +1369,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "28983",
@@ -1459,7 +1378,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "52959",
@@ -1468,7 +1387,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "68677",
@@ -1477,7 +1396,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "68495",
@@ -1486,7 +1405,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "28686",
@@ -1495,7 +1414,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "52952",
@@ -1504,7 +1423,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "28822",
@@ -1513,7 +1432,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "28596",
@@ -1522,16 +1441,19 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "52892",
     "titleKo": "M87",
-    "titleOriginal": "M八七",
+    "titleOriginal": "M87",
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師",
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "TJ 공식 정보 및 표기 교정"
   },
   {
     "number": "52481",
@@ -1540,7 +1462,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "68423",
@@ -1549,7 +1471,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "52905",
@@ -1558,7 +1480,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "52737",
@@ -1567,7 +1489,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "28660",
@@ -1576,7 +1498,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "27915",
@@ -1585,7 +1507,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "52725",
@@ -1594,7 +1516,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "52580",
@@ -1603,7 +1525,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "52728",
@@ -1612,7 +1534,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "52764",
@@ -1621,7 +1543,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "28607",
@@ -1630,7 +1552,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "27941",
@@ -1639,7 +1561,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "68089",
@@ -1660,7 +1582,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "27945",
@@ -1669,7 +1591,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "52997",
@@ -1678,7 +1600,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "68840",
@@ -1687,7 +1609,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "68300",
@@ -1696,7 +1618,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "28795",
@@ -1705,7 +1627,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "68824",
@@ -1714,7 +1636,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "52430",
@@ -1723,7 +1645,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "68478",
@@ -1732,7 +1654,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "68019",
@@ -1741,7 +1663,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "68094",
@@ -1750,7 +1672,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "52972",
@@ -1759,7 +1681,7 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師 & 宇多田ヒカル",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
     "number": "28789",
@@ -1768,16 +1690,19 @@ window.FLYLIST_SONGS = [
     "artist": "米津玄師 + 菅田将暉",
     "tag": "요네즈 켄시",
     "category": "J-POP",
-    "group": "요네즈 켄시"
+    "group": "米津玄師"
   },
   {
-    "number": "57754",
-    "titleKo": "DARMA GRAND PRIX",
-    "titleOriginal": "DARMA GRAND PRIX",
-    "artist": "ヨルシカ",
-    "tag": "요루시카",
+    "number": "52445",
+    "titleKo": "Darma Grand Prix",
+    "titleOriginal": "Darma Grand Prix",
+    "artist": "RADWIMPS",
+    "tag": "RADWIMPS",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "RADWIMPS",
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "잘못된 TJ 번호·곡명·아티스트 교정"
   },
   {
     "number": "68061",
@@ -1786,7 +1711,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68049",
@@ -1795,7 +1720,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "52708",
@@ -1804,7 +1729,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68456",
@@ -1813,7 +1738,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68752",
@@ -1822,7 +1747,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68243",
@@ -1831,7 +1756,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68721",
@@ -1840,7 +1765,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "52424",
@@ -1849,7 +1774,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "52592",
@@ -1858,7 +1783,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "52513",
@@ -1867,7 +1792,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "52504",
@@ -1876,7 +1801,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68418",
@@ -1885,7 +1810,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68309",
@@ -1894,7 +1819,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68662",
@@ -1903,7 +1828,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68702",
@@ -1912,7 +1837,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "52746",
@@ -1921,7 +1846,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68329",
@@ -1930,7 +1855,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "52726",
@@ -1939,7 +1864,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68626",
@@ -1948,7 +1873,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68365",
@@ -1957,7 +1882,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68953",
@@ -1966,7 +1891,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "52898",
@@ -1975,7 +1900,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68409",
@@ -1984,7 +1909,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68408",
@@ -1993,7 +1918,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카",
+    "group": "ヨルシカ",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
     "updateNote": "TJ 원제 오타 교정"
@@ -2005,7 +1930,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "52462",
@@ -2014,7 +1939,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68078",
@@ -2023,7 +1948,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "52488",
@@ -2032,7 +1957,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68450",
@@ -2041,7 +1966,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68212",
@@ -2050,7 +1975,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "68339",
@@ -2059,7 +1984,7 @@ window.FLYLIST_SONGS = [
     "artist": "ヨルシカ",
     "tag": "요루시카",
     "category": "J-POP",
-    "group": "요루시카"
+    "group": "ヨルシカ"
   },
   {
     "number": "52412",
@@ -2606,9 +2531,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "『ユイカ』",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
@@ -2748,13 +2670,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "新時代",
     "artist": "Ado",
     "tag": "Ado",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "ONE PIECE FILM RED",
     "jpopGroup": "ONE PIECE FILM RED",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "updated",
@@ -2785,13 +2704,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "チューリングラブ",
     "artist": "ナナヲアカリ(Feat.Sou)",
     "tag": "ナナヲアカリ",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "이과가 사랑에 빠졌기에 증명해보았다",
     "jpopGroup": "이과가 사랑에 빠졌기에 증명해보았다",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "updated",
@@ -2936,9 +2852,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Novelbright",
     "updateType": "updated",
     "updatedAt": "2026-07-24",
@@ -2954,9 +2867,6 @@ window.FLYLIST_SONGS = [
     "group": "걸즈 밴드 크라이",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "トゲナシトゲアリ",
     "updateType": "updated",
@@ -3343,7 +3253,7 @@ window.FLYLIST_SONGS = [
     "artist": "40mP(Feat.初音ミク)",
     "tag": "40MP",
     "category": "보카로",
-    "group": "",
+    "group": "40mP",
     "tagKo": "40mP",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3369,7 +3279,7 @@ window.FLYLIST_SONGS = [
     "artist": "じん(自然の敵P)(Feat.IA)",
     "tag": "JIN",
     "category": "보카로",
-    "group": "",
+    "group": "じん(自然の敵P)",
     "tagKo": "진",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3434,7 +3344,7 @@ window.FLYLIST_SONGS = [
     "artist": "supercell(Feat.初音ミク)",
     "tag": "RYO",
     "category": "보카로",
-    "group": "",
+    "group": "ryo",
     "tagKo": "ryo",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3447,7 +3357,7 @@ window.FLYLIST_SONGS = [
     "artist": "Wowaka(Feat.初音ミク)",
     "tag": "WOWAKA",
     "category": "보카로",
-    "group": "",
+    "group": "wowaka",
     "tagKo": "wowaka",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3460,7 +3370,7 @@ window.FLYLIST_SONGS = [
     "artist": "supercell(Feat.初音ミク)",
     "tag": "RYO",
     "category": "보카로",
-    "group": "",
+    "group": "ryo",
     "tagKo": "ryo",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3473,7 +3383,7 @@ window.FLYLIST_SONGS = [
     "artist": "Wowaka(Feat.初音ミク)",
     "tag": "WOWAKA",
     "category": "보카로",
-    "group": "",
+    "group": "wowaka",
     "tagKo": "wowaka",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3486,7 +3396,7 @@ window.FLYLIST_SONGS = [
     "artist": "Wowaka(Feat.初音ミク,巡音ルカ)",
     "tag": "WOWAKA",
     "category": "보카로",
-    "group": "",
+    "group": "wowaka",
     "tagKo": "wowaka",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3538,7 +3448,7 @@ window.FLYLIST_SONGS = [
     "artist": "GUMI",
     "tag": "PAPIYON",
     "category": "보카로",
-    "group": "",
+    "group": "蝶々P",
     "tagKo": "쵸쵸P",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3551,7 +3461,7 @@ window.FLYLIST_SONGS = [
     "artist": "40mP(Feat.GUMI)",
     "tag": "40MP",
     "category": "보카로",
-    "group": "",
+    "group": "40mP",
     "tagKo": "40mP",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3707,7 +3617,7 @@ window.FLYLIST_SONGS = [
     "artist": "HoneyWorks(Feat.初音ミク)",
     "tag": "SHITO",
     "category": "보카로",
-    "group": "",
+    "group": "HoneyWorks",
     "tagKo": "HoneyWorks",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3720,7 +3630,7 @@ window.FLYLIST_SONGS = [
     "artist": "Doriko(Feat.初音ミク)",
     "tag": "Doriko",
     "category": "보카로",
-    "group": "",
+    "group": "doriko",
     "tagKo": "doriko",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3850,7 +3760,7 @@ window.FLYLIST_SONGS = [
     "artist": "HoneyWorks(Feat.GUMI)",
     "tag": "SHITO",
     "category": "보카로",
-    "group": "",
+    "group": "HoneyWorks",
     "tagKo": "HoneyWorks",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3876,7 +3786,7 @@ window.FLYLIST_SONGS = [
     "artist": "Gackt",
     "tag": "MATHRU",
     "category": "보카로",
-    "group": "",
+    "group": "かにみそP",
     "tagKo": "카니미소P",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3902,7 +3812,7 @@ window.FLYLIST_SONGS = [
     "artist": "ryo(supercell)(Feat.初音ミク)",
     "tag": "RYO",
     "category": "보카로",
-    "group": "",
+    "group": "ryo",
     "tagKo": "ryo",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3915,7 +3825,7 @@ window.FLYLIST_SONGS = [
     "artist": "じん(Feat.IA)",
     "tag": "じん",
     "category": "보카로",
-    "group": "",
+    "group": "じん(自然の敵P)",
     "tagKo": "진",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3928,7 +3838,7 @@ window.FLYLIST_SONGS = [
     "artist": "じん(Feat.IA)",
     "tag": "じん",
     "category": "보카로",
-    "group": "",
+    "group": "じん(自然の敵P)",
     "tagKo": "진",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3954,7 +3864,7 @@ window.FLYLIST_SONGS = [
     "artist": "kemu(Feat.GUMI,鏡音リン)",
     "tag": "KEMU",
     "category": "보카로",
-    "group": "",
+    "group": "kemu",
     "tagKo": "kemu",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3967,7 +3877,7 @@ window.FLYLIST_SONGS = [
     "artist": "じん(Feat.IA)",
     "tag": "じん",
     "category": "보카로",
-    "group": "",
+    "group": "じん(自然の敵P)",
     "tagKo": "진",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3980,7 +3890,7 @@ window.FLYLIST_SONGS = [
     "artist": "じん(Feat.初音ミク,IA)",
     "tag": "じん",
     "category": "보카로",
-    "group": "",
+    "group": "じん(自然の敵P)",
     "tagKo": "진",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -3993,7 +3903,7 @@ window.FLYLIST_SONGS = [
     "artist": "じん(Feat.IA)",
     "tag": "じん",
     "category": "보카로",
-    "group": "",
+    "group": "じん(自然の敵P)",
     "tagKo": "진(자연의 적P)",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4019,7 +3929,7 @@ window.FLYLIST_SONGS = [
     "artist": "じん(Feat.IA)",
     "tag": "じん",
     "category": "보카로",
-    "group": "",
+    "group": "じん(自然の敵P)",
     "tagKo": "진",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4071,7 +3981,7 @@ window.FLYLIST_SONGS = [
     "artist": "じん(Feat.IA)",
     "tag": "じん",
     "category": "보카로",
-    "group": "",
+    "group": "じん(自然の敵P)",
     "tagKo": "진",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4110,7 +4020,7 @@ window.FLYLIST_SONGS = [
     "artist": "Junky(Feat.鏡音リン)",
     "tag": "JUNKY",
     "category": "보카로",
-    "group": "",
+    "group": "Junky",
     "tagKo": "Junky",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4123,7 +4033,7 @@ window.FLYLIST_SONGS = [
     "artist": "HoneyWorks(Feat.GUMI)",
     "tag": "SHITO",
     "category": "보카로",
-    "group": "",
+    "group": "HoneyWorks",
     "tagKo": "HoneyWorks",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4149,7 +4059,7 @@ window.FLYLIST_SONGS = [
     "artist": "じん(Feat.IA)",
     "tag": "じん",
     "category": "보카로",
-    "group": "",
+    "group": "じん(自然の敵P)",
     "tagKo": "진",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4201,7 +4111,7 @@ window.FLYLIST_SONGS = [
     "artist": "じん(Feat.IA)",
     "tag": "じん",
     "category": "보카로",
-    "group": "",
+    "group": "じん(自然の敵P)",
     "tagKo": "진",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4214,7 +4124,7 @@ window.FLYLIST_SONGS = [
     "artist": "じん(Feat.IA)",
     "tag": "じん",
     "category": "보카로",
-    "group": "",
+    "group": "じん(自然の敵P)",
     "tagKo": "진",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4227,7 +4137,7 @@ window.FLYLIST_SONGS = [
     "artist": "ゆうゆ(Feat.初音ミク)",
     "tag": "ゆうゆ",
     "category": "보카로",
-    "group": "",
+    "group": "ゆうゆP",
     "tagKo": "유우유P",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4253,7 +4163,7 @@ window.FLYLIST_SONGS = [
     "artist": "じん(Feat.IA)",
     "tag": "じん",
     "category": "보카로",
-    "group": "",
+    "group": "じん(自然の敵P)",
     "tagKo": "진",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4292,7 +4202,7 @@ window.FLYLIST_SONGS = [
     "artist": "kemu(Feat.GUMI)",
     "tag": "KEMU",
     "category": "보카로",
-    "group": "",
+    "group": "kemu",
     "tagKo": "kemu",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4331,7 +4241,7 @@ window.FLYLIST_SONGS = [
     "artist": "Orangestar(Feat.IA)",
     "tag": "ORANGESTAR",
     "category": "보카로",
-    "group": "",
+    "group": "Orangestar",
     "tagKo": "Orangestar",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4344,7 +4254,7 @@ window.FLYLIST_SONGS = [
     "artist": "HoneyWorks(Feat.鏡音リン,鏡音レン)",
     "tag": "ゴム",
     "category": "보카로",
-    "group": "",
+    "group": "HoneyWorks",
     "tagKo": "HoneyWorks",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4435,7 +4345,7 @@ window.FLYLIST_SONGS = [
     "artist": "HoneyWorks(Feat.GUMI)",
     "tag": "SHITO",
     "category": "보카로",
-    "group": "",
+    "group": "HoneyWorks",
     "tagKo": "HoneyWorks",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4461,7 +4371,7 @@ window.FLYLIST_SONGS = [
     "artist": "LIPxLIP",
     "tag": "HONEYWORKS",
     "category": "보카로",
-    "group": "",
+    "group": "HoneyWorks",
     "tagKo": "HoneyWorks",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4487,7 +4397,7 @@ window.FLYLIST_SONGS = [
     "artist": "Orangestar(Feat.IA)",
     "tag": "ORANGESTAR",
     "category": "보카로",
-    "group": "",
+    "group": "Orangestar",
     "tagKo": "Orangestar",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4500,7 +4410,7 @@ window.FLYLIST_SONGS = [
     "artist": "Whiteflame(Feat.巡音ルカ)",
     "tag": "黒うさ",
     "category": "보카로",
-    "group": "",
+    "group": "黒うさP",
     "tagKo": "흑토끼P",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4526,7 +4436,7 @@ window.FLYLIST_SONGS = [
     "artist": "DECO*27(Feat.初音ミク)",
     "tag": "DECO＊27",
     "category": "보카로",
-    "group": "",
+    "group": "DECO*27",
     "tagKo": "DECO*27",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4578,7 +4488,7 @@ window.FLYLIST_SONGS = [
     "artist": "DECO*27(Feat.初音ミク)",
     "tag": "DECO＊27",
     "category": "보카로",
-    "group": "",
+    "group": "DECO*27",
     "tagKo": "DECO*27",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4591,7 +4501,7 @@ window.FLYLIST_SONGS = [
     "artist": "DECO*27(Feat.初音ミク)",
     "tag": "DECO＊27",
     "category": "보카로",
-    "group": "",
+    "group": "DECO*27",
     "tagKo": "DECO*27",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4625,7 +4535,7 @@ window.FLYLIST_SONGS = [
     "artist": "kemu(Feat.GUMI)",
     "tag": "KEMU",
     "category": "보카로",
-    "group": "",
+    "group": "kemu",
     "tagKo": "kemu",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4724,7 +4634,7 @@ window.FLYLIST_SONGS = [
     "artist": "Orangestar(Feat.IA)",
     "tag": "ORANGESTAR",
     "category": "보카로",
-    "group": "",
+    "group": "Orangestar",
     "tagKo": "Orangestar",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4862,7 +4772,7 @@ window.FLYLIST_SONGS = [
     "artist": "HoneyWorks meets CHiCO & sana",
     "tag": "HONEYWORKS",
     "category": "보카로",
-    "group": "",
+    "group": "HoneyWorks",
     "tagKo": "HoneyWorks",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4914,7 +4824,7 @@ window.FLYLIST_SONGS = [
     "artist": "KEI(Feat.GUMI)",
     "tag": "KEI HAYASHI",
     "category": "보카로",
-    "group": "",
+    "group": "KEI",
     "tagKo": "KEI",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -4953,7 +4863,7 @@ window.FLYLIST_SONGS = [
     "artist": "R Sound Design(Feat.初音ミク)",
     "tag": "R SOUND DESIGN",
     "category": "보카로",
-    "group": "",
+    "group": "R Sound Design",
     "tagKo": "R Sound Design",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -5083,7 +4993,7 @@ window.FLYLIST_SONGS = [
     "artist": "Kanaria(Feat.星街すいせい)",
     "tag": "KANARIA",
     "category": "보카로",
-    "group": "",
+    "group": "Kanaria",
     "tagKo": "Kanaria",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -5122,7 +5032,7 @@ window.FLYLIST_SONGS = [
     "artist": "jon-YAKITORY",
     "tag": "JON-YAKITORY",
     "category": "보카로",
-    "group": "",
+    "group": "jon-YAKITORY",
     "tagKo": "jon-YAKITORY",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -5187,7 +5097,7 @@ window.FLYLIST_SONGS = [
     "artist": "HarryP(Feat.初音ミク)",
     "tag": "針原翼",
     "category": "보카로",
-    "group": "",
+    "group": "HarryP",
     "tagKo": "HarryP",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -5278,7 +5188,7 @@ window.FLYLIST_SONGS = [
     "artist": "kemu(Feat.GUMI)",
     "tag": "KEMU",
     "category": "보카로",
-    "group": "",
+    "group": "kemu",
     "tagKo": "kemu",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -5611,7 +5521,7 @@ window.FLYLIST_SONGS = [
     "artist": "じん(Feat.初音ミク)",
     "tag": "じん",
     "category": "보카로",
-    "group": "",
+    "group": "じん(自然の敵P)",
     "tagKo": "진",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -5728,7 +5638,7 @@ window.FLYLIST_SONGS = [
     "artist": "針原翼(はりーP)(Feat.初音ミク)",
     "tag": "針原翼（はりーＰ）",
     "category": "보카로",
-    "group": "",
+    "group": "HarryP",
     "tagKo": "HarryP",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -5741,7 +5651,7 @@ window.FLYLIST_SONGS = [
     "artist": "jon-YAKITORY(Feat.Ado)",
     "tag": "JON-YAKITORY",
     "category": "보카로",
-    "group": "",
+    "group": "jon-YAKITORY",
     "tagKo": "jon-YAKITORY",
     "updateType": "new",
     "updatedAt": "2026-07-21",
@@ -5967,15 +5877,15 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68887",
-    "titleKo": "前進宣言",
+    "titleKo": "전진 선언",
     "titleOriginal": "前進宣言",
     "artist": "ROF-MAO",
     "tag": "ROF-MAO",
     "category": "버츄얼 아티스트",
     "group": "니지산지",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "버츄얼 아티스트 노래방 수록 목록 확장"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "44905",
@@ -6375,13 +6285,13 @@ window.FLYLIST_SONGS = [
     "number": "85946",
     "titleKo": "REST",
     "titleOriginal": "REST",
-    "artist": "짬통스(권민, 곽춘식, 단답벌레)",
-    "tag": "짬통스(권민, 곽춘식, 단답벌레)",
+    "artist": "짬통스",
+    "tag": "짬통스",
     "category": "버츄얼 아티스트",
     "group": "왁타버스",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "버츄얼 아티스트 노래방 수록 목록 확장"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "TJ 공식 정보 및 표기 교정"
   },
   {
     "number": "86465",
@@ -6711,15 +6621,15 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "52883",
-    "titleKo": "かもね",
+    "titleKo": "카모네",
     "titleOriginal": "かもね",
     "artist": "KizunaAI",
     "tag": "KizunaAI",
     "category": "버츄얼 아티스트",
     "group": "키즈나 아이",
     "updateType": "updated",
-    "updatedAt": "2026-07-24",
-    "updateNote": "TJ 가수명 대조 교정",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강",
     "tagKo": "키즈나 아이"
   },
   {
@@ -6904,9 +6814,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "LIA",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -6914,7 +6821,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "26862",
-    "titleKo": "夏影",
+    "titleKo": "여름 그림자",
     "titleOriginal": "夏影",
     "artist": "LIA",
     "tag": "LIA",
@@ -6923,13 +6830,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "LIA",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28161",
@@ -6942,9 +6846,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "야나기나기"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "やなぎなぎ",
     "updateType": "new",
@@ -6962,9 +6863,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "LIA",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -6980,9 +6878,6 @@ window.FLYLIST_SONGS = [
     "group": "Angel Beats!",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Girls Dead Monster",
     "updateType": "new",
@@ -7000,9 +6895,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Girls Dead Monster",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7019,9 +6911,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Girls Dead Monster",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7029,7 +6918,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28380",
-    "titleKo": "一番の宝物 <Yui ver.>",
+    "titleKo": "최고의 보물 <Yui ver.>",
     "titleOriginal": "一番の宝物 <Yui ver.>",
     "artist": "Girls Dead Monster",
     "tag": "Girls Dead Monster",
@@ -7038,17 +6927,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Girls Dead Monster",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28417",
-    "titleKo": "凶夢伝染",
+    "titleKo": "흉몽전염",
     "titleOriginal": "凶夢伝染",
     "artist": "ALI PROJECT",
     "tag": "ALI PROJECT",
@@ -7057,17 +6943,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "ALI PROJECT",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "26557",
-    "titleKo": "ウンディーネ",
+    "titleKo": "운디네",
     "titleOriginal": "ウンディーネ",
     "artist": "牧野由依",
     "tag": "牧野由依",
@@ -7077,17 +6960,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "마키노 유이"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "牧野由依",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "26387",
-    "titleKo": "ユーフォリア",
+    "titleKo": "유포리아",
     "titleOriginal": "ユーフォリア",
     "artist": "牧野由依",
     "tag": "牧野由依",
@@ -7097,17 +6977,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "마키노 유이"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "牧野由依",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28475",
-    "titleKo": "月蝕グランギニョル",
+    "titleKo": "월식 그랑기뇰",
     "titleOriginal": "月蝕グランギニョル",
     "artist": "ALI PROJECT",
     "tag": "ALI PROJECT",
@@ -7116,13 +6993,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "ALI PROJECT",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "25103",
@@ -7134,9 +7008,6 @@ window.FLYLIST_SONGS = [
     "group": "AWOL",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "hide",
     "updateType": "new",
@@ -7154,9 +7025,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Roselia",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7172,9 +7040,6 @@ window.FLYLIST_SONGS = [
     "group": "BanG Dream!",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Roselia",
     "updateType": "new",
@@ -7192,9 +7057,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Roselia",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7202,7 +7064,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28951",
-    "titleKo": "ティアドロップス",
+    "titleKo": "티어 드롭스",
     "titleOriginal": "ティアドロップス",
     "artist": "Poppin'Party",
     "tag": "Poppin'Party",
@@ -7211,17 +7073,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Poppin'Party",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28960",
-    "titleKo": "熱色スターマイン",
+    "titleKo": "열색 스타마인",
     "titleOriginal": "熱色スターマイン",
     "artist": "Roselia",
     "tag": "Roselia",
@@ -7230,13 +7089,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Roselia",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28959",
@@ -7248,9 +7104,6 @@ window.FLYLIST_SONGS = [
     "group": "BanG Dream!",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Poppin'Party",
     "updateType": "new",
@@ -7268,9 +7121,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Roselia",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7286,9 +7136,6 @@ window.FLYLIST_SONGS = [
     "group": "BanG Dream!",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Poppin'Party",
     "updateType": "new",
@@ -7306,9 +7153,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Roselia",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7316,7 +7160,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28973",
-    "titleKo": "ツナグ、ソラモヨウ",
+    "titleKo": "이어지는 하늘의 모습",
     "titleOriginal": "ツナグ、ソラモヨウ",
     "artist": "Afterglow",
     "tag": "Afterglow",
@@ -7325,13 +7169,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Afterglow",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28952",
@@ -7343,9 +7184,6 @@ window.FLYLIST_SONGS = [
     "group": "BanG Dream!",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Afterglow",
     "updateType": "new",
@@ -7363,9 +7201,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Roselia",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7373,7 +7208,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28988",
-    "titleKo": "STAR BEAT！〜ホシノコドウ〜",
+    "titleKo": "STAR BEAT! ~별의 고동~",
     "titleOriginal": "STAR BEAT！〜ホシノコドウ〜",
     "artist": "Poppin'Party",
     "tag": "Poppin'Party",
@@ -7382,13 +7217,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Poppin'Party",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68014",
@@ -7400,9 +7232,6 @@ window.FLYLIST_SONGS = [
     "group": "BanG Dream!",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Poppin'Party",
     "updateType": "new",
@@ -7420,9 +7249,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Roselia",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7439,9 +7265,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Roselia",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7449,7 +7272,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68077",
-    "titleKo": "軌跡",
+    "titleKo": "궤적",
     "titleOriginal": "軌跡",
     "artist": "Roselia",
     "tag": "Roselia",
@@ -7458,13 +7281,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Roselia",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68109",
@@ -7477,9 +7297,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "RAISE A SUILEN",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7487,7 +7304,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68112",
-    "titleKo": "もういちど ルミナス",
+    "titleKo": "다시 한 번 루미너스",
     "titleOriginal": "もういちど ルミナス",
     "artist": "Pastel*Palettes",
     "tag": "Pastel*Palettes",
@@ -7496,13 +7313,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Pastel*Palettes",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68117",
@@ -7514,9 +7328,6 @@ window.FLYLIST_SONGS = [
     "group": "BanG Dream!",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Roselia",
     "updateType": "new",
@@ -7534,9 +7345,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Roselia",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7544,7 +7352,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68122",
-    "titleKo": "キズナミュージック♪",
+    "titleKo": "인연 뮤직♪",
     "titleOriginal": "キズナミュージック♪",
     "artist": "Poppin'Party",
     "tag": "Poppin'Party",
@@ -7553,13 +7361,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Poppin'Party",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68125",
@@ -7571,9 +7376,6 @@ window.FLYLIST_SONGS = [
     "group": "BanG Dream!",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "RAISE A SUILEN",
     "updateType": "new",
@@ -7591,9 +7393,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Roselia",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7609,9 +7408,6 @@ window.FLYLIST_SONGS = [
     "group": "BanG Dream!",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Poppin'Party,Silent Siren",
     "updateType": "new",
@@ -7629,9 +7425,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "RAISE A SUILEN",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7639,7 +7432,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68128",
-    "titleKo": "ゼッタイ宣言〜Recital〜",
+    "titleKo": "절대 선언 ~Recital~",
     "titleOriginal": "ゼッタイ宣言〜Recital〜",
     "artist": "Pastel*Palettes",
     "tag": "Pastel*Palettes",
@@ -7648,13 +7441,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Pastel*Palettes",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68145",
@@ -7667,9 +7457,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Poppin'Party",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7677,7 +7464,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68172",
-    "titleKo": "二重の虹（ダブル レインボウ）",
+    "titleKo": "쌍무지개 (더블 레인보우)",
     "titleOriginal": "二重の虹（ダブル レインボウ）",
     "artist": "Poppin'Party",
     "tag": "Poppin'Party",
@@ -7686,13 +7473,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Poppin'Party",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68162",
@@ -7704,9 +7488,6 @@ window.FLYLIST_SONGS = [
     "group": "BanG Dream!",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Poppin'Party",
     "updateType": "new",
@@ -7724,9 +7505,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Afterglow",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7734,7 +7512,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68166",
-    "titleKo": "約束",
+    "titleKo": "약속",
     "titleOriginal": "約束",
     "artist": "Roselia",
     "tag": "Roselia",
@@ -7743,18 +7521,15 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Roselia",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68176",
-    "titleKo": "UNSTOPPABLE(라스)",
-    "titleOriginal": "UNSTOPPABLE(라스)",
+    "titleKo": "UNSTOPPABLE",
+    "titleOriginal": "UNSTOPPABLE",
     "artist": "RAISE A SUILEN",
     "tag": "RAISE A SUILEN",
     "category": "애니메이션",
@@ -7762,17 +7537,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "RAISE A SUILEN",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "TJ 공식 정보 및 표기 교정"
   },
   {
     "number": "68157",
-    "titleKo": "イニシャル",
+    "titleKo": "이니셜",
     "titleOriginal": "イニシャル",
     "artist": "Poppin'Party",
     "tag": "Poppin'Party",
@@ -7781,13 +7553,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Poppin'Party",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68218",
@@ -7799,9 +7568,6 @@ window.FLYLIST_SONGS = [
     "group": "BanG Dream!",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "RAISE A SUILEN",
     "updateType": "new",
@@ -7819,9 +7585,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Poppin'Party",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7838,9 +7601,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Poppin'Party",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7848,7 +7608,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68204",
-    "titleKo": "えがおのオーケストラっ！",
+    "titleKo": "미소의 오케스트라!",
     "titleOriginal": "えがおのオーケストラっ！",
     "artist": "ハロー、ハッピーワールド！",
     "tag": "ハロー、ハッピーワールド！",
@@ -7857,17 +7617,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "ハロー、ハッピーワールド！",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68210",
-    "titleKo": "えがお･シング･あ･ソング",
+    "titleKo": "미소・싱・어・송",
     "titleOriginal": "えがお･シング･あ･ソング",
     "artist": "ハロー、ハッピーワールド！",
     "tag": "ハロー、ハッピーワールド！",
@@ -7876,17 +7633,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "ハロー、ハッピーワールド！",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68223",
-    "titleKo": "夏のドーン！",
+    "titleKo": "나츠노 돈!",
     "titleOriginal": "夏のドーン！",
     "artist": "Poppin'Party",
     "tag": "Poppin'Party",
@@ -7895,13 +7649,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Poppin'Party",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68233",
@@ -7914,9 +7665,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "RAISE A SUILEN",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7924,7 +7672,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68239",
-    "titleKo": "夢を撃ち抜く瞬間に！",
+    "titleKo": "꿈을 꿰뚫는 순간에!",
     "titleOriginal": "夢を撃ち抜く瞬間に！",
     "artist": "Poppin'Party",
     "tag": "Poppin'Party",
@@ -7933,13 +7681,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Poppin'Party",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68259",
@@ -7951,9 +7696,6 @@ window.FLYLIST_SONGS = [
     "group": "BanG Dream!",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Afterglow",
     "updateType": "new",
@@ -7971,9 +7713,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Roselia",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -7981,7 +7720,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68274",
-    "titleKo": "金色へのプレリュード",
+    "titleKo": "금빛을 향한 프렐류드",
     "titleOriginal": "金色へのプレリュード",
     "artist": "Morfonica",
     "tag": "Morfonica",
@@ -7990,17 +7729,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Morfonica",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68293",
-    "titleKo": "天下トーイツ A to Z☆",
+    "titleKo": "천하통일 A to Z☆",
     "titleOriginal": "天下トーイツ A to Z☆",
     "artist": "Pastel*Palettes",
     "tag": "Pastel*Palettes",
@@ -8009,13 +7745,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Pastel*Palettes",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68264",
@@ -8027,9 +7760,6 @@ window.FLYLIST_SONGS = [
     "group": "BanG Dream!",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Poppin'Party",
     "updateType": "new",
@@ -8047,9 +7777,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "RAISE A SUILEN",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8065,9 +7792,6 @@ window.FLYLIST_SONGS = [
     "group": "BanG Dream!",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Roselia",
     "updateType": "new",
@@ -8085,9 +7809,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Morfonica",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8104,9 +7825,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "RAISE A SUILEN",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8114,7 +7832,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "52471",
-    "titleKo": "壱雫空",
+    "titleKo": "한 방울",
     "titleOriginal": "壱雫空",
     "artist": "MyGO!!!!!",
     "tag": "MyGO!!!!!",
@@ -8123,17 +7841,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "MyGO!!!!!",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68387",
-    "titleKo": "怪物",
+    "titleKo": "괴물",
     "titleOriginal": "怪物",
     "artist": "YOASOBI",
     "tag": "YOASOBI",
@@ -8142,17 +7857,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "YOASOBI",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68385",
-    "titleKo": "優しい彗星",
+    "titleKo": "상냥한 혜성",
     "titleOriginal": "優しい彗星",
     "artist": "YOASOBI",
     "tag": "YOASOBI",
@@ -8161,13 +7873,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "YOASOBI",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28433",
@@ -8179,9 +7888,6 @@ window.FLYLIST_SONGS = [
     "group": "BECK: Mongolian Chop Squad",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "BEAT CRUSADERS",
     "updateType": "new",
@@ -8199,9 +7905,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Sowelu",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8209,7 +7912,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28359",
-    "titleKo": "純潔パラドックス",
+    "titleKo": "순결 패러독스",
     "titleOriginal": "純潔パラドックス",
     "artist": "水樹奈々",
     "tag": "水樹奈々",
@@ -8219,13 +7922,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "미즈키 나나"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "水樹奈々",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28032",
@@ -8238,9 +7938,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "나카시마 미카"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "中島美嘉",
     "updateType": "new",
@@ -8257,9 +7954,6 @@ window.FLYLIST_SONGS = [
     "group": "BLOOD+",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "hyde",
     "updateType": "new",
@@ -8278,9 +7972,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "안젤라・아키"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "アンジェラ・アキ",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8297,9 +7988,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "K",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8307,7 +7995,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "26558",
-    "titleKo": "青空のナミダ",
+    "titleKo": "푸른 하늘의 눈물",
     "titleOriginal": "青空のナミダ",
     "artist": "高橋瞳",
     "tag": "高橋瞳",
@@ -8317,13 +8005,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "타카하시 히토미"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "高橋瞳",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "26342",
@@ -8335,9 +8020,6 @@ window.FLYLIST_SONGS = [
     "group": "BLOOD+",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "UVERworld",
     "updateType": "new",
@@ -8354,9 +8036,6 @@ window.FLYLIST_SONGS = [
     "group": "BLUE DRAGON",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "SS501",
     "updateType": "new",
@@ -8375,9 +8054,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "타치바나 케이타"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "橘慶太",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8395,9 +8071,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "야마다 유"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "山田優",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8405,7 +8078,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28648",
-    "titleKo": "デタラメな残像",
+    "titleKo": "엉터리 잔상",
     "titleOriginal": "デタラメな残像",
     "artist": "GRANRODEO",
     "tag": "GRANRODEO",
@@ -8414,13 +8087,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "GRANRODEO",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68265",
@@ -8433,9 +8103,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "모로호시 스미레"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "諸星すみれ",
     "updateType": "new",
@@ -8452,9 +8119,6 @@ window.FLYLIST_SONGS = [
     "group": "BNA",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Shin Sakiura(Feat.AAAMYYY)",
     "updateType": "new",
@@ -8473,9 +8137,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "나노"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "ナノ",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8483,7 +8144,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28488",
-    "titleKo": "マトリョーシカ",
+    "titleKo": "마트료시카",
     "titleOriginal": "マトリョーシカ",
     "artist": "NICO Touches the Walls",
     "tag": "NICO Touches the Walls",
@@ -8492,13 +8153,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "NICO Touches the Walls",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "26955",
@@ -8511,9 +8169,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "페이란"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "飛蘭",
     "updateType": "new",
@@ -8531,9 +8186,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Lia",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8541,7 +8193,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28288",
-    "titleKo": "覚醒ヒロイズム~THE HERO WITHOUT A\"NAME\"~",
+    "titleKo": "각성 히로이즘 ~THE HERO WITHOUT A \"NAME\"~",
     "titleOriginal": "覚醒ヒロイズム~THE HERO WITHOUT A\"NAME\"~",
     "artist": "アンティック-珈琲店-",
     "tag": "アンティック-珈琲店-",
@@ -8551,13 +8203,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "앤티크 -커피점-"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "アンティック-珈琲店-",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "26500",
@@ -8570,9 +8219,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "abingdon boys school",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8580,7 +8226,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "27913",
-    "titleKo": "ツキアカリ",
+    "titleKo": "달빛",
     "titleOriginal": "ツキアカリ",
     "artist": "Rie fu",
     "tag": "Rie fu",
@@ -8589,17 +8235,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Rie fu",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "26987",
-    "titleKo": "ツキアカリのミチシルベ",
+    "titleKo": "달빛의 이정표",
     "titleOriginal": "ツキアカリのミチシルベ",
     "artist": "ステレオポニー",
     "tag": "ステレオポニー",
@@ -8609,13 +8252,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "스테레오 포니"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "ステレオポニー",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "27010",
@@ -8628,9 +8268,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "abingdon boys school",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8638,7 +8275,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "27879",
-    "titleKo": "サクラキミニエム",
+    "titleKo": "사쿠라 키미니 에무",
     "titleOriginal": "サクラキミニエム",
     "artist": "yozuca*",
     "tag": "yozuca*",
@@ -8647,13 +8284,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "yozuca*",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68607",
@@ -8666,9 +8300,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Hinano",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8676,7 +8307,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68565",
-    "titleKo": "命の灯火",
+    "titleKo": "생명의 등불",
     "titleOriginal": "命の灯火",
     "artist": "鈴木このみ",
     "tag": "鈴木このみ",
@@ -8686,13 +8317,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "스즈키 코노미"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "鈴木このみ",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "26295",
@@ -8704,9 +8332,6 @@ window.FLYLIST_SONGS = [
     "group": "D.Gray-man",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "abingdon boys school",
     "updateType": "new",
@@ -8725,9 +8350,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "타마키 나미"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "玉置成実",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8735,7 +8357,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28170",
-    "titleKo": "アントワネットブルー",
+    "titleKo": "앙투아네트 블루",
     "titleOriginal": "アントワネットブルー",
     "artist": "北出菜奈",
     "tag": "北出菜奈",
@@ -8745,17 +8367,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "키타데 나나"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "北出菜奈",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28044",
-    "titleKo": "Doubt&Trust ~ダウト&トラスト~",
+    "titleKo": "Doubt & Trust ~다우트 앤드 트러스트~",
     "titleOriginal": "Doubt&Trust ~ダウト&トラスト~",
     "artist": "access",
     "tag": "access",
@@ -8764,17 +8383,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "access",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28289",
-    "titleKo": "激動",
+    "titleKo": "격동",
     "titleOriginal": "激動",
     "artist": "UVERworld",
     "tag": "UVERworld",
@@ -8783,13 +8399,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "UVERworld",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28649",
@@ -8802,9 +8415,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "스테파니"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "ステファニー",
     "updateType": "new",
@@ -8822,9 +8432,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "NIRGILIS",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8841,9 +8448,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "L'Arc~en~Ciel",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8851,7 +8455,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "25247",
-    "titleKo": "シングルベッド",
+    "titleKo": "싱글 베드",
     "titleOriginal": "シングルベッド",
     "artist": "シャ乱Ｑ",
     "tag": "シャ乱Ｑ",
@@ -8861,17 +8465,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "샤란Q"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "シャ乱Ｑ",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "25578",
-    "titleKo": "白夜 ~True Light~",
+    "titleKo": "백야 ~True Light~",
     "titleOriginal": "白夜 ~True Light~",
     "artist": "宮本駿一",
     "tag": "宮本駿一",
@@ -8881,13 +8482,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "미야모토 슌이치"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "宮本駿一",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "27181",
@@ -8900,9 +8498,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "미즈키 나나"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "水樹奈々",
     "updateType": "new",
@@ -8921,9 +8516,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "미즈키 나나"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "水樹奈々",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8940,9 +8532,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "OKAMOTO'S",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -8950,8 +8539,8 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28548",
-    "titleKo": "euphoric field (영어버젼)",
-    "titleOriginal": "euphoric field (영어버젼)",
+    "titleKo": "euphoric field (영어 버전)",
+    "titleOriginal": "euphoric field (English Ver.)",
     "artist": "ELISA",
     "tag": "ELISA",
     "category": "애니메이션",
@@ -8959,17 +8548,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "ELISA",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "TJ 공식 정보 및 표기 교정"
   },
   {
     "number": "28742",
-    "titleKo": "英雄 運命の詩",
+    "titleKo": "영웅 운명의 시",
     "titleOriginal": "英雄 運命の詩",
     "artist": "EGOIST",
     "tag": "EGOIST",
@@ -8978,13 +8564,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "EGOIST",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28759",
@@ -8996,9 +8579,6 @@ window.FLYLIST_SONGS = [
     "group": "Fate 시리즈",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "GARNiDELiA",
     "updateType": "new",
@@ -9015,9 +8595,6 @@ window.FLYLIST_SONGS = [
     "group": "Fate 시리즈",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "LISA",
     "updateType": "new",
@@ -9036,9 +8613,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "니시카와 타카노리"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "西川貴教",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9054,9 +8628,6 @@ window.FLYLIST_SONGS = [
     "group": "Fate 시리즈",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "milet",
     "updateType": "new",
@@ -9074,9 +8645,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "milet",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9092,9 +8660,6 @@ window.FLYLIST_SONGS = [
     "group": "Fate 시리즈",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "ChouCho",
     "updateType": "new",
@@ -9113,9 +8678,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "타이나카 사치"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "タイナカサチ",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9123,7 +8685,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28199",
-    "titleKo": "きらめく涙は星に",
+    "titleKo": "반짝이는 눈물은 별이 되어",
     "titleOriginal": "きらめく涙は星に",
     "artist": "タイナカサチ",
     "tag": "タイナカサチ",
@@ -9133,17 +8695,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "타이나카 사치"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "タイナカサチ",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "26348",
-    "titleKo": "あなたがいた森",
+    "titleKo": "당신이 있던 숲",
     "titleOriginal": "あなたがいた森",
     "artist": "樹海",
     "tag": "樹海",
@@ -9153,17 +8712,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "쥬카이"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "樹海",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28248",
-    "titleKo": "ヒカリ",
+    "titleKo": "빛",
     "titleOriginal": "ヒカリ",
     "artist": "樹海",
     "tag": "樹海",
@@ -9173,17 +8729,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "쥬카이"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "樹海",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "27908",
-    "titleKo": "君との明日",
+    "titleKo": "너와의 내일",
     "titleOriginal": "君との明日",
     "artist": "タイナカサチ",
     "tag": "タイナカサチ",
@@ -9193,13 +8746,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "타이나카 사치"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "タイナカサチ",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28074",
@@ -9212,9 +8762,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "아야노 마시로"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "綾野ましろ",
     "updateType": "new",
@@ -9232,9 +8779,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Aimer",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9251,9 +8795,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Aimer",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9261,7 +8802,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28775",
-    "titleKo": "花の唄",
+    "titleKo": "꽃의 노래",
     "titleOriginal": "花の唄",
     "artist": "Aimer",
     "tag": "Aimer",
@@ -9270,13 +8811,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Aimer",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28957",
@@ -9289,9 +8827,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Aimer",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9299,7 +8834,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68215",
-    "titleKo": "春はゆく",
+    "titleKo": "봄은 간다",
     "titleOriginal": "春はゆく",
     "artist": "Aimer",
     "tag": "Aimer",
@@ -9308,13 +8843,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Aimer",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "27717",
@@ -9327,9 +8859,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "아오이 에일"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "藍井エイル",
     "updateType": "new",
@@ -9347,9 +8876,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "LISA",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9366,9 +8892,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Kalafina",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9376,7 +8899,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "27652",
-    "titleKo": "空は高く風は歌う",
+    "titleKo": "하늘은 높고 바람은 노래한다",
     "titleOriginal": "空は高く風は歌う",
     "artist": "春奈るな",
     "tag": "春奈るな",
@@ -9386,13 +8909,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "하루나 루나"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "春奈るな",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "27463",
@@ -9404,9 +8924,6 @@ window.FLYLIST_SONGS = [
     "group": "Free! 시리즈",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "OLDCODEX",
     "updateType": "new",
@@ -9424,9 +8941,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "STYLE FIVE",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9442,9 +8956,6 @@ window.FLYLIST_SONGS = [
     "group": "Free! 시리즈",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "OLDCODEX",
     "updateType": "new",
@@ -9462,9 +8973,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "STYLE FIVE",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9480,9 +8988,6 @@ window.FLYLIST_SONGS = [
     "group": "Free! 시리즈",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "OLDCODEX",
     "updateType": "new",
@@ -9501,9 +9006,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "우타다 히카루"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "宇多田ヒカル",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9520,9 +9022,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Bonnie Pink",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9530,7 +9029,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68325",
-    "titleKo": "Miracle Go! プリンセスプリキュア",
+    "titleKo": "Miracle Go! 프린세스 프리큐어",
     "titleOriginal": "Miracle Go! プリンセスプリキュア",
     "artist": "礒部花凜",
     "tag": "礒部花凜",
@@ -9540,13 +9039,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "이소베 카린"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "礒部花凜",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28041",
@@ -9558,9 +9054,6 @@ window.FLYLIST_SONGS = [
     "group": "GOSICK",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "yoshiki*lisa",
     "updateType": "new",
@@ -9578,9 +9071,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "L'Arc~en~Ciel",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9588,7 +9078,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "25305",
-    "titleKo": "しずく",
+    "titleKo": "물방울",
     "titleOriginal": "しずく",
     "artist": "奥田美和子",
     "tag": "奥田美和子",
@@ -9598,17 +9088,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "오쿠다 미와코"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "奥田美和子",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "6943",
-    "titleKo": "ヒトリノ夜",
+    "titleKo": "외톨이의 밤",
     "titleOriginal": "ヒトリノ夜",
     "artist": "ポルノグラフィティ",
     "tag": "ポルノグラフィティ",
@@ -9617,17 +9104,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "ポルノグラフィティ",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "26742",
-    "titleKo": "片翼のイカロス",
+    "titleKo": "외날개의 이카로스",
     "titleOriginal": "片翼のイカロス",
     "artist": "榊原ゆい",
     "tag": "榊原ゆい",
@@ -9637,17 +9121,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "사카키바라 유이"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "榊原ゆい",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "27892",
-    "titleKo": "カザハネ",
+    "titleKo": "카자하네",
     "titleOriginal": "カザハネ",
     "artist": "霜月はるか",
     "tag": "霜月はるか",
@@ -9657,13 +9138,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "시모츠키 하루카"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "霜月はるか",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28138",
@@ -9676,9 +9154,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "히카사 요코"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "日笠陽子,ゆかな 他",
     "updateType": "new",
@@ -9697,9 +9172,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "쿠리바야시 미나미"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "栗林みな実",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9707,7 +9179,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28504",
-    "titleKo": "DT捨テル",
+    "titleKo": "DT를 버리다",
     "titleOriginal": "DT捨テル",
     "artist": "ゴールデン・イクシオン・ボンバーDT",
     "tag": "ゴールデン・イクシオン・ボンバーDT",
@@ -9717,13 +9189,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "골든 익시온 봄버 DT"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "ゴールデン・イクシオン・ボンバーDT",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28078",
@@ -9735,9 +9204,6 @@ window.FLYLIST_SONGS = [
     "group": "K(애니메이션)",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "angela",
     "updateType": "new",
@@ -9756,9 +9222,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "아야나"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "彩菜",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9776,9 +9239,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "후지하라 미호"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "藤原美穂",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9786,7 +9246,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "26579",
-    "titleKo": "風の辿り着く場所",
+    "titleKo": "바람이 다다르는 곳",
     "titleOriginal": "風の辿り着く場所",
     "artist": "彩菜",
     "tag": "彩菜",
@@ -9796,17 +9256,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "아야나"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "彩菜",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "25346",
-    "titleKo": "手のひらの宇宙",
+    "titleKo": "손바닥의 우주",
     "titleOriginal": "手のひらの宇宙",
     "artist": "岩男潤子",
     "tag": "岩男潤子",
@@ -9816,17 +9273,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "이와오 쥰코"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "岩男潤子",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28949",
-    "titleKo": "ドラマチックLOVE",
+    "titleKo": "드라마틱 LOVE",
     "titleOriginal": "ドラマチックLOVE",
     "artist": "Various Artists",
     "tag": "Various Artists",
@@ -9836,13 +9290,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "테라시마 준타"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Various Artists",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28991",
@@ -9855,9 +9306,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "마스다 토시키"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "増田俊樹,武内駿輔",
     "updateType": "new",
@@ -9876,9 +9324,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "아오이 쇼타"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "蒼井翔太",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9886,7 +9331,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68021",
-    "titleKo": "ルナティックDEStiNy",
+    "titleKo": "루나틱 DEStiNy",
     "titleOriginal": "ルナティックDEStiNy",
     "artist": "蒼井翔太",
     "tag": "蒼井翔太",
@@ -9896,17 +9341,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "아오이 쇼타"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "蒼井翔太",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68059",
-    "titleKo": "366LOVEダイアリー",
+    "titleKo": "366 LOVE 다이어리",
     "titleOriginal": "366LOVEダイアリー",
     "artist": "寺島惇太,斉藤壮馬,八代拓,畠中祐,永塚拓馬,五十嵐雅,内田雄馬",
     "tag": "寺島惇太,斉藤壮馬,八代拓,畠中祐,永塚拓馬,五十嵐雅,内田雄馬",
@@ -9916,17 +9358,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "테라시마 준타"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "寺島惇太,斉藤壮馬,八代拓,畠中祐,永塚拓馬,五十嵐雅,内田雄馬",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "26181",
-    "titleKo": "月の呪縛",
+    "titleKo": "달의 주박",
     "titleOriginal": "月の呪縛",
     "artist": "翁鈴佳",
     "tag": "翁鈴佳",
@@ -9936,13 +9375,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "오키나 레이카"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "翁鈴佳",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "25965",
@@ -9954,9 +9390,6 @@ window.FLYLIST_SONGS = [
     "group": "MADLAX",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Fiction Junction YUUKA",
     "updateType": "new",
@@ -9974,9 +9407,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "KAORI",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -9984,7 +9414,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28418",
-    "titleKo": "黒い涙",
+    "titleKo": "검은 눈물",
     "titleOriginal": "黒い涙",
     "artist": "ANNA TSUCHIYA inspi' NANA(BLACK STONES)",
     "tag": "ANNA TSUCHIYA inspi' NANA(BLACK STONES)",
@@ -9993,13 +9423,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "ANNA TSUCHIYA inspi' NANA(BLACK STONES)",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28121",
@@ -10011,9 +9438,6 @@ window.FLYLIST_SONGS = [
     "group": "NANA",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "ANNA inspi' NANA(BLACK STONES)",
     "updateType": "new",
@@ -10031,9 +9455,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "ANNA TSUCHIYA inspi' NANA(BLACK STONES)",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10049,9 +9470,6 @@ window.FLYLIST_SONGS = [
     "group": "NANA",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "OLIVIA inspi' REIRA(TRAPNEST)",
     "updateType": "new",
@@ -10069,9 +9487,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "OLIVIA inspi' REIRA(TRAPNEST)",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10088,9 +9503,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "OLIVIA inspi' REIRA(TRAPNEST)",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10098,7 +9510,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "27952",
-    "titleKo": "SAKURAスキップ",
+    "titleKo": "SAKURA 스킵",
     "titleOriginal": "SAKURAスキップ",
     "artist": "Fourfolium",
     "tag": "Fourfolium",
@@ -10107,13 +9519,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Fourfolium",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28740",
@@ -10125,9 +9534,6 @@ window.FLYLIST_SONGS = [
     "group": "NEW GAME! 시리즈",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Fourfolium",
     "updateType": "new",
@@ -10145,9 +9551,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Fourfolium",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10155,7 +9558,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "26772",
-    "titleKo": "踊る赤ちゃん人間",
+    "titleKo": "춤추는 아기 인간",
     "titleOriginal": "踊る赤ちゃん人間",
     "artist": "大槻ケンヂと橘高文彦",
     "tag": "大槻ケンヂと橘高文彦",
@@ -10165,17 +9568,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "오오츠키 켄지와 키츠타카 후미히코"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "大槻ケンヂと橘高文彦",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "27763",
-    "titleKo": "六等星の夜",
+    "titleKo": "육등성의 밤",
     "titleOriginal": "六等星の夜",
     "artist": "Aimer",
     "tag": "Aimer",
@@ -10184,13 +9584,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Aimer",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "6742",
@@ -10203,9 +9600,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Chage & Aska",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10213,7 +9607,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28679",
-    "titleKo": "未来",
+    "titleKo": "미래",
     "titleOriginal": "未来",
     "artist": "コブクロ",
     "tag": "コブクロ",
@@ -10223,13 +9617,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "코부쿠로"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "コブクロ",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "26613",
@@ -10241,9 +9632,6 @@ window.FLYLIST_SONGS = [
     "group": "PANDA-Z",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "JAM Project",
     "updateType": "new",
@@ -10262,9 +9650,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "키타 슈헤이"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "喜多修平",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10282,9 +9667,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "히라타 시호코"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "平田志穂子",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10292,7 +9674,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "26766",
-    "titleKo": "キミの記憶",
+    "titleKo": "너의 기억",
     "titleOriginal": "キミの記憶",
     "artist": "川村ゆみ",
     "tag": "川村ゆみ",
@@ -10302,17 +9684,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "카와무라 유미"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "川村ゆみ",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68819",
-    "titleKo": "覚醒",
+    "titleKo": "각성",
     "titleOriginal": "覚醒",
     "artist": "Superfly",
     "tag": "Superfly",
@@ -10321,13 +9700,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Superfly",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28006",
@@ -10341,9 +9717,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "린토시테시구레"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "凛として時雨",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10351,7 +9724,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "27663",
-    "titleKo": "名前のない怪物",
+    "titleKo": "이름 없는 괴물",
     "titleOriginal": "名前のない怪物",
     "artist": "EGOIST",
     "tag": "EGOIST",
@@ -10360,13 +9733,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "EGOIST",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "27770",
@@ -10378,9 +9748,6 @@ window.FLYLIST_SONGS = [
     "group": "PSYCHO-PASS 시리즈",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "EGOIST",
     "updateType": "new",
@@ -10397,9 +9764,6 @@ window.FLYLIST_SONGS = [
     "group": "PSYCHO-PASS 시리즈",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Nothing's Carved In Stone",
     "updateType": "new",
@@ -10418,9 +9782,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "린토시테시구레"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "凛として時雨",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10436,9 +9797,6 @@ window.FLYLIST_SONGS = [
     "group": "PSYCHO-PASS 시리즈",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "EGOIST",
     "updateType": "new",
@@ -10457,9 +9815,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "린토시테시구레"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "凛として時雨",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10467,7 +9822,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68869",
-    "titleKo": "アレキシサイミアスペア",
+    "titleKo": "알렉시사이미아스페어",
     "titleOriginal": "アレキシサイミアスペア",
     "artist": "凛として時雨",
     "tag": "凛として時雨",
@@ -10477,13 +9832,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "린토시테시구레"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "凛として時雨",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28631",
@@ -10496,9 +9848,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "스즈키 코노미"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "鈴木このみ",
     "updateType": "new",
@@ -10515,9 +9864,6 @@ window.FLYLIST_SONGS = [
     "group": "Re: 제로부터 시작하는 이세계 생활",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "MYTH & ROID",
     "updateType": "new",
@@ -10536,9 +9882,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "타카하시 리에"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "高橋李依",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10554,9 +9897,6 @@ window.FLYLIST_SONGS = [
     "group": "Re: 제로부터 시작하는 이세계 생활",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "MYTH & ROID",
     "updateType": "new",
@@ -10575,9 +9915,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "미나세 이노리"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "水瀬いのり",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10595,9 +9932,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "스즈키 코노미"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "鈴木このみ",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10613,9 +9947,6 @@ window.FLYLIST_SONGS = [
     "group": "Re: 제로부터 시작하는 이세계 생활",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "nonoc",
     "updateType": "new",
@@ -10634,9 +9965,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "마에시마 마유"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "前島麻由",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10652,9 +9980,6 @@ window.FLYLIST_SONGS = [
     "group": "Re: 제로부터 시작하는 이세계 생활",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "nonoc",
     "updateType": "new",
@@ -10673,9 +9998,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "스즈키 코노미"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "鈴木このみ",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10683,7 +10005,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68033",
-    "titleKo": "千の翼",
+    "titleKo": "천 개의 날개",
     "titleOriginal": "千の翼",
     "artist": "livetune adding Takuro Sugawara(from 9mm Parabellum Bullet)",
     "tag": "livetune adding Takuro Sugawara(from 9mm Parabellum Bullet)",
@@ -10692,13 +10014,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "livetune adding Takuro Sugawara(from 9mm Parabellum Bullet)",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68457",
@@ -10711,9 +10030,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "엔하이픈"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "ENHYPEN",
     "updateType": "new",
@@ -10731,9 +10047,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "LM.C",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10749,9 +10062,6 @@ window.FLYLIST_SONGS = [
     "group": "RWBY 빙설제국",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Void_Chords(Feat.L)",
     "updateType": "new",
@@ -10770,9 +10080,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "하야미 사오리"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "早見沙織",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10789,9 +10096,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "PUFFY",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10799,7 +10103,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "25933",
-    "titleKo": "ココロオドル",
+    "titleKo": "마음이 춤춘다",
     "titleOriginal": "ココロオドル",
     "artist": "nobodyknows+",
     "tag": "nobodyknows+",
@@ -10808,17 +10112,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "nobodyknows+",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28196",
-    "titleKo": "キミと僕",
+    "titleKo": "너와 나",
     "titleOriginal": "キミと僕",
     "artist": "I WiSH",
     "tag": "I WiSH",
@@ -10827,13 +10128,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "I WiSH",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28435",
@@ -10845,9 +10143,6 @@ window.FLYLIST_SONGS = [
     "group": "SD 건담 포스",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "little by little",
     "updateType": "new",
@@ -10864,9 +10159,6 @@ window.FLYLIST_SONGS = [
     "group": "SELECTION PROJECT",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "9-tie",
     "updateType": "new",
@@ -10900,9 +10192,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "와케시마 카논"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "分島花音",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10920,9 +10209,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "와케시마 카논"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "分島花音",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10930,7 +10216,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28536",
-    "titleKo": "宝箱-TREASURE BOX-",
+    "titleKo": "보물상자 -TREASURE BOX-",
     "titleOriginal": "宝箱-TREASURE BOX-",
     "artist": "奥井雅美",
     "tag": "奥井雅美",
@@ -10940,13 +10226,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "오쿠이 마사미"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "奥井雅美",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "26441",
@@ -10958,9 +10241,6 @@ window.FLYLIST_SONGS = [
     "group": "SHUFFLE!",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "YURIA",
     "updateType": "new",
@@ -10978,9 +10258,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Rude-α",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -10988,7 +10265,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "27187",
-    "titleKo": "カッコ悪い I love you!",
+    "titleKo": "볼품없는 I love you!",
     "titleOriginal": "カッコ悪い I love you!",
     "artist": "フレンチ・キス",
     "tag": "フレンチ・キス",
@@ -10998,17 +10275,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "프렌치・키스"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "フレンチ・キス",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "27859",
-    "titleKo": "道",
+    "titleKo": "길",
     "titleOriginal": "道",
     "artist": "The Sketchbook",
     "tag": "The Sketchbook",
@@ -11017,13 +10291,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "The Sketchbook",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28029",
@@ -11037,9 +10308,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "유우키 아이라"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "結城アイラ",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -11047,7 +10315,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68601",
-    "titleKo": "喜劇",
+    "titleKo": "희극",
     "titleOriginal": "喜劇",
     "artist": "星野源",
     "tag": "星野源",
@@ -11057,13 +10325,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "호시노 겐"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "星野源",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68671",
@@ -11077,9 +10342,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "범프 오브 치킨"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "BUMP OF CHICKEN",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -11087,7 +10349,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "68693",
-    "titleKo": "色彩",
+    "titleKo": "색채",
     "titleOriginal": "色彩",
     "artist": "yama",
     "tag": "yama",
@@ -11096,17 +10358,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "yama",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68864",
-    "titleKo": "クラクラ",
+    "titleKo": "어질어질",
     "titleOriginal": "クラクラ",
     "artist": "Ado",
     "tag": "Ado",
@@ -11115,17 +10374,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Ado",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68911",
-    "titleKo": "トドメの一撃",
+    "titleKo": "최후의 일격",
     "titleOriginal": "トドメの一撃",
     "artist": "Vaundy(Feat.Cory Wong)",
     "tag": "Vaundy(Feat.Cory Wong)",
@@ -11134,17 +10390,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Vaundy(Feat.Cory Wong)",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68908",
-    "titleKo": "光の跡",
+    "titleKo": "빛의 흔적",
     "titleOriginal": "光の跡",
     "artist": "星野源",
     "tag": "星野源",
@@ -11154,13 +10407,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "호시노 겐"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "星野源",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28933",
@@ -11172,9 +10422,6 @@ window.FLYLIST_SONGS = [
     "group": "SSSS.GRIDMAN",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "OxT",
     "updateType": "new",
@@ -11193,9 +10440,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "이토 카나코"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "いとうかなこ",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -11203,7 +10447,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28215",
-    "titleKo": "スカイクラッドの観測者",
+    "titleKo": "스카이클래드의 관측자",
     "titleOriginal": "スカイクラッドの観測者",
     "artist": "いとうかなこ",
     "tag": "いとうかなこ",
@@ -11213,17 +10457,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "이토 카나코"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "いとうかなこ",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28185",
-    "titleKo": "オリオンをなぞる",
+    "titleKo": "오리온을 덧그리다",
     "titleOriginal": "オリオンをなぞる",
     "artist": "Unison Square Garden",
     "tag": "Unison Square Garden",
@@ -11232,17 +10473,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Unison Square Garden",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68795",
-    "titleKo": "星のクズ α",
+    "titleKo": "별의 부스러기 α",
     "titleOriginal": "星のクズ α",
     "artist": "Salyu,haruka nakamura",
     "tag": "Salyu,haruka nakamura",
@@ -11251,17 +10489,14 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Salyu,haruka nakamura",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28516",
-    "titleKo": "とべ! グレンダイザー",
+    "titleKo": "날아라! 그렌다이저",
     "titleOriginal": "とべ! グレンダイザー",
     "artist": "佐々木功",
     "tag": "佐々木功",
@@ -11271,13 +10506,10 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "사사키 이사오"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "佐々木功",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "68424",
@@ -11290,9 +10522,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "비비 (Vo. 야기 카이리)"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "ヴィヴィ(Vo.八木海莉)",
     "updateType": "new",
@@ -11311,9 +10540,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "비비 (Vo. 야기 카이리)"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "ヴィヴィ(Vo.八木海莉)",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -11330,9 +10556,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Wake Up, Girls!",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -11340,7 +10563,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "26869",
-    "titleKo": "深愛",
+    "titleKo": "심애",
     "titleOriginal": "深愛",
     "artist": "水樹奈々",
     "tag": "水樹奈々",
@@ -11350,17 +10573,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "미즈키 나나"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "水樹奈々",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28326",
-    "titleKo": "夢幻",
+    "titleKo": "몽환",
     "titleOriginal": "夢幻",
     "artist": "水樹奈々",
     "tag": "水樹奈々",
@@ -11370,17 +10590,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "미즈키 나나"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "水樹奈々",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "52576",
-    "titleKo": "絶対零度",
+    "titleKo": "절대영도",
     "titleOriginal": "絶対零度",
     "artist": "なとり",
     "tag": "なとり",
@@ -11390,17 +10607,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "나토리"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "なとり",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "52706",
-    "titleKo": "無敵",
+    "titleKo": "무적",
     "titleOriginal": "無敵",
     "artist": "Young Kee",
     "tag": "Young Kee",
@@ -11409,13 +10623,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "Young Kee",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28132",
@@ -11428,9 +10639,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "아스미 카나"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "阿澄佳奈,藤田咲,喜多村英梨",
     "updateType": "new",
@@ -11449,9 +10657,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "미유우지"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "美勇士",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -11459,7 +10664,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "26229",
-    "titleKo": "19才",
+    "titleKo": "19세",
     "titleOriginal": "19才",
     "artist": "スガシカオ",
     "tag": "スガシカオ",
@@ -11469,17 +10674,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "스가시카오"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "スガシカオ",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28338",
-    "titleKo": "蜉蝣-かげろう-",
+    "titleKo": "하루살이 -카게로-",
     "titleOriginal": "蜉蝣-かげろう-",
     "artist": "BUCK-TICK",
     "tag": "BUCK-TICK",
@@ -11488,13 +10690,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "BUCK-TICK",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "27881",
@@ -11508,9 +10707,6 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "스가시카오"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "スガシカオ",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -11518,7 +10714,7 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "28256",
-    "titleKo": "プリキュア5、スマイル go go!",
+    "titleKo": "프리큐어 5, 스마일 go go!",
     "titleOriginal": "プリキュア5、スマイル go go!",
     "artist": "工藤真由",
     "tag": "工藤真由",
@@ -11528,17 +10724,14 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "쿠도 마유"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "工藤真由",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28467",
-    "titleKo": "亡國覚醒カタルシス",
+    "titleKo": "망국각성 카타르시스",
     "titleOriginal": "亡國覚醒カタルシス",
     "artist": "ALI PROJECT",
     "tag": "ALI PROJECT",
@@ -11547,13 +10740,10 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "ALI PROJECT",
-    "updateType": "new",
-    "updatedAt": "2026-07-24",
-    "updateNote": "신규 수록곡 추가 및 TJ 대조"
+    "updateType": "updated",
+    "updatedAt": "2026-07-30",
+    "updateNote": "한국어 제목 표기 보강"
   },
   {
     "number": "28007",
@@ -11565,9 +10755,6 @@ window.FLYLIST_SONGS = [
     "group": "ALDNOAH.ZERO",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Sawano Hiroyuki",
     "updateType": "new",
@@ -11585,9 +10772,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "SawanoHiroyuki[nZk]:Laco",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -11603,9 +10787,6 @@ window.FLYLIST_SONGS = [
     "group": "86 -에이티식스-",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "SawanoHiroyuki[nZk]:mizuki",
     "updateType": "new",
@@ -11623,9 +10804,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "SawanoHiroyuki[nZk]:mizuki",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -11641,9 +10819,6 @@ window.FLYLIST_SONGS = [
     "group": "길티 크라운",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "EGOIST",
     "updateType": "new",
@@ -11661,9 +10836,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "EGOIST",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -11679,9 +10851,6 @@ window.FLYLIST_SONGS = [
     "group": "길티 크라운",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "EGOIST",
     "updateType": "new",
@@ -11699,9 +10868,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "EGOIST",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -11718,9 +10884,6 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "alsoCategories": [
-      "J-POP"
-    ],
     "jpopGroup": "EGOIST",
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -11736,9 +10899,6 @@ window.FLYLIST_SONGS = [
     "group": "갑철성의 카바네리",
     "tags": [
       "애니메이션"
-    ],
-    "alsoCategories": [
-      "J-POP"
     ],
     "jpopGroup": "Aimer with chelly(EGOIST)",
     "updateType": "new",
@@ -11918,8 +11078,7 @@ window.FLYLIST_SONGS = [
       "애니메이션"
     ],
     "alsoCategories": [
-      "애니메이션",
-      "J-POP"
+      "애니메이션"
     ],
     "updateType": "new",
     "updatedAt": "2026-07-24",
@@ -11931,13 +11090,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "決戦スピリット",
     "artist": "CHiCO with HoneyWorks",
     "tag": "HoneyWorks",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "하이큐!!",
     "jpopGroup": "HoneyWorks",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",
@@ -12126,13 +11282,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "廻廻奇譚",
     "artist": "Eve",
     "tag": "Eve",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "주술회전",
     "jpopGroup": "Eve",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",
@@ -12145,13 +11298,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "ぼくらの",
     "artist": "Eve",
     "tag": "Eve",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "나의 히어로 아카데미아",
     "jpopGroup": "Eve",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",
@@ -12164,13 +11314,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "インソムニア",
     "artist": "Eve",
     "tag": "Eve",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "마이 홈 히어로",
     "jpopGroup": "Eve",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",
@@ -12235,13 +11382,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "奇縁ロマンス",
     "artist": "ナナヲアカリ",
     "tag": "ナナヲアカリ",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "에도마에 엘프",
     "jpopGroup": "ナナヲアカリ",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",
@@ -12293,13 +11437,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "会いたくて",
     "artist": "Ado",
     "tag": "Ado",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "카구야 님은 고백받고 싶어 파이널",
     "jpopGroup": "Ado",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",
@@ -12312,13 +11453,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "阿修羅ちゃん",
     "artist": "Ado",
     "tag": "Ado",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "닥터-X ~외과의 다이몬 미치코~",
     "jpopGroup": "Ado",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",
@@ -12331,13 +11469,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "心という名の不可解",
     "artist": "Ado",
     "tag": "Ado",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "닥터 화이트",
     "jpopGroup": "Ado",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",
@@ -12363,13 +11498,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "ウタカタララバイ",
     "artist": "Ado",
     "tag": "Ado",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "ONE PIECE FILM RED",
     "jpopGroup": "Ado",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",
@@ -12382,13 +11514,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "Tot Musica",
     "artist": "Ado",
     "tag": "Ado",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "ONE PIECE FILM RED",
     "jpopGroup": "Ado",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",
@@ -12401,13 +11530,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "世界のつづき",
     "artist": "Ado",
     "tag": "Ado",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "ONE PIECE FILM RED",
     "jpopGroup": "Ado",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",
@@ -12446,13 +11572,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "Episode X",
     "artist": "Ado",
     "tag": "Ado",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "극장판 닥터-X",
     "jpopGroup": "Ado",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",
@@ -12491,13 +11614,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "向日葵",
     "artist": "Ado",
     "tag": "Ado",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "18/40 ~꿈 사랑 두 여자~",
     "jpopGroup": "Ado",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",
@@ -12510,13 +11630,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "DIGNITY",
     "artist": "Ado",
     "tag": "Ado",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "침묵의 함대",
     "jpopGroup": "Ado",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",
@@ -12639,13 +11756,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "麻痺",
     "artist": "yama",
     "tag": "yama",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "2.43 세인고교 남자 배구부",
     "jpopGroup": "yama",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",
@@ -12658,13 +11772,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "Oz.",
     "artist": "yama",
     "tag": "yama",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "임금님 랭킹",
     "jpopGroup": "yama",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",
@@ -12677,13 +11788,10 @@ window.FLYLIST_SONGS = [
     "titleOriginal": "slash",
     "artist": "yama",
     "tag": "yama",
-    "category": "J-POP",
+    "category": "애니메이션",
     "group": "기동전사 건담 수성의 마녀",
     "jpopGroup": "yama",
     "tags": [
-      "애니메이션"
-    ],
-    "alsoCategories": [
       "애니메이션"
     ],
     "updateType": "new",

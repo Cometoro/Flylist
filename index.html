@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0b0d14">
   <title>Flylist</title>
-  <link rel="stylesheet" href="./styles.css?v=20260724-2">
+  <link rel="stylesheet" href="./styles.css?v=20260730-2">
   <link rel="stylesheet" href="./custom.css?v=20260722-2">
-  <script src="./data.js?v=20260722-4" defer></script>
-  <script src="./app.js?v=20260724-3" defer></script>
+  <script src="./data.js?v=20260730-2" defer></script>
+  <script src="./app.js?v=20260730-3" defer></script>
 </head>
 <body id="top">
   <div id="mainApp">
@@ -75,7 +75,12 @@
       <nav id="favoriteCategoryTabs" class="favorite-tabs" aria-label="즐겨찾기 카테고리" role="tablist"></nav>
       <div class="favorite-toolbar">
         <div id="favoriteResultSummary" class="result-summary"></div>
-        <button class="index-button" type="button" data-open-index aria-label="즐겨찾기 빠른 이동 열기"><span class="index-button-icon" aria-hidden="true">⚡︎</span><span>빠른 이동</span></button>
+        <div class="favorite-toolbar-actions">
+          <button id="exportFavorites" class="utility-button" type="button" title="즐겨찾기 백업 파일 저장">백업</button>
+          <button id="importFavoritesButton" class="utility-button" type="button" title="즐겨찾기 백업 파일 불러오기">복원</button>
+          <input id="importFavoritesFile" type="file" accept="application/json,.json" hidden>
+          <button class="index-button" type="button" data-open-index aria-label="즐겨찾기 빠른 이동 열기"><span class="index-button-icon" aria-hidden="true">⚡︎</span><span>빠른 이동</span></button>
+        </div>
       </div>
       <div class="content-layout">
         <section id="favoriteSongList" class="song-list" aria-live="polite"></section>
@@ -92,11 +97,21 @@
         <h2 id="indexDrawerTitle">빠른 이동</h2>
         <button class="drawer-close" type="button" data-close-index aria-label="목차 닫기">×</button>
       </div>
+      <label class="index-drawer-filter-wrap">
+        <span class="visually-hidden">빠른 이동 검색</span>
+        <input id="indexDrawerFilter" class="index-filter" type="search" placeholder="아티스트·작품 검색" autocomplete="off">
+      </label>
+      <p id="indexDrawerEmpty" class="index-filter-empty" hidden>일치하는 항목이 없습니다.</p>
       <nav id="indexDrawerNav" class="index-drawer-nav" aria-label="빠른 이동 항목"></nav>
     </section>
   </div>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <a class="top-link" href="#top" aria-label="맨 위로">↑</a>
+  <!-- Keep this date aligned with the GitHub commit date when publishing. -->
+  <footer class="site-footer">
+    <span>DATA VERIFIED</span>
+    <time datetime="2026-07-30">2026.07.30</time>
+  </footer>
 </body>
 </html>
