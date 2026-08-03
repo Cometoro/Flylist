@@ -4,7 +4,12 @@
   const categories = ["보카로", "버츄얼 아티스트", "애니메이션", "J-POP"];
   const categoryLabels = ["전체", "업데이트", "아티스트별", ...categories, "즐겨찾기"];
   const favoriteCategoryLabels = ["전체", ...categories];
-  const sortValues = ["count-desc", "count-asc", "group-name"];
+  const sortOptions = {
+    artist: [["count-desc", "수록곡 많은순"], ["count-asc", "수록곡 적은순"], ["group-name", "가수·작품명순"]],
+    update: [["newest", "최신순"], ["artist", "가수순"], ["title", "제목순"]],
+    flat: [["artist", "가수순"], ["title", "제목순"]]
+  };
+  const sortValues = Object.values(sortOptions).flat().map(([value]) => value);
   const savedBrowseState = loadBrowseState();
   const state = {
     query: "",
@@ -12,7 +17,8 @@
       && savedBrowseState.category !== "즐겨찾기" ? savedBrowseState.category : "전체",
     favoriteCategory: favoriteCategoryLabels.includes(savedBrowseState.favoriteCategory)
       ? savedBrowseState.favoriteCategory : "전체",
-    sort: sortValues.includes(savedBrowseState.sort) ? savedBrowseState.sort : "count-desc",
+    sort: sortValues.includes(savedBrowseState.sort) ? savedBrowseState.sort : "artist",
+    viewMode: loadViewMode(),
     view: location.hash === "#favorites" ? "favorites" : "main",
     favorites: loadSet("flylist:favorites"),
     artistFavorites: loadSet("flylist:favorite-artists"),
@@ -26,23 +32,30 @@
     scrollPositions: savedBrowseState.scrollPositions
       && typeof savedBrowseState.scrollPositions === "object"
       ? savedBrowseState.scrollPositions
-      : {}
+      : {},
+    recentSearches: loadRecentSearches()
   };
 
   const els = {
     mainApp: document.querySelector("#mainApp"),
     mainView: document.querySelector("#mainView"),
     favoritesView: document.querySelector("#favoritesView"),
+    searchForm: document.querySelector(".search"),
     searchInput: document.querySelector("#searchInput"),
     clearSearch: document.querySelector("#clearSearch"),
+    searchSuggestions: document.querySelector("#searchSuggestions"),
+    searchSuggestionList: document.querySelector("#searchSuggestionList"),
+    clearRecentSearches: document.querySelector("#clearRecentSearches"),
     stats: document.querySelector("#stats"),
     categoryTabs: document.querySelector("#categoryTabs"),
+    viewModeControl: document.querySelector("#viewModeControl"),
     sortSelect: document.querySelector("#sortSelect"),
     resultSummary: document.querySelector("#resultSummary"),
     songList: document.querySelector("#songList"),
     emptyState: document.querySelector("#emptyState"),
     updateSummary: document.querySelector("#updateSummary"),
     sectionIndex: document.querySelector("#sectionIndex"),
+    mainIndexButton: document.querySelector("#mainView [data-open-index]"),
     favoritesBack: document.querySelector("#favoritesBack"),
     favoriteCategoryTabs: document.querySelector("#favoriteCategoryTabs"),
     favoriteResultSummary: document.querySelector("#favoriteResultSummary"),
@@ -84,6 +97,10 @@
     "Junky": "정키",
     "HarryP": "하리P",
     "R Sound Design": "R 사운드 디자인",
+    "すりぃ": "스리이",
+    "なきそ": "나키소",
+    "LET ME KNOW": "렛 미 노우",
+    "indigo la End": "인디고 라 엔드",
     "ryo": "료",
     "KEI": "케이",
     "いよわ": "이요와",
@@ -214,6 +231,9 @@
     Object.entries(searchAliasMap).map(([name, aliases]) => [normalizeIdentity(name), aliases])
   );
   const searchTextCache = new WeakMap();
+  const searchFieldCache = new WeakMap();
+  const chipCache = new WeakMap();
+  const artistAliasCache = new WeakMap();
   let sectionSequence = 0;
   let sectionPrefix = "main";
   let indexObserver = null;
@@ -221,6 +241,9 @@
   let searchTimer = 0;
   let scrollSaveTimer = 0;
   let indexDrawerTrigger = null;
+  let suggestionIndex = [];
+  let visibleSuggestions = [];
+  let activeSuggestionIndex = -1;
 
   init();
 
@@ -228,7 +251,7 @@
     if ("scrollRestoration" in history) history.scrollRestoration = "manual";
     migrateGroupFavoriteIds();
     pruneFavoriteState();
-    els.sortSelect.value = state.sort;
+    suggestionIndex = buildSuggestionIndex();
     renderStats();
     renderTabs();
     renderFavoriteTabs();
@@ -239,8 +262,45 @@
   function bindEvents() {
     els.searchInput.addEventListener("input", () => {
       state.query = normalize(els.searchInput.value);
+      renderSearchSuggestions();
       window.clearTimeout(searchTimer);
       searchTimer = window.setTimeout(renderMain, 100);
+    });
+
+    els.searchInput.addEventListener("focus", renderSearchSuggestions);
+    els.searchInput.addEventListener("keydown", handleSearchKeydown);
+
+    els.searchForm.addEventListener("submit", event => {
+      event.preventDefault();
+      if (activeSuggestionIndex >= 0 && visibleSuggestions[activeSuggestionIndex]) {
+        selectSuggestion(visibleSuggestions[activeSuggestionIndex]);
+        return;
+      }
+      const query = els.searchInput.value.trim();
+      if (query) rememberSearch(query);
+      closeSearchSuggestions();
+      renderMain();
+    });
+
+    els.searchSuggestionList.addEventListener("click", event => {
+      const removeButton = event.target.closest(".recent-remove");
+      if (removeButton) {
+        removeRecentSearch(removeButton.dataset.query);
+        els.searchInput.focus();
+        renderSearchSuggestions(true);
+        return;
+      }
+      const option = event.target.closest(".search-suggestion-option");
+      if (!option) return;
+      const suggestion = visibleSuggestions[Number(option.dataset.index)];
+      if (suggestion) selectSuggestion(suggestion);
+    });
+
+    els.clearRecentSearches.addEventListener("click", () => {
+      state.recentSearches = [];
+      saveRecentSearches();
+      els.searchInput.focus();
+      renderSearchSuggestions(true);
     });
 
     els.clearSearch.addEventListener("click", () => {
@@ -249,6 +309,7 @@
       window.clearTimeout(searchTimer);
       els.searchInput.focus();
       renderMain();
+      renderSearchSuggestions();
     });
 
     els.sortSelect.addEventListener("change", () => {
@@ -257,6 +318,14 @@
       persistBrowseState();
       renderMain();
       restoreCurrentScrollPosition();
+    });
+
+    els.viewModeControl.addEventListener("click", event => {
+      const button = event.target.closest("[data-view-mode]");
+      if (!button || button.dataset.viewMode === state.viewMode) return;
+      state.viewMode = button.dataset.viewMode === "list" ? "list" : "card";
+      saveViewMode();
+      renderMain();
     });
 
     els.categoryTabs.addEventListener("click", event => {
@@ -338,9 +407,165 @@
     document.addEventListener("keydown", event => {
       if (event.key === "Escape" && !els.indexDrawer.hidden) closeIndexDrawer();
     });
+    document.addEventListener("pointerdown", event => {
+      if (!els.searchForm.contains(event.target)) closeSearchSuggestions();
+    });
+  }
+
+  function handleSearchKeydown(event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      if (activeSuggestionIndex >= 0 && visibleSuggestions[activeSuggestionIndex]) {
+        selectSuggestion(visibleSuggestions[activeSuggestionIndex]);
+      } else {
+        const query = els.searchInput.value.trim();
+        if (query) rememberSearch(query);
+        closeSearchSuggestions();
+        renderMain();
+      }
+      return;
+    }
+    if (event.key === "Escape" && !els.searchSuggestions.hidden) {
+      event.preventDefault();
+      closeSearchSuggestions();
+      return;
+    }
+    if (event.key === "Tab") {
+      closeSearchSuggestions();
+      return;
+    }
+    if (!['ArrowDown', 'ArrowUp'].includes(event.key)) return;
+    if (els.searchSuggestions.hidden) renderSearchSuggestions();
+    if (!visibleSuggestions.length) return;
+    event.preventDefault();
+    const direction = event.key === "ArrowDown" ? 1 : -1;
+    const nextIndex = activeSuggestionIndex < 0
+      ? direction > 0 ? 0 : visibleSuggestions.length - 1
+      : (activeSuggestionIndex + direction + visibleSuggestions.length) % visibleSuggestions.length;
+    setActiveSuggestion(nextIndex);
+  }
+
+  function renderSearchSuggestions(force = false) {
+    if (!force && document.activeElement !== els.searchInput) return;
+    const rawQuery = els.searchInput.value.trim();
+    visibleSuggestions = rawQuery
+      ? getSearchSuggestions(rawQuery)
+      : state.recentSearches.map(value => ({ type: "recent", label: value, value, meta: "최근 검색어" }));
+    activeSuggestionIndex = -1;
+    els.searchInput.removeAttribute("aria-activedescendant");
+    els.searchSuggestionList.replaceChildren(...visibleSuggestions.map((suggestion, index) => {
+      const row = document.createElement("div");
+      row.className = "search-suggestion-row";
+
+      const option = document.createElement("button");
+      option.type = "button";
+      option.id = `search-suggestion-${index}`;
+      option.className = "search-suggestion-option";
+      option.dataset.index = String(index);
+      option.setAttribute("role", "option");
+      option.setAttribute("aria-selected", "false");
+
+      const text = document.createElement("span");
+      text.className = "search-suggestion-text";
+      const label = document.createElement("strong");
+      label.textContent = suggestion.label;
+      const meta = document.createElement("small");
+      meta.textContent = suggestion.meta;
+      text.append(label, meta);
+      option.append(text);
+      row.append(option);
+
+      if (suggestion.type === "recent") {
+        const remove = document.createElement("button");
+        remove.type = "button";
+        remove.className = "recent-remove";
+        remove.dataset.query = suggestion.value;
+        remove.setAttribute("aria-label", `${suggestion.value} 최근 검색어 삭제`);
+        remove.title = "최근 검색어 삭제";
+        remove.textContent = "×";
+        row.append(remove);
+      }
+      return row;
+    }));
+
+    const hasSuggestions = visibleSuggestions.length > 0;
+    els.searchSuggestions.hidden = !hasSuggestions;
+    els.searchInput.setAttribute("aria-expanded", String(hasSuggestions));
+    els.clearRecentSearches.hidden = Boolean(rawQuery) || !state.recentSearches.length;
+  }
+
+  function closeSearchSuggestions() {
+    els.searchSuggestions.hidden = true;
+    els.searchInput.setAttribute("aria-expanded", "false");
+    els.searchInput.removeAttribute("aria-activedescendant");
+    visibleSuggestions = [];
+    activeSuggestionIndex = -1;
+  }
+
+  function setActiveSuggestion(index) {
+    activeSuggestionIndex = index;
+    els.searchSuggestionList.querySelectorAll(".search-suggestion-option").forEach((option, optionIndex) => {
+      const active = optionIndex === index;
+      option.setAttribute("aria-selected", String(active));
+      option.classList.toggle("is-active", active);
+      if (active) {
+        els.searchInput.setAttribute("aria-activedescendant", option.id);
+        option.scrollIntoView({ block: "nearest" });
+      }
+    });
+  }
+
+  function selectSuggestion(suggestion) {
+    if (suggestion.song && categories.includes(state.category) && !hasCategory(suggestion.song, state.category)) {
+      state.category = "전체";
+    }
+    applySearchQuery(suggestion.value);
+  }
+
+  function applySearchQuery(value) {
+    const query = String(value || "").trim();
+    if (!query) return;
+    if (categories.includes(query)) {
+      state.category = query;
+      els.searchInput.value = "";
+      state.query = "";
+    } else {
+      els.searchInput.value = query;
+      state.query = normalize(query);
+      rememberSearch(query);
+    }
+    closeSearchSuggestions();
+    if (state.view === "favorites") {
+      history.pushState({ view: "main" }, "", `${location.pathname}${location.search}`);
+      showMainView();
+    } else {
+      renderTabs();
+      renderMain();
+    }
   }
 
   function handleListClick(event) {
+    const tagOverflow = event.target.closest(".song-tag-more");
+    if (tagOverflow) {
+      const row = tagOverflow.closest(".song-tags");
+      const expanded = tagOverflow.getAttribute("aria-expanded") === "true";
+      row.querySelectorAll(".song-tag.is-extra").forEach(tag => {
+        tag.hidden = expanded;
+      });
+      tagOverflow.setAttribute("aria-expanded", String(!expanded));
+      tagOverflow.setAttribute("aria-label", expanded
+        ? `태그 ${tagOverflow.dataset.extraCount}개 더 보기`
+        : "추가 태그 접기");
+      tagOverflow.textContent = expanded ? `+${tagOverflow.dataset.extraCount}` : "접기";
+      return;
+    }
+
+    const searchChip = event.target.closest(".song-tag[data-search-query]");
+    if (searchChip) {
+      applySearchQuery(searchChip.dataset.searchQuery);
+      return;
+    }
+
     const favoriteButton = event.target.closest(".favorite");
     if (favoriteButton) {
       toggleSongFavorite(favoriteButton.dataset.number);
@@ -436,13 +661,48 @@
     }));
   }
 
+  function syncMainControls() {
+    const context = state.category === "아티스트별"
+      ? "artist"
+      : state.category === "업데이트" ? "update" : "flat";
+    const options = sortOptions[context];
+    const validValues = options.map(([value]) => value);
+    if (!validValues.includes(state.sort)) {
+      state.sort = options[0][0];
+      persistBrowseState();
+    }
+
+    const currentValues = [...els.sortSelect.options].map(option => option.value).join("|");
+    if (currentValues !== validValues.join("|")) {
+      els.sortSelect.replaceChildren(...options.map(([value, label]) => {
+        const option = document.createElement("option");
+        option.value = value;
+        option.textContent = label;
+        return option;
+      }));
+    }
+    els.sortSelect.value = state.sort;
+
+    const groupedView = state.category === "아티스트별";
+    els.viewModeControl.hidden = groupedView;
+    els.mainIndexButton.hidden = Boolean(state.query)
+      || (!groupedView && !["전체", "업데이트"].includes(state.category));
+    els.viewModeControl.querySelectorAll("[data-view-mode]").forEach(button => {
+      const selected = button.dataset.viewMode === state.viewMode;
+      button.setAttribute("aria-pressed", String(selected));
+    });
+  }
+
   function renderMain() {
     sectionSequence = 0;
     sectionPrefix = "main";
+    syncMainControls();
     const filtered = getMainSongs();
     const entries = [];
     const label = state.category === "아티스트별" ? "아티스트와 프로듀서" : state.category;
-    els.resultSummary.textContent = `${label} · ${filtered.length}곡`;
+    els.resultSummary.textContent = state.query
+      ? `검색 결과 · ${filtered.length}곡`
+      : `${label} · ${filtered.length}곡`;
     els.emptyState.textContent = state.category === "업데이트" ? "업데이트 목록이 없습니다." : "검색 결과가 없습니다.";
     els.emptyState.hidden = filtered.length > 0;
     els.songList.hidden = filtered.length === 0;
@@ -450,9 +710,15 @@
     els.updateSummary.hidden = state.category !== "업데이트";
     if (state.category === "업데이트") renderUpdateSummary(filtered);
 
-    const content = state.category === "아티스트별"
-      ? buildArtistDirectory(filtered, entries)
-      : buildCategorySections(
+    els.sortSelect.disabled = Boolean(state.query);
+    els.sortSelect.title = state.query ? "검색 중에는 관련도순으로 표시됩니다." : "";
+    els.songList.classList.toggle("is-list-view", state.viewMode === "list" && state.category !== "아티스트별");
+    els.songList.classList.toggle("is-card-view", state.viewMode === "card" || state.category === "아티스트별");
+    const content = state.query
+      ? buildSearchResults(filtered)
+      : state.category === "아티스트별"
+        ? buildArtistDirectory(filtered, entries)
+        : buildFlatSections(
           filtered,
           entries,
           categories.includes(state.category) ? state.category : ""
@@ -470,11 +736,11 @@
       return categoryMatched && isSongFavorite(song);
     });
     const entries = [];
-    const artistCount = new Set(favoriteSongs.map(song => getGroupInfo(song).id)).size;
+    const artistCount = new Set(favoriteSongs.map(song => getFavoriteGroupInfo(song, song.category).id)).size;
     els.favoriteResultSummary.textContent = `${favoriteSongs.length}곡 · ${artistCount}개 그룹`;
     els.favoriteEmptyState.hidden = favoriteSongs.length > 0;
     els.favoriteSongList.hidden = favoriteSongs.length === 0;
-    els.favoriteSongList.replaceChildren(...buildCategorySections(favoriteSongs, entries, state.favoriteCategory));
+    els.favoriteSongList.replaceChildren(...buildFavoriteSections(favoriteSongs, entries, state.favoriteCategory));
     renderIndex(els.favoriteSectionIndex, entries);
     if (state.view === "favorites") activateIndex(entries);
   }
@@ -499,22 +765,39 @@
   }
 
   function getMainSongs() {
-    return songs.filter(song => {
+    const categorySongs = songs.filter(song => {
       const categoryMatched = ["전체", "업데이트", "아티스트별"].includes(state.category) || hasCategory(song, state.category);
       const updateMatched = state.category !== "업데이트" || isUpdated(song);
-      if (!categoryMatched || !updateMatched) return false;
-      return !state.query || getSearchText(song).includes(state.query);
+      return categoryMatched && updateMatched;
     });
+    if (!state.query) return categorySongs;
+    return categorySongs
+      .map(song => ({ song, score: scoreSong(song, state.query) }))
+      .filter(result => result.score > 0)
+      .sort((a, b) => b.score - a.score
+        || collator.compare(a.song.titleKo, b.song.titleKo)
+        || Number(a.song.number) - Number(b.song.number))
+      .map(result => result.song);
   }
 
-  function buildCategorySections(items, indexEntries, forcedCategory = "") {
+  function buildSearchResults(items) {
+    const cards = document.createElement("div");
+    cards.className = "cards search-result-cards";
+    const categoryOverride = categories.includes(state.category) ? state.category : "";
+    cards.append(...items.map(song => makeSongCard(song, categoryOverride)));
+    return [cards];
+  }
+
+  function buildFlatSections(items, indexEntries, forcedCategory = "") {
     const sections = [];
     const sectionCategories = forcedCategory && forcedCategory !== "전체"
       ? [forcedCategory]
       : categories;
 
     sectionCategories.forEach(category => {
-      const categorySongs = items.filter(song => hasCategory(song, category));
+      const categorySongs = items.filter(song => forcedCategory
+        ? hasCategory(song, category)
+        : song.category === category);
       if (!categorySongs.length) return;
 
       const section = document.createElement("section");
@@ -528,8 +811,40 @@
       section.append(title);
       indexEntries.push({ id: title.id, label: category, level: "category", category });
 
-      groupSongs(categorySongs, false, category).forEach(group => {
-        section.append(makeCollapsibleGroup(group, indexEntries, category));
+      const cards = document.createElement("div");
+      cards.className = "cards";
+      cards.append(...sortFlatSongs(categorySongs).map(song => makeSongCard(song, forcedCategory ? category : "")));
+      section.append(cards);
+      sections.push(section);
+    });
+    return sections;
+  }
+
+  function buildFavoriteSections(items, indexEntries, forcedCategory = "") {
+    const sections = [];
+    const sectionCategories = forcedCategory && forcedCategory !== "전체"
+      ? [forcedCategory]
+      : categories;
+
+    sectionCategories.forEach(category => {
+      const categorySongs = items.filter(song => forcedCategory
+        ? hasCategory(song, category)
+        : song.category === category);
+      if (!categorySongs.length) return;
+
+      const section = document.createElement("section");
+      section.className = "song-section";
+      section.dataset.accent = category;
+
+      const title = document.createElement("h2");
+      title.className = "section-title";
+      title.id = nextSectionId("category");
+      title.innerHTML = `${escapeHtml(category)} <small>${categorySongs.length}곡</small>`;
+      section.append(title);
+      indexEntries.push({ id: title.id, label: category, level: "category", category });
+
+      groupFavoriteSongs(categorySongs, category).forEach(group => {
+        section.append(makeCollapsibleGroup(group, indexEntries, category, false));
       });
       sections.push(section);
     });
@@ -540,7 +855,7 @@
     return groupSongs(items, true).map(group => makeCollapsibleGroup(group, indexEntries));
   }
 
-  function makeCollapsibleGroup(group, indexEntries, categoryOverride = "") {
+  function makeCollapsibleGroup(group, indexEntries, categoryOverride = "", showGroupFavorite = true) {
     const wrap = document.createElement("section");
     wrap.className = "artist-directory-group song-group is-collapsible";
     wrap.dataset.accent = categoryOverride || group.info.category;
@@ -549,7 +864,7 @@
       (state.view === "main" && state.query)
       || state.expandedGroups.has(group.info.id)
     );
-    wrap.append(makeGroupHeader(group, true, indexEntries, expanded));
+    wrap.append(makeGroupHeader(group, true, indexEntries, expanded, showGroupFavorite));
 
     if (expanded) {
       const cards = document.createElement("div");
@@ -583,6 +898,20 @@
         return a.items.length - b.items.length;
       }
       return collator.compare(left, right) || collator.compare(a.info.alias, b.info.alias);
+    });
+  }
+
+  function groupFavoriteSongs(items, category) {
+    const byId = new Map();
+    items.forEach(song => {
+      const info = getFavoriteGroupInfo(song, category);
+      if (!byId.has(info.id)) byId.set(info.id, { info, items: [] });
+      byId.get(info.id).items.push(song);
+    });
+    return [...byId.values()].sort((a, b) => {
+      return b.items.length - a.items.length
+        || collator.compare(a.info.name, b.info.name)
+        || collator.compare(a.info.alias, b.info.alias);
     });
   }
 
@@ -624,6 +953,23 @@
     };
   }
 
+  function getFavoriteGroupInfo(song, category) {
+    if (category === "보카로") return getGroupInfo(song, category);
+    const manualGroup = getManualGroup(song);
+    const name = category === "J-POP"
+      ? String(song.jpopGroup || manualGroup || song.artist || "아티스트 미상").trim()
+      : String(song.artist || "아티스트 미상").trim();
+    const alias = getKnownAlias(name) || getPrimaryArtistAlias(song);
+    const canonicalName = alias || name;
+    return {
+      id: `favorite:${category}:${normalizeIdentity(canonicalName)}`,
+      name,
+      alias: shouldAppendAlias(name, alias) ? alias : "",
+      type: "아티스트",
+      category
+    };
+  }
+
   function getAlsoCategories(song) {
     const values = Array.isArray(song.alsoCategories) ? song.alsoCategories : [];
     return values.filter(category => categories.includes(category) && category !== song.category);
@@ -642,7 +988,7 @@
     return value && value !== song.category ? value : "";
   }
 
-  function makeGroupHeader(group, collapsible, indexEntries, expanded = false) {
+  function makeGroupHeader(group, collapsible, indexEntries, expanded = false, showGroupFavorite = true) {
     const header = document.createElement("div");
     header.className = "group-title-wrap";
     header.id = nextSectionId("group");
@@ -665,16 +1011,18 @@
       heading.innerHTML = `${escapeHtml(formatGroupName(group.info))}<small>${group.items.length}곡 수록</small>`;
     }
 
-    const favorite = document.createElement("button");
-    favorite.type = "button";
-    favorite.className = "group-favorite";
-    favorite.dataset.groupId = group.info.id;
-    favorite.setAttribute("aria-label", `${formatGroupName(group.info)} 전곡 즐겨찾기`);
-    favorite.setAttribute("aria-pressed", String(state.artistFavorites.has(group.info.id)));
-    favorite.textContent = state.artistFavorites.has(group.info.id) ? "♥" : "♡";
-    if (collapsible) favorite.classList.add("is-directory");
-
-    header.append(heading, favorite);
+    header.append(heading);
+    if (showGroupFavorite) {
+      const favorite = document.createElement("button");
+      favorite.type = "button";
+      favorite.className = "group-favorite";
+      favorite.dataset.groupId = group.info.id;
+      favorite.setAttribute("aria-label", `${formatGroupName(group.info)} 전곡 즐겨찾기`);
+      favorite.setAttribute("aria-pressed", String(state.artistFavorites.has(group.info.id)));
+      favorite.textContent = state.artistFavorites.has(group.info.id) ? "♥" : "♡";
+      if (collapsible) favorite.classList.add("is-directory");
+      header.append(favorite);
+    }
     indexEntries.push({
       id: header.id,
       label: group.info.name,
@@ -713,13 +1061,31 @@
     `;
     const chipRow = document.createElement("div");
     chipRow.className = "song-tags";
-    getVisibleChips(song).forEach(label => {
-      const chipEl = document.createElement("span");
+    const chips = getVisibleChips(song);
+    chips.forEach((label, index) => {
+      const chipEl = document.createElement("button");
+      chipEl.type = "button";
       chipEl.className = "song-tag";
+      if (index >= 3) {
+        chipEl.classList.add("is-extra");
+        chipEl.hidden = true;
+      }
+      chipEl.dataset.searchQuery = label;
+      chipEl.setAttribute("aria-label", `${label} 검색`);
       chipEl.textContent = label;
       chipRow.append(chipEl);
     });
-    if (chipRow.childElementCount) body.append(chipRow);
+    if (chips.length > 3) {
+      const more = document.createElement("button");
+      more.type = "button";
+      more.className = "song-tag song-tag-more";
+      more.dataset.extraCount = String(chips.length - 3);
+      more.setAttribute("aria-expanded", "false");
+      more.setAttribute("aria-label", `태그 ${chips.length - 3}개 더 보기`);
+      more.textContent = `+${chips.length - 3}`;
+      chipRow.append(more);
+    }
+    body.append(chipRow);
 
     const favorite = document.createElement("button");
     favorite.type = "button";
@@ -736,6 +1102,20 @@
 
   function sortSongs(items) {
     return [...items].sort((a, b) => {
+      return collator.compare(a.titleKo, b.titleKo) || Number(a.number) - Number(b.number);
+    });
+  }
+
+  function sortFlatSongs(items) {
+    return [...items].sort((a, b) => {
+      if (state.sort === "newest") {
+        const dateOrder = String(b.updatedAt || "").localeCompare(String(a.updatedAt || ""));
+        if (dateOrder) return dateOrder;
+      }
+      if (state.sort === "artist" || state.sort === "newest") {
+        const artistOrder = collator.compare(a.artist, b.artist);
+        if (artistOrder) return artistOrder;
+      }
       return collator.compare(a.titleKo, b.titleKo) || Number(a.number) - Number(b.number);
     });
   }
@@ -905,6 +1285,58 @@
     }
   }
 
+  function loadViewMode() {
+    try {
+      return localStorage.getItem("flylist:view-mode") === "list" ? "list" : "card";
+    } catch {
+      return "card";
+    }
+  }
+
+  function saveViewMode() {
+    try {
+      localStorage.setItem("flylist:view-mode", state.viewMode);
+    } catch {
+      // View preference is optional; card view remains the fallback.
+    }
+  }
+
+  function loadRecentSearches() {
+    try {
+      const values = JSON.parse(localStorage.getItem("flylist:recent-searches") || "[]");
+      return Array.isArray(values)
+        ? values.map(value => String(value).trim()).filter(Boolean).slice(0, 5)
+        : [];
+    } catch {
+      return [];
+    }
+  }
+
+  function saveRecentSearches() {
+    try {
+      localStorage.setItem("flylist:recent-searches", JSON.stringify(state.recentSearches.slice(0, 5)));
+    } catch {
+      // Search history is optional; searching must work without storage.
+    }
+  }
+
+  function rememberSearch(value) {
+    const query = String(value || "").trim();
+    const key = normalize(query);
+    if (!key) return;
+    state.recentSearches = [
+      query,
+      ...state.recentSearches.filter(item => normalize(item) !== key)
+    ].slice(0, 5);
+    saveRecentSearches();
+  }
+
+  function removeRecentSearch(value) {
+    const key = normalize(value);
+    state.recentSearches = state.recentSearches.filter(item => normalize(item) !== key);
+    saveRecentSearches();
+  }
+
   function loadBrowseState() {
     try {
       const value = JSON.parse(sessionStorage.getItem("flylist:browse-state") || "{}");
@@ -961,16 +1393,50 @@
   }
 
   function getVisibleChips(song) {
+    if (chipCache.has(song)) return chipCache.get(song);
     const seen = new Set();
-    const categoryTags = hasCategory(song, "애니메이션") ? ["애니메이션"] : [];
-    return [...categoryTags, ...getCustomTags(song), ...getAliases(song)]
+    const workTag = song.category === "애니메이션" ? getManualGroup(song) : "";
+    const chips = [
+      song.category,
+      getPrimaryArtistAlias(song),
+      workTag,
+      ...getCustomTags(song),
+      ...getAliases(song)
+    ]
       .filter(label => {
         const key = normalize(label);
         if (!key || seen.has(key)) return false;
         seen.add(key);
         return true;
-      })
-      .slice(0, 6);
+      });
+    chipCache.set(song, chips);
+    return chips;
+  }
+
+  function getPrimaryArtistAlias(song) {
+    if (artistAliasCache.has(song)) return artistAliasCache.get(song);
+    const directAlias = getKnownAlias(song.artist);
+    if (directAlias) {
+      artistAliasCache.set(song, directAlias);
+      return directAlias;
+    }
+    const artistParts = String(song.artist || "")
+      .split(/\s*(?:feat\.?|from|×|\+|&|,|，|\/|／|\(|\)|（|）)\s*/i)
+      .map(part => part.trim())
+      .filter(Boolean);
+    const partAlias = artistParts.map(getKnownAlias).find(Boolean);
+    if (partAlias) {
+      artistAliasCache.set(song, partAlias);
+      return partAlias;
+    }
+    const tag = String(song.tag || "").trim();
+    if (song.category !== "보카로" && /[가-힣]/.test(tag) && normalize(tag) !== normalize(song.artist)) {
+      artistAliasCache.set(song, tag);
+      return tag;
+    }
+    const groupAlias = getKnownAlias(song.jpopGroup || song.group);
+    artistAliasCache.set(song, groupAlias);
+    return groupAlias;
   }
 
   function getCustomTags(song) {
@@ -1070,6 +1536,108 @@
     ].join(" "));
     searchTextCache.set(song, value);
     return value;
+  }
+
+  function getSearchFields(song) {
+    if (searchFieldCache.has(song)) return searchFieldCache.get(song);
+    const fields = {
+      number: normalize(song.number),
+      titles: [song.titleKo, song.titleOriginal].map(normalize).filter(Boolean),
+      artists: [song.artist].map(normalize).filter(Boolean),
+      aliases: [...getAliasCandidates(song), ...getSearchAliasCandidates(song)].map(normalize).filter(Boolean),
+      groups: [song.group, song.jpopGroup, song.tag, song.tagKo].map(normalize).filter(Boolean),
+      tags: getCustomTags(song).map(normalize).filter(Boolean)
+    };
+    searchFieldCache.set(song, fields);
+    return fields;
+  }
+
+  function scoreSong(song, query) {
+    if (!query) return 0;
+    const fields = getSearchFields(song);
+    if (fields.number === query) return 1400;
+    let score = fields.number.startsWith(query) ? 900 : 0;
+    score = Math.max(score, scoreSearchValues(fields.titles, query, 1200, 1000, 760));
+    score = Math.max(score, scoreSearchValues(fields.artists, query, 920, 760, 560));
+    score = Math.max(score, scoreSearchValues(fields.aliases, query, 880, 720, 520));
+    score = Math.max(score, scoreSearchValues(fields.groups, query, 820, 680, 480));
+    score = Math.max(score, scoreSearchValues(fields.tags, query, 780, 640, 440));
+    return Math.max(score, getSearchText(song).includes(query) ? 200 : 0);
+  }
+
+  function scoreSearchValues(values, query, exactScore, prefixScore, containsScore) {
+    return values.reduce((score, value) => {
+      if (value === query) return Math.max(score, exactScore);
+      if (value.startsWith(query)) return Math.max(score, prefixScore);
+      if (value.includes(query)) return Math.max(score, containsScore);
+      return score;
+    }, 0);
+  }
+
+  function buildSuggestionIndex() {
+    const entries = songs.map(song => ({
+      type: "song",
+      label: song.titleKo,
+      value: song.titleKo,
+      meta: `곡 · ${song.number} · ${song.artist}`,
+      primary: normalize(song.titleKo),
+      searchText: getSearchText(song),
+      song
+    }));
+    const entities = new Map();
+
+    const addEntity = (name, alias, type) => {
+      const cleanName = String(name || "").trim();
+      const cleanAlias = String(alias || "").trim();
+      if (!cleanName) return;
+      const value = cleanAlias || cleanName;
+      const key = `${type}:${normalizeIdentity(value)}`;
+      if (entities.has(key)) return;
+      const label = cleanAlias && shouldAppendAlias(cleanName, cleanAlias)
+        ? `${cleanName} · ${cleanAlias}`
+        : cleanName;
+      const keywords = [cleanName, cleanAlias, ...getSearchAliases(cleanName)]
+        .map(normalize)
+        .filter(Boolean);
+      entities.set(key, {
+        type: "entity",
+        label,
+        value,
+        meta: type,
+        primary: normalize(value),
+        keywords,
+        searchText: normalize([label, ...keywords].join(" "))
+      });
+    };
+
+    songs.forEach(song => {
+      addEntity(song.artist, getKnownAlias(song.artist), "아티스트");
+      [song.category, ...getAlsoCategories(song)].forEach(category => {
+        const info = getGroupInfo(song, category);
+        addEntity(info.name, info.alias, info.type);
+      });
+    });
+    return [...entries, ...entities.values()];
+  }
+
+  function getSearchSuggestions(value) {
+    const query = normalize(value);
+    if (!query) return [];
+    return suggestionIndex
+      .map(entry => {
+        let score = entry.song ? scoreSong(entry.song, query) : 0;
+        if (!entry.song) {
+          score = scoreSearchValues(entry.keywords, query, 1150, 900, 700);
+          score = Math.max(score, entry.searchText.includes(query) ? 500 : 0);
+        }
+        return { entry, score };
+      })
+      .filter(result => result.score > 0)
+      .sort((a, b) => b.score - a.score
+        || collator.compare(a.entry.label, b.entry.label)
+        || collator.compare(a.entry.meta, b.entry.meta))
+      .slice(0, 6)
+      .map(result => result.entry);
   }
 
   function renderIndex(container, entries) {
