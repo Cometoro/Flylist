@@ -132,6 +132,12 @@
     "手嶌葵": "테시마 아오이",
     "しぐれうい": "시구레 우이",
     "サツキ": "사츠키",
+    "くらげP": "쿠라게P",
+    "和田たけあき(くらげP)": "와다 타케아키(쿠라게P)",
+    "ピノキオピー": "피노키오피",
+    "吉本おじさん": "요시모토 오지상",
+    "雨衣": "우이",
+    "音街ウナ": "오토마치 우나",
     "かいりきベア": "카이리키 베어",
     "蝶々P": "쵸쵸P",
     "初音ミク": "하츠네 미쿠",
@@ -236,8 +242,8 @@
   const artistAliasCache = new WeakMap();
   let sectionSequence = 0;
   let sectionPrefix = "main";
-  let indexObserver = null;
   let activeIndexId = "";
+  let indexScrollFrame = 0;
   let searchTimer = 0;
   let scrollSaveTimer = 0;
   let indexDrawerTrigger = null;
@@ -401,8 +407,12 @@
     window.addEventListener("popstate", syncViewFromLocation);
     window.addEventListener("pagehide", saveCurrentScrollPosition);
     window.addEventListener("scroll", () => {
+      scheduleIndexActivation();
       window.clearTimeout(scrollSaveTimer);
       scrollSaveTimer = window.setTimeout(saveCurrentScrollPosition, 180);
+    }, { passive: true });
+    window.addEventListener("resize", () => {
+      scheduleIndexActivation();
     }, { passive: true });
     document.addEventListener("keydown", event => {
       if (event.key === "Escape" && !els.indexDrawer.hidden) closeIndexDrawer();
@@ -813,7 +823,27 @@
 
       const cards = document.createElement("div");
       cards.className = "cards";
-      cards.append(...sortFlatSongs(categorySongs).map(song => makeSongCard(song, forcedCategory ? category : "")));
+      const sortedSongs = sortFlatSongs(categorySongs, category);
+      let previousGroupId = "";
+      sortedSongs.forEach(song => {
+        const card = makeSongCard(song, forcedCategory ? category : "");
+        if (state.sort === "artist") {
+          const info = getGroupInfo(song, category);
+          if (info.id !== previousGroupId) {
+            card.id = nextSectionId("group");
+            card.classList.add("flat-index-anchor");
+            indexEntries.push({
+              id: card.id,
+              label: info.name,
+              search: [formatGroupName(info), ...getSearchAliases(info.name)].join(" "),
+              level: "group",
+              category
+            });
+            previousGroupId = info.id;
+          }
+        }
+        cards.append(card);
+      });
       section.append(cards);
       sections.push(section);
     });
@@ -1106,13 +1136,18 @@
     });
   }
 
-  function sortFlatSongs(items) {
+  function sortFlatSongs(items, categoryOverride = "") {
     return [...items].sort((a, b) => {
       if (state.sort === "newest") {
         const dateOrder = String(b.updatedAt || "").localeCompare(String(a.updatedAt || ""));
         if (dateOrder) return dateOrder;
       }
       if (state.sort === "artist" || state.sort === "newest") {
+        const leftGroup = getGroupInfo(a, categoryOverride || a.category);
+        const rightGroup = getGroupInfo(b, categoryOverride || b.category);
+        const groupOrder = collator.compare(leftGroup.name, rightGroup.name)
+          || collator.compare(leftGroup.alias, rightGroup.alias);
+        if (groupOrder) return groupOrder;
         const artistOrder = collator.compare(a.artist, b.artist);
         if (artistOrder) return artistOrder;
       }
@@ -1655,6 +1690,7 @@
     tools.append(label);
 
     if (entries.length >= 8) {
+      tools.classList.add("has-filter");
       const filter = document.createElement("input");
       filter.type = "search";
       filter.className = "index-filter";
@@ -1685,29 +1721,39 @@
 
   function activateIndex(entries) {
     state.activeIndexEntries = entries;
-    if (indexObserver) indexObserver.disconnect();
-    indexObserver = null;
     activeIndexId = "";
+    if (!entries.length) {
+      syncIndexButtonLabel();
+      return;
+    }
+    syncActiveIndexFromScroll();
+  }
+
+  function scheduleIndexActivation() {
+    if (indexScrollFrame || !state.activeIndexEntries.length) return;
+    indexScrollFrame = requestAnimationFrame(() => {
+      indexScrollFrame = 0;
+      syncActiveIndexFromScroll();
+    });
+  }
+
+  function syncActiveIndexFromScroll() {
+    const entries = state.activeIndexEntries;
     if (!entries.length) return;
+    const readingLine = Math.min(window.innerHeight * .3, 220);
+    let current = Math.max(0, entries.findIndex(entry => entry.id === activeIndexId));
 
-    setActiveIndex(entries[0].id);
-    if (!("IntersectionObserver" in window)) return;
-
-    indexObserver = new IntersectionObserver(records => {
-      const visible = records
-        .filter(record => record.isIntersecting)
-        .sort((a, b) => Math.abs(a.boundingClientRect.top - window.innerHeight / 2)
-          - Math.abs(b.boundingClientRect.top - window.innerHeight / 2));
-      if (visible[0]) setActiveIndex(visible[0].target.id);
-    }, {
-      rootMargin: "-45% 0px -45% 0px",
-      threshold: 0
-    });
-
-    entries.forEach(entry => {
-      const target = document.getElementById(entry.id);
-      if (target) indexObserver.observe(target);
-    });
+    while (current + 1 < entries.length) {
+      const next = document.getElementById(entries[current + 1].id);
+      if (!next || next.getBoundingClientRect().top > readingLine) break;
+      current += 1;
+    }
+    while (current > 0) {
+      const target = document.getElementById(entries[current].id);
+      if (target && target.getBoundingClientRect().top <= readingLine) break;
+      current -= 1;
+    }
+    setActiveIndex(entries[current].id);
   }
 
   function setActiveIndex(id) {
@@ -1718,6 +1764,29 @@
     });
     document.querySelectorAll(`.section-index-item[data-target="${cssEscape(id)}"]`).forEach(button => {
       button.setAttribute("aria-current", "true");
+      keepIndexItemVisible(button);
+    });
+    syncIndexButtonLabel(id);
+  }
+
+  function keepIndexItemVisible(button) {
+    const container = button.closest(".section-index");
+    if (!container || getComputedStyle(container).display === "none") return;
+    const topLimit = container.scrollTop + (container.querySelector(".section-index-tools")?.offsetHeight || 0);
+    const bottomLimit = container.scrollTop + container.clientHeight;
+    if (button.offsetTop < topLimit) container.scrollTop = Math.max(0, button.offsetTop - 8);
+    if (button.offsetTop + button.offsetHeight > bottomLimit) {
+      container.scrollTop = button.offsetTop + button.offsetHeight - container.clientHeight + 8;
+    }
+  }
+
+  function syncIndexButtonLabel(id = "") {
+    const entry = state.activeIndexEntries.find(item => item.id === id);
+    const label = entry?.label || "빠른 이동";
+    document.querySelectorAll("[data-open-index]").forEach(button => {
+      const text = button.querySelector(".index-button-label");
+      if (text) text.textContent = label;
+      button.setAttribute("aria-label", `${label} 빠른 이동 열기`);
     });
   }
 
@@ -1739,7 +1808,10 @@
     els.indexDrawerEmpty.hidden = true;
     els.indexDrawer.hidden = false;
     document.body.classList.add("drawer-open");
-    requestAnimationFrame(() => els.indexDrawerFilter.focus());
+    requestAnimationFrame(() => {
+      els.indexDrawerNav.querySelector('[aria-current="true"]')?.scrollIntoView({ block: "center" });
+      els.indexDrawer.querySelector(".drawer-close")?.focus({ preventScroll: true });
+    });
   }
 
   function closeIndexDrawer() {

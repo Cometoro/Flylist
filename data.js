@@ -99,12 +99,15 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "52465",
-    "titleKo": "술에 취하지 않고",
+    "titleKo": "취한 줄도 모르고",
     "titleOriginal": "酔いどれ知らず",
     "artist": "Kanaria feat. GUMI",
     "tag": "Kanaria",
     "category": "보카로",
-    "group": ""
+    "group": "",
+    "updateType": "modified",
+    "updatedAt": "2026-08-09",
+    "updateNote": "한국어 제목 표기 교정"
   },
   {
     "number": "27984",
@@ -2301,12 +2304,15 @@ window.FLYLIST_SONGS = [
   },
   {
     "number": "52466",
-    "titleKo": "사춘기병",
+    "titleKo": "청춘병",
     "titleOriginal": "青春病",
     "artist": "藤井風",
     "tag": "藤井風",
     "category": "J-POP",
-    "group": "藤井風"
+    "group": "藤井風",
+    "updateType": "modified",
+    "updatedAt": "2026-08-09",
+    "updateNote": "한국어 제목 표기 교정"
   },
   {
     "number": "68740",
@@ -9827,10 +9833,7 @@ window.FLYLIST_SONGS = [
     "group": "",
     "tags": [
       "카가미네 렌"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-08-03",
-    "updateNote": "TJ 2026년 7월 23~30일 신규곡"
+    ]
   },
   {
     "number": "52670",
@@ -9839,10 +9842,7 @@ window.FLYLIST_SONGS = [
     "artist": "tuki.",
     "tag": "tuki.",
     "category": "J-POP",
-    "group": "tuki.",
-    "updateType": "new",
-    "updatedAt": "2026-08-03",
-    "updateNote": "TJ 2026년 7월 23~30일 신규곡"
+    "group": "tuki."
   },
   {
     "number": "52669",
@@ -9854,10 +9854,7 @@ window.FLYLIST_SONGS = [
     "group": "YOASOBI",
     "tags": [
       "게임 OST"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-08-03",
-    "updateNote": "TJ 2026년 7월 23~30일 신규곡"
+    ]
   },
   {
     "number": "52668",
@@ -9869,10 +9866,7 @@ window.FLYLIST_SONGS = [
     "group": "",
     "tags": [
       "하츠네 미쿠"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-08-03",
-    "updateNote": "TJ 2026년 7월 23~30일 신규곡"
+    ]
   },
   {
     "number": "52667",
@@ -9881,10 +9875,7 @@ window.FLYLIST_SONGS = [
     "artist": "LET ME KNOW",
     "tag": "LET ME KNOW",
     "category": "J-POP",
-    "group": "LET ME KNOW",
-    "updateType": "new",
-    "updatedAt": "2026-08-03",
-    "updateNote": "TJ 2026년 7월 23~30일 신규곡"
+    "group": "LET ME KNOW"
   },
   {
     "number": "52666",
@@ -9896,10 +9887,7 @@ window.FLYLIST_SONGS = [
     "group": "LIAR GAME",
     "tags": [
       "애니메이션"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-08-03",
-    "updateNote": "TJ 2026년 7월 23~30일 신규곡"
+    ]
   },
   {
     "number": "52665",
@@ -9908,10 +9896,7 @@ window.FLYLIST_SONGS = [
     "artist": "indigo la End",
     "tag": "indigo la End",
     "category": "J-POP",
-    "group": "indigo la End",
-    "updateType": "new",
-    "updatedAt": "2026-08-03",
-    "updateNote": "TJ 2026년 7월 23~30일 신규곡"
+    "group": "indigo la End"
   },
   {
     "number": "52664",
@@ -9920,10 +9905,7 @@ window.FLYLIST_SONGS = [
     "artist": "Official髭男dism",
     "tag": "Official髭男dism",
     "category": "J-POP",
-    "group": "Official髭男dism",
-    "updateType": "new",
-    "updatedAt": "2026-08-03",
-    "updateNote": "TJ 2026년 7월 23~30일 신규곡"
+    "group": "Official髭男dism"
   },
   {
     "number": "52564",
@@ -9935,9 +9917,253 @@ window.FLYLIST_SONGS = [
     "group": "",
     "tags": [
       "하츠네 미쿠"
+    ]
+  },
+  {
+    "number": "52672",
+    "titleKo": "보통사람 퍼레이드",
+    "titleOriginal": "ぼんじんパレード",
+    "artist": "くらげP(Feat.音街ウナ)",
+    "tag": "和田たけあき(くらげP)",
+    "category": "보카로",
+    "group": "",
+    "tags": [
+      "오토마치 우나"
+    ],
+    "updateType": "modified",
+    "updatedAt": "2026-08-09",
+    "updateNote": "한국어 제목 표기 교정"
+  },
+  {
+    "number": "52673",
+    "titleKo": "답장 아직일까? 아저씨 문체!",
+    "titleOriginal": "お返事まだカナ？ おじさん構文！",
+    "artist": "吉本おじさん(Feat.雨衣)",
+    "tag": "吉本おじさん",
+    "category": "보카로",
+    "group": "",
+    "tags": [
+      "우이",
+      "VoiSona"
+    ]
+  },
+  {
+    "number": "52674",
+    "titleKo": "마법소녀와 초콜릿",
+    "titleOriginal": "魔法少女とチョコレゐト",
+    "artist": "ピノキオピー(Feat.初音ミク)",
+    "tag": "ピノキオピー",
+    "category": "보카로",
+    "group": "",
+    "tags": [
+      "하츠네 미쿠"
+    ]
+  },
+  {
+    "number": "52675",
+    "titleKo": "아포토시스",
+    "titleOriginal": "アポトーシス (Apple Music CM)",
+    "artist": "Official髭男dism",
+    "tag": "Official髭男dism",
+    "category": "J-POP",
+    "group": "Official髭男dism",
+    "tags": [
+      "CM송"
+    ]
+  },
+  {
+    "number": "52676",
+    "titleKo": "카노푸스",
+    "titleOriginal": "カノープス",
+    "artist": "Novelbright",
+    "tag": "Novelbright",
+    "category": "J-POP",
+    "group": "Novelbright"
+  },
+  {
+    "number": "68750",
+    "titleKo": "키라 킬러",
+    "titleOriginal": "綺羅キラー",
+    "artist": "ずっと真夜中でいいのに。(Feat.Mori Calliope)",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "tags": [
+      "모리 칼리오페"
     ],
     "updateType": "new",
-    "updatedAt": "2026-08-03",
-    "updateNote": "TJ 2026년 7월 23~30일 신규곡"
+    "updatedAt": "2026-08-09",
+    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+  },
+  {
+    "number": "68427",
+    "titleKo": "저 녀석들 전원 동창회",
+    "titleOriginal": "あいつら全員同窓会",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "updateType": "new",
+    "updatedAt": "2026-08-09",
+    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+  },
+  {
+    "number": "28942",
+    "titleKo": "초침을 깨물다",
+    "titleOriginal": "秒針を噛む",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "updateType": "new",
+    "updatedAt": "2026-08-09",
+    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+  },
+  {
+    "number": "68806",
+    "titleKo": "잔기",
+    "titleOriginal": "残機(アニメ 'チェンソーマン' ED)",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "애니메이션",
+    "group": "체인소 맨",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "ずっと真夜中でいいのに。",
+    "updateType": "new",
+    "updatedAt": "2026-08-09",
+    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+  },
+  {
+    "number": "52497",
+    "titleKo": "감이 좋아서 분해",
+    "titleOriginal": "勘冴えて悔しいわ",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "updateType": "new",
+    "updatedAt": "2026-08-09",
+    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+  },
+  {
+    "number": "52929",
+    "titleKo": "TAIDADA",
+    "titleOriginal": "TAIDADA(TVアニメ 'ダンダダン' OST)",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "애니메이션",
+    "group": "단다단",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "ずっと真夜中でいいのに。",
+    "updateType": "new",
+    "updatedAt": "2026-08-09",
+    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+  },
+  {
+    "number": "68270",
+    "titleKo": "공부해 둬",
+    "titleOriginal": "お勉強しといてよ",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "updateType": "new",
+    "updatedAt": "2026-08-09",
+    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+  },
+  {
+    "number": "68357",
+    "titleKo": "감 그레이",
+    "titleOriginal": "勘ぐれい",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "updateType": "new",
+    "updatedAt": "2026-08-09",
+    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+  },
+  {
+    "number": "52743",
+    "titleKo": "해마 성장통",
+    "titleOriginal": "海馬成長痛",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "updateType": "new",
+    "updatedAt": "2026-08-09",
+    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+  },
+  {
+    "number": "52492",
+    "titleKo": "하나이치몬메",
+    "titleOriginal": "花一匁(YouTubeプレミアム CM)",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "tags": [
+      "CM송"
+    ],
+    "updateType": "new",
+    "updatedAt": "2026-08-09",
+    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+  },
+  {
+    "number": "52502",
+    "titleKo": "메디아노체",
+    "titleOriginal": "メディアノーチェ",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "updateType": "new",
+    "updatedAt": "2026-08-09",
+    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+  },
+  {
+    "number": "52889",
+    "titleKo": "새턴",
+    "titleOriginal": "サターン",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "updateType": "new",
+    "updatedAt": "2026-08-09",
+    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+  },
+  {
+    "number": "68376",
+    "titleKo": "어둡게 검게",
+    "titleOriginal": "暗く黒く(映画'さんかく窓の外側は夜' OST)",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "애니메이션",
+    "group": "삼각창의 밖은 밤",
+    "tags": [
+      "영화 OST"
+    ],
+    "jpopGroup": "ずっと真夜中でいいのに。",
+    "updateType": "new",
+    "updatedAt": "2026-08-09",
+    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+  },
+  {
+    "number": "28971",
+    "titleKo": "뇌리 위의 크래커",
+    "titleOriginal": "脳裏上のクラッカー",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "updateType": "new",
+    "updatedAt": "2026-08-09",
+    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
   }
 ];
