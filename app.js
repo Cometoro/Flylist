@@ -104,7 +104,6 @@
     "ryo": "료",
     "KEI": "케이",
     "いよわ": "이요와",
-    "すりぃ": "스리",
     "てにをは": "테니오하",
     "とあ": "토아",
     "まらしぃ": "마라시",
@@ -149,8 +148,10 @@
     "아이리 칸나": "아이리칸나",
     "トゲナシトゲアリ": "토게나시 토게아리",
     "Ado": "아도",
+    "Aimer": "에메",
     "KANA-BOON": "카나분",
     "LiSA": "리사",
+    "MONGOL800": "몽골800",
     "Mrs. GREEN APPLE": "미세스 그린 애플",
     "MyGO!!!!!": "MyGO!",
     "RADWIMPS": "래드윔프스",
@@ -158,6 +159,14 @@
     "TK from 凛として時雨": "TK from 린토시테시구레",
     "凛として時雨": "린토시테시구레",
     "YOASOBI": "요아소비",
+    "ONE OK ROCK": "원 오크 록",
+    "ORANGE RANGE": "오렌지 렌지",
+    "UVERworld": "우버월드",
+    "eill": "에일",
+    "milet": "밀레",
+    "milet & Aimer & 幾田りら": "밀레·에메·이쿠타 리라",
+    "imase & なとり": "이마세·나토리",
+    "幾田りら": "이쿠타 리라",
     "supercell": "슈퍼셀",
     "いきものがかり": "이키모노가카리",
     "なとり": "나토리",
@@ -174,31 +183,37 @@
     "ヨルシカ": "요루시카",
     "ASIAN KUNG-FU GENERATION": "아시안 쿵푸 제너레이션",
     "サカナクション": "사카낙션",
+    "クリープハイプ": "크리프하이프",
+    "ポルノグラフィティ": "포르노그라피티",
     "Eve": "이브",
     "女王蜂": "여왕벌",
     "Vaundy": "바운디",
     "back number": "백 넘버",
     "あいみょん": "아이묭",
-    "Creepy Nuts": "크리피 넛츠",
+    "こっちのけんと": "콧치노켄토",
+    "Creepy Nuts": "크리피 너츠",
     "Saucy Dog": "사우시 도그",
     "UNISON SQUARE GARDEN": "유니즌 스퀘어 가든",
     "ナナヲアカリ": "나나오 아카리",
     "マカロニえんぴつ": "마카로니 엔피츠",
     "松田聖子": "마츠다 세이코",
+    "松原みき": "마츠바라 미키",
     "amazarashi": "아마자라시",
     "tuki.": "츠키",
-    "SEKAI NO OWARI": "세카이노오와리",
+    "SEKAI NO OWARI": "세카이노 오와리",
     "涼宮ハルヒ / 平野綾": "스즈미야 하루히 / 히라노 아야",
     "チョーキューメイ": "초큐메이",
     "X-JAPAN": "엑스재팬",
     "Leina": "레이나",
     "椎名林檎": "시이나 링고",
+    "椎名純平": "시이나 준페이",
     "Novelbright": "노벨브라이트",
     "星野源": "호시노 겐",
     "緑黄色社会": "녹황색사회",
     "DISH//": "디쉬",
     "yama": "야마",
     "ロクデナシ": "로쿠데나시",
+    "冨岡愛": "토미오카 아이",
     "尾崎豊": "오자키 유타카",
     "『ユイカ』": "유이카",
     "Tani Yuuki": "타니 유우키",
@@ -226,8 +241,16 @@
     "Official髭男dism": ["히게단"],
     "米津玄師": ["켄시"],
     "ASIAN KUNG-FU GENERATION": ["아지캉"],
+    "Aimer": ["에이머"],
+    "Creepy Nuts": ["크리피"],
     "Mrs. GREEN APPLE": ["미세스"],
+    "ONE OK ROCK": ["원오크", "원오크록"],
+    "ORANGE RANGE": ["오렌지레인지"],
     "RADWIMPS": ["래드"],
+    "SEKAI NO OWARI": ["세카오와"],
+    "ポルノグラフィティ": ["포르노"],
+    "椎名林檎": ["링고"],
+    "緑黄色社会": ["료쿠샤카"],
     "ずっと真夜中でいいのに。": ["즈토마요"]
   };
   const normalizedAliasMap = new Map(
@@ -695,8 +718,7 @@
 
     const groupedView = state.category === "아티스트별";
     els.viewModeControl.hidden = groupedView;
-    els.mainIndexButton.hidden = Boolean(state.query)
-      || (!groupedView && !["전체", "업데이트"].includes(state.category));
+    els.mainIndexButton.hidden = Boolean(state.query);
     els.viewModeControl.querySelectorAll("[data-view-mode]").forEach(button => {
       const selected = button.dataset.viewMode === state.viewMode;
       button.setAttribute("aria-pressed", String(selected));
@@ -735,6 +757,7 @@
         );
     els.songList.replaceChildren(...content);
     renderIndex(els.sectionIndex, entries);
+    els.mainIndexButton.hidden = Boolean(state.query) || entries.length < 2;
     if (state.view === "main") activateIndex(entries);
   }
 
@@ -757,6 +780,11 @@
 
   function renderUpdateSummary(updatedSongs) {
     const counts = countByCategory(updatedSongs);
+    const typeCounts = updatedSongs.reduce((acc, song) => {
+      const type = song.updateType === "modified" ? "modified" : "new";
+      acc[type] += 1;
+      return acc;
+    }, { new: 0, modified: 0 });
     const latestDate = updatedSongs
       .map(song => song.updatedAt || "")
       .sort()
@@ -767,6 +795,10 @@
       <div class="update-kicker"><span class="update-dot" aria-hidden="true"></span>${escapeHtml(dateLabel)} UPDATE</div>
       <div class="update-total-row">
         <strong>총 ${updatedSongs.length}곡</strong>
+        <div class="update-kind-counts" aria-label="업데이트 유형">
+          ${typeCounts.new ? `<span data-kind="new">신규 ${typeCounts.new}곡</span>` : ""}
+          ${typeCounts.modified ? `<span data-kind="modified">수정 ${typeCounts.modified}곡</span>` : ""}
+        </div>
         <div class="update-breakdown">
           ${categories.map(category => `<span data-category="${escapeHtml(category)}">${escapeHtml(category === "버츄얼 아티스트" ? "버츄얼" : category)} ${counts[category] || 0}곡</span>`).join("")}
         </div>
@@ -1084,10 +1116,16 @@
 
     const body = document.createElement("div");
     body.className = "song-body";
+    const updateBadge = state.view === "main" && state.category === "업데이트" && song.updateType
+      ? `<span class="update-kind-badge" data-kind="${song.updateType === "modified" ? "modified" : "new"}">${song.updateType === "modified" ? "수정" : "신규"}</span>`
+      : "";
     body.innerHTML = `
-      <div class="song-title">${escapeHtml(song.titleKo)}</div>
-      <div class="song-original">${escapeHtml(song.titleOriginal)}</div>
-      <div class="song-artist">${escapeHtml(song.artist)}</div>
+      <div class="song-title-row">
+        <div class="song-title">${highlightSearchText(song.titleKo)}</div>
+        ${updateBadge}
+      </div>
+      <div class="song-original">${highlightSearchText(song.titleOriginal)}</div>
+      <div class="song-artist">${highlightSearchText(song.artist)}</div>
     `;
     const chipRow = document.createElement("div");
     chipRow.className = "song-tags";
@@ -1825,8 +1863,20 @@
   function jumpToSection(id) {
     const target = document.getElementById(id);
     if (!target) return;
-    setActiveIndex(id);
-    target.scrollIntoView({ behavior: "smooth", block: "center" });
+    const root = document.documentElement;
+    const previousBehavior = root.style.scrollBehavior;
+    root.style.scrollBehavior = "auto";
+
+    const alignTarget = () => target.scrollIntoView({ behavior: "auto", block: "start" });
+    alignTarget();
+    requestAnimationFrame(() => {
+      alignTarget();
+      requestAnimationFrame(() => {
+        alignTarget();
+        root.style.scrollBehavior = previousBehavior;
+        setActiveIndex(id);
+      });
+    });
   }
 
   function nextSectionId(prefix) {
@@ -1910,6 +1960,27 @@
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#39;");
+  }
+
+  function highlightSearchText(value) {
+    const text = String(value || "");
+    const query = state.query ? els.searchInput.value.trim() : "";
+    if (!query) return escapeHtml(text);
+
+    const lowerText = text.toLocaleLowerCase("ko-KR");
+    const lowerQuery = query.toLocaleLowerCase("ko-KR");
+    const parts = [];
+    let cursor = 0;
+    let matchIndex = lowerText.indexOf(lowerQuery, cursor);
+
+    while (matchIndex !== -1) {
+      parts.push(escapeHtml(text.slice(cursor, matchIndex)));
+      parts.push(`<mark class="search-match">${escapeHtml(text.slice(matchIndex, matchIndex + query.length))}</mark>`);
+      cursor = matchIndex + query.length;
+      matchIndex = lowerText.indexOf(lowerQuery, cursor);
+    }
+    parts.push(escapeHtml(text.slice(cursor)));
+    return parts.join("");
   }
 
   function showToast(message) {

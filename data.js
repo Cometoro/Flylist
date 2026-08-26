@@ -104,10 +104,7 @@ window.FLYLIST_SONGS = [
     "artist": "Kanaria feat. GUMI",
     "tag": "Kanaria",
     "category": "보카로",
-    "group": "",
-    "updateType": "modified",
-    "updatedAt": "2026-08-09",
-    "updateNote": "한국어 제목 표기 교정"
+    "group": ""
   },
   {
     "number": "27984",
@@ -2309,10 +2306,7 @@ window.FLYLIST_SONGS = [
     "artist": "藤井風",
     "tag": "藤井風",
     "category": "J-POP",
-    "group": "藤井風",
-    "updateType": "modified",
-    "updatedAt": "2026-08-09",
-    "updateNote": "한국어 제목 표기 교정"
+    "group": "藤井風"
   },
   {
     "number": "68740",
@@ -9929,10 +9923,7 @@ window.FLYLIST_SONGS = [
     "group": "",
     "tags": [
       "오토마치 우나"
-    ],
-    "updateType": "modified",
-    "updatedAt": "2026-08-09",
-    "updateNote": "한국어 제목 표기 교정"
+    ]
   },
   {
     "number": "52673",
@@ -9990,10 +9981,7 @@ window.FLYLIST_SONGS = [
     "group": "ずっと真夜中でいいのに。",
     "tags": [
       "모리 칼리오페"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-08-09",
-    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+    ]
   },
   {
     "number": "68427",
@@ -10002,10 +9990,7 @@ window.FLYLIST_SONGS = [
     "artist": "ずっと真夜中でいいのに。",
     "tag": "ずっと真夜中でいいのに。",
     "category": "J-POP",
-    "group": "ずっと真夜中でいいのに。",
-    "updateType": "new",
-    "updatedAt": "2026-08-09",
-    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+    "group": "ずっと真夜中でいいのに。"
   },
   {
     "number": "28942",
@@ -10014,10 +9999,7 @@ window.FLYLIST_SONGS = [
     "artist": "ずっと真夜中でいいのに。",
     "tag": "ずっと真夜中でいいのに。",
     "category": "J-POP",
-    "group": "ずっと真夜中でいいのに。",
-    "updateType": "new",
-    "updatedAt": "2026-08-09",
-    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+    "group": "ずっと真夜中でいいのに。"
   },
   {
     "number": "68806",
@@ -10030,10 +10012,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "jpopGroup": "ずっと真夜中でいいのに。",
-    "updateType": "new",
-    "updatedAt": "2026-08-09",
-    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+    "jpopGroup": "ずっと真夜中でいいのに。"
   },
   {
     "number": "52497",
@@ -10042,10 +10021,7 @@ window.FLYLIST_SONGS = [
     "artist": "ずっと真夜中でいいのに。",
     "tag": "ずっと真夜中でいいのに。",
     "category": "J-POP",
-    "group": "ずっと真夜中でいいのに。",
-    "updateType": "new",
-    "updatedAt": "2026-08-09",
-    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+    "group": "ずっと真夜中でいいのに。"
   },
   {
     "number": "52929",
@@ -10058,10 +10034,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션"
     ],
-    "jpopGroup": "ずっと真夜中でいいのに。",
-    "updateType": "new",
-    "updatedAt": "2026-08-09",
-    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+    "jpopGroup": "ずっと真夜中でいいのに。"
   },
   {
     "number": "68270",
@@ -10070,10 +10043,7 @@ window.FLYLIST_SONGS = [
     "artist": "ずっと真夜中でいいのに。",
     "tag": "ずっと真夜中でいいのに。",
     "category": "J-POP",
-    "group": "ずっと真夜中でいいのに。",
-    "updateType": "new",
-    "updatedAt": "2026-08-09",
-    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+    "group": "ずっと真夜中でいいのに。"
   },
   {
     "number": "68357",
@@ -10082,10 +10052,7 @@ window.FLYLIST_SONGS = [
     "artist": "ずっと真夜中でいいのに。",
     "tag": "ずっと真夜中でいいのに。",
     "category": "J-POP",
-    "group": "ずっと真夜中でいいのに。",
-    "updateType": "new",
-    "updatedAt": "2026-08-09",
-    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+    "group": "ずっと真夜中でいいのに。"
   },
   {
     "number": "52743",
@@ -10094,10 +10061,7 @@ window.FLYLIST_SONGS = [
     "artist": "ずっと真夜中でいいのに。",
     "tag": "ずっと真夜中でいいのに。",
     "category": "J-POP",
-    "group": "ずっと真夜中でいいのに。",
-    "updateType": "new",
-    "updatedAt": "2026-08-09",
-    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+    "group": "ずっと真夜中でいいのに。"
   },
   {
     "number": "52492",
@@ -10109,10 +10073,7 @@ window.FLYLIST_SONGS = [
     "group": "ずっと真夜中でいいのに。",
     "tags": [
       "CM송"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-08-09",
-    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+    ]
   },
   {
     "number": "52502",
@@ -10121,10 +10082,7 @@ window.FLYLIST_SONGS = [
     "artist": "ずっと真夜中でいいのに。",
     "tag": "ずっと真夜中でいいのに。",
     "category": "J-POP",
-    "group": "ずっと真夜中でいいのに。",
-    "updateType": "new",
-    "updatedAt": "2026-08-09",
-    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+    "group": "ずっと真夜中でいいのに。"
   },
   {
     "number": "52889",
@@ -10133,10 +10091,7 @@ window.FLYLIST_SONGS = [
     "artist": "ずっと真夜中でいいのに。",
     "tag": "ずっと真夜中でいいのに。",
     "category": "J-POP",
-    "group": "ずっと真夜中でいいのに。",
-    "updateType": "new",
-    "updatedAt": "2026-08-09",
-    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+    "group": "ずっと真夜中でいいのに。"
   },
   {
     "number": "68376",
@@ -10147,12 +10102,13 @@ window.FLYLIST_SONGS = [
     "category": "애니메이션",
     "group": "삼각창의 밖은 밤",
     "tags": [
+      "애니메이션",
       "영화 OST"
     ],
     "jpopGroup": "ずっと真夜中でいいのに。",
-    "updateType": "new",
-    "updatedAt": "2026-08-09",
-    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+    "updateType": "modified",
+    "updatedAt": "2026-08-26",
+    "updateNote": "애니메이션 분류 태그 보완"
   },
   {
     "number": "28971",
@@ -10161,9 +10117,3232 @@ window.FLYLIST_SONGS = [
     "artist": "ずっと真夜中でいいのに。",
     "tag": "ずっと真夜中でいいのに。",
     "category": "J-POP",
-    "group": "ずっと真夜中でいいのに。",
+    "group": "ずっと真夜中でいいのに。"
+  },
+  {
+    "number": "52518",
+    "titleKo": "엔젤 시크",
+    "titleOriginal": "エンゼルシーク",
+    "artist": "Ado",
+    "tag": "Ado",
+    "category": "J-POP",
+    "group": "Ado",
+    "tagKo": "아도",
     "updateType": "new",
-    "updatedAt": "2026-08-09",
-    "updateNote": "TJ 즛토마요 수록곡 대조 추가"
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68904",
+    "titleKo": "드라이플라워",
+    "titleOriginal": "ドライフラワー",
+    "artist": "Ado",
+    "tag": "Ado",
+    "category": "J-POP",
+    "group": "Ado",
+    "tagKo": "아도",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68672",
+    "titleKo": "빙크스의 술",
+    "titleOriginal": "ビンクスの酒",
+    "artist": "Ado",
+    "tag": "Ado",
+    "category": "애니메이션",
+    "group": "원피스",
+    "tagKo": "아도",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "Ado",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28886",
+    "titleKo": "짝사랑",
+    "titleOriginal": "カタオモイ",
+    "artist": "Aimer",
+    "tag": "Aimer",
+    "category": "J-POP",
+    "group": "Aimer",
+    "tagKo": "에메",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68552",
+    "titleKo": "잔향산가",
+    "titleOriginal": "残響散歌",
+    "artist": "Aimer",
+    "tag": "Aimer",
+    "category": "애니메이션",
+    "group": "귀멸의 칼날",
+    "tagKo": "에메",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "Aimer",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28938",
+    "titleKo": "벚꽃",
+    "titleOriginal": "さくら",
+    "artist": "amazarashi",
+    "tag": "amazarashi",
+    "category": "J-POP",
+    "group": "amazarashi",
+    "tagKo": "아마자라시",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28976",
+    "titleKo": "작별 놀이",
+    "titleOriginal": "さよならごっこ",
+    "artist": "amazarashi",
+    "tag": "amazarashi",
+    "category": "애니메이션",
+    "group": "도로로",
+    "tagKo": "아마자라시",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "amazarashi",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52487",
+    "titleKo": "안티노미",
+    "titleOriginal": "アンチノミー",
+    "artist": "amazarashi",
+    "tag": "amazarashi",
+    "category": "애니메이션",
+    "group": "니어:오토마타 Ver1.1a",
+    "tagKo": "아마자라시",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "amazarashi",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52511",
+    "titleKo": "고스트",
+    "titleOriginal": "ゴースト",
+    "artist": "amazarashi",
+    "tag": "amazarashi",
+    "category": "J-POP",
+    "group": "amazarashi",
+    "tagKo": "아마자라시",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28219",
+    "titleKo": "스피드와 마찰",
+    "titleOriginal": "スピードと摩擦",
+    "artist": "amazarashi",
+    "tag": "amazarashi",
+    "category": "애니메이션",
+    "group": "란포기담",
+    "tagKo": "아마자라시",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "amazarashi",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28954",
+    "titleKo": "피아노 도둑",
+    "titleOriginal": "ピアノ泥棒",
+    "artist": "amazarashi",
+    "tag": "amazarashi",
+    "category": "J-POP",
+    "group": "amazarashi",
+    "tagKo": "아마자라시",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28897",
+    "titleKo": "메이데이 메이데이",
+    "titleOriginal": "メーデーメーデー",
+    "artist": "amazarashi",
+    "tag": "amazarashi",
+    "category": "J-POP",
+    "group": "amazarashi",
+    "tagKo": "아마자라시",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68241",
+    "titleKo": "라이프 이즈 뷰티풀",
+    "titleOriginal": "ライフイズ ビューティフル",
+    "artist": "amazarashi",
+    "tag": "amazarashi",
+    "category": "J-POP",
+    "group": "amazarashi",
+    "tagKo": "아마자라시",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28854",
+    "titleKo": "이름",
+    "titleOriginal": "名前",
+    "artist": "amazarashi",
+    "tag": "amazarashi",
+    "category": "J-POP",
+    "group": "amazarashi",
+    "tagKo": "아마자라시",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28864",
+    "titleKo": "생명에 걸맞은",
+    "titleOriginal": "命にふさわしい",
+    "artist": "amazarashi",
+    "tag": "amazarashi",
+    "category": "J-POP",
+    "group": "amazarashi",
+    "tagKo": "아마자라시",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68568",
+    "titleKo": "경계선",
+    "titleOriginal": "境界線",
+    "artist": "amazarashi",
+    "tag": "amazarashi",
+    "category": "애니메이션",
+    "group": "86 -에이티식스-",
+    "tagKo": "아마자라시",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "amazarashi",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28293",
+    "titleKo": "계절은 차례차례 죽어간다",
+    "titleOriginal": "季節は次々死んでいく",
+    "artist": "amazarashi",
+    "tag": "amazarashi",
+    "category": "애니메이션",
+    "group": "도쿄 구울",
+    "tagKo": "아마자라시",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "amazarashi",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28793",
+    "titleKo": "소년소녀",
+    "titleOriginal": "少年少女",
+    "artist": "amazarashi",
+    "tag": "amazarashi",
+    "category": "J-POP",
+    "group": "amazarashi",
+    "tagKo": "아마자라시",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68253",
+    "titleKo": "미래가 되지 못했던 그 밤에",
+    "titleOriginal": "未来になれなかったあの夜に",
+    "artist": "amazarashi",
+    "tag": "amazarashi",
+    "category": "J-POP",
+    "group": "amazarashi",
+    "tagKo": "아마자라시",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68177",
+    "titleKo": "텅 빈 하늘에 짓눌리다",
+    "titleOriginal": "空っぽの空に潰される",
+    "artist": "amazarashi",
+    "tag": "amazarashi",
+    "category": "J-POP",
+    "group": "amazarashi",
+    "tagKo": "아마자라시",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28758",
+    "titleKo": "하늘에 노래하면",
+    "titleOriginal": "空に歌えば",
+    "artist": "amazarashi",
+    "tag": "amazarashi",
+    "category": "애니메이션",
+    "group": "나의 히어로 아카데미아",
+    "tagKo": "아마자라시",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "amazarashi",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68009",
+    "titleKo": "HAPPY BIRTHDAY",
+    "titleOriginal": "HAPPY BIRTHDAY",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52927",
+    "titleKo": "어느 미래에서 사랑을 담아",
+    "titleOriginal": "ある未来より愛を込めて",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52443",
+    "titleKo": "도시테모 도시테모",
+    "titleOriginal": "どうしてもどうしても",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68091",
+    "titleKo": "솜사탕",
+    "titleOriginal": "わたがし",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68683",
+    "titleKo": "I Love You",
+    "titleOriginal": "アイラブユー",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27807",
+    "titleKo": "크리스마스 송",
+    "titleOriginal": "クリスマスソング",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52824",
+    "titleKo": "체크 원피스",
+    "titleOriginal": "チェックのワンピース",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28675",
+    "titleKo": "해피 엔드",
+    "titleOriginal": "ハッピーエンド",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52942",
+    "titleKo": "블루 앰버",
+    "titleOriginal": "ブルーアンバー",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68655",
+    "titleKo": "벨벳의 시",
+    "titleOriginal": "ベルベットの詩",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52404",
+    "titleKo": "세타가야 러브 스토리",
+    "titleOriginal": "世田谷ラブストーリー",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52545",
+    "titleKo": "빛의 거리",
+    "titleOriginal": "光の街",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68924",
+    "titleKo": "겨울과 봄",
+    "titleOriginal": "冬と春",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52900",
+    "titleKo": "너의 연인이 된다면",
+    "titleOriginal": "君の恋人になったら",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28910",
+    "titleKo": "대불정답",
+    "titleOriginal": "大不正解",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "애니메이션",
+    "group": "은혼",
+    "tagKo": "백 넘버",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "back number",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28968",
+    "titleKo": "행복",
+    "titleOriginal": "幸せ",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68484",
+    "titleKo": "새로운 연인들에게",
+    "titleOriginal": "新しい恋人達に",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68520",
+    "titleKo": "노랑",
+    "titleOriginal": "黄色",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27738",
+    "titleKo": "Hello, World!",
+    "titleOriginal": "Hello, World!",
+    "artist": "BUMP OF CHICKEN",
+    "tag": "BUMP OF CHICKEN",
+    "category": "애니메이션",
+    "group": "혈계전선",
+    "tagKo": "범프 오브 치킨",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "BUMP OF CHICKEN",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "26402",
+    "titleKo": "카르마",
+    "titleOriginal": "カルマ",
+    "artist": "BUMP OF CHICKEN",
+    "tag": "BUMP OF CHICKEN",
+    "category": "J-POP",
+    "group": "BUMP OF CHICKEN",
+    "tagKo": "범프 오브 치킨",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "25138",
+    "titleKo": "천체관측",
+    "titleOriginal": "天体観測",
+    "artist": "BUMP OF CHICKEN",
+    "tag": "BUMP OF CHICKEN",
+    "category": "J-POP",
+    "group": "BUMP OF CHICKEN",
+    "tagKo": "범프 오브 치킨",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52421",
+    "titleKo": "철야의 노래",
+    "titleOriginal": "よふかしのうた",
+    "artist": "Creepy Nuts",
+    "tag": "Creepy Nuts",
+    "category": "애니메이션",
+    "group": "철야의 노래",
+    "tagKo": "크리피 너츠",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "Creepy Nuts",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52704",
+    "titleKo": "오토노케",
+    "titleOriginal": "オトノケ - Otonoke",
+    "artist": "Creepy Nuts",
+    "tag": "Creepy Nuts",
+    "category": "애니메이션",
+    "group": "단다단",
+    "tagKo": "크리피 너츠",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "Creepy Nuts",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52569",
+    "titleKo": "늦잠",
+    "titleOriginal": "二度寝",
+    "artist": "Creepy Nuts",
+    "tag": "Creepy Nuts",
+    "category": "J-POP",
+    "group": "Creepy Nuts",
+    "tagKo": "크리피 너츠",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52533",
+    "titleKo": "남우조연상",
+    "titleOriginal": "助演男優賞",
+    "artist": "Creepy Nuts",
+    "tag": "Creepy Nuts",
+    "category": "J-POP",
+    "group": "Creepy Nuts",
+    "tagKo": "크리피 너츠",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68688",
+    "titleKo": "타천",
+    "titleOriginal": "堕天",
+    "artist": "Creepy Nuts",
+    "tag": "Creepy Nuts",
+    "category": "애니메이션",
+    "group": "철야의 노래",
+    "tagKo": "크리피 너츠",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "Creepy Nuts",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52685",
+    "titleKo": "큐스토의 노래",
+    "titleOriginal": "きゅーすとのうた",
+    "artist": "CUTIE STREET",
+    "tag": "CUTIE STREET",
+    "category": "J-POP",
+    "group": "CUTIE STREET",
+    "tagKo": "큐티 스트리트",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52677",
+    "titleKo": "큐트한 큐타이",
+    "titleOriginal": "キュートなキューたい",
+    "artist": "CUTIE STREET",
+    "tag": "CUTIE STREET",
+    "category": "애니메이션",
+    "group": "포켓몬스터",
+    "tagKo": "큐티 스트리트",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "CUTIE STREET",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52500",
+    "titleKo": "나이스네",
+    "titleOriginal": "ナイスだね",
+    "artist": "CUTIE STREET",
+    "tag": "CUTIE STREET",
+    "category": "J-POP",
+    "group": "CUTIE STREET",
+    "tagKo": "큐티 스트리트",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68870",
+    "titleKo": "happy ending",
+    "titleOriginal": "happy ending",
+    "artist": "eill",
+    "tag": "eill",
+    "category": "J-POP",
+    "group": "eill",
+    "tagKo": "에일",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68510",
+    "titleKo": "여기서 숨 쉬어",
+    "titleOriginal": "ここで息をして",
+    "artist": "eill",
+    "tag": "eill",
+    "category": "애니메이션",
+    "group": "도쿄 리벤저스",
+    "tagKo": "에일",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "eill",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68845",
+    "titleKo": "피날레",
+    "titleOriginal": "フィナーレ。",
+    "artist": "eill",
+    "tag": "eill",
+    "category": "애니메이션",
+    "group": "여름을 향한 터널, 이별의 출구",
+    "tagKo": "에일",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "eill",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52771",
+    "titleKo": "Dried Flower",
+    "titleOriginal": "Dried Flower",
+    "artist": "imase",
+    "tag": "imase",
+    "category": "J-POP",
+    "group": "imase",
+    "tagKo": "이마세",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52932",
+    "titleKo": "FRIENDS!!!",
+    "titleOriginal": "FRIENDS!!!",
+    "artist": "imase",
+    "tag": "imase",
+    "category": "J-POP",
+    "group": "imase",
+    "tagKo": "이마세",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68465",
+    "titleKo": "Happy Order?",
+    "titleOriginal": "Happy Order?",
+    "artist": "imase",
+    "tag": "imase",
+    "category": "J-POP",
+    "group": "imase",
+    "tagKo": "이마세",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68977",
+    "titleKo": "Midnight Girl",
+    "titleOriginal": "Midnight Girl",
+    "artist": "imase",
+    "tag": "imase",
+    "category": "J-POP",
+    "group": "imase",
+    "tagKo": "이마세",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52581",
+    "titleKo": "Shine Out",
+    "titleOriginal": "Shine Out",
+    "artist": "imase",
+    "tag": "imase",
+    "category": "J-POP",
+    "group": "imase",
+    "tagKo": "이마세",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68499",
+    "titleKo": "메트로시티",
+    "titleOriginal": "メトロシティ",
+    "artist": "imase & なとり",
+    "tag": "imase & なとり",
+    "category": "J-POP",
+    "group": "imase & なとり",
+    "tagKo": "이마세·나토리",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52943",
+    "titleKo": "이름 없는 나날",
+    "titleOriginal": "名前のない日々",
+    "artist": "imase",
+    "tag": "imase",
+    "category": "J-POP",
+    "group": "imase",
+    "tagKo": "이마세",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68982",
+    "titleKo": "사랑의 옷",
+    "titleOriginal": "恋衣",
+    "artist": "imase",
+    "tag": "imase",
+    "category": "J-POP",
+    "group": "imase",
+    "tagKo": "이마세",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68855",
+    "titleKo": "그라데이션",
+    "titleOriginal": "ぐらでーしょん",
+    "artist": "KANA-BOON (Feat.北澤ゆうほ)",
+    "tag": "KANA-BOON",
+    "category": "애니메이션",
+    "group": "야마다 군과 Lv999의 사랑을 하다",
+    "tagKo": "카나분",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "KANA-BOON",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68202",
+    "titleKo": "스타 마커",
+    "titleOriginal": "スターマーカー",
+    "artist": "KANA-BOON",
+    "tag": "KANA-BOON",
+    "category": "애니메이션",
+    "group": "나의 히어로 아카데미아",
+    "tagKo": "카나분",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "KANA-BOON",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68008",
+    "titleKo": "배턴 로드",
+    "titleOriginal": "バトンロード",
+    "artist": "KANA-BOON",
+    "tag": "KANA-BOON",
+    "category": "애니메이션",
+    "group": "NARUTO 시리즈",
+    "tagKo": "카나분",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "KANA-BOON",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27541",
+    "titleKo": "Crossing Field",
+    "titleOriginal": "Crossing Field",
+    "artist": "LiSA",
+    "tag": "LiSA",
+    "category": "애니메이션",
+    "group": "소드 아트 온라인",
+    "tagKo": "리사",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "LiSA",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68312",
+    "titleKo": "불꽃",
+    "titleOriginal": "炎",
+    "artist": "LiSA",
+    "tag": "LiSA",
+    "category": "애니메이션",
+    "group": "귀멸의 칼날",
+    "tagKo": "리사",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "LiSA",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "29962",
+    "titleKo": "당신에게",
+    "titleOriginal": "あなたに",
+    "artist": "MONGOL800",
+    "tag": "MONGOL800",
+    "category": "J-POP",
+    "group": "MONGOL800",
+    "tagKo": "몽골800",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "26592",
+    "titleKo": "작은 사랑의 노래",
+    "titleOriginal": "小さな恋のうた",
+    "artist": "MONGOL800",
+    "tag": "MONGOL800",
+    "category": "J-POP",
+    "group": "MONGOL800",
+    "tagKo": "몽골800",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68835",
+    "titleKo": "Magic",
+    "titleOriginal": "Magic",
+    "artist": "Mrs. GREEN APPLE",
+    "tag": "Mrs. GREEN APPLE",
+    "category": "J-POP",
+    "group": "Mrs. GREEN APPLE",
+    "tagKo": "미세스 그린 애플",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68736",
+    "titleKo": "소란지",
+    "titleOriginal": "Soranji",
+    "artist": "Mrs. GREEN APPLE",
+    "tag": "Mrs. GREEN APPLE",
+    "category": "J-POP",
+    "group": "Mrs. GREEN APPLE",
+    "tagKo": "미세스 그린 애플",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68141",
+    "titleKo": "점묘의 노래",
+    "titleOriginal": "点描の唄",
+    "artist": "Mrs. GREEN APPLE(Feat.井上苑子)",
+    "tag": "Mrs. GREEN APPLE",
+    "category": "J-POP",
+    "group": "Mrs. GREEN APPLE",
+    "tagKo": "미세스 그린 애플",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52543",
+    "titleKo": "Sunny drop",
+    "titleOriginal": "Sunny drop",
+    "artist": "Novelbright",
+    "tag": "Novelbright",
+    "category": "J-POP",
+    "group": "Novelbright",
+    "tagKo": "노벨브라이트",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52496",
+    "titleKo": "아네모네",
+    "titleOriginal": "アネモネ",
+    "artist": "Novelbright",
+    "tag": "Novelbright",
+    "category": "J-POP",
+    "group": "Novelbright",
+    "tagKo": "노벨브라이트",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52408",
+    "titleKo": "달맞이꽃",
+    "titleOriginal": "ツキミソウ",
+    "artist": "Novelbright",
+    "tag": "Novelbright",
+    "category": "J-POP",
+    "group": "Novelbright",
+    "tagKo": "노벨브라이트",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52531",
+    "titleKo": "꿈 불꽃",
+    "titleOriginal": "夢花火",
+    "artist": "Novelbright",
+    "tag": "Novelbright",
+    "category": "J-POP",
+    "group": "Novelbright",
+    "tagKo": "노벨브라이트",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52405",
+    "titleKo": "사랑이라든가 연애라든가",
+    "titleOriginal": "愛とか恋とか",
+    "artist": "Novelbright",
+    "tag": "Novelbright",
+    "category": "J-POP",
+    "group": "Novelbright",
+    "tagKo": "노벨브라이트",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52521",
+    "titleKo": "개막 선언",
+    "titleOriginal": "開幕宣言",
+    "artist": "Novelbright",
+    "tag": "Novelbright",
+    "category": "J-POP",
+    "group": "Novelbright",
+    "tagKo": "노벨브라이트",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52682",
+    "titleKo": "빈티지",
+    "titleOriginal": "ビンテージ",
+    "artist": "Official髭男dism",
+    "tag": "Official髭男dism",
+    "category": "J-POP",
+    "group": "Official髭男dism",
+    "tagKo": "오피셜히게단디즘",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27813",
+    "titleKo": "Clock Strikes",
+    "titleOriginal": "Clock Strikes",
+    "artist": "ONE OK ROCK",
+    "tag": "ONE OK ROCK",
+    "category": "J-POP",
+    "group": "ONE OK ROCK",
+    "tagKo": "원 오크 록",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27749",
+    "titleKo": "Cry Out",
+    "titleOriginal": "Cry Out",
+    "artist": "ONE OK ROCK",
+    "tag": "ONE OK ROCK",
+    "category": "J-POP",
+    "group": "ONE OK ROCK",
+    "tagKo": "원 오크 록",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27801",
+    "titleKo": "Deeper Deeper",
+    "titleOriginal": "Deeper Deeper",
+    "artist": "ONE OK ROCK",
+    "tag": "ONE OK ROCK",
+    "category": "J-POP",
+    "group": "ONE OK ROCK",
+    "tagKo": "원 오크 록",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27939",
+    "titleKo": "Heartache",
+    "titleOriginal": "Heartache",
+    "artist": "ONE OK ROCK",
+    "tag": "ONE OK ROCK",
+    "category": "J-POP",
+    "group": "ONE OK ROCK",
+    "tagKo": "원 오크 록",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28609",
+    "titleKo": "Mighty Long Fall",
+    "titleOriginal": "Mighty Long Fall",
+    "artist": "ONE OK ROCK",
+    "tag": "ONE OK ROCK",
+    "category": "J-POP",
+    "group": "ONE OK ROCK",
+    "tagKo": "원 오크 록",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28096",
+    "titleKo": "No Scared",
+    "titleOriginal": "No Scared",
+    "artist": "ONE OK ROCK",
+    "tag": "ONE OK ROCK",
+    "category": "J-POP",
+    "group": "ONE OK ROCK",
+    "tagKo": "원 오크 록",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27616",
+    "titleKo": "Nothing Helps",
+    "titleOriginal": "Nothing Helps",
+    "artist": "ONE OK ROCK",
+    "tag": "ONE OK ROCK",
+    "category": "J-POP",
+    "group": "ONE OK ROCK",
+    "tagKo": "원 오크 록",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27535",
+    "titleKo": "Re:Make",
+    "titleOriginal": "Re:Make",
+    "artist": "ONE OK ROCK",
+    "tag": "ONE OK ROCK",
+    "category": "J-POP",
+    "group": "ONE OK ROCK",
+    "tagKo": "원 오크 록",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68400",
+    "titleKo": "Renegades",
+    "titleOriginal": "Renegades",
+    "artist": "ONE OK ROCK",
+    "tag": "ONE OK ROCK",
+    "category": "J-POP",
+    "group": "ONE OK ROCK",
+    "tagKo": "원 오크 록",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27528",
+    "titleKo": "The Beginning",
+    "titleOriginal": "The Beginning",
+    "artist": "ONE OK ROCK",
+    "tag": "ONE OK ROCK",
+    "category": "J-POP",
+    "group": "ONE OK ROCK",
+    "tagKo": "원 오크 록",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28668",
+    "titleKo": "We Are",
+    "titleOriginal": "We Are",
+    "artist": "ONE OK ROCK",
+    "tag": "ONE OK ROCK",
+    "category": "J-POP",
+    "group": "ONE OK ROCK",
+    "tagKo": "원 오크 록",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27675",
+    "titleKo": "Wherever You Are",
+    "titleOriginal": "Wherever You Are",
+    "artist": "ONE OK ROCK",
+    "tag": "ONE OK ROCK",
+    "category": "J-POP",
+    "group": "ONE OK ROCK",
+    "tagKo": "원 오크 록",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27565",
+    "titleKo": "완전감각 Dreamer",
+    "titleOriginal": "完全感覚Dreamer",
+    "artist": "ONE OK ROCK",
+    "tag": "ONE OK ROCK",
+    "category": "J-POP",
+    "group": "ONE OK ROCK",
+    "tagKo": "원 오크 록",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27651",
+    "titleKo": "미완성 교향곡",
+    "titleOriginal": "未完成交響曲",
+    "artist": "ONE OK ROCK",
+    "tag": "ONE OK ROCK",
+    "category": "J-POP",
+    "group": "ONE OK ROCK",
+    "tagKo": "원 오크 록",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52953",
+    "titleKo": "욕망으로 가득 찬 청년단",
+    "titleOriginal": "欲望に満ちた青年団",
+    "artist": "ONE OK ROCK",
+    "tag": "ONE OK ROCK",
+    "category": "J-POP",
+    "group": "ONE OK ROCK",
+    "tagKo": "원 오크 록",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "26773",
+    "titleKo": "O2",
+    "titleOriginal": "O2",
+    "artist": "ORANGE RANGE",
+    "tag": "ORANGE RANGE",
+    "category": "애니메이션",
+    "group": "코드 기아스",
+    "tagKo": "오렌지 렌지",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "ORANGE RANGE",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "26631",
+    "titleKo": "이케나이 태양",
+    "titleOriginal": "イケナイ太陽",
+    "artist": "ORANGE RANGE",
+    "tag": "ORANGE RANGE",
+    "category": "J-POP",
+    "group": "ORANGE RANGE",
+    "tagKo": "오렌지 렌지",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "26029",
+    "titleKo": "인연",
+    "titleOriginal": "キズナ",
+    "artist": "ORANGE RANGE",
+    "tag": "ORANGE RANGE",
+    "category": "J-POP",
+    "group": "ORANGE RANGE",
+    "tagKo": "오렌지 렌지",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28210",
+    "titleKo": "행복의 음색",
+    "titleOriginal": "シアワセネイロ",
+    "artist": "ORANGE RANGE",
+    "tag": "ORANGE RANGE",
+    "category": "애니메이션",
+    "group": "코드 기아스",
+    "tagKo": "오렌지 렌지",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "ORANGE RANGE",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "25754",
+    "titleKo": "비바★록",
+    "titleOriginal": "ビバ★ロック",
+    "artist": "ORANGE RANGE",
+    "tag": "ORANGE RANGE",
+    "category": "애니메이션",
+    "group": "NARUTO 시리즈",
+    "tagKo": "오렌지 렌지",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "ORANGE RANGE",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "25742",
+    "titleKo": "이정표 ~a road home~",
+    "titleOriginal": "ミチシルベ ～a road home～",
+    "artist": "ORANGE RANGE",
+    "tag": "ORANGE RANGE",
+    "category": "J-POP",
+    "group": "ORANGE RANGE",
+    "tagKo": "오렌지 렌지",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "25999",
+    "titleKo": "러브 퍼레이드",
+    "titleOriginal": "ラヴ・パレード",
+    "artist": "ORANGE RANGE",
+    "tag": "ORANGE RANGE",
+    "category": "J-POP",
+    "group": "ORANGE RANGE",
+    "tagKo": "오렌지 렌지",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "25847",
+    "titleKo": "상하이 허니",
+    "titleOriginal": "上海ハニー",
+    "artist": "ORANGE RANGE",
+    "tag": "ORANGE RANGE",
+    "category": "J-POP",
+    "group": "ORANGE RANGE",
+    "tagKo": "오렌지 렌지",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "26948",
+    "titleKo": "눈동자 너머",
+    "titleOriginal": "瞳の先に",
+    "artist": "ORANGE RANGE",
+    "tag": "ORANGE RANGE",
+    "category": "J-POP",
+    "group": "ORANGE RANGE",
+    "tagKo": "오렌지 렌지",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "25904",
+    "titleKo": "꽃",
+    "titleOriginal": "花",
+    "artist": "ORANGE RANGE",
+    "tag": "ORANGE RANGE",
+    "category": "J-POP",
+    "group": "ORANGE RANGE",
+    "tagKo": "오렌지 렌지",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "25942",
+    "titleKo": "애스터리스크",
+    "titleOriginal": "～アスタリスク～",
+    "artist": "ORANGE RANGE",
+    "tag": "ORANGE RANGE",
+    "category": "애니메이션",
+    "group": "블리치",
+    "tagKo": "오렌지 렌지",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "ORANGE RANGE",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52679",
+    "titleKo": "Henceforth",
+    "titleOriginal": "Henceforth",
+    "artist": "Orangestar(Feat.IA)",
+    "tag": "Orangestar",
+    "category": "보카로",
+    "group": "Orangestar",
+    "tagKo": "오렌지스타",
+    "tags": [
+      "IA"
+    ],
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68759",
+    "titleKo": "스즈메",
+    "titleOriginal": "すずめ",
+    "artist": "RADWIMPS (Feat.十明)",
+    "tag": "RADWIMPS",
+    "category": "애니메이션",
+    "group": "스즈메의 문단속",
+    "tagKo": "래드윔프스",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "RADWIMPS",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27957",
+    "titleKo": "스파클 (Movie ver.)",
+    "titleOriginal": "スパークル(Movie Ver.)",
+    "artist": "RADWIMPS",
+    "tag": "RADWIMPS",
+    "category": "애니메이션",
+    "group": "너의 이름은.",
+    "tagKo": "래드윔프스",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "RADWIMPS",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52423",
+    "titleKo": "언젠가",
+    "titleOriginal": "いつか",
+    "artist": "Saucy Dog",
+    "tag": "Saucy Dog",
+    "category": "J-POP",
+    "group": "Saucy Dog",
+    "tagKo": "사우시 도그",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52524",
+    "titleKo": "이제 와서라도 나는 말할까",
+    "titleOriginal": "今更だって僕は言うかな",
+    "artist": "Saucy Dog",
+    "tag": "Saucy Dog",
+    "category": "J-POP",
+    "group": "Saucy Dog",
+    "tagKo": "사우시 도그",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52473",
+    "titleKo": "매듭",
+    "titleOriginal": "結",
+    "artist": "Saucy Dog",
+    "tag": "Saucy Dog",
+    "category": "J-POP",
+    "group": "Saucy Dog",
+    "tagKo": "사우시 도그",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27434",
+    "titleKo": "RPG",
+    "titleOriginal": "RPG",
+    "artist": "SEKAI NO OWARI",
+    "tag": "SEKAI NO OWARI",
+    "category": "애니메이션",
+    "group": "짱구는 못말려",
+    "tagKo": "세카이노 오와리",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "SEKAI NO OWARI",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52438",
+    "titleKo": "코토노하",
+    "titleOriginal": "コトノハ - Kotonoha",
+    "artist": "tuki.",
+    "tag": "tuki.",
+    "category": "J-POP",
+    "group": "tuki.",
+    "tagKo": "츠키",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52530",
+    "titleKo": "사쿠라, 너와 나",
+    "titleOriginal": "サクラキミワタシ - SAKURA KIMI WATASHI",
+    "artist": "tuki.",
+    "tag": "tuki.",
+    "category": "J-POP",
+    "group": "tuki.",
+    "tagKo": "츠키",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52928",
+    "titleKo": "성명",
+    "titleOriginal": "声命",
+    "artist": "tuki.",
+    "tag": "tuki.",
+    "category": "J-POP",
+    "group": "tuki.",
+    "tagKo": "츠키",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52922",
+    "titleKo": "속고 속이는 사랑",
+    "titleOriginal": "騙シ愛",
+    "artist": "tuki.",
+    "tag": "tuki.",
+    "category": "J-POP",
+    "group": "tuki.",
+    "tagKo": "츠키",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27198",
+    "titleKo": "Core Pride",
+    "titleOriginal": "Core Pride",
+    "artist": "UVERworld",
+    "tag": "UVERworld",
+    "category": "애니메이션",
+    "group": "청의 엑소시스트",
+    "tagKo": "우버월드",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "UVERworld",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52916",
+    "titleKo": "Somebody help us",
+    "titleOriginal": "Somebody help us",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "애니메이션",
+    "group": "사카모토 데이즈",
+    "tagKo": "바운디",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "Vaundy",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "25017",
+    "titleKo": "모습",
+    "titleOriginal": "おもかげ",
+    "artist": "milet & Aimer & 幾田りら (produced by Vaundy)",
+    "tag": "milet & Aimer & 幾田りら",
+    "category": "J-POP",
+    "group": "milet & Aimer & 幾田りら",
+    "tagKo": "밀레·에메·이쿠타 리라",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52493",
+    "titleKo": "그런 bitter한 이야기",
+    "titleOriginal": "そんなbitterな話",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "J-POP",
+    "group": "Vaundy",
+    "tagKo": "바운디",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52949",
+    "titleKo": "눈꺼풀",
+    "titleOriginal": "まぶた",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "J-POP",
+    "group": "Vaundy",
+    "tagKo": "바운디",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52482",
+    "titleKo": "카니발",
+    "titleOriginal": "カーニバル",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "J-POP",
+    "group": "Vaundy",
+    "tagKo": "바운디",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68912",
+    "titleKo": "타임 패러독스",
+    "titleOriginal": "タイムパラドックス",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "애니메이션",
+    "group": "도라에몽",
+    "tagKo": "바운디",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "Vaundy",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52720",
+    "titleKo": "호문쿨루스",
+    "titleOriginal": "ホムンクルス",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "애니메이션",
+    "group": "나의 히어로 아카데미아",
+    "tagKo": "바운디",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "Vaundy",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52681",
+    "titleKo": "세상의 비밀",
+    "titleOriginal": "世界の秘密",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "J-POP",
+    "group": "Vaundy",
+    "tagKo": "바운디",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52486",
+    "titleKo": "이세이진",
+    "titleOriginal": "偉生人",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "J-POP",
+    "group": "Vaundy",
+    "tagKo": "바운디",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52508",
+    "titleKo": "부르는 소리",
+    "titleOriginal": "呼び声",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "J-POP",
+    "group": "Vaundy",
+    "tagKo": "바운디",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52684",
+    "titleKo": "상열",
+    "titleOriginal": "常熱",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "J-POP",
+    "group": "Vaundy",
+    "tagKo": "바운디",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52993",
+    "titleKo": "잊기 전에",
+    "titleOriginal": "忘れる前に",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "J-POP",
+    "group": "Vaundy",
+    "tagKo": "바운디",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52477",
+    "titleKo": "우는 지장보살",
+    "titleOriginal": "泣き地蔵",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "J-POP",
+    "group": "Vaundy",
+    "tagKo": "바운디",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52460",
+    "titleKo": "등불",
+    "titleOriginal": "灯火",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "J-POP",
+    "group": "Vaundy",
+    "tagKo": "바운디",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68512",
+    "titleKo": "꽃점",
+    "titleOriginal": "花占い",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "J-POP",
+    "group": "Vaundy",
+    "tagKo": "바운디",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52416",
+    "titleKo": "달려라 SAKAMOTO",
+    "titleOriginal": "走れSAKAMOTO",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "애니메이션",
+    "group": "사카모토 데이즈",
+    "tagKo": "바운디",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "Vaundy",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52775",
+    "titleKo": "풍신",
+    "titleOriginal": "風神",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "J-POP",
+    "group": "Vaundy",
+    "tagKo": "바운디",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52683",
+    "titleKo": "언노운 마더 구스",
+    "titleOriginal": "アンノウン・マザーグース",
+    "artist": "wowaka feat. 初音ミク",
+    "tag": "wowaka",
+    "category": "보카로",
+    "group": "wowaka",
+    "tagKo": "현실도피P",
+    "tags": [
+      "하츠네 미쿠"
+    ],
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68398",
+    "titleKo": "그 꿈을 덧그리며",
+    "titleOriginal": "あの夢をなぞって",
+    "artist": "YOASOBI",
+    "tag": "YOASOBI",
+    "category": "J-POP",
+    "group": "YOASOBI",
+    "tagKo": "요아소비",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68860",
+    "titleKo": "용사",
+    "titleOriginal": "勇者",
+    "artist": "YOASOBI",
+    "tag": "YOASOBI",
+    "category": "애니메이션",
+    "group": "장송의 프리렌",
+    "tagKo": "요아소비",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "YOASOBI",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68684",
+    "titleKo": "축복",
+    "titleOriginal": "祝福",
+    "artist": "YOASOBI",
+    "tag": "YOASOBI",
+    "category": "애니메이션",
+    "group": "기동전사 건담 수성의 마녀",
+    "tagKo": "요아소비",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "YOASOBI",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68390",
+    "titleKo": "군청",
+    "titleOriginal": "群青",
+    "artist": "YOASOBI",
+    "tag": "YOASOBI",
+    "category": "J-POP",
+    "group": "YOASOBI",
+    "tagKo": "요아소비",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68002",
+    "titleKo": "봄날",
+    "titleOriginal": "ハルノヒ",
+    "artist": "あいみょん",
+    "tag": "あいみょん",
+    "category": "애니메이션",
+    "group": "짱구는 못말려",
+    "tagKo": "아이묭",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "あいみょん",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28948",
+    "titleKo": "너는 록을 듣지 않아",
+    "titleOriginal": "君はロックを聴かない",
+    "artist": "あいみょん",
+    "tag": "あいみょん",
+    "category": "J-POP",
+    "group": "あいみょん",
+    "tagKo": "아이묭",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68252",
+    "titleKo": "벌거벗은 마음",
+    "titleOriginal": "裸の心",
+    "artist": "あいみょん",
+    "tag": "あいみょん",
+    "category": "J-POP",
+    "group": "あいみょん",
+    "tagKo": "아이묭",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52978",
+    "titleKo": "결과 올라잇",
+    "titleOriginal": "けっかおーらい",
+    "artist": "こっちのけんと",
+    "tag": "こっちのけんと",
+    "category": "애니메이션",
+    "group": "나의 히어로 아카데미아",
+    "tagKo": "콧치노켄토",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "こっちのけんと",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52761",
+    "titleKo": "네, 기꺼이",
+    "titleOriginal": "はいよろこんで",
+    "artist": "こっちのけんと",
+    "tag": "こっちのけんと",
+    "category": "J-POP",
+    "group": "こっちのけんと",
+    "tagKo": "콧치노켄토",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52877",
+    "titleKo": "JK Bomber",
+    "titleOriginal": "JK Bomber",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "tagKo": "즛토마요",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68437",
+    "titleKo": "MILABO",
+    "titleOriginal": "MILABO",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "tagKo": "즛토마요",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52535",
+    "titleKo": "밤새도록",
+    "titleOriginal": "よもすがら",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "tagKo": "즛토마요",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28992",
+    "titleKo": "휴머노이드",
+    "titleOriginal": "ヒューマノイド",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "tagKo": "즛토마요",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52731",
+    "titleKo": "거짓말이 아니야",
+    "titleOriginal": "嘘じゃない",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "애니메이션",
+    "group": "좋아해도 싫어하는",
+    "tagKo": "즛토마요",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "ずっと真夜中でいいのに。",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68373",
+    "titleKo": "올바르게 될 수 없어",
+    "titleOriginal": "正しくなれない",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "tagKo": "즛토마요",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68625",
+    "titleKo": "정의",
+    "titleOriginal": "正義",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "tagKo": "즛토마요",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68005",
+    "titleKo": "눈부신 DNA뿐",
+    "titleOriginal": "眩しいDNAだけ",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "tagKo": "즛토마요",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "26094",
+    "titleKo": "소매의 퀼트",
+    "titleOriginal": "袖のキルト",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "tagKo": "즛토마요",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68220",
+    "titleKo": "걷어차 버린 이불",
+    "titleOriginal": "蹴っ飛ばした毛布",
+    "artist": "ずっと真夜中でいいのに。",
+    "tag": "ずっと真夜中でいいのに。",
+    "category": "J-POP",
+    "group": "ずっと真夜中でいいのに。",
+    "tagKo": "즛토마요",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68698",
+    "titleKo": "Overdose",
+    "titleOriginal": "Overdose",
+    "artist": "なとり",
+    "tag": "なとり",
+    "category": "J-POP",
+    "group": "なとり",
+    "tagKo": "나토리",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68494",
+    "titleKo": "실전화기",
+    "titleOriginal": "糸電話",
+    "artist": "なとり",
+    "tag": "なとり",
+    "category": "J-POP",
+    "group": "なとり",
+    "tagKo": "나토리",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52587",
+    "titleKo": "금목서",
+    "titleOriginal": "金木犀",
+    "artist": "なとり",
+    "tag": "なとり",
+    "category": "J-POP",
+    "group": "なとり",
+    "tagKo": "나토리",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52982",
+    "titleKo": "비상구, 도망쳐 봤다",
+    "titleOriginal": "非常口 逃げてみた",
+    "artist": "なとり",
+    "tag": "なとり",
+    "category": "J-POP",
+    "group": "なとり",
+    "tagKo": "나토리",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52881",
+    "titleKo": "PINK",
+    "titleOriginal": "PINK",
+    "artist": "キタニタツヤ",
+    "tag": "キタニタツヤ",
+    "category": "J-POP",
+    "group": "キタニタツヤ",
+    "tagKo": "키타니 타츠야",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52777",
+    "titleKo": "계속 함께!",
+    "titleOriginal": "ずうっといっしょ!",
+    "artist": "キタニタツヤ",
+    "tag": "キタニタツヤ",
+    "category": "J-POP",
+    "group": "キタニタツヤ",
+    "tagKo": "키타니 타츠야",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68725",
+    "titleKo": "스카",
+    "titleOriginal": "スカー",
+    "artist": "キタニタツヤ",
+    "tag": "キタニタツヤ",
+    "category": "애니메이션",
+    "group": "블리치",
+    "tagKo": "키타니 타츠야",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "キタニタツヤ",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52906",
+    "titleKo": "인간 같네",
+    "titleOriginal": "人間みたいね",
+    "artist": "キタニタツヤ",
+    "tag": "キタニタツヤ",
+    "category": "J-POP",
+    "group": "キタニタツヤ",
+    "tagKo": "키타니 타츠야",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52904",
+    "titleKo": "차가운 소용돌이",
+    "titleOriginal": "冷たい渦",
+    "artist": "キタニタツヤ",
+    "tag": "キタニタツヤ",
+    "category": "J-POP",
+    "group": "キタニタツヤ",
+    "tagKo": "키타니 타츠야",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68496",
+    "titleKo": "다음 회 예고",
+    "titleOriginal": "次回予告",
+    "artist": "キタニタツヤ",
+    "tag": "キタニタツヤ",
+    "category": "애니메이션",
+    "group": "전대대실격",
+    "tagKo": "키타니 타츠야",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "キタニタツヤ",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52895",
+    "titleKo": "멋진 주말을!",
+    "titleOriginal": "素敵なしゅうまつを!",
+    "artist": "キタニタツヤ",
+    "tag": "キタニタツヤ",
+    "category": "J-POP",
+    "group": "キタニタツヤ",
+    "tagKo": "키타니 타츠야",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52701",
+    "titleKo": "우울, 찬란히",
+    "titleOriginal": "憂、燦々",
+    "artist": "クリープハイプ",
+    "tag": "クリープハイプ",
+    "category": "J-POP",
+    "group": "クリープハイプ",
+    "tagKo": "크리프하이프",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52514",
+    "titleKo": "책갈피",
+    "titleOriginal": "栞",
+    "artist": "クリープハイプ",
+    "tag": "クリープハイプ",
+    "category": "J-POP",
+    "group": "クリープハイプ",
+    "tagKo": "크리프하이프",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "29908",
+    "titleKo": "뮤직",
+    "titleOriginal": "ミュージック",
+    "artist": "サカナクション",
+    "tag": "サカナクション",
+    "category": "J-POP",
+    "group": "サカナクション",
+    "tagKo": "사카낙션",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52837",
+    "titleKo": "잊을 수 없어",
+    "titleOriginal": "忘れられないの",
+    "artist": "サカナクション",
+    "tag": "サカナクション",
+    "category": "J-POP",
+    "group": "サカナクション",
+    "tagKo": "사카낙션",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52434",
+    "titleKo": "괴수",
+    "titleOriginal": "怪獣",
+    "artist": "サカナクション",
+    "tag": "サカナクション",
+    "category": "애니메이션",
+    "group": "지. -지구의 운동에 대하여-",
+    "tagKo": "사카낙션",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "サカナクション",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52678",
+    "titleKo": "신 같네",
+    "titleOriginal": "神っぽいな",
+    "artist": "ピノキオピー(Feat.初音ミク)",
+    "tag": "ピノキオピー",
+    "category": "보카로",
+    "group": "ピノキオピー",
+    "tagKo": "피노키오피",
+    "tags": [
+      "하츠네 미쿠"
+    ],
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "25010",
+    "titleKo": "사우다지",
+    "titleOriginal": "サウダージ",
+    "artist": "ポルノグラフィティ",
+    "tag": "ポルノグラフィティ",
+    "category": "J-POP",
+    "group": "ポルノグラフィティ",
+    "tagKo": "포르노그라피티",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68415",
+    "titleKo": "갈겨쓰기",
+    "titleOriginal": "はしりがき",
+    "artist": "マカロニえんぴつ",
+    "tag": "マカロニえんぴつ",
+    "category": "애니메이션",
+    "group": "짱구는 못말려",
+    "tagKo": "마카로니 엔피츠",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "マカロニえんぴつ",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52484",
+    "titleKo": "슬픔은 버스를 타고",
+    "titleOriginal": "悲しみはバスに乗って",
+    "artist": "マカロニえんぴつ",
+    "tag": "マカロニえんぴつ",
+    "category": "J-POP",
+    "group": "マカロニえんぴつ",
+    "tagKo": "마카로니 엔피츠",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68623",
+    "titleKo": "별이 헤엄친다",
+    "titleOriginal": "星が泳ぐ",
+    "artist": "マカロニえんぴつ",
+    "tag": "マカロニえんぴつ",
+    "category": "애니메이션",
+    "group": "서머타임 렌더",
+    "tagKo": "마카로니 엔피츠",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "マカロニえんぴつ",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52519",
+    "titleKo": "바람의 앤섬",
+    "titleOriginal": "風のアンセム",
+    "artist": "Eve feat. suis from ヨルシカ",
+    "tag": "Eve",
+    "category": "애니메이션",
+    "group": "뾰족모자 아틀리에",
+    "tagKo": "이브",
+    "tags": [
+      "애니메이션",
+      "요루시카"
+    ],
+    "jpopGroup": "Eve",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68582",
+    "titleKo": "그저 목소리 하나",
+    "titleOriginal": "ただ声一つ",
+    "artist": "ロクデナシ",
+    "tag": "ロクデナシ",
+    "category": "J-POP",
+    "group": "ロクデナシ",
+    "tagKo": "로쿠데나시",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68463",
+    "titleKo": "유레카",
+    "titleOriginal": "ユリイカ",
+    "artist": "ロクデナシ",
+    "tag": "ロクデナシ",
+    "category": "애니메이션",
+    "group": "종말 트레인은 어디로 향하나?",
+    "tagKo": "로쿠데나시",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "ロクデナシ",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52680",
+    "titleKo": "말의 다음",
+    "titleOriginal": "言葉の続き",
+    "artist": "ロクデナシ",
+    "tag": "ロクデナシ",
+    "category": "J-POP",
+    "group": "ロクデナシ",
+    "tagKo": "로쿠데나시",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52860",
+    "titleKo": "빌리밀리언",
+    "titleOriginal": "ビリミリオン",
+    "artist": "優里",
+    "tag": "優里",
+    "category": "J-POP",
+    "group": "優里",
+    "tagKo": "유우리",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68399",
+    "titleKo": "피터팬",
+    "titleOriginal": "ピーターパン",
+    "artist": "優里",
+    "tag": "優里",
+    "category": "J-POP",
+    "group": "優里",
+    "tagKo": "유우리",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68580",
+    "titleKo": "미즈키리",
+    "titleOriginal": "ミズキリ",
+    "artist": "優里",
+    "tag": "優里",
+    "category": "J-POP",
+    "group": "優里",
+    "tagKo": "유우리",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52825",
+    "titleKo": "회전목마",
+    "titleOriginal": "メリーゴーランド",
+    "artist": "優里",
+    "tag": "優里",
+    "category": "애니메이션",
+    "group": "거울 속 외딴 성",
+    "tagKo": "유우리",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "優里",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52452",
+    "titleKo": "세상이 끝났습니다",
+    "titleOriginal": "世界が終わりました",
+    "artist": "優里",
+    "tag": "優里",
+    "category": "J-POP",
+    "group": "優里",
+    "tagKo": "유우리",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68603",
+    "titleKo": "여름 소리",
+    "titleOriginal": "夏音",
+    "artist": "優里",
+    "tag": "優里",
+    "category": "J-POP",
+    "group": "優里",
+    "tagKo": "유우리",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52442",
+    "titleKo": "최악인 너에게 보내는 노래",
+    "titleOriginal": "最低な君に贈る歌",
+    "artist": "優里",
+    "tag": "優里",
+    "category": "J-POP",
+    "group": "優里",
+    "tagKo": "유우리",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52760",
+    "titleKo": "벚꽃 맑음",
+    "titleOriginal": "桜晴",
+    "artist": "優里",
+    "tag": "優里",
+    "category": "J-POP",
+    "group": "優里",
+    "tagKo": "유우리",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68872",
+    "titleKo": "굿바이 바이",
+    "titleOriginal": "グッバイバイ",
+    "artist": "冨岡愛",
+    "tag": "冨岡愛",
+    "category": "J-POP",
+    "group": "冨岡愛",
+    "tagKo": "토미오카 아이",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52729",
+    "titleKo": "사랑하는 행성 '당신'",
+    "titleOriginal": "恋する惑星「アナタ」",
+    "artist": "冨岡愛",
+    "tag": "冨岡愛",
+    "category": "J-POP",
+    "group": "冨岡愛",
+    "tagKo": "토미오카 아이",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52815",
+    "titleKo": "사랑 need your love",
+    "titleOriginal": "愛 need your love",
+    "artist": "冨岡愛",
+    "tag": "冨岡愛",
+    "category": "J-POP",
+    "group": "冨岡愛",
+    "tagKo": "토미오카 아이",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52915",
+    "titleKo": "2",
+    "titleOriginal": "2",
+    "artist": "星野源 (Feat.Lee Youngji)",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68534",
+    "titleKo": "Cube",
+    "titleOriginal": "Cube",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52833",
+    "titleKo": "Eureka",
+    "titleOriginal": "Eureka",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28743",
+    "titleKo": "Family Song",
+    "titleOriginal": "Family Song",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28958",
+    "titleKo": "POP VIRUS",
+    "titleOriginal": "POP VIRUS",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52939",
+    "titleKo": "Star",
+    "titleOriginal": "Star",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27924",
+    "titleKo": "SUN",
+    "titleOriginal": "SUN",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52965",
+    "titleKo": "Week End",
+    "titleOriginal": "Week End",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52422",
+    "titleKo": "막다른 길",
+    "titleOriginal": "いきどまり",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52433",
+    "titleKo": "뿔뿔이",
+    "titleOriginal": "ばらばら",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28911",
+    "titleKo": "아이디어",
+    "titleOriginal": "アイデア",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28823",
+    "titleKo": "도라에몽",
+    "titleOriginal": "ドラえもん",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "애니메이션",
+    "group": "도라에몽",
+    "tagKo": "호시노 겐",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "星野源",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "27282",
+    "titleKo": "필름",
+    "titleOriginal": "フィルム",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68416",
+    "titleKo": "불가사의",
+    "titleOriginal": "不思議",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52985",
+    "titleKo": "지옥이 뭐가 나빠",
+    "titleOriginal": "地獄でなぜ悪い",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28698",
+    "titleKo": "시간이여",
+    "titleOriginal": "時よ",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52991",
+    "titleKo": "벚꽃 숲",
+    "titleOriginal": "桜の森",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52857",
+    "titleKo": "나",
+    "titleOriginal": "私",
+    "artist": "星野源",
+    "tag": "星野源",
+    "category": "J-POP",
+    "group": "星野源",
+    "tagKo": "호시노 겐",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68589",
+    "titleKo": "한밤중의 문 / Stay With Me",
+    "titleOriginal": "真夜中のドア/Stay With Me",
+    "artist": "松原みき",
+    "tag": "松原みき",
+    "category": "J-POP",
+    "group": "松原みき",
+    "tagKo": "마츠바라 미키",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "25686",
+    "titleKo": "17",
+    "titleOriginal": "17",
+    "artist": "椎名林檎",
+    "tag": "椎名林檎",
+    "category": "J-POP",
+    "group": "椎名林檎",
+    "tagKo": "시이나 링고",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68798",
+    "titleKo": "WORK",
+    "titleOriginal": "WORK",
+    "artist": "millennium parade, 椎名林檎",
+    "tag": "椎名林檎",
+    "category": "애니메이션",
+    "group": "지옥락",
+    "tagKo": "시이나 링고",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "椎名林檎",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "6348",
+    "titleKo": "여기서 키스해줘",
+    "titleOriginal": "ここでキスして",
+    "artist": "椎名林檎",
+    "tag": "椎名林檎",
+    "category": "J-POP",
+    "group": "椎名林檎",
+    "tagKo": "시이나 링고",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "26310",
+    "titleKo": "이 세상의 끝까지",
+    "titleOriginal": "この世の限り",
+    "artist": "椎名林檎, 椎名純平",
+    "tag": "椎名林檎",
+    "category": "J-POP",
+    "group": "椎名林檎",
+    "tagKo": "시이나 링고",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "25781",
+    "titleKo": "사과의 노래",
+    "titleOriginal": "りんごのうた",
+    "artist": "椎名林檎",
+    "tag": "椎名林檎",
+    "category": "J-POP",
+    "group": "椎名林檎",
+    "tagKo": "시이나 링고",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "25207",
+    "titleKo": "깁스",
+    "titleOriginal": "ギブス",
+    "artist": "椎名林檎",
+    "tag": "椎名林檎",
+    "category": "J-POP",
+    "group": "椎名林檎",
+    "tagKo": "시이나 링고",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68981",
+    "titleKo": "인간으로서",
+    "titleOriginal": "人間として",
+    "artist": "椎名林檎",
+    "tag": "椎名林檎",
+    "category": "J-POP",
+    "group": "椎名林檎",
+    "tagKo": "시이나 링고",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "26023",
+    "titleKo": "애처가의 아침 식사",
+    "titleOriginal": "愛妻家の朝食",
+    "artist": "椎名林檎",
+    "tag": "椎名林檎",
+    "category": "J-POP",
+    "group": "椎名林檎",
+    "tagKo": "시이나 링고",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "6928",
+    "titleKo": "본능",
+    "titleOriginal": "本能",
+    "artist": "椎名林檎",
+    "tag": "椎名林檎",
+    "category": "J-POP",
+    "group": "椎名林檎",
+    "tagKo": "시이나 링고",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "25357",
+    "titleKo": "가부키초의 여왕",
+    "titleOriginal": "歌舞伎町の女王",
+    "artist": "椎名林檎",
+    "tag": "椎名林檎",
+    "category": "J-POP",
+    "group": "椎名林檎",
+    "tagKo": "시이나 링고",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52899",
+    "titleKo": "열애 발각 중",
+    "titleOriginal": "熱愛発覚中",
+    "artist": "椎名林檎 と中田ヤスタカ(CAPSULE)",
+    "tag": "椎名林檎",
+    "category": "J-POP",
+    "group": "椎名林檎",
+    "tagKo": "시이나 링고",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "25025",
+    "titleKo": "한밤중은 순결",
+    "titleOriginal": "眞夜中は純潔",
+    "artist": "椎名林檎",
+    "tag": "椎名林檎",
+    "category": "J-POP",
+    "group": "椎名林檎",
+    "tagKo": "시이나 링고",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "25497",
+    "titleKo": "죄와 벌",
+    "titleOriginal": "罪と罰",
+    "artist": "椎名林檎",
+    "tag": "椎名林檎",
+    "category": "J-POP",
+    "group": "椎名林檎",
+    "tagKo": "시이나 링고",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52907",
+    "titleKo": "억새에 달",
+    "titleOriginal": "芒に月",
+    "artist": "椎名林檎",
+    "tag": "椎名林檎",
+    "category": "J-POP",
+    "group": "椎名林檎",
+    "tagKo": "시이나 링고",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "25583",
+    "titleKo": "줄기 STEM",
+    "titleOriginal": "茎 STEM",
+    "artist": "椎名林檎",
+    "tag": "椎名林檎",
+    "category": "J-POP",
+    "group": "椎名林檎",
+    "tagKo": "시이나 링고",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28807",
+    "titleKo": "길고 짧은 축제",
+    "titleOriginal": "長く短い祭",
+    "artist": "椎名林檎",
+    "tag": "椎名林檎",
+    "category": "J-POP",
+    "group": "椎名林檎",
+    "tagKo": "시이나 링고",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "28692",
+    "titleKo": "청춘의 순간",
+    "titleOriginal": "青春の瞬き(Le Moment)",
+    "artist": "椎名林檎",
+    "tag": "椎名林檎",
+    "category": "J-POP",
+    "group": "椎名林檎",
+    "tagKo": "시이나 링고",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52523",
+    "titleKo": "YELLOW(CLOSET version)",
+    "titleOriginal": "YELLOW(CLOSET version)",
+    "artist": "神山羊",
+    "tag": "神山羊",
+    "category": "J-POP",
+    "group": "神山羊",
+    "tagKo": "카미야마 요우",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52599",
+    "titleKo": "LADYBUG",
+    "titleOriginal": "LADYBUG",
+    "artist": "緑黄色社会",
+    "tag": "緑黄色社会",
+    "category": "J-POP",
+    "group": "緑黄色社会",
+    "tagKo": "녹황색사회",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52806",
+    "titleKo": "merry-go-round",
+    "titleOriginal": "merry-go-round",
+    "artist": "緑黄色社会",
+    "tag": "緑黄色社会",
+    "category": "J-POP",
+    "group": "緑黄色社会",
+    "tagKo": "녹황색사회",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52987",
+    "titleKo": "My Answer",
+    "titleOriginal": "My Answer",
+    "artist": "緑黄色社会",
+    "tag": "緑黄色社会",
+    "category": "J-POP",
+    "group": "緑黄色社会",
+    "tagKo": "녹황색사회",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68954",
+    "titleKo": "Party!!",
+    "titleOriginal": "Party!!",
+    "artist": "緑黄色社会",
+    "tag": "緑黄色社会",
+    "category": "애니메이션",
+    "group": "던전밥",
+    "tagKo": "녹황색사회",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "緑黄色社会",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52947",
+    "titleKo": "PLAYER 1",
+    "titleOriginal": "PLAYER 1",
+    "artist": "緑黄色社会",
+    "tag": "緑黄色社会",
+    "category": "J-POP",
+    "group": "緑黄色社会",
+    "tagKo": "녹황색사회",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52401",
+    "titleKo": "sabotage",
+    "titleOriginal": "sabotage",
+    "artist": "緑黄色社会",
+    "tag": "緑黄色社会",
+    "category": "J-POP",
+    "group": "緑黄色社会",
+    "tagKo": "녹황색사회",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68217",
+    "titleKo": "Shout Baby",
+    "titleOriginal": "Shout Baby",
+    "artist": "緑黄色社会",
+    "tag": "緑黄色社会",
+    "category": "애니메이션",
+    "group": "나의 히어로 아카데미아",
+    "tagKo": "녹황색사회",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "緑黄色社会",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52961",
+    "titleKo": "계속되다",
+    "titleOriginal": "つづく",
+    "artist": "緑黄色社会",
+    "tag": "緑黄色社会",
+    "category": "J-POP",
+    "group": "緑黄色社会",
+    "tagKo": "녹황색사회",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52912",
+    "titleKo": "캐릭터",
+    "titleOriginal": "キャラクター",
+    "artist": "緑黄色社会",
+    "tag": "緑黄色社会",
+    "category": "J-POP",
+    "group": "緑黄色社会",
+    "tagKo": "녹황색사회",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52732",
+    "titleKo": "서머타임 신데렐라",
+    "titleOriginal": "サマータイムシンデレラ",
+    "artist": "緑黄色社会",
+    "tag": "緑黄色社会",
+    "category": "J-POP",
+    "group": "緑黄色社会",
+    "tagKo": "녹황색사회",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52980",
+    "titleKo": "청춘은 부끄러운가",
+    "titleOriginal": "恥ずかしいか青春は",
+    "artist": "緑黄色社会",
+    "tag": "緑黄色社会",
+    "category": "J-POP",
+    "group": "緑黄色社会",
+    "tagKo": "녹황색사회",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68378",
+    "titleKo": "결증",
+    "titleOriginal": "結証",
+    "artist": "緑黄色社会",
+    "tag": "緑黄色社会",
+    "category": "애니메이션",
+    "group": "반요 야샤히메",
+    "tagKo": "녹황색사회",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "緑黄色社会",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68940",
+    "titleKo": "꽃이 되어",
+    "titleOriginal": "花になって",
+    "artist": "緑黄色社会",
+    "tag": "緑黄色社会",
+    "category": "애니메이션",
+    "group": "약사의 혼잣말",
+    "tagKo": "녹황색사회",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "緑黄色社会",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52744",
+    "titleKo": "말할 수 없어",
+    "titleOriginal": "言えない",
+    "artist": "緑黄色社会",
+    "tag": "緑黄色社会",
+    "category": "J-POP",
+    "group": "緑黄色社会",
+    "tagKo": "녹황색사회",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68622",
+    "titleKo": "해는 다시 떠오르니까",
+    "titleOriginal": "陽はまた昇るから",
+    "artist": "緑黄色社会",
+    "tag": "緑黄色社会",
+    "category": "애니메이션",
+    "group": "짱구는 못말려",
+    "tagKo": "녹황색사회",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "緑黄色社会",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52491",
+    "titleKo": "바람을 타다",
+    "titleOriginal": "風に乗る",
+    "artist": "緑黄色社会",
+    "tag": "緑黄色社会",
+    "category": "애니메이션",
+    "group": "파리에 피어난 에투알",
+    "tagKo": "녹황색사회",
+    "tags": [
+      "애니메이션"
+    ],
+    "jpopGroup": "緑黄色社会",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68841",
+    "titleKo": "반짝임",
+    "titleOriginal": "きらり",
+    "artist": "藤井風",
+    "tag": "藤井風",
+    "category": "J-POP",
+    "group": "藤井風",
+    "tagKo": "후지이 카제",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68956",
+    "titleKo": "축제",
+    "titleOriginal": "まつり",
+    "artist": "藤井風",
+    "tag": "藤井風",
+    "category": "J-POP",
+    "group": "藤井風",
+    "tagKo": "후지이 카제",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52494",
+    "titleKo": "가든",
+    "titleOriginal": "ガーデン",
+    "artist": "藤井風",
+    "tag": "藤井風",
+    "category": "J-POP",
+    "group": "藤井風",
+    "tagKo": "후지이 카제",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52819",
+    "titleKo": "뭐야ㅋ",
+    "titleOriginal": "何なんw",
+    "artist": "藤井風",
+    "tag": "藤井風",
+    "category": "J-POP",
+    "group": "藤井風",
+    "tagKo": "후지이 카제",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52894",
+    "titleKo": "여행길",
+    "titleOriginal": "旅路",
+    "artist": "藤井風",
+    "tag": "藤井風",
+    "category": "J-POP",
+    "group": "藤井風",
+    "tagKo": "후지이 카제",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "68803",
+    "titleKo": "죽는 게 나아",
+    "titleOriginal": "死ぬのがいいわ",
+    "artist": "藤井風",
+    "tag": "藤井風",
+    "category": "J-POP",
+    "group": "藤井風",
+    "tagKo": "후지이 카제",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52862",
+    "titleKo": "차오르다",
+    "titleOriginal": "満ちてゆく",
+    "artist": "藤井風",
+    "tag": "藤井風",
+    "category": "J-POP",
+    "group": "藤井風",
+    "tagKo": "후지이 카제",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
+  },
+  {
+    "number": "52820",
+    "titleKo": "꽃",
+    "titleOriginal": "花",
+    "artist": "藤井風",
+    "tag": "藤井風",
+    "category": "J-POP",
+    "group": "藤井風",
+    "tagKo": "후지이 카제",
+    "updateType": "new",
+    "updatedAt": "2026-08-26"
   }
 ];

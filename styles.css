@@ -473,6 +473,11 @@ select:disabled {
   font-size: 21px;
   line-height: 1.2;
   letter-spacing: 0;
+  scroll-margin-top: 12px;
+}
+
+.flat-index-anchor {
+  scroll-margin-top: 12px;
 }
 
 .section-title::before {
@@ -568,6 +573,45 @@ select:disabled {
   line-height: 1.35;
   word-break: keep-all;
   overflow-wrap: anywhere;
+}
+
+.song-title-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  min-width: 0;
+}
+
+.song-title-row .song-title {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.update-kind-badge {
+  flex: 0 0 auto;
+  margin-top: 1px;
+  border: 1px solid rgba(57, 245, 209, .34);
+  border-radius: 999px;
+  padding: 2px 5px;
+  background: rgba(57, 245, 209, .10);
+  color: #9ff8e8;
+  font-size: 9px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.update-kind-badge[data-kind="modified"] {
+  border-color: rgba(251, 191, 36, .38);
+  background: rgba(251, 191, 36, .11);
+  color: #fde68a;
+}
+
+.search-match {
+  border-radius: 2px;
+  padding: 0 1px;
+  background: rgba(125, 211, 252, .22);
+  color: inherit;
+  box-shadow: inset 0 -1px 0 rgba(125, 211, 252, .72);
 }
 
 .song-original {
@@ -1539,6 +1583,27 @@ main {
   font-size: 10px;
   font-weight: 850;
   white-space: nowrap;
+}
+
+.update-kind-counts {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 5px;
+  font-size: 10px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.update-kind-counts span {
+  border: 1px solid rgba(57, 245, 209, .28);
+  border-radius: 999px;
+  padding: 3px 6px;
+  color: #9ff8e8;
+}
+
+.update-kind-counts span[data-kind="modified"] {
+  border-color: rgba(251, 191, 36, .32);
+  color: #fde68a;
 }
 
 .update-breakdown span::before {
