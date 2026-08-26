@@ -1,0 +1,5114 @@
+{
+  "generatedAt": "2026-08-26T20:30:08+0900",
+  "existingSongCount": 931,
+  "queriedArtistCount": 54,
+  "candidateCount": 531,
+  "artistSummary": [
+    {
+      "artist": "あいみょん",
+      "tjCount": 34,
+      "existingCount": 2,
+      "missingCount": 32
+    },
+    {
+      "artist": "BUMP OF CHICKEN",
+      "tjCount": 33,
+      "existingCount": 2,
+      "missingCount": 31
+    },
+    {
+      "artist": "Eve",
+      "tjCount": 36,
+      "existingCount": 8,
+      "missingCount": 28
+    },
+    {
+      "artist": "LiSA",
+      "tjCount": 30,
+      "existingCount": 4,
+      "missingCount": 26
+    },
+    {
+      "artist": "YOASOBI",
+      "tjCount": 31,
+      "existingCount": 5,
+      "missingCount": 26
+    },
+    {
+      "artist": "Aimer",
+      "tjCount": 32,
+      "existingCount": 7,
+      "missingCount": 25
+    },
+    {
+      "artist": "Mrs. GREEN APPLE",
+      "tjCount": 31,
+      "existingCount": 6,
+      "missingCount": 25
+    },
+    {
+      "artist": "SEKAI NO OWARI",
+      "tjCount": 25,
+      "existingCount": 1,
+      "missingCount": 24
+    },
+    {
+      "artist": "ポルノグラフィティ",
+      "tjCount": 24,
+      "existingCount": 1,
+      "missingCount": 23
+    },
+    {
+      "artist": "SPYAIR",
+      "tjCount": 25,
+      "existingCount": 3,
+      "missingCount": 22
+    },
+    {
+      "artist": "UVERworld",
+      "tjCount": 24,
+      "existingCount": 2,
+      "missingCount": 22
+    },
+    {
+      "artist": "RADWIMPS",
+      "tjCount": 25,
+      "existingCount": 4,
+      "missingCount": 21
+    },
+    {
+      "artist": "back number",
+      "tjCount": 24,
+      "existingCount": 6,
+      "missingCount": 18
+    },
+    {
+      "artist": "星野源",
+      "tjCount": 21,
+      "existingCount": 3,
+      "missingCount": 18
+    },
+    {
+      "artist": "Vaundy",
+      "tjCount": 27,
+      "existingCount": 10,
+      "missingCount": 17
+    },
+    {
+      "artist": "椎名林檎",
+      "tjCount": 18,
+      "existingCount": 1,
+      "missingCount": 17
+    },
+    {
+      "artist": "amazarashi",
+      "tjCount": 17,
+      "existingCount": 1,
+      "missingCount": 16
+    },
+    {
+      "artist": "緑黄色社会",
+      "tjCount": 17,
+      "existingCount": 1,
+      "missingCount": 16
+    },
+    {
+      "artist": "ONE OK ROCK",
+      "tjCount": 15,
+      "existingCount": 0,
+      "missingCount": 15
+    },
+    {
+      "artist": "imase",
+      "tjCount": 12,
+      "existingCount": 1,
+      "missingCount": 11
+    },
+    {
+      "artist": "ORANGE RANGE",
+      "tjCount": 11,
+      "existingCount": 0,
+      "missingCount": 11
+    },
+    {
+      "artist": "ずっと真夜中でいいのに。",
+      "tjCount": 25,
+      "existingCount": 15,
+      "missingCount": 10
+    },
+    {
+      "artist": "キタニタツヤ",
+      "tjCount": 10,
+      "existingCount": 2,
+      "missingCount": 8
+    },
+    {
+      "artist": "優里",
+      "tjCount": 14,
+      "existingCount": 6,
+      "missingCount": 8
+    },
+    {
+      "artist": "藤井風",
+      "tjCount": 9,
+      "existingCount": 1,
+      "missingCount": 8
+    },
+    {
+      "artist": "Novelbright",
+      "tjCount": 9,
+      "existingCount": 3,
+      "missingCount": 6
+    },
+    {
+      "artist": "Creepy Nuts",
+      "tjCount": 7,
+      "existingCount": 2,
+      "missingCount": 5
+    },
+    {
+      "artist": "なとり",
+      "tjCount": 8,
+      "existingCount": 3,
+      "missingCount": 5
+    },
+    {
+      "artist": "tuki.",
+      "tjCount": 6,
+      "existingCount": 2,
+      "missingCount": 4
+    },
+    {
+      "artist": "Ado",
+      "tjCount": 35,
+      "existingCount": 32,
+      "missingCount": 3
+    },
+    {
+      "artist": "CUTIE STREET",
+      "tjCount": 5,
+      "existingCount": 2,
+      "missingCount": 3
+    },
+    {
+      "artist": "eill",
+      "tjCount": 3,
+      "existingCount": 0,
+      "missingCount": 3
+    },
+    {
+      "artist": "KANA-BOON",
+      "tjCount": 4,
+      "existingCount": 1,
+      "missingCount": 3
+    },
+    {
+      "artist": "Saucy Dog",
+      "tjCount": 5,
+      "existingCount": 2,
+      "missingCount": 3
+    },
+    {
+      "artist": "サカナクション",
+      "tjCount": 5,
+      "existingCount": 2,
+      "missingCount": 3
+    },
+    {
+      "artist": "マカロニえんぴつ",
+      "tjCount": 4,
+      "existingCount": 1,
+      "missingCount": 3
+    },
+    {
+      "artist": "ロクデナシ",
+      "tjCount": 4,
+      "existingCount": 1,
+      "missingCount": 3
+    },
+    {
+      "artist": "冨岡愛",
+      "tjCount": 3,
+      "existingCount": 0,
+      "missingCount": 3
+    },
+    {
+      "artist": "MONGOL800",
+      "tjCount": 2,
+      "existingCount": 0,
+      "missingCount": 2
+    },
+    {
+      "artist": "こっちのけんと",
+      "tjCount": 2,
+      "existingCount": 0,
+      "missingCount": 2
+    },
+    {
+      "artist": "クリープハイプ",
+      "tjCount": 2,
+      "existingCount": 0,
+      "missingCount": 2
+    },
+    {
+      "artist": "Official髭男dism",
+      "tjCount": 33,
+      "existingCount": 32,
+      "missingCount": 1
+    },
+    {
+      "artist": "ヨルシカ",
+      "tjCount": 34,
+      "existingCount": 33,
+      "missingCount": 1
+    },
+    {
+      "artist": "松原みき",
+      "tjCount": 1,
+      "existingCount": 0,
+      "missingCount": 1
+    },
+    {
+      "artist": "神山羊",
+      "tjCount": 1,
+      "existingCount": 0,
+      "missingCount": 1
+    },
+    {
+      "artist": "ASIAN KUNG-FU GENERATION",
+      "tjCount": 0,
+      "existingCount": 0,
+      "missingCount": 0
+    },
+    {
+      "artist": "Hump Back",
+      "tjCount": 1,
+      "existingCount": 1,
+      "missingCount": 0
+    },
+    {
+      "artist": "King Gnu",
+      "tjCount": 23,
+      "existingCount": 23,
+      "missingCount": 0
+    },
+    {
+      "artist": "Tani Yuuki",
+      "tjCount": 1,
+      "existingCount": 1,
+      "missingCount": 0
+    },
+    {
+      "artist": "yama",
+      "tjCount": 7,
+      "existingCount": 7,
+      "missingCount": 0
+    },
+    {
+      "artist": "『ユイカ』",
+      "tjCount": 0,
+      "existingCount": 0,
+      "missingCount": 0
+    },
+    {
+      "artist": "スピッツ",
+      "tjCount": 0,
+      "existingCount": 0,
+      "missingCount": 0
+    },
+    {
+      "artist": "米津玄師",
+      "tjCount": 39,
+      "existingCount": 39,
+      "missingCount": 0
+    },
+    {
+      "artist": "須田景凪",
+      "tjCount": 0,
+      "existingCount": 0,
+      "missingCount": 0
+    }
+  ],
+  "candidates": [
+    {
+      "number": "52518",
+      "title": "エンゼルシーク(ドラマ 'ヤンドク！' OST)",
+      "artist": "Ado",
+      "lyricist": "煮ル果実",
+      "composer": "煮ル果実",
+      "queryArtist": "Ado",
+      "exists": false
+    },
+    {
+      "number": "68904",
+      "title": "ドライフラワー",
+      "artist": "Ado",
+      "lyricist": "優里",
+      "composer": "優里",
+      "queryArtist": "Ado",
+      "exists": false
+    },
+    {
+      "number": "68672",
+      "title": "ビンクスの酒('ONE PIECE' OST)",
+      "artist": "Ado",
+      "lyricist": "尾田栄一郎",
+      "composer": "中公平",
+      "queryArtist": "Ado",
+      "exists": false
+    },
+    {
+      "number": "68092",
+      "title": "After Rain",
+      "artist": "Aimer",
+      "lyricist": "AIMERRHYTHM",
+      "composer": "玉井健二,KOMODA",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "68712",
+      "title": "AM02:00",
+      "artist": "Aimer",
+      "lyricist": "AIMERRRHYTHM",
+      "composer": "宮川暢彦",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "68069",
+      "title": "April Showers",
+      "artist": "Aimer",
+      "lyricist": "AIMERRHYTHM",
+      "composer": "ALBATOLUCE",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "68439",
+      "title": "cold rain(魔道祖師 ED)",
+      "artist": "Aimer",
+      "lyricist": "AIMERRHYTHM",
+      "composer": "三橋隆幸",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "68726",
+      "title": "Deep down('チェンソーマン' ED)",
+      "artist": "Aimer",
+      "lyricist": "AIMERRRHYTHM",
+      "composer": "永澤和真",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "68691",
+      "title": "Ivy Ivy Ivy(ドラマ '結婚するって、本当ですか' 主題歌)",
+      "artist": "Aimer",
+      "lyricist": "AIMERRRHYTHM",
+      "composer": "MISTY MINT",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "52411",
+      "title": "Little Bouquet(映画 '羅小黒戦記2' OST)",
+      "artist": "Aimer",
+      "lyricist": "AIMERRHYTHM",
+      "composer": "横山裕章",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "28110",
+      "title": "Re : I Am(機動戦士ガンダムUC OST)",
+      "artist": "Aimer",
+      "lyricist": "澤野弘之",
+      "composer": "澤野弘之",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "28832",
+      "title": "Ref:rain(恋は雨上がりのように ED)",
+      "artist": "Aimer",
+      "lyricist": "AIMERRHYTHM",
+      "composer": "飛内将大",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "52841",
+      "title": "SCOPE(TVアニメ '天久鷹央の推理カルテ' OST)",
+      "artist": "Aimer",
+      "lyricist": "AIMERRHYTHM",
+      "composer": "百田 留衣",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "68299",
+      "title": "SPARK-AGAIN(炎炎ノ消防隊 OP)",
+      "artist": "Aimer",
+      "lyricist": "AIMERRHYTHM",
+      "composer": "飛内将大",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "27811",
+      "title": "StarRingChild(機動戦士ガンダムUC ED)",
+      "artist": "Aimer",
+      "lyricist": "澤野弘之",
+      "composer": "澤野弘之",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "27752",
+      "title": "あなたに出会わなければ ~夏雪冬花~(夏雪ランデブー ED)",
+      "artist": "Aimer",
+      "lyricist": "AIMERRHYTHM",
+      "composer": "百田留衣",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "52784",
+      "title": "うつくしい世界('出光興産' CM)",
+      "artist": "Aimer",
+      "lyricist": "AIMERRHYTHM",
+      "composer": "柴山太朗",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "28886",
+      "title": "カタオモイ",
+      "artist": "Aimer",
+      "lyricist": "内澤崇仁",
+      "composer": "内澤崇仁",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "68149",
+      "title": "コイワズライ",
+      "artist": "Aimer",
+      "lyricist": "AIMERRHYTHM",
+      "composer": "飛内将大",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "68020",
+      "title": "ポラリス",
+      "artist": "Aimer",
+      "lyricist": "AIMERRHYTHM",
+      "composer": "飛内将大",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "52986",
+      "title": "太陽が昇らない世界(劇場版 '鬼滅の刃': 無限城編 OST)",
+      "artist": "Aimer",
+      "lyricist": "近藤光 (UFO TABLE)",
+      "composer": "椎名豪",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "27740",
+      "title": "星屑ビーナス",
+      "artist": "Aimer",
+      "lyricist": "AIMERRHYTHM",
+      "composer": "飛内将大",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "68570",
+      "title": "朝が来る(鬼滅の刃 ED)",
+      "artist": "Aimer",
+      "lyricist": "梶浦由記",
+      "composer": "梶浦由記",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "68552",
+      "title": "残響散歌(鬼滅の刃 OP)",
+      "artist": "Aimer",
+      "lyricist": "AIMERRHYTHM",
+      "composer": "飛内将大",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "27983",
+      "title": "茜さす(夏目友人帳 ED)",
+      "artist": "Aimer",
+      "lyricist": "AIMERRHYTHM",
+      "composer": "釣俊輔",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "28770",
+      "title": "蝶々結び",
+      "artist": "Aimer",
+      "lyricist": "野田洋次郎",
+      "composer": "野田洋次郎",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "27841",
+      "title": "誰か、海を。(残響のテロル ED)",
+      "artist": "Aimer",
+      "lyricist": "青葉市子",
+      "composer": "菅野よう子",
+      "queryArtist": "Aimer",
+      "exists": false
+    },
+    {
+      "number": "28938",
+      "title": "さくら",
+      "artist": "amazarashi",
+      "lyricist": "秋田ひろむ",
+      "composer": "秋田ひろむ",
+      "queryArtist": "amazarashi",
+      "exists": false
+    },
+    {
+      "number": "28976",
+      "title": "さよならごっこ(どろろ ED)",
+      "artist": "amazarashi",
+      "lyricist": "秋田ひろむ",
+      "composer": "秋田ひろむ",
+      "queryArtist": "amazarashi",
+      "exists": false
+    },
+    {
+      "number": "52487",
+      "title": "アンチノミー(アニメ 'NieR:Automata Ver1.1a' OST)",
+      "artist": "amazarashi",
+      "lyricist": "秋田ひろむ",
+      "composer": "秋田ひろむ",
+      "queryArtist": "amazarashi",
+      "exists": false
+    },
+    {
+      "number": "52511",
+      "title": "ゴースト",
+      "artist": "amazarashi",
+      "lyricist": "秋田ひろむ",
+      "composer": "秋田ひろむ",
+      "queryArtist": "amazarashi",
+      "exists": false
+    },
+    {
+      "number": "28219",
+      "title": "スピードと摩擦(乱歩奇譚 OP)",
+      "artist": "amazarashi",
+      "lyricist": "秋田ひろむ",
+      "composer": "秋田ひろむ",
+      "queryArtist": "amazarashi",
+      "exists": false
+    },
+    {
+      "number": "28954",
+      "title": "ピアノ泥棒",
+      "artist": "amazarashi",
+      "lyricist": "秋田ひろむ",
+      "composer": "秋田ひろむ",
+      "queryArtist": "amazarashi",
+      "exists": false
+    },
+    {
+      "number": "28897",
+      "title": "メーデーメーデー",
+      "artist": "amazarashi",
+      "lyricist": "秋田ひろむ",
+      "composer": "秋田ひろむ",
+      "queryArtist": "amazarashi",
+      "exists": false
+    },
+    {
+      "number": "68241",
+      "title": "ライフイズ ビューティフル",
+      "artist": "amazarashi",
+      "lyricist": "秋田ひろむ",
+      "composer": "秋田ひろむ",
+      "queryArtist": "amazarashi",
+      "exists": false
+    },
+    {
+      "number": "28854",
+      "title": "名前",
+      "artist": "amazarashi",
+      "lyricist": "秋田ひろむ",
+      "composer": "秋田ひろむ",
+      "queryArtist": "amazarashi",
+      "exists": false
+    },
+    {
+      "number": "28864",
+      "title": "命にふさわしい",
+      "artist": "amazarashi",
+      "lyricist": "秋田ひろむ",
+      "composer": "秋田ひろむ",
+      "queryArtist": "amazarashi",
+      "exists": false
+    },
+    {
+      "number": "68568",
+      "title": "境界線(86-エイティシックス- OP)",
+      "artist": "amazarashi",
+      "lyricist": "秋田ひろむ",
+      "composer": "秋田ひろむ",
+      "queryArtist": "amazarashi",
+      "exists": false
+    },
+    {
+      "number": "28293",
+      "title": "季節は次々死んでいく(東京喰種 2nd ED)",
+      "artist": "amazarashi",
+      "lyricist": "秋田ひろむ",
+      "composer": "秋田ひろむ",
+      "queryArtist": "amazarashi",
+      "exists": false
+    },
+    {
+      "number": "28793",
+      "title": "少年少女",
+      "artist": "amazarashi",
+      "lyricist": "秋田弘",
+      "composer": "秋田弘",
+      "queryArtist": "amazarashi",
+      "exists": false
+    },
+    {
+      "number": "68253",
+      "title": "未来になれなかったあの夜に",
+      "artist": "amazarashi",
+      "lyricist": "秋田ひろむ",
+      "composer": "秋田ひろむ",
+      "queryArtist": "amazarashi",
+      "exists": false
+    },
+    {
+      "number": "68177",
+      "title": "空っぽの空に潰される",
+      "artist": "amazarashi",
+      "lyricist": "秋田ひろむ",
+      "composer": "秋田ひろむ",
+      "queryArtist": "amazarashi",
+      "exists": false
+    },
+    {
+      "number": "28758",
+      "title": "空に歌えば(僕のヒーローアカデミア OP)",
+      "artist": "amazarashi",
+      "lyricist": "秋田ひろむ",
+      "composer": "秋田ひろむ",
+      "queryArtist": "amazarashi",
+      "exists": false
+    },
+    {
+      "number": "68009",
+      "title": "HAPPY BIRTHDAY(ドラマ'初めて恋をした日に読む話' OST)",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "52927",
+      "title": "ある未来より愛を込めて(モスバーガー CM)",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "52443",
+      "title": "どうしてもどうしても(NHKウィンタースポーツテーマソング)",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "68091",
+      "title": "わたがし",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "68683",
+      "title": "アイラブユー('舞いあがれ!' 主題歌)",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "27807",
+      "title": "クリスマスソング(5→9~私に恋したお坊さん~ OST)",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "52824",
+      "title": "チェックのワンピース",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "28675",
+      "title": "ハッピーエンド(映画'ぼくは明日、昨日のきみとデートする' OST)",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "52942",
+      "title": "ブルーアンバー(ドラマ 'あなたを奪ったその日から' OST)",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "68655",
+      "title": "ベルベットの詩",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "52404",
+      "title": "世田谷ラブストーリー",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "52545",
+      "title": "光の街",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "68924",
+      "title": "冬と春",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "52900",
+      "title": "君の恋人になったら",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "28910",
+      "title": "大不正解(映画'銀魂2 掟は破るためにこそある' OST)",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "28968",
+      "title": "幸せ",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "68484",
+      "title": "新しい恋人達に(ドラマ '海のはじまり' OST)",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "68520",
+      "title": "黄色",
+      "artist": "back number",
+      "lyricist": "清水依与吏",
+      "composer": "清水依与吏",
+      "queryArtist": "back number",
+      "exists": false
+    },
+    {
+      "number": "28571",
+      "title": "firefly",
+      "artist": "BUMP OF CHICKEN",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "27738",
+      "title": "Hello, World!(血界戦線 OP)",
+      "artist": "Bump of Chicken",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "52476",
+      "title": "I(TVアニメ '僕のヒーローアカデミア FINAL SEASON' OST)",
+      "artist": "BUMP OF CHICKEN",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "25322",
+      "title": "K",
+      "artist": "Bump of Chicken",
+      "lyricist": "",
+      "composer": "",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "25504",
+      "title": "sailing day(ワンピース OST)",
+      "artist": "Bump of Chicken",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "52582",
+      "title": "Sleep Walking Orchestra(アニメ 'ダンジョン飯' OP)",
+      "artist": "BUMP OF CHICKEN",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "27188",
+      "title": "Smile",
+      "artist": "Bump of Chicken",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "26116",
+      "title": "Supernova",
+      "artist": "Bump of Chicken",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "68522",
+      "title": "なないろ",
+      "artist": "BUMP OF CHICKEN",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "68307",
+      "title": "アカシア(ポケットモンスターソード・シールド OST)",
+      "artist": "BUMP OF CHICKEN",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "26028",
+      "title": "アルエ",
+      "artist": "Bump of Chicken",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "25855",
+      "title": "オンリーロンリー グローリー",
+      "artist": "Bump of Chicken",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "26402",
+      "title": "カルマ(テイルズオブジアビズ 主題歌)",
+      "artist": "BUMP OF CHICKEN",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "25926",
+      "title": "ガラスのブルース",
+      "artist": "Bump of Chicken",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "68637",
+      "title": "クロノスタシス(劇場版'名探偵コナン ハロウィンの花嫁' 主題歌)",
+      "artist": "BUMP OF CHICKEN",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "27268",
+      "title": "グッドラック",
+      "artist": "BUMP OF CHICKEN",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "25461",
+      "title": "スノースマイル",
+      "artist": "Bump of Chicken",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "27240",
+      "title": "ゼロ(FINAL FANTASY OST)",
+      "artist": "BUMP OF CHICKEN",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "25723",
+      "title": "ハルジオン",
+      "artist": "Bump of Chicken",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "26902",
+      "title": "メーデー",
+      "artist": "Bump of Chicken",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "25682",
+      "title": "ラフ・メイカー",
+      "artist": "Bump of Chicken",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "27161",
+      "title": "友達の唄",
+      "artist": "BUMP OF CHICKEN",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "25138",
+      "title": "天体観測",
+      "artist": "BUMP OF CHICKEN",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "27769",
+      "title": "宇宙飛行士への手紙",
+      "artist": "BUMP OF CHICKEN",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "26995",
+      "title": "才悩人応援歌",
+      "artist": "Bump of Chicken",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "52937",
+      "title": "新世界(ロッテ創業70周年記念スペシャルテーマソング)",
+      "artist": "BUMP OF CHICKEN",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "26259",
+      "title": "涙のふるさと",
+      "artist": "Bump of Chicken",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "68784",
+      "title": "窓の中から",
+      "artist": "BUMP OF CHICKEN",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "26697",
+      "title": "花の名",
+      "artist": "Bump of Chicken",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "28592",
+      "title": "虹を待つ人",
+      "artist": "BUMP OF CHICKEN",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "28920",
+      "title": "話がしたいよ",
+      "artist": "Bump of Chicken",
+      "lyricist": "藤原基央",
+      "composer": "藤原基央",
+      "queryArtist": "BUMP OF CHICKEN",
+      "exists": false
+    },
+    {
+      "number": "52421",
+      "title": "よふかしのうた(TVアニメ 'よふかしのうた' OST)",
+      "artist": "Creepy Nuts",
+      "lyricist": "R-指定",
+      "composer": "DJ松永",
+      "queryArtist": "Creepy Nuts",
+      "exists": false
+    },
+    {
+      "number": "52704",
+      "title": "オトノケ - Otonoke(TVアニメ 'ダンダダン' OP)",
+      "artist": "Creepy Nuts",
+      "lyricist": "R-指定",
+      "composer": "DJ松永",
+      "queryArtist": "Creepy Nuts",
+      "exists": false
+    },
+    {
+      "number": "52569",
+      "title": "二度寝(ドラマ '不適切にもほどがある！' OST)",
+      "artist": "CreepyNuts",
+      "lyricist": "R-指定",
+      "composer": "DJ松永",
+      "queryArtist": "Creepy Nuts",
+      "exists": false
+    },
+    {
+      "number": "52533",
+      "title": "助演男優賞",
+      "artist": "Creepy Nuts",
+      "lyricist": "R-指定",
+      "composer": "TARLOW JORDAN,YIN BERNARD",
+      "queryArtist": "Creepy Nuts",
+      "exists": false
+    },
+    {
+      "number": "68688",
+      "title": "堕天('よふかしのうた' OP)",
+      "artist": "Creepy Nuts",
+      "lyricist": "Ｒ－指定",
+      "composer": "ＤＪ松永",
+      "queryArtist": "Creepy Nuts",
+      "exists": false
+    },
+    {
+      "number": "52685",
+      "title": "きゅーすとのうた",
+      "artist": "CUTIE STREET",
+      "lyricist": "早川博隆",
+      "composer": "早川博隆,宇田川翔",
+      "queryArtist": "CUTIE STREET",
+      "exists": false
+    },
+    {
+      "number": "52677",
+      "title": "キュートなキューたい(テレビアニメ 'ポケットモンスター' ED)",
+      "artist": "CUTIE STREET",
+      "lyricist": "ジンツチハシ,早川博隆,ポケモン音楽歌い隊",
+      "composer": "ジンツチハシ,早川博隆,宇田川翔",
+      "queryArtist": "CUTIE STREET",
+      "exists": false
+    },
+    {
+      "number": "52500",
+      "title": "ナイスだね(ロッテ 'アジアに恋して' CM)",
+      "artist": "CUTIE STREET",
+      "lyricist": "川谷絵音",
+      "composer": "川谷絵音",
+      "queryArtist": "CUTIE STREET",
+      "exists": false
+    },
+    {
+      "number": "68870",
+      "title": "happy ending('ラブ トランジット' OST)",
+      "artist": "eill",
+      "lyricist": "EILL",
+      "composer": "EILL",
+      "queryArtist": "eill",
+      "exists": false
+    },
+    {
+      "number": "68510",
+      "title": "ここで息をして(東京リベンジャーズ ED)",
+      "artist": "eill",
+      "lyricist": "EILL",
+      "composer": "EILL,RYO'LEFTY'MIYATA",
+      "queryArtist": "eill",
+      "exists": false
+    },
+    {
+      "number": "68845",
+      "title": "フィナーレ。(映画 '夏へのトンネル、さよならの出口' OST)",
+      "artist": "eill",
+      "lyricist": "EILL",
+      "composer": "EILL",
+      "queryArtist": "eill",
+      "exists": false
+    },
+    {
+      "number": "26182",
+      "title": "azure moon",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "Kaori Mochida",
+      "composer": "HIKARI",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "27048",
+      "title": "Change",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "Kaori Mochida",
+      "composer": "IGARASHI MITSURU",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "6892",
+      "title": "Face the change",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "",
+      "composer": "",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "29937",
+      "title": "For The Moment",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "五十嵐充",
+      "composer": "五十嵐充",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "6937",
+      "title": "FOREVER YOURS",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "",
+      "composer": "",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "25121",
+      "title": "Fragile",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "持田香織",
+      "composer": "菊池一仁",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "26560",
+      "title": "Good Night(テイルズ オブ リバースOP)",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "持田香織",
+      "composer": "HIKARI",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "25512",
+      "title": "Grip!(犬夜叉 主題歌)",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "Kaori Mochida",
+      "composer": "Kazuhiro Hara",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "25236",
+      "title": "Jump",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "",
+      "composer": "",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "6952",
+      "title": "NECESSARY",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "",
+      "composer": "",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "6639",
+      "title": "Over and Over",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "五十嵐充",
+      "composer": "五十嵐充",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "25059",
+      "title": "Pray",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "",
+      "composer": "",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "26035",
+      "title": "Rescue me",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "五十嵐充",
+      "composer": "五十嵐充",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "6936",
+      "title": "Shapes Of Love",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "",
+      "composer": "",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "52757",
+      "title": "summertime",
+      "artist": "cinnamons,evening cinema",
+      "lyricist": "鈴木まりこ",
+      "composer": "原田夏樹",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "6889",
+      "title": "Time goes by",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "五十嵐充",
+      "composer": "五十嵐充",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "25448",
+      "title": "UNSPEAKABLE",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "Kaori Mochida",
+      "composer": "Kazuhiro Kikuchi",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "25724",
+      "title": "また あした",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "持田香織",
+      "composer": "小幡英之",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "28464",
+      "title": "ゆらゆら(犬夜叉 OST)",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "持田香織",
+      "composer": "多胡邦夫",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "26642",
+      "title": "キラメキアワー",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "Kaori Mochida",
+      "composer": "Kunio Tago",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "25835",
+      "title": "ソラアイ",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "Kaori Mochida",
+      "composer": "HIKARI",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "25845",
+      "title": "ファンダメンタル・ラブ",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "Kaori Mochida",
+      "composer": "Kunio Tago",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "52893",
+      "title": "ラブソング",
+      "artist": "キタニタツヤ(Feat. Eve )",
+      "lyricist": "キタニタツヤ",
+      "composer": "キタニタツヤ",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "25221",
+      "title": "出逢った頃のように",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "",
+      "composer": "",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "26720",
+      "title": "恋をしている",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "持田香織",
+      "composer": "菊池一仁",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "25911",
+      "title": "恋文",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "持田香織",
+      "composer": "HIKARI",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "25672",
+      "title": "愛のカケラ",
+      "artist": "Eve ry Little Thing",
+      "lyricist": "持田香織",
+      "composer": "多胡邦夫",
+      "queryArtist": "Eve",
+      "exists": false
+    },
+    {
+      "number": "52771",
+      "title": "Dried Flower(映画 'スマホを落としただけなのに' OST)",
+      "artist": "imase",
+      "lyricist": "IMASE",
+      "composer": "IMASE",
+      "queryArtist": "imase",
+      "exists": false
+    },
+    {
+      "number": "52932",
+      "title": "FRIENDS!!!(Pococha xヤマハ 'みんなの演奏会' OST)",
+      "artist": "imase",
+      "lyricist": "IMASE",
+      "composer": "IMASE",
+      "queryArtist": "imase",
+      "exists": false
+    },
+    {
+      "number": "68465",
+      "title": "Happy Order?",
+      "artist": "imase",
+      "lyricist": "IMASE",
+      "composer": "IMASE",
+      "queryArtist": "imase",
+      "exists": false
+    },
+    {
+      "number": "68977",
+      "title": "Midnight Girl(ドラマ 'チェイサーゲームW パワハラ上司は私の元カノ' OST)",
+      "artist": "imase",
+      "lyricist": "IMASE",
+      "composer": "IMASE",
+      "queryArtist": "imase",
+      "exists": false
+    },
+    {
+      "number": "68789",
+      "title": "NIGHT DANCER(BIG Naughty Remix)",
+      "artist": "imase ,BIG Naughty",
+      "lyricist": "IMASE",
+      "composer": "IMASE",
+      "queryArtist": "imase",
+      "exists": false
+    },
+    {
+      "number": "68771",
+      "title": "NIGHT DANCER(TeddyLoid Remix)",
+      "artist": "imase",
+      "lyricist": "IMASE",
+      "composer": "IMASE",
+      "queryArtist": "imase",
+      "exists": false
+    },
+    {
+      "number": "52581",
+      "title": "Shine Out",
+      "artist": "imase",
+      "lyricist": "IMASE",
+      "composer": "IMASE",
+      "queryArtist": "imase",
+      "exists": false
+    },
+    {
+      "number": "52814",
+      "title": "ジュエリー",
+      "artist": "LE SSERAFIM(Prod. imase )",
+      "lyricist": "IMASE",
+      "composer": "IMASE,久保田真悟(JAZZIN'PARK)",
+      "queryArtist": "imase",
+      "exists": false
+    },
+    {
+      "number": "68499",
+      "title": "メトロシティ(JR東海 'スマートEX' CM)",
+      "artist": "imase & なとり",
+      "lyricist": "imase,なとり",
+      "composer": "imase,なとり",
+      "queryArtist": "imase",
+      "exists": false
+    },
+    {
+      "number": "52943",
+      "title": "名前のない日々(ドラマ 'Dr.アシュラ' OST)",
+      "artist": "imase",
+      "lyricist": "IMASE",
+      "composer": "IMASE",
+      "queryArtist": "imase",
+      "exists": false
+    },
+    {
+      "number": "68982",
+      "title": "恋衣('キリン 午後の紅茶' CM)",
+      "artist": "imase",
+      "lyricist": "IMASE",
+      "composer": "IMASE",
+      "queryArtist": "imase",
+      "exists": false
+    },
+    {
+      "number": "68855",
+      "title": "ぐらでーしょん(アニメ '山田くんとLv999の恋をする' OP)",
+      "artist": "KANA-BOON (Feat.北澤ゆうほ)",
+      "lyricist": "谷口鮪",
+      "composer": "谷口鮪",
+      "queryArtist": "KANA-BOON",
+      "exists": false
+    },
+    {
+      "number": "68202",
+      "title": "スターマーカー(僕のヒーローアカデミア OP)",
+      "artist": "KANA-BOON",
+      "lyricist": "谷口鮪",
+      "composer": "谷口鮪",
+      "queryArtist": "KANA-BOON",
+      "exists": false
+    },
+    {
+      "number": "68008",
+      "title": "バトンロード(BORUTO-NARUTO NEXT GENERATIONS OP)",
+      "artist": "KANA-BOON",
+      "lyricist": "谷口鮪",
+      "composer": "谷口鮪",
+      "queryArtist": "KANA-BOON",
+      "exists": false
+    },
+    {
+      "number": "28972",
+      "title": "ADAMAS(ソードアート・オンライン アリシゼーション OP)",
+      "artist": "LISA",
+      "lyricist": "LISA",
+      "composer": "カヨコ",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "27953",
+      "title": "Brave Freak Out(クオリディアコード OP)",
+      "artist": "LISA",
+      "lyricist": "田淵智也",
+      "composer": "高橋浩一郎",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "28670",
+      "title": "Catch The Moment(劇場版 ソードアート・オンラインオーディナル・スケー OST)",
+      "artist": "LISA",
+      "lyricist": "LISA",
+      "composer": "田淵智也",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "27541",
+      "title": "Crossing Field(ソードアート・オンライン OP)",
+      "artist": "LISA",
+      "lyricist": "WATANABE SHOU",
+      "composer": "WATANABE SHOU",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "68369",
+      "title": "dawn(バック・アロウ OP)",
+      "artist": "LiSA",
+      "lyricist": "LISA",
+      "composer": "草野華余子,堀江晶太",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "68103",
+      "title": "from the edge(鬼滅の刃 ED)",
+      "artist": "FictionJunction(Feat. LiSA )",
+      "lyricist": "梶浦由記",
+      "composer": "梶浦由記",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "68619",
+      "title": "HADASHi NO STEP(ドラマ'プロミス・シンデレラ' OST)",
+      "artist": "LiSA",
+      "lyricist": "LISA",
+      "composer": "田淵智也",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "52779",
+      "title": "HELLO WORLD('ソニー デジタル一眼カメラα7C II' CM)",
+      "artist": "LiSA",
+      "lyricist": "小南泰葉",
+      "composer": "小南泰葉",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "68945",
+      "title": "play the world!",
+      "artist": "LiSA (Feat.PABLO)",
+      "lyricist": "LISA,田淵智也",
+      "composer": "PABLO A. K. A. WTF! ?",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "52785",
+      "title": "QUEEN(アニメ 'シャングリラ・フロンティア' OST)",
+      "artist": "LiSA",
+      "lyricist": "MAQUMA",
+      "composer": "HONNWAKA88,LISA",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "27993",
+      "title": "Rally Go Round(ニセコイ OP)",
+      "artist": "LISA",
+      "lyricist": "LISA,古屋真",
+      "composer": "じん",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "68834",
+      "title": "REALiZE(映画 'スパイダーマン：アクロス・ザ・スパイダーバース' OST)",
+      "artist": "LiSA",
+      "lyricist": "LISA",
+      "composer": "堀江晶太",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "52816",
+      "title": "ReawakeR",
+      "artist": "LiSA (Feat.Felix of Stray Kids)",
+      "lyricist": "Benjamin,cAnON.",
+      "composer": "澤野弘之",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "27600",
+      "title": "Rising Hope(魔法科高校の劣等生 OP)",
+      "artist": "LISA",
+      "lyricist": "LISA,田淵智也",
+      "composer": "田淵智也",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "52772",
+      "title": "Shouted Serenade(TVアニメ '魔法科高校の劣等生' OST)",
+      "artist": "LiSA",
+      "lyricist": "LISA,田淵智也",
+      "composer": "田淵智也",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "27458",
+      "title": "Traumerei(幻影ヲ駆ケル太陽 OP)",
+      "artist": "LISA",
+      "lyricist": "HIDEO NEKOTA",
+      "composer": "HIDEO NEKOTA",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "68155",
+      "title": "unlasting(ソードアート・オンライン アリシゼーション War of Underworld ED)",
+      "artist": "LISA",
+      "lyricist": "LISA",
+      "composer": "草野華余子",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "28738",
+      "title": "だってアタシのヒーロー。(僕のヒーローアカデミア ED)",
+      "artist": "LISA",
+      "lyricist": "LISA,古屋真",
+      "composer": "渡辺翔",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "27687",
+      "title": "シルシ(ソードアート・オンライン ED)",
+      "artist": "LISA",
+      "lyricist": "LISA",
+      "composer": "カヨコ",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "68342",
+      "title": "再会",
+      "artist": "LiSA ,Uru(produced by Ayase)",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "68525",
+      "title": "往け(映画'ソードアート・オンライン -プログレッシブ- 星なき夜のアリア' OST)",
+      "artist": "LiSA",
+      "lyricist": "LISA",
+      "composer": "AYASE",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "68330",
+      "title": "愛錠(13(サーティン) OST)",
+      "artist": "LiSA",
+      "lyricist": "LISA",
+      "composer": "草野華余子",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "68527",
+      "title": "明け星(鬼滅の刃 OST)",
+      "artist": "LiSA",
+      "lyricist": "梶浦由記",
+      "composer": "梶浦由記",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "52931",
+      "title": "残酷な夜に輝け(劇場版 '鬼滅の刃 無限城編' OST)",
+      "artist": "LiSA",
+      "lyricist": "梶浦由記",
+      "composer": "梶浦由記",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "68312",
+      "title": "炎(映画'鬼滅の刃無限列車編' OST)",
+      "artist": "LISA",
+      "lyricist": "LISA",
+      "composer": "梶浦由記",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "68542",
+      "title": "白銀(鬼滅の刃 OST)",
+      "artist": "LiSA",
+      "lyricist": "梶浦由記",
+      "composer": "梶浦由記",
+      "queryArtist": "LiSA",
+      "exists": false
+    },
+    {
+      "number": "29962",
+      "title": "あなたに",
+      "artist": "MONGOL800",
+      "lyricist": "上江洌 清作",
+      "composer": "MONGOL800",
+      "queryArtist": "MONGOL800",
+      "exists": false
+    },
+    {
+      "number": "26592",
+      "title": "小さな恋のうた",
+      "artist": "MONGOL800",
+      "lyricist": "上江洌清作",
+      "composer": "MONGOL800",
+      "queryArtist": "MONGOL800",
+      "exists": false
+    },
+    {
+      "number": "68885",
+      "title": "ANTENNA",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "52935",
+      "title": "breakfast",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "52920",
+      "title": "Carrying Happiness",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "68718",
+      "title": "CHEERS",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "52721",
+      "title": "familie(HONDA 'FREED' CM)",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "52974",
+      "title": "GOOD DAY('キリングッドエール' CM)",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "52440",
+      "title": "lulu.(アニメ '葬送のフリーレン' OST)",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "68835",
+      "title": "Magic('コカ・コーラ' TVCM)",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "68736",
+      "title": "Soranji(映画 'ラーゲリより愛を込めて' OST)",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "52866",
+      "title": "StaRt",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "28776",
+      "title": "WanteD! WanteD!(ドラマ'僕たちがやりました' OP)",
+      "artist": "Mrs. Green Apple",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "68918",
+      "title": "アンラブレス",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "52856",
+      "title": "ア・プリオリ",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "52834",
+      "title": "クスシキ(アニメ '薬屋のひとりごと' OST)",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "68485",
+      "title": "コロンブス('コカコーラ' TV CM)",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "52793",
+      "title": "ダーリン",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "52432",
+      "title": "ツキマシテハ",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "68635",
+      "title": "ニュー・マイ・ノーマル",
+      "artist": "Mrs. Green Apple",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "52804",
+      "title": "ビターバカンス(映画 '聖☆おにいさん THE MOVIE ~ホーリーメンVS悪魔軍団~' OST)",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "68636",
+      "title": "ブルーアンビエンス",
+      "artist": "Mrs. Green Apple(Feat.asmi)",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "68137",
+      "title": "ロマンチシズム",
+      "artist": "Mrs. Green Apple",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "52544",
+      "title": "夏の影(キリン '午後の紅茶' CM)",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "52924",
+      "title": "天国(映画 '#真相をお話しします' OST)",
+      "artist": "Mrs. GREEN APPLE",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "68207",
+      "title": "春愁",
+      "artist": "Mrs. Green Apple",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "68141",
+      "title": "点描の唄",
+      "artist": "Mrs. GREEN APPLE(Feat.井上苑子)",
+      "lyricist": "大森元貴",
+      "composer": "大森元貴",
+      "queryArtist": "Mrs. GREEN APPLE",
+      "exists": false
+    },
+    {
+      "number": "52543",
+      "title": "Sunny drop('コカコーラ ゼロシュガー' CM)",
+      "artist": "Novelbright",
+      "lyricist": "竹中雄大",
+      "composer": "竹中雄大,沖聡次郎",
+      "queryArtist": "Novelbright",
+      "exists": false
+    },
+    {
+      "number": "52496",
+      "title": "アネモネ",
+      "artist": "Novelbright",
+      "lyricist": "竹中雄大",
+      "composer": "沖聡次郎,竹中雄大",
+      "queryArtist": "Novelbright",
+      "exists": false
+    },
+    {
+      "number": "52408",
+      "title": "ツキミソウ",
+      "artist": "Novelbright",
+      "lyricist": "竹中雄大",
+      "composer": "竹中雄大,沖聡次郎",
+      "queryArtist": "Novelbright",
+      "exists": false
+    },
+    {
+      "number": "52531",
+      "title": "夢花火(ゲーム '放置少女' TV CM)",
+      "artist": "Novelbright",
+      "lyricist": "竹中雄大",
+      "composer": "竹中雄大",
+      "queryArtist": "Novelbright",
+      "exists": false
+    },
+    {
+      "number": "52405",
+      "title": "愛とか恋とか",
+      "artist": "Novelbright",
+      "lyricist": "竹中雄大",
+      "composer": "竹中雄大,沖聡次郎",
+      "queryArtist": "Novelbright",
+      "exists": false
+    },
+    {
+      "number": "52521",
+      "title": "開幕宣言",
+      "artist": "Novelbright",
+      "lyricist": "竹中雄大",
+      "composer": "竹中雄大",
+      "queryArtist": "Novelbright",
+      "exists": false
+    },
+    {
+      "number": "52682",
+      "title": "ビンテージ('あいのり：African Journey' OST)",
+      "artist": "Official髭男dism",
+      "lyricist": "藤原聡",
+      "composer": "藤原聡",
+      "queryArtist": "Official髭男dism",
+      "exists": false
+    },
+    {
+      "number": "27813",
+      "title": "Clock Strikes",
+      "artist": "ONE OK ROCK",
+      "lyricist": "TAKA",
+      "composer": "TORU,TAKA",
+      "queryArtist": "ONE OK ROCK",
+      "exists": false
+    },
+    {
+      "number": "27749",
+      "title": "Cry Out",
+      "artist": "ONE OK ROCK",
+      "lyricist": "TAKA",
+      "composer": "ONE OK ROCK",
+      "queryArtist": "ONE OK ROCK",
+      "exists": false
+    },
+    {
+      "number": "27801",
+      "title": "Deeper Deeper",
+      "artist": "ONE OK ROCK",
+      "lyricist": "TAKA",
+      "composer": "RYOTA,TOMOYA",
+      "queryArtist": "ONE OK ROCK",
+      "exists": false
+    },
+    {
+      "number": "27939",
+      "title": "Heartache(映画'るろうに剣心 伝説の最期編' OST)",
+      "artist": "ONE OK ROCK",
+      "lyricist": "TAKA,LANNI ARNOLD DAVID",
+      "composer": "TAKA,LANNI ARNOLD DAVID",
+      "queryArtist": "ONE OK ROCK",
+      "exists": false
+    },
+    {
+      "number": "28609",
+      "title": "Mighty Long Fall(るろうに剣心京都大火編 OST)",
+      "artist": "ONE OK ROCK",
+      "lyricist": "TAKA,FELDMANN JOHN WILLIAM",
+      "composer": "ONE OK ROCK,FELDMANN JOHN WILLIAM",
+      "queryArtist": "ONE OK ROCK",
+      "exists": false
+    },
+    {
+      "number": "28096",
+      "title": "No Scared(Black ★ Rock Shooter The Game OP)",
+      "artist": "ONE OK ROCK",
+      "lyricist": "TAKA",
+      "composer": "TAKA,TORU",
+      "queryArtist": "ONE OK ROCK",
+      "exists": false
+    },
+    {
+      "number": "27616",
+      "title": "Nothing Helps",
+      "artist": "ONE OK ROCK",
+      "lyricist": "TAKA",
+      "composer": "RYOTA,TORU,TOMOYA,TAKA",
+      "queryArtist": "ONE OK ROCK",
+      "exists": false
+    },
+    {
+      "number": "27535",
+      "title": "Re:Make",
+      "artist": "ONE OK ROCK",
+      "lyricist": "TAKA",
+      "composer": "TAKA",
+      "queryArtist": "ONE OK ROCK",
+      "exists": false
+    },
+    {
+      "number": "68400",
+      "title": "Renegades(映画'るろうに剣心 最終章 The Final' OST)",
+      "artist": "ONE OK ROCK",
+      "lyricist": "BENNETT JANEE,PRAMIK DAVID,SHEERAN ED,MORIUCHI TAKAHIRO,HAYAKAWA MASATO",
+      "composer": "BENNETT JANEE,PRAMIK DAVID,SHEERAN ED,MORIUCHI TAKAHIRO,HAYAKAWA MASATO",
+      "queryArtist": "ONE OK ROCK",
+      "exists": false
+    },
+    {
+      "number": "27528",
+      "title": "The Beginning(るろうに剣心 主題歌)",
+      "artist": "ONE OK ROCK",
+      "lyricist": "TAKA",
+      "composer": "TAKA",
+      "queryArtist": "ONE OK ROCK",
+      "exists": false
+    },
+    {
+      "number": "28668",
+      "title": "We Are",
+      "artist": "ONE OK ROCK",
+      "lyricist": "TAKA,TORU,CUNNINGHAM COLIN BRITTAIN,LONG NICHOLAS ALEX",
+      "composer": "TAKA,TORU,CUNNINGHAM COLIN BRITTAIN,LONG NICHOLAS ALEX",
+      "queryArtist": "ONE OK ROCK",
+      "exists": false
+    },
+    {
+      "number": "27675",
+      "title": "Wherever You Are",
+      "artist": "ONE OK ROCK",
+      "lyricist": "TAKA",
+      "composer": "TAKA",
+      "queryArtist": "ONE OK ROCK",
+      "exists": false
+    },
+    {
+      "number": "27565",
+      "title": "完全感覚Dreamer",
+      "artist": "ONE OK ROCK",
+      "lyricist": "TAKA",
+      "composer": "TAKA",
+      "queryArtist": "ONE OK ROCK",
+      "exists": false
+    },
+    {
+      "number": "27651",
+      "title": "未完成交響曲",
+      "artist": "ONE OK ROCK",
+      "lyricist": "TAKA",
+      "composer": "TORU,TAKA",
+      "queryArtist": "ONE OK ROCK",
+      "exists": false
+    },
+    {
+      "number": "52953",
+      "title": "欲望に満ちた青年団",
+      "artist": "ONE OK ROCK",
+      "lyricist": "TAKA",
+      "composer": "TAKA",
+      "queryArtist": "ONE OK ROCK",
+      "exists": false
+    },
+    {
+      "number": "26773",
+      "title": "O2(コードギアス反逆のルルーシュR2 OP)",
+      "artist": "ORANGE RANGE",
+      "lyricist": "ORANGE RANGE",
+      "composer": "ORANGE RANGE",
+      "queryArtist": "ORANGE RANGE",
+      "exists": false
+    },
+    {
+      "number": "26631",
+      "title": "イケナイ太陽(花ざかりの君たちへ OP)",
+      "artist": "ORANGE RANGE",
+      "lyricist": "ORANGE RANGE",
+      "composer": "ORANGE RANGE",
+      "queryArtist": "ORANGE RANGE",
+      "exists": false
+    },
+    {
+      "number": "26029",
+      "title": "キズナ",
+      "artist": "ORANGE RANGE",
+      "lyricist": "ORANGE RANGE",
+      "composer": "ORANGE RANGE",
+      "queryArtist": "ORANGE RANGE",
+      "exists": false
+    },
+    {
+      "number": "28210",
+      "title": "シアワセネイロ(コードギアス反逆のルルーシュR2 ED)",
+      "artist": "ORANGE RANGE",
+      "lyricist": "ORANGE RANGE",
+      "composer": "ORANGE RANGE",
+      "queryArtist": "ORANGE RANGE",
+      "exists": false
+    },
+    {
+      "number": "25754",
+      "title": "ビバ★ロック(NARUTO-ナルト-疾風伝 ED)",
+      "artist": "ORANGE RANGE",
+      "lyricist": "ORANGE RANGE",
+      "composer": "ORANGE RANGE",
+      "queryArtist": "ORANGE RANGE",
+      "exists": false
+    },
+    {
+      "number": "25742",
+      "title": "ミチシルベ ～a road home～",
+      "artist": "ORANGE RANGE",
+      "lyricist": "ORANGE RANGE",
+      "composer": "ORANGE RANGE",
+      "queryArtist": "ORANGE RANGE",
+      "exists": false
+    },
+    {
+      "number": "25999",
+      "title": "ラヴ・パレード",
+      "artist": "ORANGE RANGE",
+      "lyricist": "ORANGE RANGE",
+      "composer": "ORANGE RANGE",
+      "queryArtist": "ORANGE RANGE",
+      "exists": false
+    },
+    {
+      "number": "25847",
+      "title": "上海ハニー",
+      "artist": "ORANGE RANGE",
+      "lyricist": "ORANGE RANGE",
+      "composer": "ORANGE RANGE",
+      "queryArtist": "ORANGE RANGE",
+      "exists": false
+    },
+    {
+      "number": "26948",
+      "title": "瞳の先に",
+      "artist": "ORANGE RANGE",
+      "lyricist": "ORANGE RANGE",
+      "composer": "ORANGE RANGE",
+      "queryArtist": "ORANGE RANGE",
+      "exists": false
+    },
+    {
+      "number": "25904",
+      "title": "花",
+      "artist": "ORANGE RANGE",
+      "lyricist": "ORANGE RANGE",
+      "composer": "ORANGE RANGE",
+      "queryArtist": "ORANGE RANGE",
+      "exists": false
+    },
+    {
+      "number": "25942",
+      "title": "～アスタリスク～(BLEACH OP)",
+      "artist": "ORANGE RANGE",
+      "lyricist": "ORANGE RANGE",
+      "composer": "ORANGE RANGE",
+      "queryArtist": "ORANGE RANGE",
+      "exists": false
+    },
+    {
+      "number": "27154",
+      "title": "DADA",
+      "artist": "RADWIMPS",
+      "lyricist": "野田洋次郎",
+      "composer": "野田洋次郎",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "27546",
+      "title": "Me Me She",
+      "artist": "RADWIMPS",
+      "lyricist": "NODA YOUJIROU",
+      "composer": "NODA YOUJIROU",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "68783",
+      "title": "Tamaki(映画 'すずめの戸締まり' OST)",
+      "artist": "RADWIMPS",
+      "lyricist": "NODA YOJIRO",
+      "composer": "NODA YOJIRO",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "68451",
+      "title": "うるうびと(映画 '余命10年' OST)",
+      "artist": "RADWIMPS",
+      "lyricist": "NODA YOJIRO",
+      "composer": "NODA YOJIRO",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "68759",
+      "title": "すずめ(映画 'すずめの戸締まり' OST)",
+      "artist": "RADWIMPS (Feat.十明)",
+      "lyricist": "NODA YOJIRO",
+      "composer": "NODA YOJIRO",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "68769",
+      "title": "すずめの涙(映画 'すずめの戸締まり' OST)",
+      "artist": "RADWIMPS",
+      "lyricist": "NODA YOUJIROU",
+      "composer": "NODA YOUJIROU",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "68282",
+      "title": "そっけない",
+      "artist": "RADWIMPS",
+      "lyricist": "野田洋次郎",
+      "composer": "野田洋次郎",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "68768",
+      "title": "カナタハルカ(映画 'すずめの戸締まり' OST)",
+      "artist": "RADWIMPS",
+      "lyricist": "NODA YOUJIROU",
+      "composer": "NODA YOUJIROU",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "68067",
+      "title": "グランドエスケープ(映画'天気の子' OST)",
+      "artist": "RADWIMPS (Feat.三浦透子)",
+      "lyricist": "野田洋次郎",
+      "composer": "野田洋次郎",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "27957",
+      "title": "スパークル(Movie Ver.)(映画 '君の名は。' OST)",
+      "artist": "RADWIMPS",
+      "lyricist": "野田洋次郎",
+      "composer": "野田洋次郎",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "52451",
+      "title": "ハイパー ベンチレイション",
+      "artist": "RADWIMPS",
+      "lyricist": "野田 洋次郎",
+      "composer": "野田 洋次郎",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "28665",
+      "title": "会心の一撃",
+      "artist": "RADWIMPS",
+      "lyricist": "野田洋次郎",
+      "composer": "野田洋次郎",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "28624",
+      "title": "君と羊と青",
+      "artist": "RADWIMPS",
+      "lyricist": "野田洋次郎",
+      "composer": "野田洋次郎",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "52751",
+      "title": "夏のせい('Apple Music' CM)",
+      "artist": "RADWIMPS",
+      "lyricist": "野田洋次郎",
+      "composer": "野田洋次郎",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "27972",
+      "title": "夢灯籠(映画'君の名は。' OST)",
+      "artist": "RADWIMPS",
+      "lyricist": "野田 洋次郎",
+      "composer": "野田 洋次郎",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "68114",
+      "title": "大丈夫(映画'天気の子' OST)",
+      "artist": "RADWIMPS",
+      "lyricist": "野田洋次郎",
+      "composer": "野田洋次郎",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "68057",
+      "title": "愛にできることはまだあるかい(映画'天気の子' OST)",
+      "artist": "RADWIMPS",
+      "lyricist": "野田洋次郎",
+      "composer": "野田洋次郎",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "27818",
+      "title": "有心論",
+      "artist": "RADWIMPS",
+      "lyricist": "野田洋次郎",
+      "composer": "野田洋次郎",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "52919",
+      "title": "正解",
+      "artist": "RADWIMPS",
+      "lyricist": "NODA YOJIRO",
+      "composer": "NODA YOJIRO",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "52429",
+      "title": "狭心症",
+      "artist": "RADWIMPS",
+      "lyricist": "野田 洋次郎",
+      "composer": "野田 洋次郎",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "68281",
+      "title": "祝祭(Movie edit)(映画'天気の子' OST)",
+      "artist": "RADWIMPS (Feat.三浦透子)",
+      "lyricist": "野田洋次郎",
+      "composer": "野田洋次郎",
+      "queryArtist": "RADWIMPS",
+      "exists": false
+    },
+    {
+      "number": "52423",
+      "title": "いつか",
+      "artist": "Saucy Dog",
+      "lyricist": "石原慎也",
+      "composer": "Saucy Dog",
+      "queryArtist": "Saucy Dog",
+      "exists": false
+    },
+    {
+      "number": "52524",
+      "title": "今更だって僕は言うかな",
+      "artist": "Saucy Dog",
+      "lyricist": "石原慎也",
+      "composer": "Saucy Dog",
+      "queryArtist": "Saucy Dog",
+      "exists": false
+    },
+    {
+      "number": "52473",
+      "title": "結",
+      "artist": "Saucy Dog",
+      "lyricist": "石原慎也",
+      "composer": "Saucy Dog",
+      "queryArtist": "Saucy Dog",
+      "exists": false
+    },
+    {
+      "number": "27940",
+      "title": "ANTI-HERO(映画'進撃の巨人 ATTACK ON TITAN'OST)",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "FUKASE",
+      "composer": "NAKAJIN",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "25014",
+      "title": "Diary(未来日記 OST)",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "SAORI",
+      "composer": "SAORI,NAKAJIN",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "27684",
+      "title": "Dragon Night",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "FUKASE",
+      "composer": "FUKASE",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "52745",
+      "title": "Habit(映画 'ホリックxxxHOLiC' OST)",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "FUKASE",
+      "composer": "NAKAJIN",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "28941",
+      "title": "Illumination",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "FUKASE,SAORI",
+      "composer": "SAORI,NAKAJIN",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "52984",
+      "title": "MAGIC",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "HAWAIIAN6",
+      "composer": "HAWAIIAN6",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "28733",
+      "title": "RAIN(映画'メアリと魔女の花' 主題歌)",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "FUKASE,SAORI",
+      "composer": "FUKASE,SAORI",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "27434",
+      "title": "RPG(劇場版 クレヨンしんちゃん バカうまっ! B級グルメサバイバル!! OST)",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "FUKASE,SAORI",
+      "composer": "FUKASE",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "68361",
+      "title": "silent(ドラマ'この恋あたためますか' OST)",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "FUKASE",
+      "composer": "NAKAJIN,FUKASE",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "28694",
+      "title": "SOS",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "SAORI",
+      "composer": "FUKASE",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "28810",
+      "title": "サザンカ",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "FUKASE,SAORI",
+      "composer": "NAKAJIN,FUKASE",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "68829",
+      "title": "スターライトパレード",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "SATOSHI FUKASE",
+      "composer": "SHINICHI NAKAJIMA",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "28604",
+      "title": "スノーマジック ファンタジー",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "FUKASE",
+      "composer": "NAKAJIN",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "28608",
+      "title": "ピエロ",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "FUKASE",
+      "composer": "NAKAJIN,FUKASE",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "27757",
+      "title": "天使と悪魔(霊能力者小田霧響子の嘘 OST)",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "深瀬慧",
+      "composer": "深瀬慧",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "27768",
+      "title": "幻の命",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "深瀬慧",
+      "composer": "藤崎彩織",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "54336",
+      "title": "最高到達点(TV アニメ 'ONE PIECE' OST)",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "FUKASE",
+      "composer": "NAKAJIN",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "52805",
+      "title": "死の魔法",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "深瀬慧",
+      "composer": "深瀬慧",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "27779",
+      "title": "炎と森のカーニバル",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "FUKASE",
+      "composer": "FUKASE",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "27784",
+      "title": "白昼の夢",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "深瀬慧",
+      "composer": "深瀬慧",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "28570",
+      "title": "眠り姫",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "深瀬慧",
+      "composer": "深瀬慧",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "27741",
+      "title": "花鳥風月",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "藤崎彩織",
+      "composer": "深瀬慧",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "27703",
+      "title": "虹色の戦争",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "深瀬慧",
+      "composer": "深瀬慧",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "52448",
+      "title": "銀河街の悪夢",
+      "artist": "SEKAI NO OWARI",
+      "lyricist": "FUKASE",
+      "composer": "NAKAJIN",
+      "queryArtist": "SEKAI NO OWARI",
+      "exists": false
+    },
+    {
+      "number": "27347",
+      "title": "0 Game(アメイジング・スパイダーマン OST)",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "27559",
+      "title": "BEAUTIFUL DAYS(ドン☆キホーテ 主題歌)",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "52730",
+      "title": "FEEL SO GOOD",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ.",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "27682",
+      "title": "Glory",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "68363",
+      "title": "I Wanna Be…(銀魂 OP)",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "28077",
+      "title": "Just One Life(サムライフラメンコ OP)",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "52509",
+      "title": "Kill the Noise(TVアニメ '勇者刑に処す 懲罰勇者9004隊刑務記録' OST)",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ.",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "27647",
+      "title": "Last Moment(BLEACH ED)",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "27781",
+      "title": "Liar(ハンマーセッション! OST)",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "27460",
+      "title": "Little Summer",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "27631",
+      "title": "My Friend",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "27646",
+      "title": "My World(機動戦士ガンダムAGE ED)",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "27804",
+      "title": "Naked",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "68336",
+      "title": "One Day(ハイキュー!! TO THE TOP ED)",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "MOMIKEN",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "27969",
+      "title": "Rage Of Dust(機動戦士ガンダム 鉄血のオルフェンズ OP)",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "27816",
+      "title": "Wendy~It's You~",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "28490",
+      "title": "アイム・ア・ビリーバー(ハイキュー!! セカンドシーズン OP)",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "27578",
+      "title": "イマジネーション(ハイキュー!! OP)",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "27748",
+      "title": "ファイアスターター(The Last Cop OST)",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "27596",
+      "title": "現状ディストラクション(劇場版 銀魂 OST)",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "27443",
+      "title": "虹(潜入探偵トカゲ OST)",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "UZ",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "68438",
+      "title": "轍～Wadachi～(映画'銀魂 THE FINAL' OST)",
+      "artist": "SPYAIR",
+      "lyricist": "MOMIKEN",
+      "composer": "KENTAROU KOBUCHI",
+      "queryArtist": "SPYAIR",
+      "exists": false
+    },
+    {
+      "number": "52438",
+      "title": "コトノハ - Kotonoha(ドラマ '夫に間違いありません' OST)",
+      "artist": "tuki.",
+      "lyricist": "TUKI.",
+      "composer": "TUKI.",
+      "queryArtist": "tuki.",
+      "exists": false
+    },
+    {
+      "number": "52530",
+      "title": "サクラキミワタシ - SAKURA KIMI WATASHI(ABEMA 恋愛番組 '今日, 好きになりました. 卒業編2024' 挿入歌)",
+      "artist": "tuki.",
+      "lyricist": "TUKI.",
+      "composer": "TUKI.",
+      "queryArtist": "tuki.",
+      "exists": false
+    },
+    {
+      "number": "52928",
+      "title": "声命(ドラマ 'キャスター' OST)",
+      "artist": "tuki.",
+      "lyricist": "TUKI.",
+      "composer": "TUKI.",
+      "queryArtist": "tuki.",
+      "exists": false
+    },
+    {
+      "number": "52922",
+      "title": "騙シ愛(ドラマ 'キャスター' OST)",
+      "artist": "tuki.",
+      "lyricist": "TUKI.",
+      "composer": "TUKI.",
+      "queryArtist": "tuki.",
+      "exists": false
+    },
+    {
+      "number": "27296",
+      "title": "7th Trigger",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "TAKUYA∞",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "27595",
+      "title": "7日目の決意",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "TAKUYA∞",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "68186",
+      "title": "AS ONE(映画'仮面病棟' OST)",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "TAKUYA∞",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "28025",
+      "title": "Chance!(BLEACH-ヒート・ザ・ソウル- OP)",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "TAKUYA∞",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "27198",
+      "title": "Core Pride(青の祓魔師 OP)",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "UVERworld",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "26327",
+      "title": "D-tecno Life (BLEACH 2nd OP)",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "TAKUYA∞",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "26536",
+      "title": "Endscape(地球へ OP)",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "UVERworld",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "28051",
+      "title": "Fight For Liberty(宇宙戦艦ヤマト2199 OP)",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "TAKUYA∞",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "28619",
+      "title": "NO.1",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "UVERWORLD",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "28866",
+      "title": "ODD FUTURE(僕のヒーローアカデミア OP)",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "TAKUYA∞",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "27410",
+      "title": "REVERSI(劇場版 青の祓魔師 OST)",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "TAKUYA∞,彰",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "68158",
+      "title": "ROB THE FRONTIER(七つの大罪 神々の逆鱗 OP)",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "信人,TAKUYA∞",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "27376",
+      "title": "The Over(黒の女教師 OST)",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "UVERWORLD",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "28990",
+      "title": "TOUCH OFF(約束のネバーランドOP)",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "UVERWORLD",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "27566",
+      "title": "クオリア(劇場版機動戦士ガンダム00 ED)",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "UVERWORLD",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "26645",
+      "title": "シャカビーチ ～Laka Laka La～",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "UVERworld",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "28662",
+      "title": "一滴の影響(青の祓魔師京都不浄王篇 OP)",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "彰,TAKUYA∞",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "27729",
+      "title": "僕の言葉ではない これは僕達の言葉(アルスラーン戦記 OP)",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "TAKUYA∞",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "26833",
+      "title": "儚くも永久のカナシ(機動戦士ガンダムOO OP)",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "克哉, TAKUYA∞",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "26256",
+      "title": "君の好きなうた",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "TAKUYA∞",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "27023",
+      "title": "哀しみはきっと",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "TAKUYA∞・平出悟",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "26688",
+      "title": "浮世CROSSING",
+      "artist": "UVERworld",
+      "lyricist": "TAKUYA∞",
+      "composer": "彰",
+      "queryArtist": "UVERworld",
+      "exists": false
+    },
+    {
+      "number": "52916",
+      "title": "Somebody help us(アニメ 'SAKAMOTO DAYS' ED)",
+      "artist": "Vaundy",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "25017",
+      "title": "おもかげ",
+      "artist": "milet & Aimer & 幾田りら(produced by Vaundy )",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "52493",
+      "title": "そんなbitterな話(ABEMA '花束とオオカミちゃんには騙されない' OST)",
+      "artist": "Vaundy",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "52949",
+      "title": "まぶた(ドラマ '女神の教室～リーガル青春白書~' OST)",
+      "artist": "Vaundy",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "52482",
+      "title": "カーニバル(Netflix '御手洗家、炎上する' OST)",
+      "artist": "Vaundy",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "68912",
+      "title": "タイムパラドックス(映画 'ドラえもん のび太の地球交響楽' OST)",
+      "artist": "Vaundy",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "52720",
+      "title": "ホムンクルス('僕のヒーローアカデミア THE MOVIE ユアネクスト' 主題歌)",
+      "artist": "Vaundy",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "52681",
+      "title": "世界の秘密",
+      "artist": "Vaundy",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "52486",
+      "title": "偉生人",
+      "artist": "Vaundy",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "52508",
+      "title": "呼び声(NHK Vaundy 18祭 テーマソング)",
+      "artist": "Vaundy",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "52684",
+      "title": "常熱(結婚情報サービス 'ゼクシィ' CM)",
+      "artist": "Vaundy",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "52993",
+      "title": "忘れる前に",
+      "artist": "Vaundy",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "52477",
+      "title": "泣き地蔵",
+      "artist": "Vaundy",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "52460",
+      "title": "灯火(ドラマ '東京ラブストーリー' OST)",
+      "artist": "Vaundy",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "68512",
+      "title": "花占い(ドラマ'ボクの殺意が恋をした' OST)",
+      "artist": "Vaundy",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "52416",
+      "title": "走れSAKAMOTO(TVアニメ 'SAKAMOTO DAYS' OST)",
+      "artist": "Vaundy",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "52775",
+      "title": "風神(ドラマ 'ライオンの隠れ家' OST)",
+      "artist": "Vaundy",
+      "lyricist": "VAUNDY",
+      "composer": "VAUNDY",
+      "queryArtist": "Vaundy",
+      "exists": false
+    },
+    {
+      "number": "68932",
+      "title": "Adventure",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68993",
+      "title": "Biri-Biri",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68920",
+      "title": "HEART BEAT('NHK18祭' テーマソング)",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "52902",
+      "title": "New me('リクルート' TVCM)",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "52843",
+      "title": "PLAYERS('PlayStation 30周年' CM)",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "52595",
+      "title": "UNDEAD",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "52933",
+      "title": "Watch me!(TVアニメ 'ウィッチウォッチ' OP)",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68398",
+      "title": "あの夢をなぞって",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68406",
+      "title": "たぶん(映画'たぶん' OST)",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68411",
+      "title": "もう少しだけ",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68544",
+      "title": "もしも命が描けたら",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68820",
+      "title": "アドベンチャー",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68359",
+      "title": "アンコール",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68793",
+      "title": "セブンティーン",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68354",
+      "title": "ハルカ",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68402",
+      "title": "ハルジオン",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68604",
+      "title": "ミスター",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "52703",
+      "title": "モノトーン(映画 'ふれる。' 主題歌)",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68514",
+      "title": "ラブレター",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68420",
+      "title": "三原色",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68860",
+      "title": "勇者(アニメ '葬送のフリーレン' OP)",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68685",
+      "title": "好きだ",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "52738",
+      "title": "海のまにまに",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68684",
+      "title": "祝福('機動戦士ガンダム 水星の魔女' OP)",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68390",
+      "title": "群青",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "52705",
+      "title": "舞台に立って",
+      "artist": "YOASOBI",
+      "lyricist": "AYASE",
+      "composer": "AYASE",
+      "queryArtist": "YOASOBI",
+      "exists": false
+    },
+    {
+      "number": "68749",
+      "title": "3636",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68896",
+      "title": "die die die",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "52568",
+      "title": "あした世界が終わるとしても(映画 'あした世界が終わるとしても' OST)",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68929",
+      "title": "あのね(映画 '窓ぎわのトットちゃん' OST)",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68201",
+      "title": "さよならの今日に",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "52736",
+      "title": "ざらめ(ドラマ '降り積もれ孤独な死よ' OST)",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "52853",
+      "title": "どうせ死ぬなら",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68133",
+      "title": "ふたりの世界",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68508",
+      "title": "ジェニファー",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "52810",
+      "title": "スケッチ(映画 'ドラえもん のび太の絵世界物語' OST)",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68467",
+      "title": "チカ",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68928",
+      "title": "ノット・オーケー",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68002",
+      "title": "ハルノヒ(クレヨンしんちゃん新婚旅行ハリケーン OST)",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68555",
+      "title": "ハート",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "52983",
+      "title": "ビーナスベルト",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68454",
+      "title": "ラッキーカラー('カルピス' の新テーマソング)",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "52850",
+      "title": "リズム６４(SHISEIDO BEAUTY WELLNESS OFFICIAL SONG)",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "28955",
+      "title": "今夜このまま(ドラマ'獣になれない私たち' OST)",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "52574",
+      "title": "会いに行くのに(ドラマ 'アンメット ある脳外科医の日記' OST)",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68608",
+      "title": "初恋が泣いている(ドラマ'恋なんて、本気でやってどうするの？' OST)",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68609",
+      "title": "双葉",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "52813",
+      "title": "君の夢を聞きながら, 僕は笑えるアイデアを!",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "28948",
+      "title": "君はロックを聴かない",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68785",
+      "title": "愛の花(らんまん OST)",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68426",
+      "title": "愛を知るまでは",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68590",
+      "title": "桜が降る夜は",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68237",
+      "title": "満月の夜なら",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "28946",
+      "title": "生きていたんだよな(ドラマ'吉祥寺だけが住みたい街ですか?' OST)",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68113",
+      "title": "真夏の夜の匂いがする(ドラマ'HEAVEN?~ご苦楽レストラン~' OST)",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68101",
+      "title": "空の青さを知る人よ(Her Blue Sky OST)",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68252",
+      "title": "裸の心(テーマ'私の家政夫ナギサさん' OST)",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "68012",
+      "title": "貴方解剖純愛歌 ~死ね~",
+      "artist": "あいみょん",
+      "lyricist": "あいみょん",
+      "composer": "あいみょん",
+      "queryArtist": "あいみょん",
+      "exists": false
+    },
+    {
+      "number": "52978",
+      "title": "けっかおーらい(TVアニメ 'ヴィジランテ -僕のヒーローアカデミア ILLEGALS-' OST)",
+      "artist": "こっちのけんと",
+      "lyricist": "こっちのけんと",
+      "composer": "こっちのけんと,ＧＲＰ",
+      "queryArtist": "こっちのけんと",
+      "exists": false
+    },
+    {
+      "number": "52761",
+      "title": "はいよろこんで",
+      "artist": "こっちのけんと",
+      "lyricist": "こっちのけんと",
+      "composer": "こっちのけんと",
+      "queryArtist": "こっちのけんと",
+      "exists": false
+    },
+    {
+      "number": "52877",
+      "title": "JK Bomber",
+      "artist": "ずっと真夜中でいいのに。",
+      "lyricist": "ACAね",
+      "composer": "ACAね",
+      "queryArtist": "ずっと真夜中でいいのに。",
+      "exists": false
+    },
+    {
+      "number": "68437",
+      "title": "MILABO",
+      "artist": "ずっと真夜中でいいのに。",
+      "lyricist": "ACAね",
+      "composer": "ACAね",
+      "queryArtist": "ずっと真夜中でいいのに。",
+      "exists": false
+    },
+    {
+      "number": "52535",
+      "title": "よもすがら(ドラマ '時計館の殺人' OST)",
+      "artist": "ずっと真夜中でいいのに。",
+      "lyricist": "ACAね",
+      "composer": "ACAね",
+      "queryArtist": "ずっと真夜中でいいのに。",
+      "exists": false
+    },
+    {
+      "number": "28992",
+      "title": "ヒューマノイド",
+      "artist": "ずっと真夜中でいいのに。",
+      "lyricist": "ACAね",
+      "composer": "ACAね",
+      "queryArtist": "ずっと真夜中でいいのに。",
+      "exists": false
+    },
+    {
+      "number": "52731",
+      "title": "嘘じゃない(映画 '好きでも嫌いなあまのじゃく' OST)",
+      "artist": "ずっと真夜中でいいのに。",
+      "lyricist": "ACAね",
+      "composer": "ACAね",
+      "queryArtist": "ずっと真夜中でいいのに。",
+      "exists": false
+    },
+    {
+      "number": "68373",
+      "title": "正しくなれない(映画'約束のネバーランド OST)",
+      "artist": "ずっと真夜中でいいのに。",
+      "lyricist": "ACAね",
+      "composer": "ACAね",
+      "queryArtist": "ずっと真夜中でいいのに。",
+      "exists": false
+    },
+    {
+      "number": "68625",
+      "title": "正義",
+      "artist": "ずっと真夜中でいいのに。",
+      "lyricist": "ACAね",
+      "composer": "ACAね",
+      "queryArtist": "ずっと真夜中でいいのに。",
+      "exists": false
+    },
+    {
+      "number": "68005",
+      "title": "眩しいDNAだけ",
+      "artist": "ずっと真夜中でいいのに。",
+      "lyricist": "ACAね",
+      "composer": "ACAね",
+      "queryArtist": "ずっと真夜中でいいのに。",
+      "exists": false
+    },
+    {
+      "number": "26094",
+      "title": "袖のキルト",
+      "artist": "ずっと真夜中でいいのに。",
+      "lyricist": "ACAね",
+      "composer": "ACAね",
+      "queryArtist": "ずっと真夜中でいいのに。",
+      "exists": false
+    },
+    {
+      "number": "68220",
+      "title": "蹴っ飛ばした毛布",
+      "artist": "ずっと真夜中でいいのに。",
+      "lyricist": "ACAね",
+      "composer": "ACAね",
+      "queryArtist": "ずっと真夜中でいいのに。",
+      "exists": false
+    },
+    {
+      "number": "68698",
+      "title": "Overdose",
+      "artist": "なとり",
+      "lyricist": "なとり",
+      "composer": "なとり",
+      "queryArtist": "なとり",
+      "exists": false
+    },
+    {
+      "number": "68494",
+      "title": "糸電話",
+      "artist": "なとり",
+      "lyricist": "なとり",
+      "composer": "なとり",
+      "queryArtist": "なとり",
+      "exists": false
+    },
+    {
+      "number": "52587",
+      "title": "金木犀",
+      "artist": "なとり",
+      "lyricist": "なとり",
+      "composer": "なとり",
+      "queryArtist": "なとり",
+      "exists": false
+    },
+    {
+      "number": "52982",
+      "title": "非常口 逃げてみた",
+      "artist": "なとり",
+      "lyricist": "なとり",
+      "composer": "なとり",
+      "queryArtist": "なとり",
+      "exists": false
+    },
+    {
+      "number": "52881",
+      "title": "PINK",
+      "artist": "キタニタツヤ",
+      "lyricist": "キタニタツヤ",
+      "composer": "キタニタツヤ",
+      "queryArtist": "キタニタツヤ",
+      "exists": false
+    },
+    {
+      "number": "52777",
+      "title": "ずうっといっしょ!",
+      "artist": "キタニタツヤ",
+      "lyricist": "キタニタツヤ",
+      "composer": "キタニタツヤ",
+      "queryArtist": "キタニタツヤ",
+      "exists": false
+    },
+    {
+      "number": "68725",
+      "title": "スカー('BLEACH 千年血戦篇' ED)",
+      "artist": "キタニタツヤ",
+      "lyricist": "キタニタツヤ",
+      "composer": "キタニタツヤ",
+      "queryArtist": "キタニタツヤ",
+      "exists": false
+    },
+    {
+      "number": "52906",
+      "title": "人間みたいね",
+      "artist": "キタニタツヤ",
+      "lyricist": "キタニタツヤ",
+      "composer": "キタニタツヤ",
+      "queryArtist": "キタニタツヤ",
+      "exists": false
+    },
+    {
+      "number": "52904",
+      "title": "冷たい渦(ドラマ 'ゴシップ#彼女が知りたい本当の○○' OST)",
+      "artist": "キタニタツヤ",
+      "lyricist": "キタニタツヤ",
+      "composer": "キタニタツヤ",
+      "queryArtist": "キタニタツヤ",
+      "exists": false
+    },
+    {
+      "number": "68496",
+      "title": "次回予告(TVアニメ '戦隊大失格' OST)",
+      "artist": "キタニタツヤ",
+      "lyricist": "キタニタツヤ",
+      "composer": "キタニタツヤ",
+      "queryArtist": "キタニタツヤ",
+      "exists": false
+    },
+    {
+      "number": "52895",
+      "title": "素敵なしゅうまつを!",
+      "artist": "キタニタツヤ",
+      "lyricist": "キタニタツヤ",
+      "composer": "キタニタツヤ",
+      "queryArtist": "キタニタツヤ",
+      "exists": false
+    },
+    {
+      "number": "52701",
+      "title": "憂、燦々(資生堂 'ANESSA' CM)",
+      "artist": "クリープハイプ",
+      "lyricist": "小野 健,尾崎 世界観",
+      "composer": "尾崎 世界観",
+      "queryArtist": "クリープハイプ",
+      "exists": false
+    },
+    {
+      "number": "52514",
+      "title": "栞(映画 '14歳の栞' OST)",
+      "artist": "クリープハイプ",
+      "lyricist": "尾崎世界観",
+      "composer": "尾崎世界観",
+      "queryArtist": "クリープハイプ",
+      "exists": false
+    },
+    {
+      "number": "29908",
+      "title": "ミュージック(DINNER 主題歌)",
+      "artist": "サカナクション",
+      "lyricist": "山口一郎",
+      "composer": "山口一郎",
+      "queryArtist": "サカナクション",
+      "exists": false
+    },
+    {
+      "number": "52837",
+      "title": "忘れられないの('SoftBank music project' CM)",
+      "artist": "サカナクション",
+      "lyricist": "山口一郎",
+      "composer": "山口一郎",
+      "queryArtist": "サカナクション",
+      "exists": false
+    },
+    {
+      "number": "52434",
+      "title": "怪獣(TVアニメ 'チ。 ―地球の運動について―' OST)",
+      "artist": "サカナクション",
+      "lyricist": "山口一郎",
+      "composer": "岩寺基晴,草刈愛美,岡崎英美,江島啓一,山口一郎",
+      "queryArtist": "サカナクション",
+      "exists": false
+    },
+    {
+      "number": "26818",
+      "title": "Love,too Death,too",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "新藤 晴一",
+      "composer": "ak.homma",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "25839",
+      "title": "Mugen",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "新藤晴一",
+      "composer": "ak.homma",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "26015",
+      "title": "NaNaNa サマーガール",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "新藤晴一",
+      "composer": "新藤晴一",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "27917",
+      "title": "THE DAY(僕のヒーローアカデミア OP)",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "新藤晴一",
+      "composer": "新藤晴一",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "26236",
+      "title": "Winding Road(天保異聞 妖奇士 ED)",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "岡野昭仁",
+      "composer": "岡野昭仁",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "25984",
+      "title": "うたかた",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "岡野昭仁",
+      "composer": "ak.homma",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "25018",
+      "title": "アゲハ蝶",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "ハルイチ",
+      "composer": "ak.homma",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "6924",
+      "title": "アポロ",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "",
+      "composer": "",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "27943",
+      "title": "オー!リバル(映画'名探偵コナン業火の向日葵' 主題歌)",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "新藤晴一",
+      "composer": "岡野昭仁",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "27400",
+      "title": "カゲボウシ",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "岡野昭仁",
+      "composer": "岡野昭仁",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "25010",
+      "title": "サウダージ",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "ハルイチ",
+      "composer": "AK.HOMMA",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "25871",
+      "title": "シスター",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "新藤晴一",
+      "composer": "ak.homma",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "25961",
+      "title": "ネオメロドラマティック",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "新藤晴一",
+      "composer": "ak.homma",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "25817",
+      "title": "ミュージック・アワー",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "ハルイチ",
+      "composer": "AK.HOMMA",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "25625",
+      "title": "メリッサ(鋼の錬金術師 OP)",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "新藤 晴一",
+      "composer": "ak.homma",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "26615",
+      "title": "リンク",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "Akihito Okano",
+      "composer": "Akihito Okano",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "26845",
+      "title": "今宵、月が見えずとも(BLEACH 主題歌)",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "新藤 晴一",
+      "composer": "岡野昭仁",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "26052",
+      "title": "幸せについて本気出して考えてみた",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "新藤晴一",
+      "composer": "Tama",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "25698",
+      "title": "愛が呼ぶほうへ",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "新藤晴一",
+      "composer": "ak.homma",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "25584",
+      "title": "渦",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "新藤晴一",
+      "composer": "Tama",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "28358",
+      "title": "瞬く星の下で(マギ OP)",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "新藤晴一",
+      "composer": "新藤晴一",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "26571",
+      "title": "音のない森",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "岡野昭仁",
+      "composer": "岡野昭仁",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "25934",
+      "title": "黄昏ロマンス(一番大切な人は誰ですか? 主題歌)",
+      "artist": "ポルノグラフィティ",
+      "lyricist": "新藤晴一",
+      "composer": "新藤晴一",
+      "queryArtist": "ポルノグラフィティ",
+      "exists": false
+    },
+    {
+      "number": "68415",
+      "title": "はしりがき(映画'クレヨンしんちゃん謎メキ！花の天カス学園' OST)",
+      "artist": "マカロニえんぴつ",
+      "lyricist": "はっとり",
+      "composer": "はっとり",
+      "queryArtist": "マカロニえんぴつ",
+      "exists": false
+    },
+    {
+      "number": "52484",
+      "title": "悲しみはバスに乗って",
+      "artist": "マカロニえんぴつ",
+      "lyricist": "はっとり",
+      "composer": "はっとり",
+      "queryArtist": "マカロニえんぴつ",
+      "exists": false
+    },
+    {
+      "number": "68623",
+      "title": "星が泳ぐ(サマータイムレンダ OP)",
+      "artist": "マカロニえんぴつ",
+      "lyricist": "はっとり",
+      "composer": "はっとり",
+      "queryArtist": "マカロニえんぴつ",
+      "exists": false
+    },
+    {
+      "number": "52519",
+      "title": "風のアンセム(TVアニメ 'とんがり帽子のアトリエ' OST)",
+      "artist": "Eve(Feat.suis from ヨルシカ )",
+      "lyricist": "EVE",
+      "composer": "EVE",
+      "queryArtist": "ヨルシカ",
+      "exists": false
+    },
+    {
+      "number": "68582",
+      "title": "ただ声一つ",
+      "artist": "ロクデナシ",
+      "lyricist": "MIMI",
+      "composer": "MIMI",
+      "queryArtist": "ロクデナシ",
+      "exists": false
+    },
+    {
+      "number": "68463",
+      "title": "ユリイカ(アニメ '終末トレインどこへいく？' OST )",
+      "artist": "ロクデナシ",
+      "lyricist": "傘村トータ",
+      "composer": "傘村トータ",
+      "queryArtist": "ロクデナシ",
+      "exists": false
+    },
+    {
+      "number": "52680",
+      "title": "言葉の続き",
+      "artist": "ロクデナシ",
+      "lyricist": "MIMI",
+      "composer": "MIMI",
+      "queryArtist": "ロクデナシ",
+      "exists": false
+    },
+    {
+      "number": "52860",
+      "title": "ビリミリオン",
+      "artist": "優里",
+      "lyricist": "優里",
+      "composer": "優里",
+      "queryArtist": "優里",
+      "exists": false
+    },
+    {
+      "number": "68399",
+      "title": "ピーターパン",
+      "artist": "優里",
+      "lyricist": "優里",
+      "composer": "優里",
+      "queryArtist": "優里",
+      "exists": false
+    },
+    {
+      "number": "68580",
+      "title": "ミズキリ",
+      "artist": "優里",
+      "lyricist": "優里",
+      "composer": "優里",
+      "queryArtist": "優里",
+      "exists": false
+    },
+    {
+      "number": "52825",
+      "title": "メリーゴーランド(映画 'かがみの孤城' OST)",
+      "artist": "優里",
+      "lyricist": "優里",
+      "composer": "優里",
+      "queryArtist": "優里",
+      "exists": false
+    },
+    {
+      "number": "52452",
+      "title": "世界が終わりました(ドラマ '再会 サイレントトゥルース' OST)",
+      "artist": "優里",
+      "lyricist": "優里,ＣＨＩＭＥＲＡＺ",
+      "composer": "優里,ＣＨＩＭＥＲＡＺ",
+      "queryArtist": "優里",
+      "exists": false
+    },
+    {
+      "number": "68603",
+      "title": "夏音",
+      "artist": "優里",
+      "lyricist": "優里",
+      "composer": "優里",
+      "queryArtist": "優里",
+      "exists": false
+    },
+    {
+      "number": "52442",
+      "title": "最低な君に贈る歌",
+      "artist": "優里",
+      "lyricist": "優里,ＣＨＩＭＥＲＡＺ",
+      "composer": "優里,ＣＨＩＭＥＲＡＺ",
+      "queryArtist": "優里",
+      "exists": false
+    },
+    {
+      "number": "52760",
+      "title": "桜晴",
+      "artist": "優里",
+      "lyricist": "優里",
+      "composer": "優里",
+      "queryArtist": "優里",
+      "exists": false
+    },
+    {
+      "number": "68872",
+      "title": "グッバイバイ",
+      "artist": "冨岡愛",
+      "lyricist": "冨岡愛",
+      "composer": "冨岡愛",
+      "queryArtist": "冨岡愛",
+      "exists": false
+    },
+    {
+      "number": "52729",
+      "title": "恋する惑星「アナタ」",
+      "artist": "冨岡愛",
+      "lyricist": "冨岡愛",
+      "composer": "冨岡愛",
+      "queryArtist": "冨岡愛",
+      "exists": false
+    },
+    {
+      "number": "52815",
+      "title": "愛 need your love",
+      "artist": "冨岡愛",
+      "lyricist": "冨岡愛",
+      "composer": "冨岡愛",
+      "queryArtist": "冨岡愛",
+      "exists": false
+    },
+    {
+      "number": "52915",
+      "title": "2",
+      "artist": "星野源 (Feat.Lee Youngji)",
+      "lyricist": "星野源,LEE YEONG JI",
+      "composer": "星野源,LEE YEONG JI",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "68534",
+      "title": "Cube",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "52833",
+      "title": "Eureka(ドラマ 'まどか26歳、研修医やってます!' OST)",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "28743",
+      "title": "Family Song(ドラマ'過保護のカホコ' OST)",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "28958",
+      "title": "POP VIRUS",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "52939",
+      "title": "Star(アサヒ飲料 'ワンダ' CM)",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "27924",
+      "title": "SUN(ドラマ心がポキッとね OST)",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "52965",
+      "title": "Week End(フジテレビ 'めざましどようび' テーマソング)",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "52422",
+      "title": "いきどまり(映画 '平場の月' OST)",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "52433",
+      "title": "ばらばら",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "28911",
+      "title": "アイデア(ドラマ'半分、青い。' OST)",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "28823",
+      "title": "ドラえもん(映画'ドラえもんのび太の宝島' OST)",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源,菊池俊輔",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "27282",
+      "title": "フィルム",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "68416",
+      "title": "不思議(ドラマ'着飾る恋には理由があって' OST)",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "52985",
+      "title": "地獄でなぜ悪い(映画 '地獄でなぜ悪い' OST)",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "28698",
+      "title": "時よ",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "52991",
+      "title": "桜の森",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "52857",
+      "title": "私",
+      "artist": "星野源",
+      "lyricist": "星野源",
+      "composer": "星野源",
+      "queryArtist": "星野源",
+      "exists": false
+    },
+    {
+      "number": "68589",
+      "title": "真夜中のドア/Stay With Me",
+      "artist": "松原みき",
+      "lyricist": "三浦徳子",
+      "composer": "林哲司",
+      "queryArtist": "松原みき",
+      "exists": false
+    },
+    {
+      "number": "25686",
+      "title": "17",
+      "artist": "椎名林檎",
+      "lyricist": "椎名林檎",
+      "composer": "椎名林檎",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "68798",
+      "title": "WORK(アニメ '地獄楽' OP)",
+      "artist": "millennium parade, 椎名林檎",
+      "lyricist": "椎名林檎,常田大希",
+      "composer": "常田大希",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "6348",
+      "title": "ここでキスして",
+      "artist": "椎名林檎",
+      "lyricist": "椎名林檎",
+      "composer": "椎名林檎",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "26310",
+      "title": "この世の限り(錯乱 OST)",
+      "artist": "椎名林檎 ,椎名純平",
+      "lyricist": "椎名林檎",
+      "composer": "椎名林檎",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "25781",
+      "title": "りんごのうた",
+      "artist": "椎名林檎",
+      "lyricist": "しいなりんご",
+      "composer": "しいなりんご",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "25207",
+      "title": "ギブス",
+      "artist": "椎名林檎",
+      "lyricist": "椎名林檎",
+      "composer": "椎名林檎",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "68981",
+      "title": "人間として(ドラマ 'Destiny' OST)",
+      "artist": "椎名林檎",
+      "lyricist": "椎名林檎",
+      "composer": "椎名林檎",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "26023",
+      "title": "愛妻家の朝食",
+      "artist": "椎名林檎",
+      "lyricist": "椎名林檎",
+      "composer": "椎名林檎",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "6928",
+      "title": "本 能",
+      "artist": "椎名林檎",
+      "lyricist": "椎名林檎",
+      "composer": "椎名林檎",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "25357",
+      "title": "歌舞伎町の女王",
+      "artist": "椎名林檎",
+      "lyricist": "椎名林檎",
+      "composer": "椎名林檎",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "52899",
+      "title": "熱愛発覚中",
+      "artist": "椎名林檎 と中田ヤスタカ(CAPSULE)",
+      "lyricist": "椎名林檎",
+      "composer": "椎名林檎",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "25025",
+      "title": "眞夜中は純潔",
+      "artist": "椎名林檎",
+      "lyricist": "",
+      "composer": "",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "25497",
+      "title": "罪と罰",
+      "artist": "椎名林檎",
+      "lyricist": "椎名林檎",
+      "composer": "椎名林檎",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "52907",
+      "title": "芒に月",
+      "artist": "椎名林檎",
+      "lyricist": "椎名林檎",
+      "composer": "伊澤一葉",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "25583",
+      "title": "茎 STEM",
+      "artist": "椎名林檎",
+      "lyricist": "椎名林檎",
+      "composer": "椎名林檎",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "28807",
+      "title": "長く短い祭",
+      "artist": "椎名林檎",
+      "lyricist": "椎名林檎",
+      "composer": "椎名林檎",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "28692",
+      "title": "青春の瞬き(Le Moment)",
+      "artist": "椎名林檎",
+      "lyricist": "椎名林檎",
+      "composer": "椎名林檎",
+      "queryArtist": "椎名林檎",
+      "exists": false
+    },
+    {
+      "number": "52523",
+      "title": "YELLOW(CLOSET version)",
+      "artist": "神山羊",
+      "lyricist": "神山羊",
+      "composer": "神山羊",
+      "queryArtist": "神山羊",
+      "exists": false
+    },
+    {
+      "number": "52599",
+      "title": "LADYBUG(テレビ朝日 'サタデーステーション', 'サンデーステーション' OST)",
+      "artist": "緑黄色社会",
+      "lyricist": "長屋晴子",
+      "composer": "長屋晴子,PEPPE,小林壱誓,穴見真吾",
+      "queryArtist": "緑黄色社会",
+      "exists": false
+    },
+    {
+      "number": "52806",
+      "title": "merry-go-round",
+      "artist": "緑黄色社会",
+      "lyricist": "長屋晴子",
+      "composer": "穴見真吾",
+      "queryArtist": "緑黄色社会",
+      "exists": false
+    },
+    {
+      "number": "52987",
+      "title": "My Answer(ドラマ '緊急取調室' OST)",
+      "artist": "緑黄色社会",
+      "lyricist": "長屋晴子",
+      "composer": "穴見真吾",
+      "queryArtist": "緑黄色社会",
+      "exists": false
+    },
+    {
+      "number": "68954",
+      "title": "Party!!(アニメ 'ダンジョン飯 ～Delicious in Dungeon～' ED)",
+      "artist": "緑黄色社会",
+      "lyricist": "小林壱誓",
+      "composer": "小林壱誓,穴見真吾",
+      "queryArtist": "緑黄色社会",
+      "exists": false
+    },
+    {
+      "number": "52947",
+      "title": "PLAYER 1",
+      "artist": "緑黄色社会",
+      "lyricist": "長屋晴子,小林壱誓",
+      "composer": "PEPPE,穴見真吾",
+      "queryArtist": "緑黄色社会",
+      "exists": false
+    },
+    {
+      "number": "52401",
+      "title": "sabotage(ドラマ 'G線上のあなたと私' OST )",
+      "artist": "緑黄色社会",
+      "lyricist": "長屋晴子",
+      "composer": "長屋晴子",
+      "queryArtist": "緑黄色社会",
+      "exists": false
+    },
+    {
+      "number": "68217",
+      "title": "Shout Baby(僕のヒーローアカデミア ED)",
+      "artist": "緑黄色社会",
+      "lyricist": "長屋晴子",
+      "composer": "長屋晴子,小林壱誓,PEPPE,穴見真吾",
+      "queryArtist": "緑黄色社会",
+      "exists": false
+    },
+    {
+      "number": "52961",
+      "title": "つづく('ドコモ未来ミュージアム' CM)",
+      "artist": "緑黄色社会",
+      "lyricist": "長屋晴子",
+      "composer": "PEPPE",
+      "queryArtist": "緑黄色社会",
+      "exists": false
+    },
+    {
+      "number": "52912",
+      "title": "キャラクター(森永製菓 'inゼリー' CM)",
+      "artist": "緑黄色社会",
+      "lyricist": "長屋晴子,小林壱誓",
+      "composer": "穴見真吾,PEPPE",
+      "queryArtist": "緑黄色社会",
+      "exists": false
+    },
+    {
+      "number": "52732",
+      "title": "サマータイムシンデレラ(ドラマ '真夏のシンデレラ' OST)",
+      "artist": "緑黄色社会",
+      "lyricist": "長屋晴子,小林壱誓",
+      "composer": "穴見真吾",
+      "queryArtist": "緑黄色社会",
+      "exists": false
+    },
+    {
+      "number": "52980",
+      "title": "恥ずかしいか青春は(ABEMA '今日, 好きになりました. 夏休み編2024' OST)",
+      "artist": "緑黄色社会",
+      "lyricist": "長屋晴子",
+      "composer": "長屋晴子",
+      "queryArtist": "緑黄色社会",
+      "exists": false
+    },
+    {
+      "number": "68378",
+      "title": "結証(半妖の夜叉姫 ED)",
+      "artist": "緑黄色社会",
+      "lyricist": "長屋晴子,小林壱誓",
+      "composer": "小林壱誓,穴見真吾,長屋晴子,PEPPE",
+      "queryArtist": "緑黄色社会",
+      "exists": false
+    },
+    {
+      "number": "68940",
+      "title": "花になって(アニメ '薬屋のひとりごと' OP)",
+      "artist": "緑黄色社会",
+      "lyricist": "長屋晴子",
+      "composer": "穴見真吾",
+      "queryArtist": "緑黄色社会",
+      "exists": false
+    },
+    {
+      "number": "52744",
+      "title": "言えない(ABEMA '今日, 好きになりました。' OST)",
+      "artist": "緑黄色社会",
+      "lyricist": "小林壱誓",
+      "composer": "PEPPE",
+      "queryArtist": "緑黄色社会",
+      "exists": false
+    },
+    {
+      "number": "68622",
+      "title": "陽はまた昇るから(クレヨンしんちゃん もののけニンジャ珍風伝 主題歌)",
+      "artist": "緑黄色社会",
+      "lyricist": "小林壱誓",
+      "composer": "穴見真吾",
+      "queryArtist": "緑黄色社会",
+      "exists": false
+    },
+    {
+      "number": "52491",
+      "title": "風に乗る(劇場アニメ 'パリに咲くエトワール' OST)",
+      "artist": "緑黄色社会",
+      "lyricist": "長屋晴子",
+      "composer": "穴見真吾",
+      "queryArtist": "緑黄色社会",
+      "exists": false
+    },
+    {
+      "number": "68841",
+      "title": "きらり",
+      "artist": "藤井風",
+      "lyricist": "FUJII KAZE",
+      "composer": "FUJII KAZE",
+      "queryArtist": "藤井風",
+      "exists": false
+    },
+    {
+      "number": "68956",
+      "title": "まつり",
+      "artist": "藤井風",
+      "lyricist": "FUJII KAZE",
+      "composer": "FUJII KAZE",
+      "queryArtist": "藤井風",
+      "exists": false
+    },
+    {
+      "number": "52494",
+      "title": "ガーデン",
+      "artist": "藤井風",
+      "lyricist": "藤井風",
+      "composer": "藤井風",
+      "queryArtist": "藤井風",
+      "exists": false
+    },
+    {
+      "number": "52819",
+      "title": "何なんw",
+      "artist": "藤井風",
+      "lyricist": "藤井風",
+      "composer": "藤井風",
+      "queryArtist": "藤井風",
+      "exists": false
+    },
+    {
+      "number": "52894",
+      "title": "旅路",
+      "artist": "藤井風",
+      "lyricist": "藤井風",
+      "composer": "藤井風",
+      "queryArtist": "藤井風",
+      "exists": false
+    },
+    {
+      "number": "68803",
+      "title": "死ぬのがいいわ",
+      "artist": "藤井風",
+      "lyricist": "FUJII KAZE",
+      "composer": "FUJII KAZE",
+      "queryArtist": "藤井風",
+      "exists": false
+    },
+    {
+      "number": "52862",
+      "title": "満ちてゆく",
+      "artist": "藤井風",
+      "lyricist": "藤井風",
+      "composer": "藤井風",
+      "queryArtist": "藤井風",
+      "exists": false
+    },
+    {
+      "number": "52820",
+      "title": "花(ドラマ 'いちばんすきな花' OST)",
+      "artist": "藤井風",
+      "lyricist": "藤井風",
+      "composer": "藤井風",
+      "queryArtist": "藤井風",
+      "exists": false
+    }
+  ],
+  "errors": []
+}
