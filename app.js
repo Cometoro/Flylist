@@ -224,6 +224,12 @@
     "CUTIE STREET": "큐티 스트리트",
     "CANDY TUNE": "캔디 튠",
     "楽音": "사사네",
+    "ALIA": "알리아",
+    "AKASAKI": "아카사키",
+    "Penthouse": "펜트하우스",
+    "TRAP CHICK": "트랩칙",
+    "月見 ヤチヨ": "루나미 야치요",
+    "早見沙織": "하야미 사오리",
     "ずっと真夜中でいいのに。": "즛토마요"
   };
   const searchAliasMap = {
@@ -270,6 +276,8 @@
   let searchTimer = 0;
   let scrollSaveTimer = 0;
   let indexDrawerTrigger = null;
+  let drawerScrollY = null;
+  let isComposingSearch = false;
   let suggestionIndex = [];
   let visibleSuggestions = [];
   let activeSuggestionIndex = -1;
@@ -289,11 +297,23 @@
   }
 
   function bindEvents() {
-    els.searchInput.addEventListener("input", () => {
+    const updateSearch = () => {
       state.query = normalize(els.searchInput.value);
       renderSearchSuggestions();
       window.clearTimeout(searchTimer);
       searchTimer = window.setTimeout(renderMain, 100);
+    };
+    els.searchInput.addEventListener("compositionstart", () => {
+      isComposingSearch = true;
+      window.clearTimeout(searchTimer);
+      closeSearchSuggestions();
+    });
+    els.searchInput.addEventListener("compositionend", () => {
+      isComposingSearch = false;
+      updateSearch();
+    });
+    els.searchInput.addEventListener("input", event => {
+      if (!isComposingSearch && !event.isComposing) updateSearch();
     });
 
     els.searchInput.addEventListener("focus", renderSearchSuggestions);
@@ -301,6 +321,7 @@
 
     els.searchForm.addEventListener("submit", event => {
       event.preventDefault();
+      if (isComposingSearch) return;
       if (activeSuggestionIndex >= 0 && visibleSuggestions[activeSuggestionIndex]) {
         selectSuggestion(visibleSuggestions[activeSuggestionIndex]);
         return;
@@ -409,8 +430,8 @@
       index.addEventListener("click", event => {
         const button = event.target.closest("[data-target]");
         if (!button) return;
-        jumpToSection(button.dataset.target);
         if (index === els.indexDrawerNav) closeIndexDrawer();
+        jumpToSection(button.dataset.target);
       });
     });
     [els.sectionIndex, els.favoriteSectionIndex].forEach(index => {
@@ -436,16 +457,21 @@
     }, { passive: true });
     window.addEventListener("resize", () => {
       scheduleIndexActivation();
+      syncVisualViewport();
     }, { passive: true });
-    document.addEventListener("keydown", event => {
-      if (event.key === "Escape" && !els.indexDrawer.hidden) closeIndexDrawer();
-    });
+    document.addEventListener("keydown", handleDrawerKeydown);
+    document.addEventListener("focusin", syncEditingState);
+    document.addEventListener("focusout", () => setTimeout(syncEditingState, 0));
+    window.visualViewport?.addEventListener("resize", syncVisualViewport, { passive: true });
+    window.visualViewport?.addEventListener("scroll", syncVisualViewport, { passive: true });
+    syncVisualViewport();
     document.addEventListener("pointerdown", event => {
       if (!els.searchForm.contains(event.target)) closeSearchSuggestions();
     });
   }
 
   function handleSearchKeydown(event) {
+    if (isComposingSearch || event.isComposing || event.keyCode === 229) return;
     if (event.key === "Enter") {
       event.preventDefault();
       if (activeSuggestionIndex >= 0 && visibleSuggestions[activeSuggestionIndex]) {
@@ -1288,7 +1314,7 @@
     document.body.append(link);
     link.click();
     link.remove();
-    window.setTimeout(() => URL.revokeObjectURL(url), 0);
+    window.setTimeout(() => URL.revokeObjectURL(url), 1000);
     showToast("즐겨찾기 백업을 저장했어요.");
   }
 
@@ -1840,12 +1866,19 @@
   }
 
   function openIndexDrawer(event) {
+    if (!els.indexDrawer.hidden) return;
+    closeSearchSuggestions();
     indexDrawerTrigger = event?.currentTarget instanceof HTMLElement ? event.currentTarget : null;
     els.indexDrawerNav.replaceChildren(...state.activeIndexEntries.map(makeIndexButton));
     els.indexDrawerFilter.value = "";
     els.indexDrawerEmpty.hidden = true;
     els.indexDrawer.hidden = false;
+    drawerScrollY = window.scrollY;
+    document.body.style.top = `-${drawerScrollY}px`;
     document.body.classList.add("drawer-open");
+    els.mainApp.inert = true;
+    els.favoritesView.inert = true;
+    syncVisualViewport();
     requestAnimationFrame(() => {
       els.indexDrawerNav.querySelector('[aria-current="true"]')?.scrollIntoView({ block: "center" });
       els.indexDrawer.querySelector(".drawer-close")?.focus({ preventScroll: true });
@@ -1856,8 +1889,47 @@
     if (els.indexDrawer.hidden) return;
     els.indexDrawer.hidden = true;
     document.body.classList.remove("drawer-open");
+    document.body.style.top = "";
+    els.mainApp.inert = false;
+    els.favoritesView.inert = false;
+    const root = document.documentElement;
+    const previousBehavior = root.style.scrollBehavior;
+    root.style.scrollBehavior = "auto";
+    window.scrollTo(0, drawerScrollY ?? window.scrollY);
+    root.style.scrollBehavior = previousBehavior;
+    drawerScrollY = null;
     indexDrawerTrigger?.focus({ preventScroll: true });
     indexDrawerTrigger = null;
+  }
+
+  function handleDrawerKeydown(event) {
+    if (els.indexDrawer.hidden) return;
+    if (event.key === "Escape") {
+      event.preventDefault();
+      closeIndexDrawer();
+    } else if (event.key === "Tab") {
+      const focusable = [...els.indexDrawer.querySelectorAll(".index-drawer-panel button, .index-drawer-panel input")]
+        .filter(element => !element.disabled && element.getClientRects().length);
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && (document.activeElement === first || !els.indexDrawer.contains(document.activeElement))) {
+        event.preventDefault();
+        last?.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first?.focus();
+      }
+    }
+  }
+
+  function syncEditingState() {
+    document.body.classList.toggle("is-editing", Boolean(document.activeElement?.matches("input, textarea")));
+  }
+
+  function syncVisualViewport() {
+    const viewport = window.visualViewport;
+    document.documentElement.style.setProperty("--visual-height", `${viewport?.height || window.innerHeight}px`);
+    document.documentElement.style.setProperty("--visual-top", `${viewport?.offsetTop || 0}px`);
   }
 
   function jumpToSection(id) {
@@ -1928,7 +2000,7 @@
   }
 
   function saveCurrentScrollPosition() {
-    setCurrentScrollPosition(window.scrollY);
+    setCurrentScrollPosition(drawerScrollY ?? window.scrollY);
     persistBrowseState();
   }
 

@@ -29,10 +29,10 @@
   <meta name="twitter:image" content="https://cometoro.github.io/Flylist/assets/flylist-preview.jpg?v=20260803">
   <meta name="twitter:image:alt" content="Flylist 캐릭터와 TJ 일본곡 검색 아카이브 제목">
 
-  <link rel="stylesheet" href="./styles.css?v=20260809-1">
+  <link rel="stylesheet" href="./styles.css?v=20260908-1">
   <link rel="stylesheet" href="./custom.css?v=20260722-2">
-  <script src="./data.js?v=20260809-1" defer></script>
-  <script src="./app.js?v=20260809-1" defer></script>
+  <script src="./data.js?v=20260908-1" defer></script>
+  <script src="./app.js?v=20260908-1" defer></script>
 </head>
 <body id="top">
   <div id="mainApp">
@@ -45,20 +45,21 @@
           </div>
           <h1><span>Fly</span><span>list</span></h1>
         </div>
-        <div class="credit">1.0ver</div>
+        <img class="brand-mascot" src="./assets/favicon-192.png?v=20260803" width="64" height="64" alt="Flylist 마스코트" decoding="async">
       </div>
 
       <form class="search" role="search">
         <label class="visually-hidden" for="searchInput">곡 검색</label>
         <div class="search-field">
-          <input id="searchInput" type="search" autocomplete="off" placeholder="번호, 제목, 원제, 아티스트 검색"
+          <svg class="search-icon ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input id="searchInput" type="search" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" placeholder="번호, 제목, 원제, 아티스트 검색"
             role="combobox" aria-autocomplete="list" aria-controls="searchSuggestionList" aria-expanded="false">
           <div id="searchSuggestions" class="search-suggestions" hidden>
             <div id="searchSuggestionList" class="search-suggestion-list" role="listbox" aria-label="검색 제안"></div>
             <button id="clearRecentSearches" class="recent-clear" type="button" hidden>최근 검색어 전체 삭제</button>
           </div>
         </div>
-        <button id="clearSearch" class="icon-button" type="button" aria-label="검색어 지우기">×</button>
+        <button id="clearSearch" class="icon-button" type="button" aria-label="검색어 지우기" title="검색어 지우기"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m18 6-12 12M6 6l12 12"/></svg></button>
       </form>
 
       <div id="stats" class="stats" aria-label="곡 수"></div>
@@ -71,8 +72,8 @@
         <div class="toolbar-actions">
           <button class="index-button" type="button" data-open-index aria-label="빠른 이동 열기"><span class="index-button-icon" aria-hidden="true">⚡︎</span><span class="index-button-label">빠른 이동</span></button>
           <div id="viewModeControl" class="view-mode-control" role="group" aria-label="보기 방식">
-            <button type="button" data-view-mode="card" aria-label="카드형 보기" title="카드형 보기"><span aria-hidden="true">▦</span><span class="view-mode-label">카드</span></button>
-            <button type="button" data-view-mode="list" aria-label="목록형 보기" title="목록형 보기"><span aria-hidden="true">☰</span><span class="view-mode-label">목록</span></button>
+            <button type="button" data-view-mode="card" aria-label="카드형 보기" title="카드형 보기"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/></svg><span class="view-mode-label">카드</span></button>
+            <button type="button" data-view-mode="list" aria-label="목록형 보기" title="목록형 보기"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg><span class="view-mode-label">목록</span></button>
           </div>
           <label class="select-wrap">
             <span class="visually-hidden">정렬</span>
@@ -130,7 +131,7 @@
       </div>
       <label class="index-drawer-filter-wrap">
         <span class="visually-hidden">빠른 이동 검색</span>
-        <input id="indexDrawerFilter" class="index-filter" type="search" placeholder="아티스트·작품 검색" autocomplete="off">
+        <input id="indexDrawerFilter" class="index-filter" type="search" placeholder="아티스트·작품 검색" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search">
       </label>
       <p id="indexDrawerEmpty" class="index-filter-empty" hidden>일치하는 항목이 없습니다.</p>
       <nav id="indexDrawerNav" class="index-drawer-nav" aria-label="빠른 이동 항목"></nav>
@@ -142,7 +143,7 @@
   <!-- Keep this date aligned with the GitHub commit date when publishing. -->
   <footer class="site-footer">
     <span>DATA VERIFIED</span>
-    <time datetime="2026-08-09">2026.08.09</time>
+    <time datetime="2026-09-08">2026.09.08</time>
   </footer>
 </body>
 </html>
