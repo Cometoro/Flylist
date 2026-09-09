@@ -1688,6 +1688,94 @@ main {
   padding: 14px max(10px, env(safe-area-inset-right)) calc(52px + env(safe-area-inset-bottom)) max(10px, env(safe-area-inset-left));
 }
 
+.favorite-command-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.favorite-search {
+  position: relative;
+  min-width: 0;
+}
+
+.favorite-search input {
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0 44px 0 40px;
+  background: #191c24;
+  color: var(--text);
+  font-size: 16px;
+}
+
+.favorite-search input:focus {
+  border-color: rgba(190, 198, 210, .55);
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(190, 198, 210, .1);
+}
+
+.favorite-search-icon {
+  position: absolute;
+  z-index: 1;
+  top: 13px;
+  left: 13px;
+  color: var(--muted);
+  pointer-events: none;
+}
+
+.favorite-search-clear {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--muted);
+}
+
+.favorite-mode-control {
+  display: inline-grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.favorite-mode-control button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 44px;
+  border: 0;
+  border-right: 1px solid var(--line);
+  padding: 0 11px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 750;
+  white-space: nowrap;
+}
+
+.favorite-mode-control button:last-child {
+  border-right: 0;
+}
+
+.favorite-mode-control button[aria-pressed="true"] {
+  background: rgba(190, 198, 210, .13);
+  color: #fff;
+  box-shadow: inset 0 0 0 1px rgba(190, 198, 210, .18);
+}
+
 .favorite-tabs {
   display: flex;
   gap: 6px;
@@ -1712,10 +1800,94 @@ main {
   font-weight: 850;
 }
 
+.favorite-tab small {
+  margin-left: 5px;
+  color: currentColor;
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+  opacity: .68;
+}
+
 .favorite-tab[aria-selected="true"] {
   border-color: rgba(255, 92, 138, .38);
   background: rgba(255, 92, 138, .14);
   color: #fff;
+}
+
+.favorite-manage {
+  position: relative;
+}
+
+.favorite-manage summary {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--muted);
+  cursor: pointer;
+  list-style: none;
+}
+
+.favorite-manage summary::-webkit-details-marker {
+  display: none;
+}
+
+.favorite-manage[open] summary {
+  border-color: var(--line-bright);
+  color: var(--text);
+}
+
+.favorite-manage-menu {
+  position: absolute;
+  z-index: 12;
+  top: calc(100% + 6px);
+  right: 0;
+  display: flex;
+  gap: 6px;
+  border: 1px solid var(--line-bright);
+  border-radius: 8px;
+  padding: 7px;
+  background: #191c24;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, .38);
+}
+
+.favorite-quick-cards {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.song-card.favorite-quick-card {
+  grid-template-columns: 82px minmax(0, 1fr) 38px;
+  min-height: 86px;
+  align-items: center;
+  padding: 9px 10px;
+}
+
+.favorites-view.is-quick-mode .content-layout {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.favorite-quick-card .song-number {
+  width: 82px;
+  min-height: 58px;
+  font-size: 19px;
+}
+
+.favorite-quick-card .song-title {
+  font-size: 16px;
+}
+
+.favorite-quick-card .song-original,
+.favorite-quick-card .song-artist {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.favorite-quick-card .song-tags {
+  display: none;
 }
 
 .index-drawer {
@@ -2101,6 +2273,16 @@ select { min-height: 40px; background: #1b1e25; }
   .back-button { width: 44px; }
   .favorite-tabs { padding-block: 4px; }
   .favorite-tab { min-height: 44px; }
+  .favorite-command-row { grid-template-columns: 1fr; gap: 8px; }
+  .favorite-mode-control { width: 100%; }
+  .favorite-mode-control button { min-height: 44px; }
+  .favorite-tabs { margin-inline: -10px; padding-inline: 10px; }
+  .favorite-quick-cards { grid-template-columns: 1fr; gap: 7px; }
+  .favorite-quick-card { grid-template-columns: 72px minmax(0, 1fr) 44px; min-height: 80px; padding: 8px; }
+  .favorite-quick-card .song-number { width: 72px; min-width: 72px; min-height: 52px; font-size: 17px; }
+  .favorite-quick-card .song-title { font-size: 15px; line-height: 1.35; }
+  .favorite-quick-card .song-original, .favorite-quick-card .song-artist { margin-top: 2px; font-size: 12px; }
+  .favorite-manage summary { width: 44px; height: 44px; }
   .toolbar .index-button, .favorite-toolbar .index-button { border-radius: 8px; max-width: min(188px, calc(100vw - 24px)); backdrop-filter: none; -webkit-backdrop-filter: none; }
   body.is-editing .index-button, body.is-editing .top-link, body.drawer-open .top-link { visibility: hidden; pointer-events: none; }
   .song-list { padding-bottom: 64px; }

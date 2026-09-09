@@ -13,12 +13,14 @@
   const savedBrowseState = loadBrowseState();
   const state = {
     query: "",
+    favoriteQuery: "",
     category: categoryLabels.includes(savedBrowseState.category)
       && savedBrowseState.category !== "즐겨찾기" ? savedBrowseState.category : "전체",
     favoriteCategory: favoriteCategoryLabels.includes(savedBrowseState.favoriteCategory)
       ? savedBrowseState.favoriteCategory : "전체",
     sort: sortValues.includes(savedBrowseState.sort) ? savedBrowseState.sort : "artist",
     viewMode: loadViewMode(),
+    favoriteMode: loadFavoriteMode(),
     view: location.hash === "#favorites" ? "favorites" : "main",
     favorites: loadSet("flylist:favorites"),
     artistFavorites: loadSet("flylist:favorite-artists"),
@@ -59,9 +61,14 @@
     favoritesBack: document.querySelector("#favoritesBack"),
     favoriteCategoryTabs: document.querySelector("#favoriteCategoryTabs"),
     favoriteResultSummary: document.querySelector("#favoriteResultSummary"),
+    favoriteSearchForm: document.querySelector("#favoriteSearchForm"),
+    favoriteSearchInput: document.querySelector("#favoriteSearchInput"),
+    clearFavoriteSearch: document.querySelector("#clearFavoriteSearch"),
+    favoriteModeControl: document.querySelector("#favoriteModeControl"),
     favoriteSongList: document.querySelector("#favoriteSongList"),
     favoriteEmptyState: document.querySelector("#favoriteEmptyState"),
     favoriteSectionIndex: document.querySelector("#favoriteSectionIndex"),
+    favoriteIndexButton: document.querySelector("#favoritesView [data-open-index]"),
     exportFavorites: document.querySelector("#exportFavorites"),
     importFavoritesButton: document.querySelector("#importFavoritesButton"),
     importFavoritesFile: document.querySelector("#importFavoritesFile"),
@@ -420,6 +427,29 @@
       restoreCurrentScrollPosition();
     });
 
+    els.favoriteSearchForm.addEventListener("submit", event => event.preventDefault());
+    els.favoriteSearchInput.addEventListener("input", () => {
+      state.favoriteQuery = normalize(els.favoriteSearchInput.value);
+      setCurrentScrollPosition(0);
+      renderFavorites();
+    });
+    els.clearFavoriteSearch.addEventListener("click", () => {
+      els.favoriteSearchInput.value = "";
+      state.favoriteQuery = "";
+      els.favoriteSearchInput.focus();
+      setCurrentScrollPosition(0);
+      renderFavorites();
+    });
+    els.favoriteModeControl.addEventListener("click", event => {
+      const button = event.target.closest("[data-favorite-mode]");
+      if (!button || button.dataset.favoriteMode === state.favoriteMode) return;
+      state.favoriteMode = button.dataset.favoriteMode === "group" ? "group" : "quick";
+      saveFavoriteMode();
+      setCurrentScrollPosition(0);
+      renderFavorites();
+      restoreCurrentScrollPosition();
+    });
+
     els.favoritesBack.addEventListener("click", () => {
       if (location.hash === "#favorites" && history.length > 1) {
         history.back();
@@ -734,14 +764,22 @@
   }
 
   function renderFavoriteTabs() {
-    els.favoriteCategoryTabs.replaceChildren(...favoriteCategoryLabels.map(label => {
+    const favoriteSongs = songs.filter(isSongFavorite);
+    const tabs = favoriteCategoryLabels.map(label => {
+      const count = label === "전체"
+        ? favoriteSongs.length
+        : favoriteSongs.filter(song => hasCategory(song, label)).length;
+      return { label, count };
+    }).filter(({ label, count }) => label === "전체" || count > 0 || state.favoriteCategory === label);
+    els.favoriteCategoryTabs.replaceChildren(...tabs.map(({ label, count }) => {
       const button = document.createElement("button");
       button.type = "button";
       button.className = "favorite-tab";
       button.dataset.category = label;
       button.setAttribute("role", "tab");
       button.setAttribute("aria-selected", String(state.favoriteCategory === label));
-      button.textContent = label === "버츄얼 아티스트" ? "버츄얼" : label;
+      const text = label === "버츄얼 아티스트" ? "버츄얼" : label;
+      button.innerHTML = `<span>${escapeHtml(text)}</span><small>${count}</small>`;
       return button;
     }));
   }
@@ -816,18 +854,55 @@
   function renderFavorites() {
     sectionSequence = 0;
     sectionPrefix = "favorites";
+    renderFavoriteTabs();
     const favoriteSongs = songs.filter(song => {
       const categoryMatched = state.favoriteCategory === "전체" || hasCategory(song, state.favoriteCategory);
-      return categoryMatched && isSongFavorite(song);
+      const queryMatched = !state.favoriteQuery || scoreSong(song, state.favoriteQuery) > 0;
+      return categoryMatched && queryMatched && isSongFavorite(song);
     });
     const entries = [];
     const artistCount = new Set(favoriteSongs.map(song => getFavoriteGroupInfo(song, song.category).id)).size;
-    els.favoriteResultSummary.textContent = `${favoriteSongs.length}곡 · ${artistCount}개 그룹`;
+    els.favoriteResultSummary.textContent = state.favoriteQuery
+      ? `검색 결과 · ${favoriteSongs.length}곡`
+      : `${favoriteSongs.length}곡 · ${artistCount}개 아티스트`;
+    els.clearFavoriteSearch.hidden = !els.favoriteSearchInput.value;
+    els.favoriteModeControl.querySelectorAll("[data-favorite-mode]").forEach(button => {
+      button.setAttribute("aria-pressed", String(button.dataset.favoriteMode === state.favoriteMode));
+    });
     els.favoriteEmptyState.hidden = favoriteSongs.length > 0;
     els.favoriteSongList.hidden = favoriteSongs.length === 0;
-    els.favoriteSongList.replaceChildren(...buildFavoriteSections(favoriteSongs, entries, state.favoriteCategory));
+    els.favoriteSongList.classList.toggle("is-favorite-quick", state.favoriteMode === "quick");
+    els.favoriteSongList.classList.toggle("is-favorite-grouped", state.favoriteMode === "group");
+    els.favoritesView.classList.toggle("is-quick-mode", state.favoriteMode === "quick");
+    const content = state.favoriteMode === "quick"
+      ? buildFavoriteQuickList(favoriteSongs)
+      : buildFavoriteSections(favoriteSongs, entries, state.favoriteCategory);
+    els.favoriteSongList.replaceChildren(...content);
     renderIndex(els.favoriteSectionIndex, entries);
+    els.favoriteIndexButton.hidden = state.favoriteMode === "quick"
+      || Boolean(state.favoriteQuery)
+      || entries.length < 2;
     if (state.view === "favorites") activateIndex(entries);
+  }
+
+  function buildFavoriteQuickList(items) {
+    const cards = document.createElement("div");
+    cards.className = "cards favorite-quick-cards";
+    const sorted = [...items].sort((a, b) => {
+      const categoryOrder = categories.indexOf(a.category) - categories.indexOf(b.category);
+      if (state.favoriteCategory === "전체" && categoryOrder) return categoryOrder;
+      const left = getFavoriteGroupInfo(a, a.category);
+      const right = getFavoriteGroupInfo(b, b.category);
+      return collator.compare(left.name, right.name)
+        || collator.compare(a.titleKo, b.titleKo)
+        || Number(a.number) - Number(b.number);
+    });
+    sorted.forEach(song => {
+      const card = makeSongCard(song);
+      card.classList.add("favorite-quick-card");
+      cards.append(card);
+    });
+    return [cards];
   }
 
   function renderUpdateSummary(updatedSongs) {
@@ -1423,6 +1498,22 @@
       localStorage.setItem("flylist:view-mode", state.viewMode);
     } catch {
       // View preference is optional; card view remains the fallback.
+    }
+  }
+
+  function loadFavoriteMode() {
+    try {
+      return localStorage.getItem("flylist:favorite-mode") === "group" ? "group" : "quick";
+    } catch {
+      return "quick";
+    }
+  }
+
+  function saveFavoriteMode() {
+    try {
+      localStorage.setItem("flylist:favorite-mode", state.favoriteMode);
+    } catch {
+      // Quick view remains the fallback when storage is unavailable.
     }
   }
 
@@ -2062,7 +2153,9 @@
 
   function highlightSearchText(value) {
     const text = String(value || "");
-    const query = state.query ? els.searchInput.value.trim() : "";
+    const query = state.view === "favorites"
+      ? state.favoriteQuery ? els.favoriteSearchInput.value.trim() : ""
+      : state.query ? els.searchInput.value.trim() : "";
     if (!query) return escapeHtml(text);
 
     const lowerText = text.toLocaleLowerCase("ko-KR");

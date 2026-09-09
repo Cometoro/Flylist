@@ -29,10 +29,10 @@
   <meta name="twitter:image" content="https://cometoro.github.io/Flylist/assets/flylist-preview.jpg?v=20260803">
   <meta name="twitter:image:alt" content="Flylist 캐릭터와 TJ 일본곡 검색 아카이브 제목">
 
-  <link rel="stylesheet" href="./styles.css?v=20260909-2">
+  <link rel="stylesheet" href="./styles.css?v=20260910-1">
   <link rel="stylesheet" href="./custom.css?v=20260722-2">
   <script src="./data.js?v=20260909-3" defer></script>
-  <script src="./app.js?v=20260909-4" defer></script>
+  <script src="./app.js?v=20260910-1" defer></script>
 </head>
 <body id="top">
   <div id="mainApp">
@@ -97,19 +97,35 @@
         <button id="favoritesBack" class="back-button" type="button" aria-label="Flylist로 돌아가기">←</button>
         <div>
           <h2>즐겨찾기</h2>
-          <p>아티스트와 개별 곡을 한곳에</p>
+          <p>빠른 예약 목록</p>
         </div>
         <span class="favorites-mark" aria-hidden="true">♥</span>
       </div>
     </header>
 
     <div class="favorites-inner">
+      <div class="favorite-command-row">
+        <form id="favoriteSearchForm" class="favorite-search" role="search">
+          <svg class="ui-icon favorite-search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="favoriteSearchInput" type="search" placeholder="즐겨찾기 검색" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search">
+          <button id="clearFavoriteSearch" class="favorite-search-clear" type="button" aria-label="즐겨찾기 검색어 지우기" title="검색어 지우기" hidden><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m18 6-12 12M6 6l12 12"/></svg></button>
+        </form>
+        <div id="favoriteModeControl" class="favorite-mode-control" role="group" aria-label="즐겨찾기 보기 방식">
+          <button type="button" data-favorite-mode="quick" aria-pressed="true"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg><span>빠른 목록</span></button>
+          <button type="button" data-favorite-mode="group" aria-pressed="false"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>아티스트별</span></button>
+        </div>
+      </div>
       <nav id="favoriteCategoryTabs" class="favorite-tabs" aria-label="즐겨찾기 카테고리" role="tablist"></nav>
       <div class="favorite-toolbar">
         <div id="favoriteResultSummary" class="result-summary"></div>
         <div class="favorite-toolbar-actions">
-          <button id="exportFavorites" class="utility-button" type="button" title="즐겨찾기 백업 파일 저장">백업</button>
-          <button id="importFavoritesButton" class="utility-button" type="button" title="즐겨찾기 백업 파일 불러오기">복원</button>
+          <details class="favorite-manage">
+            <summary aria-label="즐겨찾기 관리" title="즐겨찾기 관리"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.88l.06.06-2.83 2.83-.06-.06a1.7 1.7 0 0 0-1.88-.34 1.7 1.7 0 0 0-1.03 1.56V21h-4v-.09A1.7 1.7 0 0 0 8.94 19.4a1.7 1.7 0 0 0-1.88.34l-.06.06-2.83-2.83.06-.06A1.7 1.7 0 0 0 4.6 15 1.7 1.7 0 0 0 3.09 14H3v-4h.09A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.34-1.88L4.2 7.06 7.03 4.2l.06.06A1.7 1.7 0 0 0 8.97 4.6 1.7 1.7 0 0 0 10 3.09V3h4v.09a1.7 1.7 0 0 0 1.03 1.56 1.7 1.7 0 0 0 1.88-.34l.06-.06 2.83 2.83-.06.06A1.7 1.7 0 0 0 19.4 9 1.7 1.7 0 0 0 20.91 10H21v4h-.09A1.7 1.7 0 0 0 19.4 15Z"/></svg></summary>
+            <div class="favorite-manage-menu">
+              <button id="exportFavorites" class="utility-button" type="button" title="즐겨찾기 백업 파일 저장">백업</button>
+              <button id="importFavoritesButton" class="utility-button" type="button" title="즐겨찾기 백업 파일 불러오기">복원</button>
+            </div>
+          </details>
           <input id="importFavoritesFile" type="file" accept="application/json,.json" hidden>
           <button class="index-button" type="button" data-open-index aria-label="즐겨찾기 빠른 이동 열기"><span class="index-button-icon" aria-hidden="true">⚡︎</span><span class="index-button-label">빠른 이동</span></button>
         </div>
@@ -143,7 +159,7 @@
   <!-- Keep this date aligned with the GitHub commit date when publishing. -->
   <footer class="site-footer">
     <span>DATA VERIFIED</span>
-    <time datetime="2026-09-09">2026.09.09</time>
+    <time datetime="2026-09-10">2026.09.10</time>
   </footer>
 </body>
 </html>
