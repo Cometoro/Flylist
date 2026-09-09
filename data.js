@@ -15949,5 +15949,352 @@ window.FLYLIST_SONGS = [
     ],
     "updateType": "new",
     "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "68706",
+    "titleKo": "청춘 콤플렉스",
+    "titleOriginal": "青春コンプレックス",
+    "artist": "結束バンド",
+    "tag": "結束バンド",
+    "category": "애니메이션",
+    "group": "봇치 더 록!",
+    "tagKo": "결속 밴드",
+    "tags": [
+      "애니메이션",
+      "봇치 더 록!"
+    ],
+    "jpopGroup": "結束バンド",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "68748",
+    "titleKo": "별자리가 될 수 있다면",
+    "titleOriginal": "星座になれたら",
+    "artist": "結束バンド",
+    "tag": "結束バンド",
+    "category": "애니메이션",
+    "group": "봇치 더 록!",
+    "tagKo": "결속 밴드",
+    "tags": [
+      "애니메이션",
+      "봇치 더 록!"
+    ],
+    "jpopGroup": "結束バンド",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "68714",
+    "titleKo": "Distortion!!",
+    "titleOriginal": "Distortion!!",
+    "artist": "結束バンド",
+    "tag": "結束バンド",
+    "category": "애니메이션",
+    "group": "봇치 더 록!",
+    "tagKo": "결속 밴드",
+    "tags": [
+      "애니메이션",
+      "봇치 더 록!"
+    ],
+    "jpopGroup": "結束バンド",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "68731",
+    "titleKo": "뭐가 나빠",
+    "titleOriginal": "なにが悪い",
+    "artist": "結束バンド",
+    "tag": "結束バンド",
+    "category": "애니메이션",
+    "group": "봇치 더 록!",
+    "tagKo": "결속 밴드",
+    "tags": [
+      "애니메이션",
+      "봇치 더 록!"
+    ],
+    "jpopGroup": "結束バンド",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "68723",
+    "titleKo": "구르는 바위, 너에게 아침이 내린다",
+    "titleOriginal": "転がる岩,君に朝が降る",
+    "artist": "結束バンド",
+    "tag": "結束バンド",
+    "category": "애니메이션",
+    "group": "봇치 더 록!",
+    "tagKo": "결속 밴드",
+    "tags": [
+      "애니메이션",
+      "봇치 더 록!"
+    ],
+    "jpopGroup": "結束バンド",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "26907",
+    "titleKo": "Cagayake! GIRLS",
+    "titleOriginal": "Cagayake! GIRLS",
+    "artist": "桜高軽音部",
+    "tag": "桜高軽音部",
+    "category": "애니메이션",
+    "group": "케이온!",
+    "tagKo": "사쿠라고교 경음악부",
+    "tags": [
+      "애니메이션",
+      "케이온!"
+    ],
+    "jpopGroup": "桜高軽音部",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "26916",
+    "titleKo": "후와후와 타임",
+    "titleOriginal": "ふわふわ時間",
+    "artist": "桜高軽音部",
+    "tag": "桜高軽音部",
+    "category": "애니메이션",
+    "group": "케이온!",
+    "tagKo": "사쿠라고교 경음악부",
+    "tags": [
+      "애니메이션",
+      "케이온!"
+    ],
+    "jpopGroup": "桜高軽音部",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "27047",
+    "titleKo": "GO! GO! MANIAC",
+    "titleOriginal": "GO! GO! MANIAC",
+    "artist": "放課後ティータイム",
+    "tag": "放課後ティータイム",
+    "category": "애니메이션",
+    "group": "케이온!",
+    "tagKo": "방과 후 티타임",
+    "tags": [
+      "애니메이션",
+      "케이온!"
+    ],
+    "jpopGroup": "放課後ティータイム",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "27159",
+    "titleKo": "NO, Thank You!",
+    "titleOriginal": "NO, Thank You!",
+    "artist": "放課後ティータイム",
+    "tag": "放課後ティータイム",
+    "category": "애니메이션",
+    "group": "케이온!",
+    "tagKo": "방과 후 티타임",
+    "tags": [
+      "애니메이션",
+      "케이온!"
+    ],
+    "jpopGroup": "放課後ティータイム",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "27547",
+    "titleKo": "U&I",
+    "titleOriginal": "U&I",
+    "artist": "放課後ティータイム",
+    "tag": "放課後ティータイム",
+    "category": "애니메이션",
+    "group": "케이온!",
+    "tagKo": "방과 후 티타임",
+    "tags": [
+      "애니메이션",
+      "케이온!"
+    ],
+    "jpopGroup": "放課後ティータイム",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "27563",
+    "titleKo": "천사를 만났어!",
+    "titleOriginal": "天使にふれたよ!",
+    "artist": "放課後ティータイム",
+    "tag": "放課後ティータイム",
+    "category": "애니메이션",
+    "group": "케이온!",
+    "tagKo": "방과 후 티타임",
+    "tags": [
+      "애니메이션",
+      "케이온!"
+    ],
+    "jpopGroup": "放課後ティータイム",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "28110",
+    "titleKo": "Re:I Am",
+    "titleOriginal": "Re : I Am",
+    "artist": "Aimer",
+    "tag": "Aimer",
+    "category": "애니메이션",
+    "group": "기동전사 건담 UC",
+    "tagKo": "에메",
+    "tags": [
+      "애니메이션",
+      "기동전사 건담 UC"
+    ],
+    "jpopGroup": "Aimer",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "68299",
+    "titleKo": "SPARK-AGAIN",
+    "titleOriginal": "SPARK-AGAIN",
+    "artist": "Aimer",
+    "tag": "Aimer",
+    "category": "애니메이션",
+    "group": "불꽃 소방대",
+    "tagKo": "에메",
+    "tags": [
+      "애니메이션",
+      "불꽃 소방대"
+    ],
+    "jpopGroup": "Aimer",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "68570",
+    "titleKo": "아침이 온다",
+    "titleOriginal": "朝が来る",
+    "artist": "Aimer",
+    "tag": "Aimer",
+    "category": "애니메이션",
+    "group": "귀멸의 칼날",
+    "tagKo": "에메",
+    "tags": [
+      "애니메이션",
+      "귀멸의 칼날"
+    ],
+    "jpopGroup": "Aimer",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "27983",
+    "titleKo": "노을빛",
+    "titleOriginal": "茜さす",
+    "artist": "Aimer",
+    "tag": "Aimer",
+    "category": "애니메이션",
+    "group": "나츠메 우인장",
+    "tagKo": "에메",
+    "tags": [
+      "애니메이션",
+      "나츠메 우인장"
+    ],
+    "jpopGroup": "Aimer",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "27740",
+    "titleKo": "별무리 비너스",
+    "titleOriginal": "星屑ビーナス",
+    "artist": "Aimer",
+    "tag": "Aimer",
+    "category": "J-POP",
+    "group": "Aimer",
+    "tagKo": "에메",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "52534",
+    "titleKo": "누구도 될 수 없는 나이기에",
+    "titleOriginal": "誰にもなれない私だから",
+    "artist": "トゲナシトゲアリ",
+    "tag": "トゲナシトゲアリ",
+    "category": "애니메이션",
+    "group": "걸즈 밴드 크라이",
+    "tagKo": "토게나시 토게아리",
+    "tags": [
+      "애니메이션",
+      "걸즈 밴드 크라이"
+    ],
+    "jpopGroup": "トゲナシトゲアリ",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "52901",
+    "titleKo": "날지 못하는 나비는 꿈을 꾼다",
+    "titleOriginal": "飛べない蝶は夢を見る",
+    "artist": "トゲナシトゲアリ",
+    "tag": "トゲナシトゲアリ",
+    "category": "애니메이션",
+    "group": "걸즈 밴드 크라이",
+    "tagKo": "토게나시 토게아리",
+    "tags": [
+      "애니메이션",
+      "걸즈 밴드 크라이"
+    ],
+    "jpopGroup": "トゲナシトゲアリ",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "25622",
+    "titleKo": "영혼의 루프란",
+    "titleOriginal": "魂のルフラン",
+    "artist": "高橋洋子",
+    "tag": "高橋洋子",
+    "category": "애니메이션",
+    "group": "신세기 에반게리온",
+    "tagKo": "타카하시 요코",
+    "tags": [
+      "애니메이션",
+      "신세기 에반게리온"
+    ],
+    "jpopGroup": "高橋洋子",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "28843",
+    "titleKo": "THERE IS A REASON",
+    "titleOriginal": "THERE IS A REASON",
+    "artist": "鈴木このみ",
+    "tag": "鈴木このみ",
+    "category": "애니메이션",
+    "group": "노 게임 노 라이프",
+    "tagKo": "스즈키 코노미",
+    "tags": [
+      "애니메이션",
+      "노 게임 노 라이프"
+    ],
+    "jpopGroup": "鈴木このみ",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
+  },
+  {
+    "number": "68030",
+    "titleKo": "홀로네스",
+    "titleOriginal": "ホロネス",
+    "artist": "美波",
+    "tag": "美波",
+    "category": "J-POP",
+    "group": "美波",
+    "tagKo": "미나미",
+    "updateType": "new",
+    "updatedAt": "2026-09-09"
   }
 ];

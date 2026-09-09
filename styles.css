@@ -731,10 +731,13 @@ select:disabled {
   justify-content: center;
   width: 42px;
   height: 42px;
+  border: 0;
   border-radius: 999px;
   background: linear-gradient(145deg, #bff8ff, #72e6ff 58%, #a78bfa);
   color: var(--ink);
   text-decoration: none;
+  cursor: pointer;
+  font: inherit;
   font-weight: 950;
   box-shadow: var(--shadow);
 }

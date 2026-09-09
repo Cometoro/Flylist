@@ -69,7 +69,8 @@
     indexDrawerFilter: document.querySelector("#indexDrawerFilter"),
     indexDrawerEmpty: document.querySelector("#indexDrawerEmpty"),
     indexDrawerNav: document.querySelector("#indexDrawerNav"),
-    toast: document.querySelector("#toast")
+    toast: document.querySelector("#toast"),
+    topLink: document.querySelector(".top-link")
   };
 
   const collator = new Intl.Collator(["ko", "ja", "en"], {
@@ -160,18 +161,7 @@
     "TrySail": "트라이세일",
     "結束バンド": "결속 밴드",
     "桜高軽音部": "사쿠라고교 경음악부",
-    "鈴木雅之": "스즈키 마사유키",
-    "Yunomi": "유노미",
-    "美波": "미나미",
-    "ZONE": "존",
-    "Galileo Galilei": "갈릴레오 갈릴레이",
-    "鈴木このみ": "스즈키 코노미",
-    "μ's": "뮤즈",
-    "Claire Littley": "클레어 리틀리",
-    "Arianne": "아리안",
-    "TrySail": "트라이세일",
-    "結束バンド": "결속 밴드",
-    "桜高軽音部": "사쿠라고교 경음악부",
+    "放課後ティータイム": "방과 후 티타임",
     "鈴木雅之": "스즈키 마사유키",
     "Yunomi": "유노미",
     "美波": "미나미",
@@ -472,6 +462,7 @@
     els.exportFavorites.addEventListener("click", exportFavorites);
     els.importFavoritesButton.addEventListener("click", () => els.importFavoritesFile.click());
     els.importFavoritesFile.addEventListener("change", importFavorites);
+    els.topLink.addEventListener("click", scrollToPageTop);
 
     window.addEventListener("popstate", syncViewFromLocation);
     window.addEventListener("pagehide", saveCurrentScrollPosition);
@@ -493,6 +484,16 @@
     document.addEventListener("pointerdown", event => {
       if (!els.searchForm.contains(event.target)) closeSearchSuggestions();
     });
+  }
+
+  function scrollToPageTop(event) {
+    event.preventDefault();
+    const behavior = window.matchMedia("(prefers-reduced-motion: reduce)").matches
+      ? "auto"
+      : "smooth";
+    const scrollingElement = document.scrollingElement || document.documentElement;
+    scrollingElement.scrollTo({ top: 0, left: 0, behavior });
+    window.scrollTo({ top: 0, left: 0, behavior });
   }
 
   function handleSearchKeydown(event) {
