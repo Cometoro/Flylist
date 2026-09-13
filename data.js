@@ -2156,9 +2156,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "스즈미야 하루히"
-    ],
-    "updateType": "modified",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68815",
@@ -2484,9 +2482,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "최애의 아이"
-    ],
-    "updateType": "modified",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "28989",
@@ -2518,9 +2514,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "임금님 랭킹"
-    ],
-    "updateType": "modified",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "52407",
@@ -2543,9 +2537,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "임금님 랭킹"
-    ],
-    "updateType": "modified",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68722",
@@ -12882,9 +12874,7 @@ window.FLYLIST_SONGS = [
       "스피드"
     ],
     "artist": "なとり",
-    "tag": "なとり",
-    "updateType": "new",
-    "updatedAt": "2026-09-08"
+    "tag": "なとり"
   },
   {
     "number": "52687",
@@ -12898,9 +12888,7 @@ window.FLYLIST_SONGS = [
       "카가미네 린"
     ],
     "artist": "ピノキオピー(Feat.鏡音リン,初音ミク)",
-    "tag": "ピノキオピー",
-    "updateType": "new",
-    "updatedAt": "2026-09-08"
+    "tag": "ピノキオピー"
   },
   {
     "number": "52688",
@@ -12913,9 +12901,7 @@ window.FLYLIST_SONGS = [
       "애니메이션"
     ],
     "artist": "ずっと真夜中でいいのに。",
-    "tag": "슈퍼 뒤에서 담배 피우는 두 사람",
-    "updateType": "new",
-    "updatedAt": "2026-09-08"
+    "tag": "슈퍼 뒤에서 담배 피우는 두 사람"
   },
   {
     "number": "52689",
@@ -12926,9 +12912,7 @@ window.FLYLIST_SONGS = [
     "category": "J-POP",
     "tags": [],
     "artist": "米津玄師",
-    "tag": "米津玄師",
-    "updateType": "new",
-    "updatedAt": "2026-09-08"
+    "tag": "米津玄師"
   },
   {
     "number": "52690",
@@ -12939,9 +12923,7 @@ window.FLYLIST_SONGS = [
     "category": "J-POP",
     "tags": [],
     "artist": "ALIA",
-    "tag": "ALIA",
-    "updateType": "new",
-    "updatedAt": "2026-09-08"
+    "tag": "ALIA"
   },
   {
     "number": "52691",
@@ -12954,9 +12936,7 @@ window.FLYLIST_SONGS = [
       "카사네 테토"
     ],
     "artist": "TRAP CHICK(Feat.重音テト)",
-    "tag": "TRAP CHICK",
-    "updateType": "new",
-    "updatedAt": "2026-09-08"
+    "tag": "TRAP CHICK"
   },
   {
     "number": "52692",
@@ -12970,9 +12950,7 @@ window.FLYLIST_SONGS = [
       "하야미 사오리"
     ],
     "artist": "月見 ヤチヨ(CV:早見沙織)",
-    "tag": "초 카구야 공주!",
-    "updateType": "new",
-    "updatedAt": "2026-09-08"
+    "tag": "초 카구야 공주!"
   },
   {
     "number": "52693",
@@ -12983,9 +12961,7 @@ window.FLYLIST_SONGS = [
     "category": "J-POP",
     "tags": [],
     "artist": "AKASAKI",
-    "tag": "AKASAKI",
-    "updateType": "new",
-    "updatedAt": "2026-09-08"
+    "tag": "AKASAKI"
   },
   {
     "number": "52694",
@@ -12998,9 +12974,7 @@ window.FLYLIST_SONGS = [
       "드라마 OST"
     ],
     "artist": "Penthouse",
-    "tag": "Penthouse",
-    "updateType": "new",
-    "updatedAt": "2026-09-08"
+    "tag": "Penthouse"
   },
   {
     "number": "52736",
@@ -13010,9 +12984,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "68012",
@@ -13022,9 +12994,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "68101",
@@ -13039,9 +13009,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "하늘의 푸르름을 아는 사람이여"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68609",
@@ -13051,9 +13019,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "68590",
@@ -13063,9 +13029,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "68426",
@@ -13075,9 +13039,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "68749",
@@ -13087,9 +13049,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "68133",
@@ -13099,9 +13059,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "28946",
@@ -13111,9 +13069,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "28955",
@@ -13123,9 +13079,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "68785",
@@ -13135,9 +13089,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "68201",
@@ -13147,9 +13099,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "68555",
@@ -13159,9 +13109,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "68508",
@@ -13171,9 +13119,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "52574",
@@ -13183,9 +13129,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "68454",
@@ -13195,9 +13139,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "68928",
@@ -13207,9 +13149,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "52983",
@@ -13219,9 +13159,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "52853",
@@ -13231,9 +13169,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "68608",
@@ -13243,9 +13179,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "52810",
@@ -13260,9 +13194,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "도라에몽"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "52568",
@@ -13277,9 +13209,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "내일 세계가 끝난다 해도"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68113",
@@ -13289,9 +13219,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "68237",
@@ -13301,9 +13229,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "52813",
@@ -13313,9 +13239,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "52850",
@@ -13325,9 +13249,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "68467",
@@ -13337,9 +13259,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "68929",
@@ -13354,9 +13274,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "창가의 토토"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68896",
@@ -13366,9 +13284,7 @@ window.FLYLIST_SONGS = [
     "tag": "あいみょん",
     "category": "J-POP",
     "group": "あいみょん",
-    "tagKo": "아이묭",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "아이묭"
   },
   {
     "number": "52440",
@@ -13383,9 +13299,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "장송의 프리렌"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "52856",
@@ -13395,9 +13309,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "52793",
@@ -13407,9 +13319,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "52834",
@@ -13424,9 +13334,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "약사의 혼잣말"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "52924",
@@ -13436,9 +13344,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "68485",
@@ -13448,9 +13354,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "52866",
@@ -13460,9 +13364,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "68885",
@@ -13472,9 +13374,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "68635",
@@ -13484,9 +13384,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "68207",
@@ -13496,9 +13394,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "52432",
@@ -13508,9 +13404,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "52721",
@@ -13520,9 +13414,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "68137",
@@ -13532,9 +13424,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "52804",
@@ -13544,9 +13434,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "52935",
@@ -13556,9 +13444,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "52974",
@@ -13568,9 +13454,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "68718",
@@ -13580,9 +13464,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "28776",
@@ -13592,9 +13474,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "52544",
@@ -13604,9 +13484,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "52920",
@@ -13616,9 +13494,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "68918",
@@ -13628,9 +13504,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "68636",
@@ -13640,9 +13514,7 @@ window.FLYLIST_SONGS = [
     "tag": "Mrs. GREEN APPLE",
     "category": "J-POP",
     "group": "Mrs. GREEN APPLE",
-    "tagKo": "미세스 그린 애플",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "미세스 그린 애플"
   },
   {
     "number": "68406",
@@ -13652,9 +13524,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "52595",
@@ -13669,9 +13539,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "이야기 시리즈"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68354",
@@ -13681,9 +13549,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "68514",
@@ -13693,9 +13559,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "68420",
@@ -13705,9 +13569,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "68402",
@@ -13717,9 +13579,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "52705",
@@ -13729,9 +13589,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "68411",
@@ -13741,9 +13599,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "68359",
@@ -13753,9 +13609,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "68793",
@@ -13765,9 +13619,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "52933",
@@ -13782,9 +13634,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "위치 워치"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68820",
@@ -13794,9 +13644,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "68920",
@@ -13806,9 +13654,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "68993",
@@ -13821,9 +13667,7 @@ window.FLYLIST_SONGS = [
     "tagKo": "요아소비",
     "tags": [
       "포켓몬스터"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68544",
@@ -13833,9 +13677,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "68685",
@@ -13845,9 +13687,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "68604",
@@ -13857,9 +13697,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "52738",
@@ -13869,9 +13707,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "52703",
@@ -13886,9 +13722,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "후레루."
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "52843",
@@ -13898,9 +13732,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "52902",
@@ -13910,9 +13742,7 @@ window.FLYLIST_SONGS = [
     "tag": "YOASOBI",
     "category": "J-POP",
     "group": "YOASOBI",
-    "tagKo": "요아소비",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "요아소비"
   },
   {
     "number": "68932",
@@ -13925,9 +13755,7 @@ window.FLYLIST_SONGS = [
     "tagKo": "요아소비",
     "tags": [
       "영어 버전"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27972",
@@ -13942,9 +13770,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "너의 이름은."
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68057",
@@ -13959,9 +13785,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "날씨의 아이"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68768",
@@ -13976,9 +13800,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "스즈메의 문단속"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68114",
@@ -13993,9 +13815,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "날씨의 아이"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "52451",
@@ -14005,9 +13825,7 @@ window.FLYLIST_SONGS = [
     "tag": "RADWIMPS",
     "category": "J-POP",
     "group": "RADWIMPS",
-    "tagKo": "래드윔프스",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "래드윔프스"
   },
   {
     "number": "27546",
@@ -14017,9 +13835,7 @@ window.FLYLIST_SONGS = [
     "tag": "RADWIMPS",
     "category": "J-POP",
     "group": "RADWIMPS",
-    "tagKo": "래드윔프스",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "래드윔프스"
   },
   {
     "number": "52429",
@@ -14029,9 +13845,7 @@ window.FLYLIST_SONGS = [
     "tag": "RADWIMPS",
     "category": "J-POP",
     "group": "RADWIMPS",
-    "tagKo": "래드윔프스",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "래드윔프스"
   },
   {
     "number": "27818",
@@ -14041,9 +13855,7 @@ window.FLYLIST_SONGS = [
     "tag": "RADWIMPS",
     "category": "J-POP",
     "group": "RADWIMPS",
-    "tagKo": "래드윔프스",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "래드윔프스"
   },
   {
     "number": "68282",
@@ -14053,9 +13865,7 @@ window.FLYLIST_SONGS = [
     "tag": "RADWIMPS",
     "category": "J-POP",
     "group": "RADWIMPS",
-    "tagKo": "래드윔프스",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "래드윔프스"
   },
   {
     "number": "28665",
@@ -14065,9 +13875,7 @@ window.FLYLIST_SONGS = [
     "tag": "RADWIMPS",
     "category": "J-POP",
     "group": "RADWIMPS",
-    "tagKo": "래드윔프스",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "래드윔프스"
   },
   {
     "number": "28624",
@@ -14077,9 +13885,7 @@ window.FLYLIST_SONGS = [
     "tag": "RADWIMPS",
     "category": "J-POP",
     "group": "RADWIMPS",
-    "tagKo": "래드윔프스",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "래드윔프스"
   },
   {
     "number": "68451",
@@ -14089,9 +13895,7 @@ window.FLYLIST_SONGS = [
     "tag": "RADWIMPS",
     "category": "J-POP",
     "group": "RADWIMPS",
-    "tagKo": "래드윔프스",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "래드윔프스"
   },
   {
     "number": "68769",
@@ -14106,9 +13910,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "스즈메의 문단속"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68783",
@@ -14123,9 +13925,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "스즈메의 문단속"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27154",
@@ -14135,9 +13935,7 @@ window.FLYLIST_SONGS = [
     "tag": "RADWIMPS",
     "category": "J-POP",
     "group": "RADWIMPS",
-    "tagKo": "래드윔프스",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "래드윔프스"
   },
   {
     "number": "52751",
@@ -14147,9 +13945,7 @@ window.FLYLIST_SONGS = [
     "tag": "RADWIMPS",
     "category": "J-POP",
     "group": "RADWIMPS",
-    "tagKo": "래드윔프스",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "래드윔프스"
   },
   {
     "number": "52919",
@@ -14159,9 +13955,7 @@ window.FLYLIST_SONGS = [
     "tag": "RADWIMPS",
     "category": "J-POP",
     "group": "RADWIMPS",
-    "tagKo": "래드윔프스",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "래드윔프스"
   },
   {
     "number": "68067",
@@ -14176,9 +13970,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "날씨의 아이"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68281",
@@ -14193,9 +13985,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "날씨의 아이"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "52730",
@@ -14205,9 +13995,7 @@ window.FLYLIST_SONGS = [
     "tag": "SPYAIR",
     "category": "J-POP",
     "group": "SPYAIR",
-    "tagKo": "스파이에어",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "스파이에어"
   },
   {
     "number": "27578",
@@ -14222,9 +14010,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "하이큐!!"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27596",
@@ -14239,9 +14025,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "은혼"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27646",
@@ -14256,9 +14040,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "기동전사 건담 시리즈"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27781",
@@ -14268,9 +14050,7 @@ window.FLYLIST_SONGS = [
     "tag": "SPYAIR",
     "category": "J-POP",
     "group": "SPYAIR",
-    "tagKo": "스파이에어",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "스파이에어"
   },
   {
     "number": "27460",
@@ -14280,9 +14060,7 @@ window.FLYLIST_SONGS = [
     "tag": "SPYAIR",
     "category": "J-POP",
     "group": "SPYAIR",
-    "tagKo": "스파이에어",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "스파이에어"
   },
   {
     "number": "27647",
@@ -14297,9 +14075,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "블리치"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27969",
@@ -14314,9 +14090,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "기동전사 건담 시리즈"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27631",
@@ -14326,9 +14100,7 @@ window.FLYLIST_SONGS = [
     "tag": "SPYAIR",
     "category": "J-POP",
     "group": "SPYAIR",
-    "tagKo": "스파이에어",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "스파이에어"
   },
   {
     "number": "28490",
@@ -14343,9 +14115,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "하이큐!!"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68438",
@@ -14360,9 +14130,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "은혼"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68363",
@@ -14377,9 +14145,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "은혼"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27816",
@@ -14389,9 +14155,7 @@ window.FLYLIST_SONGS = [
     "tag": "SPYAIR",
     "category": "J-POP",
     "group": "SPYAIR",
-    "tagKo": "스파이에어",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "스파이에어"
   },
   {
     "number": "27347",
@@ -14401,9 +14165,7 @@ window.FLYLIST_SONGS = [
     "tag": "SPYAIR",
     "category": "J-POP",
     "group": "SPYAIR",
-    "tagKo": "스파이에어",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "스파이에어"
   },
   {
     "number": "28077",
@@ -14418,9 +14180,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "사무라이 플라멩코"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27804",
@@ -14430,9 +14190,7 @@ window.FLYLIST_SONGS = [
     "tag": "SPYAIR",
     "category": "J-POP",
     "group": "SPYAIR",
-    "tagKo": "스파이에어",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "스파이에어"
   },
   {
     "number": "27559",
@@ -14442,9 +14200,7 @@ window.FLYLIST_SONGS = [
     "tag": "SPYAIR",
     "category": "J-POP",
     "group": "SPYAIR",
-    "tagKo": "스파이에어",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "스파이에어"
   },
   {
     "number": "27443",
@@ -14454,9 +14210,7 @@ window.FLYLIST_SONGS = [
     "tag": "SPYAIR",
     "category": "J-POP",
     "group": "SPYAIR",
-    "tagKo": "스파이에어",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "스파이에어"
   },
   {
     "number": "68336",
@@ -14471,9 +14225,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "하이큐!!"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27748",
@@ -14483,9 +14235,7 @@ window.FLYLIST_SONGS = [
     "tag": "SPYAIR",
     "category": "J-POP",
     "group": "SPYAIR",
-    "tagKo": "스파이에어",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "스파이에어"
   },
   {
     "number": "52509",
@@ -14500,9 +14250,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "용사형에 처함"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27682",
@@ -14512,9 +14260,7 @@ window.FLYLIST_SONGS = [
     "tag": "SPYAIR",
     "category": "J-POP",
     "group": "SPYAIR",
-    "tagKo": "스파이에어",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "스파이에어"
   },
   {
     "number": "28733",
@@ -14529,9 +14275,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "메리와 마녀의 꽃"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "54336",
@@ -14546,9 +14290,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "원피스"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "52745",
@@ -14558,9 +14300,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "28570",
@@ -14570,9 +14310,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "27684",
@@ -14582,9 +14320,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "27768",
@@ -14594,9 +14330,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "52984",
@@ -14606,9 +14340,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "27703",
@@ -14618,9 +14350,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "68829",
@@ -14630,9 +14360,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "27779",
@@ -14642,9 +14370,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "52448",
@@ -14654,9 +14380,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "27741",
@@ -14666,9 +14390,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "68361",
@@ -14678,9 +14400,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "28810",
@@ -14690,9 +14410,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "28608",
@@ -14702,9 +14420,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "27757",
@@ -14714,9 +14430,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "52805",
@@ -14726,9 +14440,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "28941",
@@ -14738,9 +14450,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "25014",
@@ -14750,9 +14460,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "28604",
@@ -14762,9 +14470,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "27940",
@@ -14774,9 +14480,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "27784",
@@ -14786,9 +14490,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "28694",
@@ -14798,9 +14500,7 @@ window.FLYLIST_SONGS = [
     "tag": "SEKAI NO OWARI",
     "category": "J-POP",
     "group": "SEKAI NO OWARI",
-    "tagKo": "세카이노 오와리",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "세카이노 오와리"
   },
   {
     "number": "52476",
@@ -14815,9 +14515,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "나의 히어로 아카데미아"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68307",
@@ -14831,9 +14529,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "포켓몬스터",
       "게임"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68637",
@@ -14848,9 +14544,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "명탐정 코난"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "25682",
@@ -14860,9 +14554,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "25504",
@@ -14877,9 +14569,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "원피스"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "52582",
@@ -14894,9 +14584,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "던전밥"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "26902",
@@ -14906,9 +14594,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "68522",
@@ -14918,9 +14604,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "25322",
@@ -14930,9 +14614,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "26995",
@@ -14942,9 +14624,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "25926",
@@ -14954,9 +14634,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "27161",
@@ -14966,9 +14644,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "68784",
@@ -14978,9 +14654,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "27240",
@@ -14994,9 +14668,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "파이널 판타지",
       "게임"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "28571",
@@ -15006,9 +14678,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "26697",
@@ -15018,9 +14688,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "28920",
@@ -15030,9 +14698,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "28592",
@@ -15042,9 +14708,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "25723",
@@ -15054,9 +14718,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "25461",
@@ -15066,9 +14728,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "26028",
@@ -15078,9 +14738,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "27769",
@@ -15090,9 +14748,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "26259",
@@ -15102,9 +14758,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "25855",
@@ -15114,9 +14768,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "26116",
@@ -15126,9 +14778,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "27268",
@@ -15138,9 +14788,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "27188",
@@ -15150,9 +14798,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "52937",
@@ -15162,9 +14808,7 @@ window.FLYLIST_SONGS = [
     "tag": "BUMP OF CHICKEN",
     "category": "J-POP",
     "group": "BUMP OF CHICKEN",
-    "tagKo": "범프 오브 치킨",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "범프 오브 치킨"
   },
   {
     "number": "52931",
@@ -15179,9 +14823,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "귀멸의 칼날"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27687",
@@ -15196,9 +14838,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "소드 아트 온라인"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68527",
@@ -15213,9 +14853,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "귀멸의 칼날"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "28972",
@@ -15230,9 +14868,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "소드 아트 온라인"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "28670",
@@ -15247,9 +14883,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "소드 아트 온라인"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68155",
@@ -15264,9 +14898,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "소드 아트 온라인"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27993",
@@ -15281,9 +14913,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "니세코이"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68542",
@@ -15298,9 +14928,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "귀멸의 칼날"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27600",
@@ -15315,9 +14943,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "마법과고교의 열등생"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "28738",
@@ -15332,9 +14958,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "나의 히어로 아카데미아"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68525",
@@ -15349,9 +14973,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "소드 아트 온라인"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68834",
@@ -15366,9 +14988,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "스파이더맨: 어크로스 더 유니버스"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27458",
@@ -15383,9 +15003,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "환영을 달리는 태양"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68330",
@@ -15395,9 +15013,7 @@ window.FLYLIST_SONGS = [
     "tag": "LiSA",
     "category": "J-POP",
     "group": "LiSA",
-    "tagKo": "리사",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "리사"
   },
   {
     "number": "27953",
@@ -15412,9 +15028,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "퀄리디아 코드"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "52785",
@@ -15429,9 +15043,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "샹그릴라 프론티어"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "52772",
@@ -15446,9 +15058,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "마법과고교의 열등생"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68369",
@@ -15463,9 +15073,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "백 애로우"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68619",
@@ -15475,9 +15083,7 @@ window.FLYLIST_SONGS = [
     "tag": "LiSA",
     "category": "J-POP",
     "group": "LiSA",
-    "tagKo": "리사",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "리사"
   },
   {
     "number": "52779",
@@ -15487,9 +15093,7 @@ window.FLYLIST_SONGS = [
     "tag": "LiSA",
     "category": "J-POP",
     "group": "LiSA",
-    "tagKo": "리사",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "리사"
   },
   {
     "number": "52816",
@@ -15504,9 +15108,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "나 혼자만 레벨업"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68945",
@@ -15516,9 +15118,7 @@ window.FLYLIST_SONGS = [
     "tag": "LiSA",
     "category": "J-POP",
     "group": "LiSA",
-    "tagKo": "리사",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "리사"
   },
   {
     "number": "68342",
@@ -15528,9 +15128,7 @@ window.FLYLIST_SONGS = [
     "tag": "LiSA",
     "category": "J-POP",
     "group": "LiSA",
-    "tagKo": "리사",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "리사"
   },
   {
     "number": "52809",
@@ -15540,9 +15138,7 @@ window.FLYLIST_SONGS = [
     "tag": "sumika",
     "category": "J-POP",
     "group": "sumika",
-    "tagKo": "스미카",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "스미카"
   },
   {
     "number": "28874",
@@ -15557,9 +15153,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "오타쿠에게 사랑은 어려워"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "28937",
@@ -15574,9 +15168,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "너의 췌장을 먹고 싶어"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68498",
@@ -15591,9 +15183,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "던전밥"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68035",
@@ -15608,9 +15198,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "너의 췌장을 먹고 싶어"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "70786",
@@ -15619,9 +15207,7 @@ window.FLYLIST_SONGS = [
     "artist": "스텔라이브",
     "tag": "스텔라이브",
     "category": "버츄얼 아티스트",
-    "group": "스텔라이브",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "group": "스텔라이브"
   },
   {
     "number": "70682",
@@ -15630,9 +15216,7 @@ window.FLYLIST_SONGS = [
     "artist": "텐코 시부키",
     "tag": "텐코 시부키",
     "category": "버츄얼 아티스트",
-    "group": "스텔라이브",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "group": "스텔라이브"
   },
   {
     "number": "70674",
@@ -15641,9 +15225,7 @@ window.FLYLIST_SONGS = [
     "artist": "아오쿠모 린",
     "tag": "아오쿠모 린",
     "category": "버츄얼 아티스트",
-    "group": "스텔라이브",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "group": "스텔라이브"
   },
   {
     "number": "70683",
@@ -15652,9 +15234,7 @@ window.FLYLIST_SONGS = [
     "artist": "하나코 나나",
     "tag": "하나코 나나",
     "category": "버츄얼 아티스트",
-    "group": "스텔라이브",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "group": "스텔라이브"
   },
   {
     "number": "70676",
@@ -15663,9 +15243,7 @@ window.FLYLIST_SONGS = [
     "artist": "유즈하 리코",
     "tag": "유즈하 리코",
     "category": "버츄얼 아티스트",
-    "group": "스텔라이브",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "group": "스텔라이브"
   },
   {
     "number": "85746",
@@ -15679,9 +15257,7 @@ window.FLYLIST_SONGS = [
       "고세구",
       "이세계아이돌",
       "피처링"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "25206",
@@ -15691,9 +15267,7 @@ window.FLYLIST_SONGS = [
     "tag": "ZONE",
     "category": "J-POP",
     "group": "ZONE",
-    "tagKo": "존",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "존"
   },
   {
     "number": "27567",
@@ -15708,9 +15282,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "그날 본 꽃의 이름을 우리는 아직 모른다"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "28144",
@@ -15725,9 +15297,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "노 게임 노 라이프"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27577",
@@ -15742,9 +15312,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "러브 라이브!"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27657",
@@ -15759,9 +15327,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "러브 라이브!"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "20176",
@@ -15776,9 +15342,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "신세기 에반게리온"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "22874",
@@ -15793,9 +15357,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "신세기 에반게리온"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "27923",
@@ -15810,9 +15372,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "하이스쿨 플릿"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68697",
@@ -15827,9 +15387,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "봇치 더 록!"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68751",
@@ -15844,9 +15402,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "봇치 더 록!"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "52712",
@@ -15861,9 +15417,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "봇치 더 록!"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "26908",
@@ -15878,9 +15432,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "케이온!"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68251",
@@ -15895,9 +15447,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "카구야 님은 고백받고 싶어"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68449",
@@ -15912,9 +15462,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "어쨌든 귀여워"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68000",
@@ -15929,9 +15477,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "도메스틱한 그녀"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "28832",
@@ -15946,9 +15492,7 @@ window.FLYLIST_SONGS = [
     "tags": [
       "애니메이션",
       "사랑은 비가 갠 뒤처럼"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    ]
   },
   {
     "number": "68706",
@@ -15963,9 +15507,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "봇치 더 록!"
     ],
-    "jpopGroup": "結束バンド",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "結束バンド"
   },
   {
     "number": "68748",
@@ -15980,9 +15522,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "봇치 더 록!"
     ],
-    "jpopGroup": "結束バンド",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "結束バンド"
   },
   {
     "number": "68714",
@@ -15997,9 +15537,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "봇치 더 록!"
     ],
-    "jpopGroup": "結束バンド",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "結束バンド"
   },
   {
     "number": "68731",
@@ -16014,9 +15552,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "봇치 더 록!"
     ],
-    "jpopGroup": "結束バンド",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "結束バンド"
   },
   {
     "number": "68723",
@@ -16031,9 +15567,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "봇치 더 록!"
     ],
-    "jpopGroup": "結束バンド",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "結束バンド"
   },
   {
     "number": "26907",
@@ -16048,9 +15582,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "케이온!"
     ],
-    "jpopGroup": "桜高軽音部",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "桜高軽音部"
   },
   {
     "number": "26916",
@@ -16065,9 +15597,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "케이온!"
     ],
-    "jpopGroup": "桜高軽音部",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "桜高軽音部"
   },
   {
     "number": "27047",
@@ -16082,9 +15612,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "케이온!"
     ],
-    "jpopGroup": "放課後ティータイム",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "放課後ティータイム"
   },
   {
     "number": "27159",
@@ -16099,9 +15627,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "케이온!"
     ],
-    "jpopGroup": "放課後ティータイム",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "放課後ティータイム"
   },
   {
     "number": "27547",
@@ -16116,9 +15642,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "케이온!"
     ],
-    "jpopGroup": "放課後ティータイム",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "放課後ティータイム"
   },
   {
     "number": "27563",
@@ -16133,9 +15657,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "케이온!"
     ],
-    "jpopGroup": "放課後ティータイム",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "放課後ティータイム"
   },
   {
     "number": "28110",
@@ -16150,9 +15672,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "기동전사 건담 UC"
     ],
-    "jpopGroup": "Aimer",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "Aimer"
   },
   {
     "number": "68299",
@@ -16167,9 +15687,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "불꽃 소방대"
     ],
-    "jpopGroup": "Aimer",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "Aimer"
   },
   {
     "number": "68570",
@@ -16184,9 +15702,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "귀멸의 칼날"
     ],
-    "jpopGroup": "Aimer",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "Aimer"
   },
   {
     "number": "27983",
@@ -16201,9 +15717,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "나츠메 우인장"
     ],
-    "jpopGroup": "Aimer",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "Aimer"
   },
   {
     "number": "27740",
@@ -16213,9 +15727,7 @@ window.FLYLIST_SONGS = [
     "tag": "Aimer",
     "category": "J-POP",
     "group": "Aimer",
-    "tagKo": "에메",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "tagKo": "에메"
   },
   {
     "number": "52534",
@@ -16230,9 +15742,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "걸즈 밴드 크라이"
     ],
-    "jpopGroup": "トゲナシトゲアリ",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "トゲナシトゲアリ"
   },
   {
     "number": "52901",
@@ -16247,9 +15757,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "걸즈 밴드 크라이"
     ],
-    "jpopGroup": "トゲナシトゲアリ",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "トゲナシトゲアリ"
   },
   {
     "number": "25622",
@@ -16264,9 +15772,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "신세기 에반게리온"
     ],
-    "jpopGroup": "高橋洋子",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "高橋洋子"
   },
   {
     "number": "28843",
@@ -16281,9 +15787,7 @@ window.FLYLIST_SONGS = [
       "애니메이션",
       "노 게임 노 라이프"
     ],
-    "jpopGroup": "鈴木このみ",
-    "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "jpopGroup": "鈴木このみ"
   },
   {
     "number": "68030",
@@ -16293,8 +15797,72 @@ window.FLYLIST_SONGS = [
     "tag": "美波",
     "category": "J-POP",
     "group": "美波",
-    "tagKo": "미나미",
+    "tagKo": "미나미"
+  },
+  {
+    "number": "52695",
+    "titleKo": "폴터가이스트",
+    "titleOriginal": "ポルターガイスト",
+    "artist": "なとり",
+    "tag": "なとり",
+    "category": "J-POP",
+    "group": "なとり",
+    "tagKo": "나토리",
     "updateType": "new",
-    "updatedAt": "2026-09-09"
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "number": "52696",
+    "titleKo": "고작 아이 러브 유",
+    "titleOriginal": "たかがアイラブユー",
+    "artist": "Official髭男dism",
+    "tag": "Official髭男dism",
+    "category": "J-POP",
+    "group": "Official髭男dism",
+    "tagKo": "오피셜히게단디즘",
+    "updateType": "new",
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "number": "52697",
+    "titleKo": "GO GHOST",
+    "titleOriginal": "GO GHOST",
+    "artist": "King Gnu",
+    "tag": "공각기동대",
+    "category": "애니메이션",
+    "group": "공각기동대",
+    "tagKo": "킹 누",
+    "tags": [
+      "애니메이션"
+    ],
+    "updateType": "new",
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "number": "52698",
+    "titleKo": "투명 엘레지",
+    "titleOriginal": "透明エレジー",
+    "artist": "n-buna(Feat.GUMI)",
+    "tag": "N-BUNA",
+    "category": "보카로",
+    "group": "N-BUNA",
+    "tagKo": "n-buna",
+    "tags": [
+      "GUMI"
+    ],
+    "updateType": "new",
+    "updatedAt": "2026-09-13"
+  },
+  {
+    "number": "52699",
+    "titleKo": "휴루리라팟파",
+    "titleOriginal": "ひゅるりらぱっぱ - HYURURIRAPAPPA",
+    "artist": "tuki.",
+    "tag": "tuki.",
+    "category": "J-POP",
+    "group": "tuki.",
+    "tagKo": "츠키",
+    "updateType": "new",
+    "updatedAt": "2026-09-13"
   }
 ];
