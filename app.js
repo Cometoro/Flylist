@@ -300,7 +300,8 @@
   let indexDrawerTrigger = null;
   let drawerScrollY = null;
   let isComposingSearch = false;
-  let suggestionIndex = [];
+  let suggestionIndex = null;
+  const categorySongCache = new Map();
   let visibleSuggestions = [];
   let activeSuggestionIndex = -1;
 
@@ -310,7 +311,6 @@
     if ("scrollRestoration" in history) history.scrollRestoration = "manual";
     migrateGroupFavoriteIds();
     pruneFavoriteState();
-    suggestionIndex = buildSuggestionIndex();
     renderStats();
     renderTabs();
     renderFavoriteTabs();
@@ -934,11 +934,7 @@
   }
 
   function getMainSongs() {
-    const categorySongs = songs.filter(song => {
-      const categoryMatched = ["전체", "업데이트", "아티스트별"].includes(state.category) || hasCategory(song, state.category);
-      const updateMatched = state.category !== "업데이트" || isUpdated(song);
-      return categoryMatched && updateMatched;
-    });
+    const categorySongs = getCategorySongs(state.category);
     if (!state.query) return categorySongs;
     return categorySongs
       .map(song => ({ song, score: scoreSong(song, state.query) }))
@@ -947,6 +943,15 @@
         || collator.compare(a.song.titleKo, b.song.titleKo)
         || Number(a.song.number) - Number(b.song.number))
       .map(result => result.song);
+  }
+
+  function getCategorySongs(category) {
+    if (categorySongCache.has(category)) return categorySongCache.get(category);
+    let filtered = songs;
+    if (category === "업데이트") filtered = songs.filter(isUpdated);
+    else if (categories.includes(category)) filtered = songs.filter(song => hasCategory(song, category));
+    categorySongCache.set(category, filtered);
+    return filtered;
   }
 
   function buildSearchResults(items) {
@@ -1839,7 +1844,8 @@
   function getSearchSuggestions(value) {
     const query = normalize(value);
     if (!query) return [];
-    return suggestionIndex
+    const index = suggestionIndex || (suggestionIndex = buildSuggestionIndex());
+    return index
       .map(entry => {
         let score = entry.song ? scoreSong(entry.song, query) : 0;
         if (!entry.song) {
