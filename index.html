@@ -3,12 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#0b0d14">
+  <meta name="theme-color" content="#11151b">
   <meta name="description" content="TJ 일본곡을 번호, 제목, 원제, 아티스트로 찾는 개인 노래방 아카이브">
   <link rel="canonical" href="https://cometoro.github.io/Flylist/">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32.png?v=20260803">
-  <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon-192.png?v=20260803">
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png?v=20260803">
+  <link rel="icon" href="data:,">
   <title>Flylist</title>
 
   <meta property="og:type" content="website">
@@ -17,22 +15,13 @@
   <meta property="og:title" content="Flylist">
   <meta property="og:description" content="TJ 일본곡 검색 아카이브">
   <meta property="og:url" content="https://cometoro.github.io/Flylist/">
-  <meta property="og:image" content="https://cometoro.github.io/Flylist/assets/flylist-preview.jpg?v=20260803">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:type" content="image/jpeg">
-  <meta property="og:image:alt" content="Flylist 캐릭터와 TJ 일본곡 검색 아카이브 제목">
-
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Flylist">
   <meta name="twitter:description" content="TJ 일본곡 검색 아카이브">
-  <meta name="twitter:image" content="https://cometoro.github.io/Flylist/assets/flylist-preview.jpg?v=20260803">
-  <meta name="twitter:image:alt" content="Flylist 캐릭터와 TJ 일본곡 검색 아카이브 제목">
-
-  <link rel="stylesheet" href="./styles.css?v=20260915-1">
+  <link rel="stylesheet" href="./styles.css?v=20260918-3">
   <link rel="stylesheet" href="./custom.css?v=20260722-2">
   <script src="./data.js?v=20260915-1" defer></script>
-  <script src="./app.js?v=20260915-1" defer></script>
+  <script src="./app.js?v=20260918-3" defer></script>
 </head>
 <body id="top">
   <div id="mainApp">
@@ -41,11 +30,9 @@
         <div>
           <div class="badge-row" aria-label="Flylist edition">
             <span class="badge">TJ SONG BOOK</span>
-            <span class="badge badge-soft">PERSONAL EDITION</span>
           </div>
           <h1><span>Fly</span><span>list</span></h1>
         </div>
-        <img class="brand-mascot" src="./assets/favicon-192.png?v=20260803" width="64" height="64" alt="Flylist 마스코트" decoding="async">
       </div>
 
       <form class="search" role="search">
@@ -83,10 +70,12 @@
       </div>
 
       <section id="updateSummary" class="update-summary" hidden></section>
+      <nav class="pagination" data-pagination="main" aria-label="곡 목록 페이지" hidden></nav>
       <div class="content-layout">
         <section id="songList" class="song-list" aria-live="polite"></section>
         <aside id="sectionIndex" class="section-index" aria-label="빠른 이동"></aside>
       </div>
+      <nav class="pagination pagination-bottom" data-pagination="main" aria-label="곡 목록 페이지 하단" hidden></nav>
       <p id="emptyState" class="empty-state" hidden>검색 결과가 없다요.</p>
     </main>
   </div>
@@ -107,7 +96,7 @@
       <div class="favorite-command-row">
         <form id="favoriteSearchForm" class="favorite-search" role="search">
           <svg class="ui-icon favorite-search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-          <input id="favoriteSearchInput" type="search" placeholder="즐겨찾기 검색" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search">
+          <input id="favoriteSearchInput" type="search" aria-label="즐겨찾기 검색" placeholder="즐겨찾기 검색" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search">
           <button id="clearFavoriteSearch" class="favorite-search-clear" type="button" aria-label="즐겨찾기 검색어 지우기" title="검색어 지우기" hidden><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m18 6-12 12M6 6l12 12"/></svg></button>
         </form>
         <div id="favoriteModeControl" class="favorite-mode-control" role="group" aria-label="즐겨찾기 보기 방식">
@@ -130,10 +119,12 @@
           <button class="index-button" type="button" data-open-index aria-label="즐겨찾기 빠른 이동 열기"><span class="index-button-icon" aria-hidden="true">⚡︎</span><span class="index-button-label">빠른 이동</span></button>
         </div>
       </div>
+      <nav class="pagination" data-pagination="favorites" aria-label="즐겨찾기 페이지" hidden></nav>
       <div class="content-layout">
         <section id="favoriteSongList" class="song-list" aria-live="polite"></section>
         <aside id="favoriteSectionIndex" class="section-index" aria-label="즐겨찾기 빠른 이동"></aside>
       </div>
+      <nav class="pagination pagination-bottom" data-pagination="favorites" aria-label="즐겨찾기 페이지 하단" hidden></nav>
       <p id="favoriteEmptyState" class="empty-state" hidden>즐겨찾기한 곡이 없다요.</p>
     </div>
   </section>
@@ -155,11 +146,12 @@
   </div>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <button id="mobileSearchButton" class="mobile-search-button" type="button" aria-label="검색창으로 이동" title="검색창으로 이동"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></button>
   <button class="top-link" type="button" aria-label="맨 위로" title="맨 위로">↑</button>
   <!-- Keep this date aligned with the GitHub commit date when publishing. -->
   <footer class="site-footer">
     <span>DATA VERIFIED</span>
-    <time datetime="2026-09-15">2026.09.15</time>
+    <time datetime="2026-09-18">2026.09.18</time>
   </footer>
 </body>
 </html>

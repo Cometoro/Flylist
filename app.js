@@ -12,8 +12,8 @@
   const sortValues = Object.values(sortOptions).flat().map(([value]) => value);
   const savedBrowseState = loadBrowseState();
   const state = {
-    query: "",
-    favoriteQuery: "",
+    query: normalize(typeof savedBrowseState.query === "string" ? savedBrowseState.query : ""),
+    favoriteQuery: normalize(typeof savedBrowseState.favoriteQuery === "string" ? savedBrowseState.favoriteQuery : ""),
     category: categoryLabels.includes(savedBrowseState.category)
       && savedBrowseState.category !== "즐겨찾기" ? savedBrowseState.category : "전체",
     favoriteCategory: favoriteCategoryLabels.includes(savedBrowseState.favoriteCategory)
@@ -291,17 +291,26 @@
   const searchFieldCache = new WeakMap();
   const chipCache = new WeakMap();
   const artistAliasCache = new WeakMap();
+  const groupIdsCache = new WeakMap();
   let sectionSequence = 0;
   let sectionPrefix = "main";
   let activeIndexId = "";
   let indexScrollFrame = 0;
   let searchTimer = 0;
+  let favoriteSearchTimer = 0;
   let scrollSaveTimer = 0;
   let indexDrawerTrigger = null;
   let drawerScrollY = null;
   let isComposingSearch = false;
+  let isComposingFavoriteSearch = false;
+  let viewportFrame = 0;
+  let storageWarningShown = false;
   let suggestionIndex = null;
   const categorySongCache = new Map();
+  const pageState = {
+    main: restorePageState(savedBrowseState.pages?.main),
+    favorites: restorePageState(savedBrowseState.pages?.favorites)
+  };
   let visibleSuggestions = [];
   let activeSuggestionIndex = -1;
 
@@ -309,6 +318,8 @@
 
   function init() {
     if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+    els.searchInput.value = typeof savedBrowseState.query === "string" ? savedBrowseState.query : "";
+    els.favoriteSearchInput.value = typeof savedBrowseState.favoriteQuery === "string" ? savedBrowseState.favoriteQuery : "";
     migrateGroupFavoriteIds();
     pruneFavoriteState();
     renderStats();
@@ -319,6 +330,15 @@
   }
 
   function bindEvents() {
+    document.querySelectorAll("[data-pagination]").forEach(nav => {
+      nav.addEventListener("click", event => {
+        const button = event.target.closest("[data-page-step]");
+        if (button) changePage(nav.dataset.pagination, pageState[nav.dataset.pagination].page + Number(button.dataset.pageStep));
+      });
+      nav.addEventListener("change", event => {
+        if (event.target.matches("[data-page-select]")) changePage(nav.dataset.pagination, Number(event.target.value));
+      });
+    });
     const updateSearch = () => {
       state.query = normalize(els.searchInput.value);
       renderSearchSuggestions();
@@ -343,15 +363,7 @@
 
     els.searchForm.addEventListener("submit", event => {
       event.preventDefault();
-      if (isComposingSearch) return;
-      if (activeSuggestionIndex >= 0 && visibleSuggestions[activeSuggestionIndex]) {
-        selectSuggestion(visibleSuggestions[activeSuggestionIndex]);
-        return;
-      }
-      const query = els.searchInput.value.trim();
-      if (query) rememberSearch(query);
-      closeSearchSuggestions();
-      renderMain();
+      submitMainSearch();
     });
 
     els.searchSuggestionList.addEventListener("click", event => {
@@ -427,11 +439,28 @@
       restoreCurrentScrollPosition();
     });
 
-    els.favoriteSearchForm.addEventListener("submit", event => event.preventDefault());
-    els.favoriteSearchInput.addEventListener("input", () => {
+    const updateFavoriteSearch = () => {
       state.favoriteQuery = normalize(els.favoriteSearchInput.value);
-      setCurrentScrollPosition(0);
+      window.clearTimeout(favoriteSearchTimer);
+      favoriteSearchTimer = window.setTimeout(renderFavorites, 100);
+    };
+    els.favoriteSearchInput.addEventListener("compositionstart", () => {
+      isComposingFavoriteSearch = true;
+      window.clearTimeout(favoriteSearchTimer);
+    });
+    els.favoriteSearchInput.addEventListener("compositionend", () => {
+      isComposingFavoriteSearch = false;
+      updateFavoriteSearch();
+    });
+    els.favoriteSearchInput.addEventListener("input", event => {
+      if (!isComposingFavoriteSearch && !event.isComposing) updateFavoriteSearch();
+    });
+    els.favoriteSearchForm.addEventListener("submit", event => {
+      event.preventDefault();
+      if (isComposingFavoriteSearch) return;
+      state.favoriteQuery = normalize(els.favoriteSearchInput.value);
       renderFavorites();
+      finishMobileSearch();
     });
     els.clearFavoriteSearch.addEventListener("click", () => {
       els.favoriteSearchInput.value = "";
@@ -451,7 +480,7 @@
     });
 
     els.favoritesBack.addEventListener("click", () => {
-      if (location.hash === "#favorites" && history.length > 1) {
+      if (location.hash === "#favorites" && history.state?.flylistReturn) {
         history.back();
       } else {
         if (location.hash === "#favorites") {
@@ -493,9 +522,38 @@
     els.importFavoritesButton.addEventListener("click", () => els.importFavoritesFile.click());
     els.importFavoritesFile.addEventListener("change", importFavorites);
     els.topLink.addEventListener("click", scrollToPageTop);
+    document.querySelector("#mobileSearchButton").addEventListener("click", () => {
+      const input = state.view === "favorites" ? els.favoriteSearchInput : els.searchInput;
+      input.focus({ preventScroll: true });
+      input.select();
+      syncEditingState();
+      scrollInstantlyTo(input.closest("form"));
+    });
+    [els.emptyState, els.favoriteEmptyState].forEach(empty => {
+      empty.addEventListener("click", event => {
+        if (!event.target.closest("[data-reset-filters]")) return;
+        if (state.view === "favorites") {
+          state.favoriteCategory = "전체";
+          state.favoriteQuery = "";
+          els.favoriteSearchInput.value = "";
+          renderFavorites();
+        } else {
+          state.category = "전체";
+          renderTabs();
+          renderMain();
+        }
+      });
+    });
+    els.toast.addEventListener("focusin", () => clearTimeout(showToast.timer));
+    els.toast.addEventListener("focusout", () => {
+      showToast.timer = setTimeout(() => els.toast.classList.remove("is-visible"), 8000);
+    });
 
     window.addEventListener("popstate", syncViewFromLocation);
     window.addEventListener("pagehide", saveCurrentScrollPosition);
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) saveCurrentScrollPosition();
+    });
     window.addEventListener("scroll", () => {
       scheduleIndexActivation();
       window.clearTimeout(scrollSaveTimer);
@@ -516,6 +574,22 @@
     });
   }
 
+  function scrollInstantlyTo(target) {
+    const root = document.documentElement;
+    const previousBehavior = root.style.scrollBehavior;
+    root.style.scrollBehavior = "auto";
+    window.scrollTo(0, Math.max(0, target.getBoundingClientRect().top + window.scrollY - 12));
+    root.style.scrollBehavior = previousBehavior;
+  }
+
+  function finishMobileSearch() {
+    if (!window.matchMedia("(max-width: 719px), (pointer: coarse)").matches) return;
+    document.activeElement?.blur();
+    syncEditingState();
+    const target = state.view === "favorites" ? els.favoriteResultSummary : els.resultSummary;
+    requestAnimationFrame(() => scrollInstantlyTo(target));
+  }
+
   function scrollToPageTop(event) {
     event.preventDefault();
     const behavior = window.matchMedia("(prefers-reduced-motion: reduce)").matches
@@ -530,14 +604,7 @@
     if (isComposingSearch || event.isComposing || event.keyCode === 229) return;
     if (event.key === "Enter") {
       event.preventDefault();
-      if (activeSuggestionIndex >= 0 && visibleSuggestions[activeSuggestionIndex]) {
-        selectSuggestion(visibleSuggestions[activeSuggestionIndex]);
-      } else {
-        const query = els.searchInput.value.trim();
-        if (query) rememberSearch(query);
-        closeSearchSuggestions();
-        renderMain();
-      }
+      submitMainSearch();
       return;
     }
     if (event.key === "Escape" && !els.searchSuggestions.hidden) {
@@ -558,6 +625,20 @@
       ? direction > 0 ? 0 : visibleSuggestions.length - 1
       : (activeSuggestionIndex + direction + visibleSuggestions.length) % visibleSuggestions.length;
     setActiveSuggestion(nextIndex);
+  }
+
+  function submitMainSearch() {
+    if (isComposingSearch) return;
+    if (activeSuggestionIndex >= 0 && visibleSuggestions[activeSuggestionIndex]) {
+      selectSuggestion(visibleSuggestions[activeSuggestionIndex]);
+      return;
+    }
+    const query = els.searchInput.value.trim();
+    state.query = normalize(query);
+    if (query) rememberSearch(query);
+    closeSearchSuggestions();
+    renderMain();
+    finishMobileSearch();
   }
 
   function renderSearchSuggestions(force = false) {
@@ -657,6 +738,7 @@
       renderTabs();
       renderMain();
     }
+    finishMobileSearch();
   }
 
   function handleListClick(event) {
@@ -761,6 +843,7 @@
       }
       return button;
     }));
+    revealSelectedTab(els.categoryTabs);
   }
 
   function renderFavoriteTabs() {
@@ -782,6 +865,18 @@
       button.innerHTML = `<span>${escapeHtml(text)}</span><small>${count}</small>`;
       return button;
     }));
+    revealSelectedTab(els.favoriteCategoryTabs);
+  }
+
+  function revealSelectedTab(container) {
+    requestAnimationFrame(() => {
+      const selected = container.querySelector('[aria-selected="true"]');
+      if (!selected || !container.getClientRects().length) return;
+      const bounds = container.getBoundingClientRect();
+      const tab = selected.getBoundingClientRect();
+      if (tab.left < bounds.left) container.scrollLeft += tab.left - bounds.left - 4;
+      else if (tab.right > bounds.right) container.scrollLeft += tab.right - bounds.right + 4;
+    });
   }
 
   function syncMainControls() {
@@ -815,7 +910,88 @@
     });
   }
 
+  function paginate(items, view, key, grouped) {
+    const paging = pageState[view];
+    if (paging.key !== key) {
+      paging.key = key;
+      paging.page = 1;
+    }
+    const pageSize = grouped ? 24 : 60;
+    paging.totalPages = Math.max(1, Math.ceil(items.length / pageSize));
+    paging.page = Math.max(1, Math.min(paging.page, paging.totalPages));
+    const start = (paging.page - 1) * pageSize;
+    document.querySelectorAll('[data-pagination="' + view + '"]').forEach(nav => {
+      nav.hidden = paging.totalPages <= 1;
+      nav.replaceChildren();
+      if (nav.hidden) return;
+      const range = document.createElement("span");
+      range.className = "pagination-range";
+      range.textContent = (start + 1) + " ~ " + Math.min(start + pageSize, items.length) + (grouped ? "개" : "곡");
+      const total = document.createElement("span");
+      total.className = "pagination-total";
+      total.textContent = " / " + items.length.toLocaleString("ko-KR") + (grouped ? "개 묶음" : "곡");
+      range.append(total);
+      const controls = document.createElement("div");
+      controls.className = "pagination-controls";
+      const makeArrow = (step, label, disabled) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.dataset.pageStep = String(step);
+        button.disabled = disabled;
+        button.title = label;
+        button.setAttribute("aria-label", label);
+        button.innerHTML = '<svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="'
+          + (step < 0 ? 'm15 18-6-6 6-6' : 'm9 18 6-6-6-6') + '"/></svg>';
+        return button;
+      };
+      const select = document.createElement("select");
+      select.dataset.pageSelect = "";
+      select.setAttribute("aria-label", "페이지 선택");
+      for (let page = 1; page <= paging.totalPages; page += 1) {
+        const option = document.createElement("option");
+        option.value = String(page);
+        option.textContent = page + " / " + paging.totalPages;
+        select.append(option);
+      }
+      select.value = String(paging.page);
+      controls.append(makeArrow(-1, "이전 페이지", paging.page === 1), select,
+        makeArrow(1, "다음 페이지", paging.page === paging.totalPages));
+      nav.append(range, controls);
+    });
+    return items.slice(start, start + pageSize);
+  }
+
+  function restorePageState(value) {
+    return {
+      key: typeof value?.key === "string" ? value.key : "",
+      page: Number.isSafeInteger(value?.page) && value.page > 0 ? value.page : 1,
+      totalPages: 1
+    };
+  }
+
+  function changePage(view, value) {
+    const paging = pageState[view];
+    if (!paging || !Number.isInteger(value)) return;
+    const next = Math.max(1, Math.min(value, paging.totalPages));
+    if (next === paging.page) return;
+    saveCurrentScrollPosition();
+    paging.page = next;
+    view === "main" ? renderMain() : renderFavorites();
+    requestAnimationFrame(() => {
+      const root = document.documentElement;
+      const previousBehavior = root.style.scrollBehavior;
+      const toolbar = view === "main" ? els.mainView.querySelector(".toolbar")
+        : els.favoritesView.querySelector(".favorite-command-row");
+      root.style.scrollBehavior = "auto";
+      window.scrollTo(0, Math.max(0, toolbar.getBoundingClientRect().top + window.scrollY - 12));
+      root.style.scrollBehavior = previousBehavior;
+      document.querySelector('[data-pagination="' + view + '"] [data-page-select]')?.focus({ preventScroll: true });
+      saveCurrentScrollPosition();
+    });
+  }
+
   function renderMain() {
+    window.clearTimeout(searchTimer);
     sectionSequence = 0;
     sectionPrefix = "main";
     syncMainControls();
@@ -827,6 +1003,14 @@
       : `${label} · ${filtered.length}곡`;
     els.emptyState.textContent = state.category === "업데이트" ? "업데이트 목록이 없습니다." : "검색 결과가 없습니다.";
     els.emptyState.hidden = filtered.length > 0;
+    if (!filtered.length && state.query && state.category !== "전체") {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "empty-action";
+      button.dataset.resetFilters = "";
+      button.textContent = "전체 곡에서 검색";
+      els.emptyState.append(button);
+    }
     els.songList.hidden = filtered.length === 0;
 
     els.updateSummary.hidden = state.category !== "업데이트";
@@ -836,12 +1020,19 @@
     els.sortSelect.title = state.query ? "검색 중에는 관련도순으로 표시됩니다." : "";
     els.songList.classList.toggle("is-list-view", state.viewMode === "list" && state.category !== "아티스트별");
     els.songList.classList.toggle("is-card-view", state.viewMode === "card" || state.category === "아티스트별");
+    const grouped = !state.query && state.category === "아티스트별";
+    const forcedCategory = categories.includes(state.category) ? state.category : "";
+    const ordered = grouped ? groupSongs(filtered, true)
+      : state.query ? filtered
+        : forcedCategory ? sortFlatSongs(filtered, forcedCategory)
+          : categories.flatMap(category => sortFlatSongs(filtered.filter(song => song.category === category), category));
+    const pageItems = paginate(ordered, "main", JSON.stringify([state.category, state.query, state.sort]), grouped);
     const content = state.query
-      ? buildSearchResults(filtered)
-      : state.category === "아티스트별"
-        ? buildArtistDirectory(filtered, entries)
+      ? buildSearchResults(pageItems)
+      : grouped
+        ? pageItems.map(group => makeCollapsibleGroup(group, entries))
         : buildFlatSections(
-          filtered,
+          pageItems,
           entries,
           categories.includes(state.category) ? state.category : ""
         );
@@ -849,9 +1040,11 @@
     renderIndex(els.sectionIndex, entries);
     els.mainIndexButton.hidden = Boolean(state.query) || entries.length < 2;
     if (state.view === "main") activateIndex(entries);
+    persistBrowseState();
   }
 
   function renderFavorites() {
+    window.clearTimeout(favoriteSearchTimer);
     sectionSequence = 0;
     sectionPrefix = "favorites";
     renderFavoriteTabs();
@@ -870,25 +1063,39 @@
       button.setAttribute("aria-pressed", String(button.dataset.favoriteMode === state.favoriteMode));
     });
     els.favoriteEmptyState.hidden = favoriteSongs.length > 0;
+    els.favoriteEmptyState.textContent = state.favoriteQuery ? "검색 결과가 없습니다." : "즐겨찾기한 곡이 없습니다.";
+    if (!favoriteSongs.length && (state.favoriteQuery || state.favoriteCategory !== "전체")) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "empty-action";
+      button.dataset.resetFilters = "";
+      button.textContent = "모든 즐겨찾기 보기";
+      els.favoriteEmptyState.append(button);
+    }
     els.favoriteSongList.hidden = favoriteSongs.length === 0;
     els.favoriteSongList.classList.toggle("is-favorite-quick", state.favoriteMode === "quick");
     els.favoriteSongList.classList.toggle("is-favorite-grouped", state.favoriteMode === "group");
     els.favoritesView.classList.toggle("is-quick-mode", state.favoriteMode === "quick");
-    const content = state.favoriteMode === "quick"
-      ? buildFavoriteQuickList(favoriteSongs)
-      : buildFavoriteSections(favoriteSongs, entries, state.favoriteCategory);
+    const grouped = state.favoriteMode === "group";
+    const favoriteCategories = state.favoriteCategory === "전체" ? categories : [state.favoriteCategory];
+    const ordered = grouped
+      ? favoriteCategories.flatMap(category => groupFavoriteSongs(favoriteSongs.filter(song => state.favoriteCategory === "전체" ? song.category === category : hasCategory(song, category)), category))
+      : sortFavoriteSongs(favoriteSongs);
+    const pageItems = paginate(ordered, "favorites", JSON.stringify([state.favoriteCategory, state.favoriteQuery, state.favoriteMode]), grouped);
+    const content = grouped
+      ? buildFavoriteSections(pageItems, entries)
+      : buildFavoriteQuickList(pageItems);
     els.favoriteSongList.replaceChildren(...content);
     renderIndex(els.favoriteSectionIndex, entries);
     els.favoriteIndexButton.hidden = state.favoriteMode === "quick"
       || Boolean(state.favoriteQuery)
       || entries.length < 2;
     if (state.view === "favorites") activateIndex(entries);
+    persistBrowseState();
   }
 
-  function buildFavoriteQuickList(items) {
-    const cards = document.createElement("div");
-    cards.className = "cards favorite-quick-cards";
-    const sorted = [...items].sort((a, b) => {
+  function sortFavoriteSongs(items) {
+    return [...items].sort((a, b) => {
       const categoryOrder = categories.indexOf(a.category) - categories.indexOf(b.category);
       if (state.favoriteCategory === "전체" && categoryOrder) return categoryOrder;
       const left = getFavoriteGroupInfo(a, a.category);
@@ -897,7 +1104,12 @@
         || collator.compare(a.titleKo, b.titleKo)
         || Number(a.number) - Number(b.number);
     });
-    sorted.forEach(song => {
+  }
+
+  function buildFavoriteQuickList(items) {
+    const cards = document.createElement("div");
+    cards.className = "cards favorite-quick-cards";
+    items.forEach(song => {
       const card = makeSongCard(song);
       card.classList.add("favorite-quick-card");
       cards.append(card);
@@ -1014,16 +1226,11 @@
     return sections;
   }
 
-  function buildFavoriteSections(items, indexEntries, forcedCategory = "") {
+  function buildFavoriteSections(groups, indexEntries) {
     const sections = [];
-    const sectionCategories = forcedCategory && forcedCategory !== "전체"
-      ? [forcedCategory]
-      : categories;
-
-    sectionCategories.forEach(category => {
-      const categorySongs = items.filter(song => forcedCategory
-        ? hasCategory(song, category)
-        : song.category === category);
+    categories.forEach(category => {
+      const categoryGroups = groups.filter(group => group.info.category === category);
+      const categorySongs = categoryGroups.flatMap(group => group.items);
       if (!categorySongs.length) return;
 
       const section = document.createElement("section");
@@ -1037,16 +1244,12 @@
       section.append(title);
       indexEntries.push({ id: title.id, label: category, level: "category", category });
 
-      groupFavoriteSongs(categorySongs, category).forEach(group => {
+      categoryGroups.forEach(group => {
         section.append(makeCollapsibleGroup(group, indexEntries, category, false));
       });
       sections.push(section);
     });
     return sections;
-  }
-
-  function buildArtistDirectory(items, indexEntries) {
-    return groupSongs(items, true).map(group => makeCollapsibleGroup(group, indexEntries));
   }
 
   function makeCollapsibleGroup(group, indexEntries, categoryOverride = "", showGroupFavorite = true) {
@@ -1174,7 +1377,11 @@
   }
 
   function getGroupIds(song) {
-    return [...new Set([song.category, ...getAlsoCategories(song)].map(category => getGroupInfo(song, category).id))];
+    if (!groupIdsCache.has(song)) {
+      groupIdsCache.set(song, [...new Set([song.category, ...getAlsoCategories(song)]
+        .map(category => getGroupInfo(song, category).id))]);
+    }
+    return groupIdsCache.get(song);
   }
 
   function getManualGroup(song) {
@@ -1337,6 +1544,7 @@
   function toggleSongFavorite(number) {
     const song = songsByNumber.get(number);
     if (!song) return;
+    const previous = captureFavorites();
     const groupFavorite = getGroupIds(song).some(groupId => state.artistFavorites.has(groupId));
     const currentlyFavorite = isSongFavorite(song);
 
@@ -1360,9 +1568,12 @@
 
     saveSet("flylist:favorites", state.favorites);
     saveSet("flylist:favorite-exclusions", state.favoriteExclusions);
+    if (currentlyFavorite) offerFavoriteUndo(previous);
   }
 
   function toggleGroupFavorite(groupId) {
+    const previous = captureFavorites();
+    const removing = state.artistFavorites.has(groupId);
     const groupSongs = songs.filter(song => getGroupIds(song).includes(groupId));
     if (state.artistFavorites.has(groupId)) {
       state.artistFavorites.delete(groupId);
@@ -1375,6 +1586,27 @@
     }
     saveSet("flylist:favorite-artists", state.artistFavorites);
     saveSet("flylist:favorite-exclusions", state.favoriteExclusions);
+    if (removing) offerFavoriteUndo(previous);
+  }
+
+  function captureFavorites() {
+    return {
+      favorites: new Set(state.favorites),
+      artistFavorites: new Set(state.artistFavorites),
+      favoriteExclusions: new Set(state.favoriteExclusions)
+    };
+  }
+
+  function offerFavoriteUndo(previous) {
+    showToast("즐겨찾기에서 제외되었습니다.", () => {
+      Object.assign(state, previous);
+      saveSet("flylist:favorites", state.favorites);
+      saveSet("flylist:favorite-artists", state.artistFavorites);
+      saveSet("flylist:favorite-exclusions", state.favoriteExclusions);
+      renderTabs();
+      renderCurrentView();
+      showToast("즐겨찾기를 되돌렸습니다.");
+    });
   }
 
   function isSongFavorite(song) {
@@ -1393,12 +1625,31 @@
   }
 
   async function copyNumber(number) {
+    let copied = false;
     try {
       await navigator.clipboard.writeText(number);
-      showToast(`${number} 복사됨`);
+      copied = true;
     } catch {
-      showToast(number);
+      const active = document.activeElement;
+      const input = document.createElement("textarea");
+      input.className = "clipboard-buffer";
+      input.value = number;
+      input.readOnly = true;
+      document.body.append(input);
+      input.focus({ preventScroll: true });
+      input.select();
+      input.setSelectionRange(0, number.length);
+      try {
+        copied = document.execCommand("copy");
+      } catch {
+        copied = false;
+      } finally {
+        input.remove();
+        active?.focus({ preventScroll: true });
+        syncEditingState();
+      }
     }
+    showToast(copied ? `${number} 복사됨` : `복사할 수 없습니다. TJ ${number}`);
   }
 
   function exportFavorites() {
@@ -1476,7 +1727,7 @@
 
   function loadSet(key) {
     try {
-      return new Set(JSON.parse(localStorage.getItem(key) || "[]"));
+      return new Set(getStringArray(JSON.parse(localStorage.getItem(key) || "[]")));
     } catch {
       return new Set();
     }
@@ -1486,7 +1737,10 @@
     try {
       localStorage.setItem(key, JSON.stringify([...values]));
     } catch {
-      // Storage can be unavailable in some private browsing modes.
+      if (!storageWarningShown) {
+        storageWarningShown = true;
+        setTimeout(() => showToast("브라우저 저장이 제한되어 있습니다. 즐겨찾기를 백업해 주세요."), 0);
+      }
     }
   }
 
@@ -1573,6 +1827,12 @@
         category: state.category,
         favoriteCategory: state.favoriteCategory,
         sort: state.sort,
+        query: els.searchInput.value,
+        favoriteQuery: els.favoriteSearchInput.value,
+        pages: {
+          main: { key: pageState.main.key, page: pageState.main.page },
+          favorites: { key: pageState.favorites.key, page: pageState.favorites.page }
+        },
         expandedGroups: [...state.expandedGroups].slice(-16),
         scrollPositions: state.scrollPositions
       }));
@@ -2050,9 +2310,16 @@
   }
 
   function syncVisualViewport() {
-    const viewport = window.visualViewport;
-    document.documentElement.style.setProperty("--visual-height", `${viewport?.height || window.innerHeight}px`);
-    document.documentElement.style.setProperty("--visual-top", `${viewport?.offsetTop || 0}px`);
+    if (viewportFrame) return;
+    viewportFrame = requestAnimationFrame(() => {
+      viewportFrame = 0;
+      const viewport = window.visualViewport;
+      const style = document.documentElement.style;
+      const height = `${viewport?.height || window.innerHeight}px`;
+      const top = `${viewport?.offsetTop || 0}px`;
+      if (style.getPropertyValue("--visual-height") !== height) style.setProperty("--visual-height", height);
+      if (style.getPropertyValue("--visual-top") !== top) style.setProperty("--visual-top", top);
+    });
   }
 
   function jumpToSection(id) {
@@ -2081,7 +2348,7 @@
 
   function openFavorites(pushHistory) {
     if (state.view !== "favorites") saveCurrentScrollPosition();
-    if (pushHistory && location.hash !== "#favorites") history.pushState({ view: "favorites" }, "", "#favorites");
+    if (pushHistory && location.hash !== "#favorites") history.pushState({ view: "favorites", flylistReturn: true }, "", "#favorites");
     state.view = "favorites";
     renderTabs();
     els.mainApp.hidden = true;
@@ -2105,14 +2372,15 @@
   }
 
   function syncViewFromLocation() {
+    closeIndexDrawer();
     if (location.hash === "#favorites") openFavorites(false);
     else showMainView();
   }
 
   function getCurrentScrollKey() {
     return state.view === "favorites"
-      ? `favorites:${state.favoriteCategory}`
-      : `main:${state.category}`;
+      ? `favorites:${state.favoriteCategory}:page:${pageState.favorites.page}`
+      : `main:${state.category}:page:${pageState.main.page}`;
   }
 
   function setCurrentScrollPosition(value) {
@@ -2120,6 +2388,8 @@
     state.scrollPositions[getCurrentScrollKey()] = Number.isFinite(top)
       ? Math.max(0, Math.round(top))
       : 0;
+    const keys = Object.keys(state.scrollPositions);
+    keys.slice(0, Math.max(0, keys.length - 80)).forEach(key => delete state.scrollPositions[key]);
   }
 
   function saveCurrentScrollPosition() {
@@ -2180,10 +2450,20 @@
     return parts.join("");
   }
 
-  function showToast(message) {
-    els.toast.textContent = message;
+  function showToast(message, undo) {
+    const text = document.createElement("span");
+    text.textContent = message;
+    els.toast.replaceChildren(text);
+    if (undo) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "toast-undo";
+      button.textContent = "되돌리기";
+      button.addEventListener("click", undo, { once: true });
+      els.toast.append(button);
+    }
     els.toast.classList.add("is-visible");
     clearTimeout(showToast.timer);
-    showToast.timer = setTimeout(() => els.toast.classList.remove("is-visible"), 1500);
+    showToast.timer = setTimeout(() => els.toast.classList.remove("is-visible"), undo ? 8000 : 2400);
   }
 })();
