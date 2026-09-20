@@ -2495,7 +2495,7 @@ h1 span:last-child {
 
 .song-card,
 .song-list.is-card-view .song-card {
-  grid-template-columns: 56px minmax(0, 1fr) 38px;
+  grid-template-columns: minmax(60px, max-content) minmax(0, 1fr) 38px;
   gap: 9px;
   min-height: 0;
   padding: 10px;
@@ -2526,7 +2526,7 @@ h1 span:last-child {
 }
 
 .song-card.favorite-quick-card {
-  grid-template-columns: 68px minmax(0, 1fr) 44px;
+  grid-template-columns: minmax(68px, max-content) minmax(0, 1fr) 44px;
   min-height: 0;
   padding: 10px;
 }
@@ -2601,7 +2601,7 @@ h1 span:last-child {
 @media (max-width: 719px) {
   .song-card,
   .song-list.is-card-view .song-card {
-    grid-template-columns: 54px minmax(0, 1fr) 44px;
+    grid-template-columns: minmax(60px, max-content) minmax(0, 1fr) 44px;
     gap: 8px;
     min-height: 0;
     padding: 8px 9px;
@@ -2631,7 +2631,7 @@ h1 span:last-child {
   }
 
   .song-card.favorite-quick-card {
-    grid-template-columns: 64px minmax(0, 1fr) 44px;
+    grid-template-columns: minmax(68px, max-content) minmax(0, 1fr) 44px;
   }
 
   .favorite-quick-card .song-number {
@@ -2679,6 +2679,43 @@ h1 span:last-child {
   opacity: 0;
   font-size: 16px;
   pointer-events: none;
+}
+
+/* Reserve the full TJ number width, including font enlargement and six digits. */
+.song-card,
+.song-list.is-card-view .song-card,
+.song-list.is-list-view .song-card {
+  grid-template-columns: minmax(60px, max-content) minmax(0, 1fr) 38px;
+}
+
+.song-card.favorite-quick-card {
+  grid-template-columns: minmax(68px, max-content) minmax(0, 1fr) 44px;
+}
+
+.song-number,
+.song-list.is-list-view .song-number,
+.favorite-quick-card .song-number {
+  width: 100%;
+  min-width: 0;
+  padding: 6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+@media (max-width: 719px) {
+  .song-card,
+  .song-list.is-card-view .song-card,
+  .song-list.is-list-view .song-card {
+    grid-template-columns: minmax(60px, max-content) minmax(0, 1fr) 44px;
+  }
+
+  .song-card.favorite-quick-card {
+    grid-template-columns: minmax(68px, max-content) minmax(0, 1fr) 44px;
+  }
 }
 
 .empty-action {
@@ -2788,7 +2825,7 @@ h1 span:last-child {
   }
 
   .song-list.is-list-view .song-card {
-    grid-template-columns: 54px minmax(0, 1fr) 44px;
+    grid-template-columns: minmax(60px, max-content) minmax(0, 1fr) 44px;
   }
 
   .song-list.is-list-view .favorite,
