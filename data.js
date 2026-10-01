@@ -17400,9 +17400,7 @@ window.FLYLIST_SONGS = [
     "tagKo": "오렌지스타",
     "tags": [
       "IA"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-21"
+    ]
   },
   {
     "number": "90146",
@@ -17415,9 +17413,7 @@ window.FLYLIST_SONGS = [
     "tagKo": "오피셜히게단디즘",
     "tags": [
       "애니메이션"
-    ],
-    "updateType": "new",
-    "updatedAt": "2026-09-21"
+    ]
   },
   {
     "number": "52700",
@@ -17431,8 +17427,217 @@ window.FLYLIST_SONGS = [
     "tags": [
       "하츠네 미쿠",
       "카사네 테토"
+    ]
+  },
+  {
+    "number": "90167",
+    "titleKo": "이치난",
+    "titleOriginal": "一難",
+    "artist": "Penthouse",
+    "tag": "Penthouse",
+    "category": "J-POP",
+    "group": "Penthouse",
+    "tagKo": "펜트하우스",
+    "tags": [
+      "드라마 OST"
     ],
     "updateType": "new",
-    "updatedAt": "2026-09-21"
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "number": "90165",
+    "titleKo": "에러",
+    "titleOriginal": "-ERROR",
+    "artist": "niki(Feat.Lily)",
+    "tag": "niki",
+    "category": "보카로",
+    "group": "niki",
+    "tagKo": "니키",
+    "tags": [
+      "Lily"
+    ],
+    "updateType": "new",
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "number": "90164",
+    "titleKo": "앨리스",
+    "titleOriginal": "愛麗絲",
+    "artist": "米津玄師",
+    "tag": "米津玄師",
+    "category": "J-POP",
+    "group": "米津玄師",
+    "tagKo": "요네즈 켄시",
+    "tags": [],
+    "updateType": "new",
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "number": "90163",
+    "titleKo": "헤데모 네요",
+    "titleOriginal": "へでもねーよ",
+    "artist": "藤井風",
+    "tag": "藤井風",
+    "category": "J-POP",
+    "group": "藤井風",
+    "tagKo": "후지이 카제",
+    "tags": [],
+    "updateType": "new",
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "number": "90156",
+    "titleKo": "가희실격",
+    "titleOriginal": "歌姫失格",
+    "artist": "ピノキオピー(Feat.初音ミク)",
+    "tag": "ピノキオピー",
+    "category": "보카로",
+    "group": "ピノキオピー",
+    "tagKo": "피노키오피",
+    "tags": [
+      "하츠네 미쿠"
+    ],
+    "updateType": "new",
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "number": "90152",
+    "titleKo": "내게 여자친구가 생겼어",
+    "titleOriginal": "僕に彼女ができたんだ",
+    "artist": "SHISHAMO",
+    "tag": "SHISHAMO",
+    "category": "J-POP",
+    "group": "SHISHAMO",
+    "tagKo": "시샤모",
+    "tags": [],
+    "updateType": "new",
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "number": "90157",
+    "titleKo": "바람의 행방",
+    "titleOriginal": "風のゆくえ",
+    "artist": "Ado",
+    "tag": "Ado",
+    "category": "애니메이션",
+    "group": "ONE PIECE FILM RED",
+    "tagKo": "아도",
+    "tags": [
+      "애니메이션"
+    ],
+    "updateType": "new",
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "number": "90155",
+    "titleKo": "쾌청",
+    "titleOriginal": "快晴",
+    "artist": "Orangestar(Feat.IA)",
+    "tag": "Orangestar",
+    "category": "보카로",
+    "group": "Orangestar",
+    "tagKo": "오렌지스타",
+    "tags": [
+      "IA"
+    ],
+    "updateType": "new",
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "number": "90150",
+    "titleKo": "빛",
+    "titleOriginal": "光",
+    "artist": "RADWIMPS",
+    "tag": "RADWIMPS",
+    "category": "J-POP",
+    "group": "RADWIMPS",
+    "tagKo": "래드윔프스",
+    "tags": [],
+    "updateType": "new",
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "number": "90149",
+    "titleKo": "올드 패션",
+    "titleOriginal": "オールドファッション",
+    "artist": "back number",
+    "tag": "back number",
+    "category": "J-POP",
+    "group": "back number",
+    "tagKo": "백 넘버",
+    "tags": [
+      "드라마 OST"
+    ],
+    "updateType": "new",
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "number": "90148",
+    "titleKo": "헤드라이너",
+    "titleOriginal": "ヘッドライナー",
+    "artist": "レトロリロン",
+    "tag": "レトロリロン",
+    "category": "J-POP",
+    "group": "レトロリロン",
+    "tagKo": "레트로리론",
+    "tags": [],
+    "updateType": "new",
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "number": "90147",
+    "titleKo": "날아오를 때",
+    "titleOriginal": "飛ぶ時",
+    "artist": "Vaundy",
+    "tag": "Vaundy",
+    "category": "애니메이션",
+    "group": "황천의 츠가이",
+    "tagKo": "바운디",
+    "tags": [
+      "애니메이션"
+    ],
+    "updateType": "new",
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "number": "71052",
+    "titleKo": "봄꿈",
+    "titleOriginal": "봄꿈",
+    "artist": "네네코 마시로",
+    "tag": "네네코 마시로",
+    "category": "버츄얼 아티스트",
+    "group": "스텔라이브",
+    "tags": [],
+    "updateType": "new",
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "number": "71075",
+    "titleKo": "유쾌한 우주인의 인류멸망",
+    "titleOriginal": "유쾌한 우주인의 인류멸망",
+    "artist": "초롱아귀(Feat.UNI,SeeU)",
+    "tag": "초롱아귀",
+    "category": "보카로",
+    "group": "초롱아귀",
+    "tags": [
+      "유니",
+      "시유"
+    ],
+    "updateType": "new",
+    "updatedAt": "2026-10-01"
+  },
+  {
+    "number": "70801",
+    "titleKo": "언어의 노래",
+    "titleOriginal": "언어의 노래",
+    "artist": "상록수(Feat.SeeU)",
+    "tag": "상록수",
+    "category": "보카로",
+    "group": "상록수",
+    "tags": [
+      "시유"
+    ],
+    "updateType": "new",
+    "updatedAt": "2026-10-01"
   }
 ];
